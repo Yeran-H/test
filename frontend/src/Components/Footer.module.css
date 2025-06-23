@@ -1,0 +1,37 @@
+/* Footer.module.css */
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+  
+.footerContent {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+  
+.footerTitle {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+  
+.footerDescription {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+  
+.contactInfo p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+  
+.contactInfo a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}

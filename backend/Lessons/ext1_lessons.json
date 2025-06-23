@@ -1,0 +1,1294 @@
+ { "1": {
+    "title": "Using mathematical induction for series",
+    "lessonID": "1",
+    "content": [
+      {
+        "type": "text",
+        "value": "Mathematical induction is a proof technique used to show that a statement is true for all natural numbers \\( n \\). It is especially useful for proving formulas involving sums."
+      },
+      {
+        "type": "text",
+        "value": "**Steps in a Proof by Induction:**\n1. **Base Case:** Prove the statement is true for \\( n = 1 \\).\n2. **Assumption Step:** Assume the statement is true for \\( n = k \\).\n3. **Inductive Step:** Prove it is true for \\( n = k + 1 \\), using the assumption.\n4. **Conclusion:** State that, since the statement is true for \\( n = 1 \\) and true for \\( n = k + 1 \\) assuming it is true for \\( n = k \\), it is true for all \\( n \\in \\mathbb{N} \\)."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Prove by induction that:\n\\[ 1 + 2 + 3 + \\dots + n = \\frac{n(n+1)}{2} \\text{ for all } n \\in \\mathbb{N} \\]"
+      },
+      {
+        "type": "text",
+        "value": "**Base Case:**\n\\( n = 1 \\): \\( LHS = 1, \\quad RHS = \\frac{1(1+1)}{2} = 1 \\) ✔"
+      },
+      {
+        "type": "text",
+        "value": "**Inductive Hypothesis:**\nAssume the statement is true for \\( n = k \\):\n\\[ 1 + 2 + \\dots + k = \\frac{k(k+1)}{2} \\]"
+      },
+      {
+        "type": "text",
+        "value": "**Inductive Step:**\nShow that:\n\\[ 1 + 2 + \\dots + k + (k+1) = \\frac{(k+1)(k+2)}{2} \\]\nLHS = \\( \\frac{k(k+1)}{2} + (k+1) = \\frac{k(k+1) + 2(k+1)}{2} = \\frac{(k+1)(k+2)}{2} \\) ✔"
+      },
+      {
+        "type": "images",
+        "src": "/images/induction_sum_proof.png",
+        "alt": "Step-by-step proof by induction of summation formula",
+        "caption": "Each step builds on the assumption that the formula works for \\( n = k \\)."
+      },
+      {
+        "type": "text",
+        "value": "✅ Therefore, the result holds for all \\( n \\in \\mathbb{N} \\) by mathematical induction."
+      }
+    ]
+  },
+  "2": {
+    "title": "Proving divisibility by mathematical induction",
+    "lessonID": "2",
+    "content": [
+      {
+        "type": "text",
+        "value": "Mathematical induction can also be used to prove that certain expressions are divisible by a number for all natural numbers \\( n \\)."
+      },
+      {
+        "type": "text",
+        "value": "**Steps Remain the Same:**\n1. Base Case\n2. Inductive Hypothesis\n3. Inductive Step\n4. Conclusion"
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Prove that \\( 5^n - 1 \\) is divisible by 4 for all \\( n \\in \\mathbb{N} \\)."
+      },
+      {
+        "type": "text",
+        "value": "**Base Case:**\n\\( n = 1 \\): \\( 5^1 - 1 = 4 \\), which is divisible by 4 ✔"
+      },
+      {
+        "type": "text",
+        "value": "**Inductive Hypothesis:**\nAssume \\( 5^k - 1 \\) is divisible by 4\n\\( \\Rightarrow 5^k - 1 = 4m \\) for some integer \\( m \\)"
+      },
+      {
+        "type": "text",
+        "value": "**Inductive Step:**\nShow \\( 5^{k+1} - 1 \\) is divisible by 4:\n\\[ 5^{k+1} - 1 = 5 \\cdot 5^k - 1 = 5(4m + 1) - 1 = 20m + 5 - 1 = 20m + 4 = 4(5m + 1) \\] ✔"
+      },
+      {
+        "type": "images",
+        "src": "/images/induction_divisibility.png",
+        "alt": "Inductive proof for divisibility example",
+        "caption": "The expression is rewritten to show a factor of 4, completing the inductive step."
+      },
+      {
+        "type": "text",
+        "value": "✅ Hence, \\( 5^n - 1 \\) is divisible by 4 for all \\( n \\in \\mathbb{N} \\) by induction."
+      }
+    ]
+  },
+    "3": {
+    "title": "Topic Test - Proof by Mathematical Induction",
+    "lessonID": "3",
+    "content": [
+      {
+        "type": "text",
+        "value": "This lesson is a review and test of your understanding of mathematical induction. Ensure you're comfortable with each step of the induction process and can apply it to both summations and divisibility."
+      },
+      {
+        "type": "text",
+        "value": "**Key Concepts to Master:**\n- Proving summation formulas\n- Proving divisibility statements\n- Using the base case, inductive hypothesis, and inductive step\n- Structuring a complete and logical proof"
+      },
+      {
+        "type": "images",
+        "src": "/images/topic_test_induction_summary.png",
+        "alt": "Steps of mathematical induction overview",
+        "caption": "Every induction proof must clearly show the base case, the assumption, and the inductive step."
+      },
+      {
+        "type": "text",
+        "value": "**Practice Problems:**"
+      },
+      {
+        "type": "text",
+        "value": "**1. Prove:** \\( 1 + 3 + 5 + \\dots + (2n - 1) = n^2 \\) for all \\( n \\in \\mathbb{N} \\)"
+      },
+      {
+        "type": "text",
+        "value": "**2. Prove:** \\( 6^n - 1 \\) is divisible by 5 for all \\( n \\in \\mathbb{N} \\)"
+      },
+      {
+        "type": "text",
+        "value": "**3. Prove:** \\( 1^2 + 2^2 + 3^2 + \\dots + n^2 = \\frac{n(n+1)(2n+1)}{6} \\) for all \\( n \\in \\mathbb{N} \\)"
+      },
+      {
+        "type": "text",
+        "value": "**4. Challenge:** Prove that \\( 7^n - 1 \\) is divisible by 6 for all \\( n \\in \\mathbb{N} \\)"
+      },
+      {
+        "type": "text",
+        "value": "✅ Try each question step-by-step. Clearly state the base case, assumption, and the inductive step in your solutions. Check your logic at each stage!"
+      }
+    ]
+  },
+    "4": {
+    "title": "Directed intervals and vectors",
+    "lessonID": "4",
+    "content": [
+      {
+        "type": "text",
+        "value": "A **vector** is a quantity that has both magnitude and direction. Vectors are used to represent directed intervals in space, such as displacement or velocity."
+      },
+      {
+        "type": "text",
+        "value": "**Directed Interval:**\nA directed interval is a line segment with both a starting point and an endpoint, along with a direction. The direction is indicated by an arrow on the interval."
+      },
+      {
+        "type": "images",
+        "src": "/images/directed_interval.png",
+        "alt": "Illustration of a directed interval",
+        "caption": "A directed interval shows both magnitude and direction, represented by an arrow."
+      },
+      {
+        "type": "text",
+        "value": "**Vectors:**\nA vector \\( \\vec{v} \\) is defined as the displacement from one point to another, often written as \\( \\vec{v} = (x_2 - x_1, y_2 - y_1) \\) in two-dimensional space, where \\( (x_1, y_1) \\) and \\( (x_2, y_2) \\) are the coordinates of the initial and terminal points."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Find the vector representing the directed interval from \\( (1, 2) \\) to \\( (4, 6) \\):\n\\[ \\vec{v} = (4 - 1, 6 - 2) = (3, 4) \\]"
+      },
+      {
+        "type": "text",
+        "value": "Vectors can be added, subtracted, and multiplied by scalars to create new vectors. In physics, vectors are used to represent quantities such as force, velocity, and displacement."
+      }
+    ]
+  },
+    "5": {
+    "title": "Components and column vectors",
+    "lessonID": "5",
+    "content": [
+      {
+        "type": "text",
+        "value": "Vectors can be expressed in **component form**, which breaks the vector into its components along the x-axis and y-axis (in two dimensions). In three dimensions, the vector is broken into components along the x, y, and z axes."
+      },
+      {
+        "type": "text",
+        "value": "**Component Form of a Vector:**\nIn two dimensions, a vector \\( \\vec{v} = (v_x, v_y) \\) is written as the pair of components \\( v_x \\) and \\( v_y \\) that describe its horizontal and vertical components."
+      },
+      {
+        "type": "images",
+        "src": "/images/vector_components.png",
+        "alt": "Vector in component form",
+        "caption": "A vector can be represented by its horizontal (\\( v_x \\)) and vertical (\\( v_y \\)) components."
+      },
+      {
+        "type": "text",
+        "value": "**Column Vectors:**\nA vector is often written as a **column vector**: \\( \\vec{v} = \\begin{pmatrix} v_x \\ v_y \\end{pmatrix} \\), where the components are stacked in a column."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** The vector \\( \\vec{v} = (3, 4) \\) can be written as the column vector \\( \begin{pmatrix} 3 \\ 4 \\end{pmatrix} \\)."
+      },
+      {
+        "type": "text",
+        "value": "Column vectors are often used in matrices and matrix multiplication to represent systems of equations and transformations."
+      }
+    ]
+  },
+    "6": {
+    "title": "Topic Test - Vectors",
+    "lessonID": "6",
+    "content": [
+      {
+        "type": "text",
+        "value": "This test reviews key concepts from the Vectors subtopic. Ensure you're comfortable with vector operations, component form, and column vectors before attempting the questions."
+      },
+      {
+        "type": "text",
+        "value": "**Key Concepts to Review:**\n- Directed intervals and vectors\n- Component form of vectors\n- Column vectors\n- Scalar multiplication and vector addition"
+      },
+      {
+        "type": "images",
+        "src": "/images/vector_topic_test_summary.png",
+        "alt": "Summary of key vector operations",
+        "caption": "Review the core concepts and operations before attempting the test."
+      },
+      {
+        "type": "text",
+        "value": "**Practice Problems:**"
+      },
+      {
+        "type": "text",
+        "value": "**1. Find the components of the vector \\( \\vec{v} \\) from point A(2, 3) to point B(5, 7)."
+      },
+      {
+        "type": "text",
+        "value": "**2. Given the vector \\( \\vec{v} = (4, -2) \\), write it as a column vector."
+      },
+      {
+        "type": "text",
+        "value": "**3. Find the sum of the vectors \\( \\vec{v} = (1, 2) \\) and \\( \\vec{w} = (-3, 4) \\)."
+      },
+      {
+        "type": "text",
+        "value": "**4. Multiply the vector \\( \\vec{v} = (5, 6) \\) by the scalar 2."
+      },
+      {
+        "type": "text",
+        "value": "✅ Ensure your answers are correct and check the steps involved in each operation. This test will help reinforce your understanding of vectors and their applications."
+      }
+    ]
+  },
+    "7": {
+    "title": "The dot product (or scalar product)",
+    "lessonID": "7",
+    "content": [
+      {
+        "type": "text",
+        "value": "The **dot product**, also called the **scalar product**, is an operation that takes two vectors and returns a scalar. It is used to find the angle between two vectors, the projection of one vector onto another, and in various physical applications such as work and energy."
+      },
+      {
+        "type": "text",
+        "value": "**Formula for the Dot Product:**\n\\( \\vec{a} \\cdot \\vec{b} = a_x b_x + a_y b_y \\) in two dimensions.\nIn three dimensions, \\( \\vec{a} \\cdot \\vec{b} = a_x b_x + a_y b_y + a_z b_z \\)."
+      },
+      {
+        "type": "images",
+        "src": "/images/dot_product_formula.png",
+        "alt": "Dot product formula",
+        "caption": "The dot product formula calculates the scalar result by multiplying corresponding components of two vectors."
+      },
+      {
+        "type": "text",
+        "value": "**Properties of the Dot Product:**\n1. **Commutative:** \\( \\vec{a} \\cdot \\vec{b} = \\vec{b} \\cdot \\vec{a} \\)\n2. **Distributive:** \\( \\vec{a} \\cdot (\\vec{b} + \\vec{c}) = \\vec{a} \\cdot \\vec{b} + \\vec{a} \\cdot \\vec{c} \\)\n3. **Scalar Multiplication:** \\( (k \\vec{a}) \\cdot \\vec{b} = k (\\vec{a} \\cdot \\vec{b}) \\)"
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Calculate the dot product of \\( \\vec{a} = (3, 4) \\) and \\( \\vec{b} = (1, 2) \\):\n\\[ \\vec{a} \\cdot \\vec{b} = (3 \times 1) + (4 \times 2) = 3 + 8 = 11 \\]"
+      },
+      {
+        "type": "text",
+        "value": "The dot product is useful in various applications, such as calculating the work done by a force or finding the projection of one vector onto another."
+      }
+    ]
+  },
+    "8": {
+    "title": "Geometric problems",
+    "lessonID": "8",
+    "content": [
+      {
+        "type": "text",
+        "value": "Vectors are widely used in solving geometric problems, such as finding angles between vectors, distances, and projections. The dot product is particularly useful in solving these types of problems."
+      },
+      {
+        "type": "text",
+        "value": "**Finding the Angle Between Two Vectors:**\nThe cosine of the angle \\( \\theta \\) between two vectors \\( \\vec{a} \\) and \\( \\vec{b} \\) is given by:\n\\[ \\cos \\theta = \\frac{\\vec{a} \\cdot \\vec{b}}{||\\vec{a}|| ||\\vec{b}||} \\]\nWhere \\( \\vec{a} \\cdot \\vec{b} \\) is the dot product and \\( ||\\vec{a}|| \\) and \\( ||\\vec{b}|| \\) are the magnitudes of the vectors."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Find the angle between the vectors \\( \\vec{a} = (3, 4) \\) and \\( \\vec{b} = (1, 2) \\):\n1. Find the dot product: \\( \\vec{a} \\cdot \\vec{b} = (3 \\times 1) + (4 \\times 2) = 3 + 8 = 11 \\)\n2. Find the magnitudes: \\( ||\\vec{a}|| = \\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = 5 \\), \\( ||\\vec{b}|| = \\sqrt{1^2 + 2^2} = \\sqrt{1 + 4} = \\sqrt{5} \\)\n3. Calculate the cosine of the angle: \\( \\cos \\theta = \\frac{11}{5 \\times \\sqrt{5}} \\)\n4. Find the angle: \\( \\theta = \\cos^{-1}\\left( \\frac{11}{5 \\times \\sqrt{5}} \\right) \\)"
+      },
+      {
+        "type": "text",
+        "value": "Geometric problems involving vectors can also include calculating the distance between points, finding projections, and determining parallelism or perpendicularity of vectors."
+      }
+    ]
+  },
+    "9": {
+    "title": "Projections",
+    "lessonID": "9",
+    "content": [
+      {
+        "type": "text",
+        "value": "The projection of one vector onto another is a way to find how much of one vector lies in the direction of another vector. This is particularly useful in physics and engineering to resolve forces and components."
+      },
+      {
+        "type": "text",
+        "value": "**Formula for the Projection of \\( \\vec{a} \\) onto \\( \\vec{b} \\):**\n\\[ \text{proj}_{\\vec{b}} \\vec{a} = \\frac{\\vec{a} \\cdot \\vec{b}}{||\\vec{b}||^2} \\vec{b} \\]"
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Find the projection of \\( \\vec{a} = (3, 4) \\) onto \\( \\vec{b} = (1, 2) \\):\n1. Find the dot product: \\( \\vec{a} \\cdot \\vec{b} = (3 \\times 1) + (4 \\times 2) = 3 + 8 = 11 \\)\n2. Find the magnitude squared of \\( \\vec{b} \\): \\( ||\\vec{b}||^2 = 1^2 + 2^2 = 1 + 4 = 5 \\)\n3. Calculate the projection: \\[ \text{proj}_{\\vec{b}} \\vec{a} = \\frac{11}{5} \\vec{b} = \\frac{11}{5} (1, 2) = (\\frac{11}{5}, \\frac{22}{5}) \\]"
+      },
+      {
+        "type": "text",
+        "value": "The projection represents the component of \\( \\vec{a} \\) in the direction of \\( \\vec{b} \\), and it is used to calculate the resolved forces or components in physics problems."
+      }
+    ]
+  },
+    "10": {
+    "title": "Applications to Physical Situations",
+    "lessonID": "10",
+    "content": [
+      {
+        "type": "text",
+        "value": "Vectors are commonly used in physics to represent quantities such as force, velocity, and displacement. These quantities have both magnitude and direction, making vectors the ideal mathematical tool for describing them."
+      },
+      {
+        "type": "text",
+        "value": "**Force and Displacement:**\nIn physics, the displacement of an object can be represented as a vector from its initial position to its final position. Similarly, force vectors describe the direction and magnitude of a force acting on an object."
+      },
+      {
+        "type": "text",
+        "value": "**Velocity:**\nThe velocity of an object is a vector that represents the rate of change of its position. The direction of the velocity vector indicates the direction of motion, and the magnitude gives the speed."
+      },
+      {
+        "type": "images",
+        "src": "/images/velocity_force_vector.png",
+        "alt": "Velocity and force vectors in physics",
+        "caption": "Vectors are used to represent physical quantities such as velocity, force, and displacement."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** A car moves with a velocity of \\( 30 \\, \text{m/s} \\) in the eastward direction. The car is subject to a force of \\( 2000 \\, \text{N} \\) in the northeast direction. The vectors representing the velocity and force are used to calculate the resultant acceleration of the car using Newton's second law."
+      },
+      {
+        "type": "text",
+        "value": "In problems involving motion, vectors are used to calculate displacement, velocity, acceleration, and the resultant forces acting on an object."
+      }
+    ]
+  },
+    "11": {
+    "title": "Topic Test - Vectors",
+    "lessonID": "11",
+    "content": [
+      {
+        "type": "text",
+        "value": "This topic test will assess your understanding of vector operations, geometric problems, and physical applications. Review all concepts before attempting the test."
+      },
+      {
+        "type": "text",
+        "value": "**Key Concepts to Review:**\n- Directed intervals and vectors\n- Component form and column vectors\n- Dot product and scalar product\n- Projections\n- Physical applications of vectors"
+      },
+      {
+        "type": "images",
+        "src": "/images/vector_topic_test_summary.png",
+        "alt": "Summary of key vector concepts for the test",
+        "caption": "Review the key operations with vectors before attempting the test."
+      },
+      {
+        "type": "text",
+        "value": "**Practice Problems:**"
+      },
+      {
+        "type": "text",
+        "value": "**1. Find the vector from point A(1, 2) to point B(5, 7)."
+      },
+      {
+        "type": "text",
+        "value": "**2. Compute the dot product of \\( \\vec{a} = (2, 3) \\) and \\( \\vec{b} = (4, -1) \\)."
+      },
+      {
+        "type": "text",
+        "value": "**3. Find the projection of \\( \\vec{a} = (2, 4) \\) onto \\( \\vec{b} = (1, 2) \\)."
+      },
+      {
+        "type": "text",
+        "value": "**4. A force vector of \\( 1000 \\, \text{N} \\) is applied at an angle of 30° to the horizontal. Find the horizontal and vertical components of the force vector."
+      },
+      {
+        "type": "text",
+        "value": "✅ Solve the problems using vector operations and verify your results. This test will ensure you've mastered vector concepts and can apply them to real-world problems."
+      }
+    ]
+  },
+    "12": {
+    "title": "Projectile motion — the time equations",
+    "lessonID": "12",
+    "content": [
+      {
+        "type": "text",
+        "value": "Projectile motion involves an object thrown or projected into the air, moving under the influence of gravity alone. The motion can be split into horizontal and vertical components."
+      },
+      {
+        "type": "text",
+        "value": "**Assumptions in Projectile Motion:**\n- Air resistance is negligible.\n- The only force acting is gravity, \\( g = 9.8 \\, \\text{m/s}^2 \\).\n- The horizontal and vertical motions are independent."
+      },
+      {
+        "type": "text",
+        "value": "**Equations of Motion (Time-based):**\n- Horizontal displacement: \\( x = u_x t \\)\n- Vertical displacement: \\( y = u_y t - \\frac{1}{2}gt^2 \\)\n- Vertical velocity: \\( v_y = u_y - gt \\)\nWhere:\n- \\( u_x \\) is the horizontal component of velocity\n- \\( u_y \\) is the vertical component\n- \\( t \\) is time"
+      },
+      {
+        "type": "images",
+        "src": "/images/projectile_components.png",
+        "alt": "Components of velocity in projectile motion",
+        "caption": "The initial velocity \\( \\vec{u} \\) is broken into horizontal and vertical components."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** A ball is thrown at \\( 20 \\, \\text{m/s} \\) at an angle of 30° above the horizontal.\n- \\( u_x = 20 \\cos 30° = 17.32 \\, \\text{m/s} \\)\n- \\( u_y = 20 \\sin 30° = 10 \\, \\text{m/s} \\)\n- Time to reach the maximum height: \\( t = \\frac{u_y}{g} = \\frac{10}{9.8} \\approx 1.02 \\, \\text{s} \\)"
+      },
+      {
+        "type": "text",
+        "value": "Understanding the time equations allows us to calculate flight time, height, and position at any moment during projectile motion."
+      }
+    ]
+  },
+    "13": {
+    "title": "Projectile motion — the equation of path",
+    "lessonID": "13",
+    "content": [
+      {
+        "type": "text",
+        "value": "The path of a projectile is a parabola. This shape arises from the constant horizontal velocity and the uniformly accelerated vertical motion due to gravity."
+      },
+      {
+        "type": "text",
+        "value": "**Deriving the Equation of the Path:**\nWe start with:\n- \\( x = u_x t \\Rightarrow t = \\frac{x}{u_x} \\)\n- \\( y = u_y t - \\frac{1}{2}gt^2 \\)\nSubstitute \\( t \\) into the second equation:\n\\[\ny = u_y \\left( \\frac{x}{u_x} \\right) - \\frac{1}{2}g \\left( \\frac{x}{u_x} \\right)^2\n\\Rightarrow y = x \\tan \\theta - \\frac{g x^2}{2 u^2 \\cos^2 \\theta}\n\\]\nThis is the **equation of the parabolic path**."
+      },
+      {
+        "type": "images",
+        "src": "/images/projectile_parabola.png",
+        "alt": "Projectile motion curve",
+        "caption": "The path of a projectile is a parabola determined by horizontal and vertical motion."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** A projectile is launched with \\( u = 25 \\, \\text{m/s} \\) at \\( \\theta = 45° \\). The equation of the path is:\n\\[ y = x \\tan 45° - \\frac{9.8 x^2}{2(25^2) \\cos^2 45°} \\]\nSimplify using \\( \\tan 45° = 1 \\) and \\( \\cos 45° = \\frac{\\sqrt{2}}{2} \\)."
+      },
+      {
+        "type": "text",
+        "value": "This equation allows us to model the trajectory of projectiles and predict their height and range based on initial velocity and launch angle."
+      }
+    ]
+  },
+    "14": {
+    "title": "Topic Test - Projectile Motion",
+    "lessonID": "14",
+    "content": [
+      {
+        "type": "text",
+        "value": "This test will assess your understanding of projectile motion, including the time equations, path equations, and physical applications."
+      },
+      {
+        "type": "text",
+        "value": "**Key Concepts to Review:**\n- Components of velocity in projectile motion\n- Time equations for horizontal and vertical motion\n- Equation of path for a projectile\n- Applications of projectile motion (e.g., maximum height, range)"
+      },
+      {
+        "type": "images",
+        "src": "/images/projectile_motion_test_summary.png",
+        "alt": "Summary of projectile motion concepts for the test",
+        "caption": "Review key concepts of projectile motion before taking the test."
+      },
+      {
+        "type": "text",
+        "value": "**Practice Problems:**"
+      },
+      {
+        "type": "text",
+        "value": "**1. A stone is thrown with an initial velocity of 15 m/s at an angle of 30° above the horizontal. Find the maximum height reached by the stone."
+      },
+      {
+        "type": "text",
+        "value": "**2. A projectile is launched at a velocity of 20 m/s at an angle of 45°. Find the time it takes to reach the ground."
+      },
+      {
+        "type": "text",
+        "value": "**3. A projectile has an initial velocity of 25 m/s at a launch angle of 60°. Find the range of the projectile."
+      },
+      {
+        "type": "text",
+        "value": "✅ Ensure that you solve each problem step by step, using the time equations and the equation of the path. Check your solutions for consistency."
+      }
+    ]
+  },
+    "15": {
+    "title": "Equations involving compound angles",
+    "lessonID": "15",
+    "content": [
+      {
+        "type": "text",
+        "value": "Equations involving compound angles are used to simplify trigonometric expressions that contain sums or differences of angles. These identities are crucial in solving trigonometric equations and simplifying expressions."
+      },
+      {
+        "type": "text",
+        "value": "**Compound Angle Formulae:**\n- **Sine of a sum:** \\( \\sin(A + B) = \\sin A \\cos B + \\cos A \\sin B \\)\n- **Cosine of a sum:** \\( \\cos(A + B) = \\cos A \\cos B - \\sin A \\sin B \\)\n- **Tangent of a sum:** \\( \\tan(A + B) = \\frac{\\tan A + \\tan B}{1 - \\tan A \\tan B} \\)"
+      },
+      {
+        "type": "images",
+        "src": "/images/compound_angle_identities.png",
+        "alt": "Compound angle identities",
+        "caption": "These identities help simplify expressions involving sums or differences of angles."
+      },
+      {
+        "type": "text",
+        "value": "**Example:** Simplify \\( \\sin(30° + 45°) \\):\nUsing the identity \\( \\sin(A + B) = \\sin A \\cos B + \\cos A \\sin B \\), we get:\n\\[ \\sin(30° + 45°) = \\sin 30° \\cos 45° + \\cos 30° \\sin 45° = \\frac{1}{2} \\times \\frac{\\sqrt{2}}{2} + \\frac{\\sqrt{3}}{2} \\times \\frac{\\sqrt{2}}{2} = \\frac{\\sqrt{2}}{4} + \\frac{\\sqrt{6}}{4} = \\frac{\\sqrt{2} + \\sqrt{6}}{4} \\]"
+      },
+      {
+        "type": "text",
+        "value": "Compound angle identities are widely used in solving trigonometric equations, simplifying expressions, and modeling real-world phenomena involving periodic functions."
+      }
+    ]
+  },
+    "16": {
+    "title": "The Sum of Sine and Cosine Functions",
+    "lessonID": "16",
+    "content": [
+      {
+        "type": "text",
+        "value": "The sum of sine and cosine functions is an important identity used to simplify and solve trigonometric equations. It can be written as a single trigonometric function using a known identity."
+      },
+      {
+        "type": "text",
+        "value": "**Sum of Sine and Cosine Identity:**\n\\[ A\\sin(x) + B\\cos(x) = R\\sin(x + \\theta) \\]\nWhere:\n- \\( A = R \\cos(\\theta) \\)\n- \\( B = R \\sin(\\theta) \\)\n- \\( R = \\sqrt{A^2 + B^2} \\)\n- \\( \\theta = \\tan^{-1}\\left( \\frac{B}{A} \\right) \\)"
+      },
+      {
+        "type": "images",
+        "src": "/images/sine_cosine_sum.png",
+        "alt": "Sum of sine and cosine functions identity",
+        "caption": "The sum of sine and cosine can be written as a single sine function with an adjusted amplitude and phase angle."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Simplify \\( 3\\sin(x) + 4\\cos(x) \\):\n1. Find the amplitude \\( R = \\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = 5 \\)\n2. Find the phase angle \\( \\theta = \\tan^{-1}\\left( \\frac{4}{3} \\right) = 53.13° \\)\n3. Write the sum as a single trigonometric function: \\( 3\\sin(x) + 4\\cos(x) = 5\\sin(x + 53.13°) \\)"
+      },
+      {
+        "type": "text",
+        "value": "This identity is useful in simplifying expressions and solving trigonometric equations in various applications, such as wave analysis and oscillations."
+      }
+    ]
+  },
+    "17": {
+    "title": "Using the t-formula to solve equations",
+    "lessonID": "17",
+    "content": [
+      {
+        "type": "text",
+        "value": "The **t-formula** is a method used to solve trigonometric equations involving a sum or difference of angles. It is particularly useful for simplifying expressions that involve \\( \\sin(A + B) \\), \\( \\cos(A + B) \\), or \\( \tan(A + B) \\)."
+      },
+      {
+        "type": "text",
+        "value": "**t-formula for sine:**\n\\( \\sin(A + B) = \\sin A \\cos B + \\cos A \\sin B \\)"
+      },
+      {
+        "type": "text",
+        "value": "**t-formula for cosine:**\n\\( \\cos(A + B) = \\cos A \\cos B - \\sin A \\sin B \\)"
+      },
+      {
+        "type": "text",
+        "value": "**t-formula for tangent:**\n\\( \tan(A + B) = \\frac{\\tan A + \\tan B}{1 - \\tan A \\tan B} \\)"
+      },
+      {
+        "type": "images",
+        "src": "/images/t_formula.png",
+        "alt": "t-formula for trigonometric equations",
+        "caption": "The t-formula simplifies trigonometric equations involving sums or differences of angles."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Solve for \\( x \\) in the equation \\( \\sin(2x) = \\sin(x) \\):\n1. Use the identity \\( \\sin(2x) = 2\\sin(x)\\cos(x) \\)\n2. The equation becomes: \\( 2\\sin(x)\\cos(x) = \\sin(x) \\)\n3. Factor the equation: \\( \\sin(x)(2\\cos(x) - 1) = 0 \\)\n4. Solve \\( \\sin(x) = 0 \\) and \\( 2\\cos(x) - 1 = 0 \\)."
+      },
+      {
+        "type": "text",
+        "value": "Using the t-formula allows us to simplify complex trigonometric equations into more manageable forms, making it easier to find solutions."
+      }
+    ]
+  },
+    "18": {
+    "title": "Topic Test - Trigonometric Equations",
+    "lessonID": "18",
+    "content": [
+      {
+        "type": "text",
+        "value": "This test is a summary and assessment of your understanding of solving trigonometric equations using compound angle identities and the t-formula."
+      },
+      {
+        "type": "text",
+        "value": "**Key Concepts to Review:**\n- Sum and difference identities\n- The t-formula for \\( \\sin \\), \\( \\cos \\), and \\( \\tan \\)\n- Solving equations of the form \\( \\sin(2x) = \\cos(x) \\)\n- Simplifying trigonometric expressions using identities"
+      },
+      {
+        "type": "images",
+        "src": "/images/topic_test_trig_equations.png",
+        "alt": "Summary diagram of compound angle identities",
+        "caption": "Compound angle identities help simplify trigonometric expressions and solve equations."
+      },
+      {
+        "type": "text",
+        "value": "**Practice Problems:**"
+      },
+      {
+        "type": "text",
+        "value": "**1. Solve:** \\( \\sin(x) = \\frac{1}{2} \\), for \\( 0 \\leq x < 360^\\circ \\)"
+      },
+      {
+        "type": "text",
+        "value": "**2. Solve:** \\( 2\\sin(x) - \\cos(x) = 0 \\), for \\( 0 \\leq x < 360^\\circ \\)"
+      },
+      {
+        "type": "text",
+        "value": "**3. Solve:** \\( \\sin(2x) = \\cos(x) \\), using a compound angle identity."
+      },
+      {
+        "type": "text",
+        "value": "**4. Express:** \\( 3\\sin(x) + 4\\cos(x) \\) as a single sine function, then solve \\( 3\\sin(x) + 4\\cos(x) = 2 \\)."
+      },
+      {
+        "type": "text",
+        "value": "✅ Use identities where needed, show clear working, and check all solutions lie in the required interval. Good luck!"
+      }
+    ]
+  },
+      "19": {
+    "title": "Inverse trigonometric functions — differentiating",
+    "lessonID": "19",
+    "content": [
+      {
+        "type": "text",
+        "value": "Inverse trigonometric functions allow us to find angles given the values of trigonometric ratios. In calculus, we differentiate these functions using specific formulas, often applying the chain rule when the input is more than just \\( x \\)."
+      },
+      {
+        "type": "text",
+        "value": "**Standard Derivatives:**"
+      },
+      {
+        "type": "text",
+        "value": "\\[ \\frac{d}{dx} \\left( \\sin^{-1}(x) \\right) = \\frac{1}{\\sqrt{1 - x^2}} \\]"
+      },
+      {
+        "type": "text",
+        "value": "\\[ \\frac{d}{dx} \\left( \\cos^{-1}(x) \\right) = \\frac{-1}{\\sqrt{1 - x^2}} \\]"
+      },
+      {
+        "type": "text",
+        "value": "\\[ \\frac{d}{dx} \\left( \\tan^{-1}(x) \\right) = \\frac{1}{1 + x^2} \\]"
+      },
+      {
+        "type": "images",
+        "src": "/images/inverse_trig_derivatives.png",
+        "alt": "Inverse trig function derivative formulas",
+        "caption": "These derivative rules apply when the argument is simply \\( x \\). Use the chain rule when differentiating functions of \\( x \\)."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Differentiate \\( f(x) = \\sin^{-1}(x^2) \\)\n\nStep 1: Let \\( u = x^2 \\), so we use the chain rule:\n\\[ f'(x) = \\frac{1}{\\sqrt{1 - u^2}} \\cdot \\frac{du}{dx} \\]\n\nStep 2: Substitute back:\n\\[ f'(x) = \\frac{1}{\\sqrt{1 - (x^2)^2}} \\cdot 2x = \\frac{2x}{\\sqrt{1 - x^4}} \\]"
+      },
+      {
+        "type": "text",
+        "value": "These derivatives are essential for tackling complex integration problems and appear frequently in Extension 1 and university-level calculus."
+      }
+    ]
+  },
+    "20": {
+    "title": "Inverse trigonometric functions — integrating",
+    "lessonID": "20",
+    "content": [
+      {
+        "type": "text",
+        "value": "Integration of inverse trigonometric functions is a fundamental skill in calculus. These integrals often arise when performing trigonometric substitutions or solving certain differential equations."
+      },
+      {
+        "type": "text",
+        "value": "**Standard Integrals:**"
+      },
+      {
+        "type": "text",
+        "value": "\\[ \\int \\frac{1}{\\sqrt{1 - x^2}} \\, dx = \\sin^{-1}(x) + C \\]"
+      },
+      {
+        "type": "text",
+        "value": "\\[ \\int \\frac{1}{1 + x^2} \\, dx = \\tan^{-1}(x) + C \\]"
+      },
+      {
+        "type": "text",
+        "value": "\\[ \\int \\frac{1}{\\sqrt{x^2 + 1}} \\, dx = \\sec^{-1}(x) + C \\]"
+      },
+      {
+        "type": "images",
+        "src": "/images/inverse_trig_integrals.png",
+        "alt": "Inverse trigonometric function integrals",
+        "caption": "These are the standard integrals for inverse trigonometric functions."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Integrate \\( \\int \\frac{1}{\\sqrt{1 - x^2}} \\, dx \\)\n\nThe integral of this expression is the inverse sine function. Therefore, the solution is:\n\\[ \\int \\frac{1}{\\sqrt{1 - x^2}} \\, dx = \\sin^{-1}(x) + C \\]"
+      },
+      {
+        "type": "text",
+        "value": "**Another Example:** Integrate \\( \\int \\frac{1}{1 + x^2} \\, dx \\)\nThis integral results in the inverse tangent function, yielding:\n\\[ \\int \\frac{1}{1 + x^2} \\, dx = \\tan^{-1}(x) + C \\]"
+      },
+      {
+        "type": "text",
+        "value": "Inverse trigonometric integrals are essential in solving integrals that involve trigonometric identities, especially when dealing with complex algebraic expressions."
+      }
+    ]
+  },
+    "21": {
+    "title": "Further trigonometric integrals",
+    "lessonID": "21",
+    "content": [
+      {
+        "type": "text",
+        "value": "In this lesson, we will explore more advanced trigonometric integrals. These integrals involve higher-order powers of trigonometric functions and require techniques like substitution, reduction formulas, or trigonometric identities."
+      },
+      {
+        "type": "text",
+        "value": "**Common Trigonometric Integral Formulas:**"
+      },
+      {
+        "type": "text",
+        "value": "\\[ \\int \\sin^n(x) \\, dx \\text{ and } \\int \\cos^n(x) \\, dx \\text{ (for even or odd powers)} \\]"
+      },
+      {
+        "type": "text",
+        "value": "For integrals involving \\( \\sin^2(x) \\) or \\( \\cos^2(x) \\), we use the identity:\n\\[ \\sin^2(x) = \\frac{1 - \\cos(2x)}{2}, \\quad \\cos^2(x) = \\frac{1 + \\cos(2x)}{2} \\]"
+      },
+      {
+        "type": "images",
+        "src": "/images/trig_integral_formulas.png",
+        "alt": "Further trigonometric integrals with reduction formulas",
+        "caption": "Reduction formulas help simplify integrals with higher powers of sine and cosine."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Integrate \\( \\int \\sin^2(x) \\, dx \\):\n1. Apply the identity for \\( \\sin^2(x) \\):\n\\[ \\sin^2(x) = \\frac{1 - \\cos(2x)}{2} \\]\n2. Now, integrate:\n\\[ \\int \\sin^2(x) \\, dx = \\int \\frac{1 - \\cos(2x)}{2} \\, dx = \\frac{x}{2} - \\frac{\\sin(2x)}{4} + C \\]"
+      },
+      {
+        "type": "text",
+        "value": "**Another Example:** Integrate \\( \\int \\cos^2(x) \\, dx \\):\n1. Apply the identity for \\( \\cos^2(x) \\):\n\\[ \\cos^2(x) = \\frac{1 + \\cos(2x)}{2} \\]\n2. Now, integrate:\n\\[ \\int \\cos^2(x) \\, dx = \\int \\frac{1 + \\cos(2x)}{2} \\, dx = \\frac{x}{2} + \\frac{\\sin(2x)}{4} + C \\]"
+      },
+      {
+        "type": "text",
+        "value": "These techniques allow us to simplify and solve integrals involving higher powers of trigonometric functions, making them more manageable for integration."
+      }
+    ]
+  },
+    "22": {
+    "title": "Integration by substitution",
+    "lessonID": "22",
+    "content": [
+      {
+        "type": "text",
+        "value": "Integration by substitution is a technique used to simplify an integral by changing variables. It's useful when dealing with integrals that involve a composite function."
+      },
+      {
+        "type": "text",
+        "value": "**Substitution Rule:**\nIf \\( u = g(x) \\), then \\( du = g'(x) \\, dx \\), and the integral becomes:\n\\[ \\int f(g(x)) g'(x) \\, dx = \\int f(u) \\, du \\]"
+      },
+      {
+        "type": "images",
+        "src": "/images/integration_by_substitution.png",
+        "alt": "Integration by substitution technique",
+        "caption": "The substitution method simplifies an integral by replacing a composite function with a single variable."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Integrate \\( \\int 2x \\cos(x^2) \\, dx \\):\n1. Let \\( u = x^2 \\), so \\( du = 2x \\, dx \\)\n2. The integral becomes: \\( \\int \\cos(u) \\, du = \\sin(u) + C \\)\n3. Substitute \\( u = x^2 \\) back: \\( \\sin(x^2) + C \\)"
+      },
+      {
+        "type": "text",
+        "value": "Integration by substitution simplifies integrals involving compositions of functions by turning them into simpler forms, making them easier to integrate."
+      }
+    ]
+  },
+    "23": {
+    "title": "Further integration by substitution",
+    "lessonID": "23",
+    "content": [
+      {
+        "type": "text",
+        "value": "This lesson expands on integration by substitution, showing how to apply it to more complex algebraic or trigonometric expressions. Substitution remains a powerful tool, especially when a function and its derivative appear together in the integrand."
+      },
+      {
+        "type": "text",
+        "value": "**Example 1:** Integrate \\( \\int \\frac{2x}{1 + x^2} \\, dx \\)\nLet \\( u = 1 + x^2 \\), then \\( du = 2x \\, dx \\). Now:\n\\[ \\int \\frac{2x}{1 + x^2} \\, dx = \\int \\frac{1}{u} \\, du = \\ln|u| + C = \\ln(1 + x^2) + C \\]"
+      },
+      {
+        "type": "example",
+        "value": "**Example 2:** Integrate \\( \\int x \\cos(x^2) \\, dx \\)\nLet \\( u = x^2 \\Rightarrow du = 2x \\, dx \\Rightarrow \\frac{1}{2} du = x \\, dx \\)\n\\[ \\int x \\cos(x^2) \\, dx = \\frac{1}{2} \\int \\cos(u) \\, du = \\frac{1}{2} \\sin(u) + C = \\frac{1}{2} \\sin(x^2) + C \\]"
+      },
+      {
+        "type": "text",
+        "value": "When substitution works cleanly, it often turns a difficult-looking integral into a standard form. Recognising these patterns is key to efficient problem solving."
+      },
+      {
+        "type": "images",
+        "src": "/images/advanced_substitution_examples.png",
+        "alt": "Complex examples of integration by substitution",
+        "caption": "These examples illustrate how substitution can reduce complicated integrals to simpler ones."
+      }
+    ]
+  },
+    "24": {
+    "title": "Topic Test - Further Calculus Skills",
+    "lessonID": "24",
+    "content": [
+      {
+        "type": "text",
+        "value": "This topic test assesses your understanding of inverse trigonometric functions, advanced trigonometric integrals, and integration by substitution. Be sure to review standard formulas and practise substitutions carefully."
+      },
+      {
+        "type": "text",
+        "value": "**Key Concepts to Review:**\n- Derivatives of inverse trig functions\n- Standard inverse trig integrals\n- Trig identities for powers of \\( \\sin(x) \\) and \\( \\cos(x) \\)\n- Substitution technique"
+      },
+      {
+        "type": "images",
+        "src": "/images/further_calculus_review.png",
+        "alt": "Topic test review diagram",
+        "caption": "Be familiar with formulas and identities before attempting the test."
+      },
+      {
+        "type": "text",
+        "value": "**Practice Problems:**"
+      },
+      {
+        "type": "text",
+        "value": "**1.** Differentiate \\( \\tan^{-1}(3x) \\)"
+      },
+      {
+        "type": "text",
+        "value": "**2.** Integrate \\( \\frac{1}{\\sqrt{1 - 9x^2}} \\)"
+      },
+      {
+        "type": "text",
+        "value": "**3.** Evaluate \\( \\int \\sin^2(x) \\, dx \\)"
+      },
+      {
+        "type": "text",
+        "value": "**4.** Use substitution to evaluate \\( \\int \\frac{x}{1 + x^2} \\, dx \\)"
+      },
+      {
+        "type": "text",
+        "value": "✅ Double-check each step in your working. Show substitution clearly and simplify before integrating. Good luck!"
+      }
+    ]
+  },
+    "25": {
+    "title": "Volumes of Rotation",
+    "lessonID": "25",
+    "content": [
+      {
+        "type": "text",
+        "value": "Volumes of rotation are calculated by rotating a region around a line (typically the x-axis or y-axis) and finding the volume of the resulting solid. This is an important concept in calculus, particularly in applications involving geometry and physics."
+      },
+      {
+        "type": "text",
+        "value": "**Volume of a Solid of Revolution (Disk Method):**\nIf a function \\( f(x) \\) is rotated about the x-axis from \\( x = a \\) to \\( x = b \\), the volume of the solid is given by:\n\\[ V = \\pi \\int_a^b [f(x)]^2 \\, dx \\]"
+      },
+      {
+        "type": "text",
+        "value": "**Volume using the Washer Method:**\nIf there is a region between two functions \\( f(x) \\) and \\( g(x) \\), rotated about the x-axis, the volume is given by:\n\\[ V = \\pi \\int_a^b \\left[ (f(x))^2 - (g(x))^2 \\right] \\, dx \\]"
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Find the volume of the solid formed by rotating the region bounded by \\( y = x^2 \\) and the x-axis, from \\( x = 0 \\) to \\( x = 1 \\), about the x-axis.\n1. Use the disk method:\n\\[ V = \\pi \\int_0^1 (x^2)^2 \\, dx = \\pi \\int_0^1 x^4 \\, dx = \\pi \\left[ \\frac{x^5}{5} \\right]_0^1 = \\pi \\times \\frac{1}{5} = \\frac{\\pi}{5} \\]"
+      },
+      {
+        "type": "text",
+        "value": "The disk and washer methods are essential tools in finding volumes of solids generated by rotating regions in the plane."
+      }
+    ]
+  },
+    "26": {
+    "title": "Topic Test - Further Area and Volumes",
+    "lessonID": "26",
+    "content": [
+      {
+        "type": "text",
+        "value": "This topic test assesses your understanding of the methods for finding areas and volumes of solids, particularly using the disk and washer methods. Make sure to review the formulas and practice integrating before attempting the test."
+      },
+      {
+        "type": "text",
+        "value": "**Key Concepts to Review:**\n- Volume of solids of revolution using the disk method\n- Volume of solids of revolution using the washer method\n- Applications of the disk and washer methods"
+      },
+      {
+        "type": "images",
+        "src": "/images/volumes_of_rotation_summary.png",
+        "alt": "Summary of volume formulas",
+        "caption": "Review the key formulas for volumes of revolution using the disk and washer methods."
+      },
+      {
+        "type": "text",
+        "value": "**Practice Problems:**"
+      },
+      {
+        "type": "text",
+        "value": "**1.** Find the volume of the solid formed by rotating the region bounded by \\( y = x^3 \\) and the x-axis, from \\( x = 0 \\) to \\( x = 2 \\), about the x-axis."
+      },
+      {
+        "type": "text",
+        "value": "**2.** Find the volume of the solid formed by rotating the region bounded by \\( y = \\sin(x) \\) and the x-axis, from \\( x = 0 \\) to \\( x = \\pi/2 \\), about the x-axis."
+      },
+      {
+        "type": "text",
+        "value": "**3.** Use the washer method to find the volume of the solid formed by rotating the region between \\( y = x^2 \\) and \\( y = x \\), from \\( x = 0 \\) to \\( x = 1 \\), about the x-axis."
+      },
+      {
+        "type": "text",
+        "value": "✅ Solve the problems step-by-step. Make sure to apply the correct method and check the limits of integration. Good luck!"
+      }
+    ]
+  },
+    "27": {
+    "title": "Differential equations",
+    "lessonID": "27",
+    "content": [
+      {
+        "type": "text",
+        "value": "A **differential equation** is an equation involving an unknown function and its derivatives. Solving differential equations allows us to model real-world phenomena such as growth, decay, motion, and heat transfer."
+      },
+      {
+        "type": "text",
+        "value": "**Basic Form of a Differential Equation:**\nA first-order differential equation can be written as \\( \\frac{dy}{dx} = f(x, y) \\), where \\( y = y(x) \\) is the unknown function, and \\( f(x, y) \\) is a given function of \\( x \\) and \\( y \\)."
+      },
+      {
+        "type": "text",
+        "value": "**Example 1:** Solve the differential equation \\( \\frac{dy}{dx} = 3x^2 \\).\\n1. Integrate both sides with respect to \\( x \\):\n\\[ y = \\int 3x^2 \\, dx = x^3 + C \\]"
+      },
+      {
+        "type": "text",
+        "value": "**Example 2:** Solve the differential equation \\( \\frac{dy}{dx} = y \\).\n1. This is a separable differential equation. Rearrange and integrate:\n\\[ \\frac{1}{y} \\, dy = dx \\]\\n2. \\[ \\ln|y| = x + C \\] , so \\( y = e^{x + C} = Ae^x \\), where \\( A = e^C \\)."
+      },
+      {
+        "type": "text",
+        "value": "Differential equations can often be solved using separation of variables, integrating factors, or other specialized methods depending on their form."
+      }
+    ]
+  },
+    "28": {
+    "title": "Slope fields",
+    "lessonID": "28",
+    "content": [
+      {
+        "type": "text",
+        "value": "A **slope field** (or direction field) is a graphical representation of the solutions to a first-order differential equation. It shows short line segments indicating the slope of the solution curve at various points."
+      },
+      {
+        "type": "text",
+        "value": "For a differential equation of the form \\( \\frac{dy}{dx} = f(x, y) \\), the slope field shows the gradient \\( f(x, y) \\) at selected points \\( (x, y) \\) in the plane."
+      },
+      {
+        "type": "text",
+        "value": "**Steps to Construct a Slope Field:**\n1. Choose a grid of points \\( (x, y) \\)\n2. At each point, evaluate \\( f(x, y) \\) to find the slope\n3. Draw a short line segment with that slope at the point"
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Sketch the slope field for \\( \\frac{dy}{dx} = y - x \\)\n- At \\( (0, 0) \\), slope = \\( 0 - 0 = 0 \\)\n- At \\( (1, 0) \\), slope = \\( 0 - 1 = -1 \\)\n- At \\( (1, 2) \\), slope = \\( 2 - 1 = 1 \\)\n- Continue evaluating at a grid of points"
+      },
+      {
+        "type": "images",
+        "src": "/images/slope_field_example.png",
+        "alt": "Example slope field for dy/dx = y - x",
+        "caption": "Each line segment represents the gradient \\( \\frac{dy}{dx} \\) at that point."
+      },
+      {
+        "type": "text",
+        "value": "Slope fields allow you to visualise how solutions behave even if you cannot find an explicit solution to the differential equation."
+      }
+    ]
+  },
+  "29": {
+    "title": "Separable Differential Equations",
+    "lessonID": "29",
+    "content": [
+      {
+        "type": "text",
+        "value": "A **separable differential equation** is one where the variables can be separated to opposite sides of the equation. These equations are solved by integrating both sides after rearranging the variables."
+      },
+      {
+        "type": "text",
+        "value": "**General Form:**\n\\[ \\frac{dy}{dx} = g(x)h(y) \\]\nWe separate the variables as:\n\\[ \\frac{1}{h(y)} \\, dy = g(x) \\, dx \\]"
+      },
+      {
+        "type": "text",
+        "value": "**Steps to Solve:**\n1. Separate the variables.\n2. Integrate both sides.\n3. Rearrange to solve for \\( y \\), if needed."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Solve \\( \\frac{dy}{dx} = \\frac{x}{y} \\)\n\nStep 1: Multiply both sides by \\( y \\, dx \\):\n\\[ y \\, dy = x \\, dx \\]\n\nStep 2: Integrate both sides:\n\\[ \\int y \\, dy = \\int x \\, dx \\]\n\\[ \\frac{y^2}{2} = \\frac{x^2}{2} + C \\]"
+      },
+      {
+        "type": "text",
+        "value": "Separable differential equations are frequently used in modelling population growth, exponential decay, and many other physical phenomena."
+      }
+    ]
+  },
+    "30": {
+    "title": "y' = g(y) and the Logistic Equation",
+    "lessonID": "30",
+    "content": [
+      {
+        "type": "text",
+        "value": "In some differential equations, the derivative \\( y' \\) is a function of \\( y \\) alone. These equations can be solved by separating variables. One important example is the **logistic equation**, which models population growth with a maximum limit."
+      },
+      {
+        "type": "text",
+        "value": "**The Logistic Equation:**\n\\[ \\frac{dy}{dx} = ky\\left(1 - \\frac{y}{K}\\right) \\]\nWhere:\n- \\( k \\) is a constant growth rate\n- \\( K \\) is the carrying capacity (the maximum value \\( y \\) can reach)"
+      },
+      {
+        "type": "text",
+        "value": "**Solving the Logistic Equation:**\nStep 1: Separate variables:\n\\[ \\frac{1}{y(1 - \\frac{y}{K})} \\, dy = k \\, dx \\]\nStep 2: Use partial fractions to integrate the left-hand side.\nStep 3: Integrate both sides and solve for \\( y \\)."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Solve \\( \\frac{dy}{dx} = 0.2y(1 - \\frac{y}{500}) \\)\n\nSeparate variables:\n\\[ \\frac{1}{y(1 - \\frac{y}{500})} \\, dy = 0.2 \\, dx \\]\n\nThen integrate using partial fractions. Let:\n\\[ \\frac{1}{y(1 - \\frac{y}{500})} = \\frac{A}{y} + \\frac{B}{(1 - \\frac{y}{500})} \\]\n\nSolve for constants and integrate both sides."
+      },
+      {
+        "type": "text",
+        "value": "The logistic model shows how growth slows as \\( y \\) approaches \\( K \\). It's used in ecology, economics, and other fields where resources are limited."
+      }
+    ]
+  },
+    "31": {
+    "title": "Applications of Differential Equations",
+    "lessonID": "31",
+    "content": [
+      {
+        "type": "text",
+        "value": "Differential equations are widely used to model real-world phenomena where the rate of change of a quantity is related to the quantity itself or other variables. In this lesson, we will explore some common applications."
+      },
+      {
+        "type": "text",
+        "value": "**1. Population Growth:**\nThe rate of change of population can be modeled by the differential equation:\n\\[ \\frac{dP}{dt} = rP(1 - \\frac{P}{K}) \\]\nWhere:\\n- \\( P \\) is the population at time \\( t \\),\\n- \\( r \\) is the growth rate, and\\n- \\( K \\) is the carrying capacity."
+      },
+      {
+        "type": "text",
+        "value": "**2. Radioactive Decay:**\nRadioactive decay is governed by a first-order differential equation of the form:\n\\[ \\frac{dN}{dt} = -\\lambda N \\]\nWhere:\\n- \\( N \\) is the amount of radioactive substance at time \\( t \\), and\\n- \\( \\lambda \\) is the decay constant."
+      },
+      {
+        "type": "text",
+        "value": "**3. Newton's Law of Cooling:**\nNewton's law of cooling describes the rate at which an object changes temperature. It is modeled by the differential equation:\n\\[ \\frac{dT}{dt} = -k(T - T_a) \\]\nWhere:\\n- \\( T \\) is the temperature of the object at time \\( t \\),\\n- \\( T_a \\) is the ambient temperature, and\\n- \\( k \\) is a constant related to the material properties."
+      },
+      {
+        "type": "images",
+        "src": "/images/population_growth.png",
+        "alt": "Graph of population growth",
+        "caption": "Population growth modeled by the logistic differential equation."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Solve the population growth equation \\( \\frac{dP}{dt} = 0.1P(1 - \\frac{P}{1000}) \\) with initial condition \\( P(0) = 100 \\).\n1. Separate variables: \\( \\frac{1}{P(1 - \\frac{P}{1000})} dP = 0.1 dt \\)\n2. Use partial fractions to integrate both sides.\n3. Solve for \\( P(t) \\) using the initial condition."
+      },
+      {
+        "type": "text",
+        "value": "These differential equations help predict how populations, temperatures, or substances change over time, and they are fundamental in fields like biology, physics, and chemistry."
+      }
+    ]
+  },
+    "32": {
+    "title": "Topic Test - Differential Equations",
+    "lessonID": "32",
+    "content": [
+      {
+        "type": "text",
+        "value": "This topic test assesses your understanding of differential equations, including solving separable equations, logistic equations, and applying them to real-world problems."
+      },
+      {
+        "type": "text",
+        "value": "**Key Concepts to Review:**\n- Separable differential equations\n- Logistic differential equations\n- Applications of differential equations (population growth, radioactive decay, Newton's law of cooling)"
+      },
+      {
+        "type": "images",
+        "src": "/images/differential_equations_summary.png",
+        "alt": "Summary of differential equations",
+        "caption": "Review the methods for solving and applying different types of differential equations."
+      },
+      {
+        "type": "text",
+        "value": "**Practice Problems:**"
+      },
+      {
+        "type": "text",
+        "value": "**1.** Solve the logistic differential equation \\( \\frac{dP}{dt} = 0.05P(1 - \\frac{P}{100}) \\), with initial condition \\( P(0) = 10 \\)."
+      },
+      {
+        "type": "text",
+        "value": "**2.** Solve the differential equation \\( \\frac{dN}{dt} = -0.02N \\) with initial condition \\( N(0) = 200 \\)."
+      },
+      {
+        "type": "text",
+        "value": "**3.** A hot object is cooling in a room at a constant temperature of 20°C. The temperature of the object at time \\( t \\) is given by \\( \\frac{dT}{dt} = -0.05(T - 20) \\). If the initial temperature of the object is 100°C, solve for \\( T(t) \\)."
+      },
+      {
+        "type": "text",
+        "value": "✅ Be sure to show all steps, especially when solving for constants of integration. Make sure to apply the appropriate initial conditions."
+      }
+    ]
+  },
+  "33": {
+    "title": "Binomial probability",
+    "lessonID": "33",
+    "content": [
+      {
+        "type": "text",
+        "value": "The **binomial probability distribution** models the number of successes in a fixed number of independent trials, each with the same probability of success. It is used in situations where there are only two possible outcomes: success or failure."
+      },
+      {
+        "type": "text",
+        "value": "**Conditions for a Binomial Distribution:**\n- Fixed number of trials \\( n \\)\n- Each trial has two outcomes (success or failure)\n- Constant probability of success \\( p \\)\n- Trials are independent"
+      },
+      {
+        "type": "text",
+        "value": "**Probability Formula:**\n\\[ P(X = k) = \\binom{n}{k} p^k (1 - p)^{n - k} \\]\nWhere:\n- \\( P(X = k) \\) is the probability of exactly \\( k \\) successes\n- \\( \\binom{n}{k} \\) is the number of combinations\n- \\( p \\) is the probability of success"
+      },
+      {
+        "type": "example",
+        "value": "**Example:** A basketball player makes 80% of free throws. What is the probability she makes exactly 3 out of 5 shots?\n\n\\( n = 5 \\), \\( k = 3 \\), \\( p = 0.8 \\)\n\\[ P(X = 3) = \\binom{5}{3} (0.8)^3 (0.2)^2 = 10 \\times 0.512 \\times 0.04 = 0.2048 \\]"
+      },
+      {
+        "type": "text",
+        "value": "You can also find cumulative probabilities using tables or technology, such as \\( P(X \\leq 3) \\), which sums multiple values of \\( P(X = k) \\)."
+      }
+    ]
+  },
+    "34": {
+    "title": "Binomial distributions",
+    "lessonID": "34",
+    "content": [
+      {
+        "type": "text",
+        "value": "A **binomial distribution** describes the probability of obtaining a fixed number of successes in a given number of independent trials, where each trial has the same probability of success. It is a discrete probability distribution."
+      },
+      {
+        "type": "text",
+        "value": "**Notation:**\n\\[ X \\sim B(n, p) \\]\nThis means the random variable \\( X \\) follows a binomial distribution with:\n- \\( n \\): number of trials\n- \\( p \\): probability of success"
+      },
+      {
+        "type": "text",
+        "value": "**Mean and Standard Deviation:**\n- Mean (expected value): \\( \\mu = np \\)\n- Standard deviation: \\( \\sigma = \\sqrt{np(1 - p)} \\)"
+      },
+      {
+        "type": "images",
+        "src": "/images/binomial_distribution_graph.png",
+        "alt": "Typical binomial distribution shape",
+        "caption": "A binomial distribution becomes more symmetric as \\( n \\) increases."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Let \\( X \\sim B(20, 0.6) \\).\n- Mean: \\( \\mu = 20 \\times 0.6 = 12 \\)\n- Standard deviation: \\( \\sigma = \\sqrt{20 \\times 0.6 \\times 0.4} = \\sqrt{4.8} \\approx 2.19 \\)\n\nThis tells us the expected number of successes is 12, and typical variation is about 2.19."
+      },
+      {
+        "type": "text",
+        "value": "Binomial distributions are commonly used in quality control, survey results, and reliability testing. They form the basis for more advanced topics like the normal approximation."
+      }
+    ]
+  },
+    "35": {
+    "title": "Topic Test - Bernoulli and Binomial Distributions",
+    "lessonID": "35",
+    "content": [
+      {
+        "type": "text",
+        "value": "This topic test reviews key concepts from Bernoulli trials and binomial distributions. You should be confident in identifying binomial scenarios, calculating exact and cumulative probabilities, and applying formulas for the mean and standard deviation."
+      },
+      {
+        "type": "text",
+        "value": "**Key Concepts to Review:**\n- Bernoulli distribution (single trial)\n- Binomial distribution (multiple independent trials)\n- \\( X \\sim B(n, p) \\)\n- \\( P(X = k) = \\binom{n}{k} p^k (1 - p)^{n - k} \\)\n- Mean: \\( \\mu = np \\), Standard deviation: \\( \\sigma = \\sqrt{np(1 - p)} \\)"
+      },
+      {
+        "type": "images",
+        "src": "/images/binomial_test_summary.png",
+        "alt": "Summary chart of binomial formulas",
+        "caption": "Use these formulas to solve binomial problems efficiently."
+      },
+      {
+        "type": "text",
+        "value": "**Practice Questions:**"
+      },
+      {
+        "type": "text",
+        "value": "**1.** A coin is flipped 12 times. What is the probability of getting exactly 5 heads?"
+      },
+      {
+        "type": "text",
+        "value": "**2.** A basketball player makes 75% of free throws. Out of 8 shots, what is the probability of making at least 6?"
+      },
+      {
+        "type": "text",
+        "value": "**3.** For \\( X \\sim B(10, 0.3) \\), calculate the mean and standard deviation."
+      },
+      {
+        "type": "text",
+        "value": "**4.** A survey shows 40% of people support a policy. If 20 people are randomly selected, what is the probability that fewer than 5 support it?"
+      },
+      {
+        "type": "text",
+        "value": "✅ Show your working clearly. Use a calculator or technology for binomial probabilities if needed. Check if your scenario satisfies binomial conditions."
+      }
+    ]
+  },
+    "36": {
+    "title": "Normal approximations to a binomial",
+    "lessonID": "36",
+    "content": [
+      {
+        "type": "text",
+        "value": "When the number of trials in a binomial distribution is large, the binomial distribution can be approximated by a normal distribution. This simplifies probability calculations, especially when technology or tables are used."
+      },
+      {
+        "type": "text",
+        "value": "**Conditions for Normal Approximation:**\n- The binomial distribution \\( X \\sim B(n, p) \\) can be approximated by \\( N(\\mu, \\sigma^2) \\) when:\n  - \\( np \\geq 5 \\)\n  - \\( n(1 - p) \\geq 5 \\)"
+      },
+      {
+        "type": "text",
+        "value": "**Formulas:**\n- Mean: \\( \\mu = np \\)\n- Standard deviation: \\( \\sigma = \\sqrt{np(1 - p)} \\)\n- Approximate: \\( X \\approx N(\\mu, \\sigma^2) \\)"
+      },
+      {
+        "type": "text",
+        "value": "**Continuity Correction:**\nWhen approximating a discrete binomial with a continuous normal distribution, apply a continuity correction:\n\\[ P(X = k) \\approx P(k - 0.5 < Y < k + 0.5) \\]"
+      },
+      {
+        "type": "example",
+        "value": "**Example:** \\( X \\sim B(100, 0.4) \\)\nFind \\( P(X \\leq 45) \\) using a normal approximation.\n\\[ \\mu = 100 \\times 0.4 = 40 \\quad \\sigma = \\sqrt{100 \\times 0.4 \\times 0.6} = 4.899 \\]\nApply continuity correction:\n\\[ P(X \\leq 45) \\approx P(Y < 45.5) \\]\nConvert to a z-score:\n\\[ z = \\frac{45.5 - 40}{4.899} \\approx 1.12 \\]"
+      },
+      {
+        "type": "text",
+        "value": "Use the standard normal table or technology to find the corresponding area under the curve for the z-score."
+      }
+    ]
+  },
+    "37": {
+    "title": "Sample proportions",
+    "lessonID": "37",
+    "content": [
+      {
+        "type": "text",
+        "value": "A **sample proportion** is the proportion of successes in a random sample. It is used to estimate population proportions and make inferences. When sample sizes are large, the distribution of sample proportions is approximately normal."
+      },
+      {
+        "type": "text",
+        "value": "**Notation:**\n\\[ \\hat{p} = \\frac{x}{n} \\]\nWhere:\n- \\( x \\) is the number of successes\n- \\( n \\) is the sample size\n- \\( \\hat{p} \\) is the sample proportion"
+      },
+      {
+        "type": "text",
+        "value": "**Sampling Distribution of \\( \\hat{p} \\):**\nIf \\( X \\sim B(n, p) \\), then for large \\( n \\), \\( \\hat{p} \\approx N\\left(p, \\frac{p(1 - p)}{n}\\right) \\)"
+      },
+      {
+        "type": "example",
+        "value": "**Example:** A survey of 400 people finds that 240 support a policy.\n\\( \\hat{p} = \\frac{240}{400} = 0.6 \\)\nIf the true proportion is \\( p = 0.5 \\), find the probability of observing \\( \\hat{p} \\geq 0.6 \\).\n\\[ \\mu = 0.5, \\quad \\sigma = \\sqrt{\\frac{0.5(0.5)}{400}} = 0.025 \\]\n\\[ z = \\frac{0.6 - 0.5}{0.025} = 4.0 \\]"
+      },
+      {
+        "type": "text",
+        "value": "Sample proportions allow us to estimate unknown population proportions and calculate confidence levels using the normal distribution."
+      }
+    ]
+  },
+    "38": {
+    "title": "Topic Test - Normal Approximation for the Sample Proportion",
+    "lessonID": "38",
+    "content": [
+      {
+        "type": "text",
+        "value": "This topic test assesses your understanding of sample proportions and the use of the normal distribution to approximate binomial probabilities. Make sure you are comfortable with calculating \\( \\hat{p} \\), standard deviation, and applying z-scores."
+      },
+      {
+        "type": "text",
+        "value": "**Key Concepts to Review:**\n- Sample proportion: \\( \\hat{p} = \\frac{x}{n} \\)\n- Sampling distribution of \\( \\hat{p} \\): approximately normal if \\( np \\geq 5 \\) and \\( n(1 - p) \\geq 5 \\)\n- Mean: \\( \\mu = p \\), Standard deviation: \\( \\sigma = \\sqrt{\\frac{p(1 - p)}{n}} \\)\n- Normal approximation using z-scores:\n\\[ z = \\frac{\\hat{p} - p}{\\sigma} \\]"
+      },
+      {
+        "type": "images",
+        "src": "/images/sample_proportion_summary.png",
+        "alt": "Sample proportion with normal curve",
+        "caption": "Use the normal curve to estimate probabilities involving sample proportions."
+      },
+      {
+        "type": "text",
+        "value": "**Practice Questions:**"
+      },
+      {
+        "type": "text",
+        "value": "**1.** A random sample of 100 students showed that 68% passed a test. If the true pass rate is 65%, find the z-score for this result."
+      },
+      {
+        "type": "text",
+        "value": "**2.** A manufacturer claims that 90% of items pass inspection. In a random sample of 200 items, 174 passed. Use a normal approximation to determine whether this supports the claim."
+      },
+      {
+        "type": "text",
+        "value": "**3.** For \\( n = 400 \\) and \\( p = 0.55 \\), find the probability that \\( \\hat{p} > 0.6 \\)."
+      },
+      {
+        "type": "text",
+        "value": "✅ Use the standard normal table or technology to find probabilities from your z-scores. Include working and interpret your results clearly."
+      }
+    ]
+  }}

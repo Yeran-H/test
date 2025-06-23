@@ -1,0 +1,96 @@
+/* Simple spinner animation */
+.spinner {
+  margin: 50px auto;
+  width: 40px;
+  height: 40px;
+  border: 5px solid #ccc;
+  border-top-color: #b30000; /* Your brand color or any */
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+
+
+.lessonContent {
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.lessonFooterButtons {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.tableContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.tableContainer caption {
+  caption-side: top;
+  font-weight: bold;
+  margin-bottom: 8px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.tableContainer table {
+  border-collapse: collapse;
+  max-width: 400px;
+  width: 100%;
+}
+
+.tableContainer th,
+.tableContainer td {
+  border: 1px solid #b22222;
+  padding: 6px;
+  text-align: center;
+  color: #000;
+}
+
+.tableContainer th {
+  color: #b22222;
+}
+
+.image {
+  max-width: 40%;
+  border: 2px solid #b22222;
+  border-radius: 4px;
+}
+
+.imageCaption {
+  color: #b22222;
+  font-style: italic;
+  margin-top: 5px;
+}
+
+.exampleBox {
+  background-color: #fff0f0;
+  padding: 10px;
+  margin: 15px 0;
+  border-left: 4px solid #b22222;
+}
+
+.backToListTopLeft {
+  position: fixed;
+  top: 70px; /* shifted down to clear NavBar */
+  left: 20px;
+  background-color: transparent;
+  color: #b22222;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+  z-index: 1000;
+}
+
+.backToListTopLeft:hover {
+  text-decoration: underline;
+  color: #8b1a1a;
+}

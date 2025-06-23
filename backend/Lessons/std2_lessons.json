@@ -1,0 +1,3359 @@
+{
+      "1": {
+        "title": "Linear Functions",
+        "content": [
+
+          { "type": "text",
+            "value": "A linear function is any function of the form \\(y = mx + c\\).  The graph is always a straight line because the rate of change (gradient) is constant."
+          },
+
+          { "type": "images",
+            "src": "/images/linfunc_gradient_rise_run.png",
+            "alt": "Rise over run diagram for slope",
+            "caption": "Gradient (slope) = vertical rise ÷ horizontal run."
+          },
+          { "type": "math", "value": "m = \\frac{\\Delta y}{\\Delta x}" },
+
+          { "type": "images",
+            "src": "/images/linfunc_y_intercept.png",
+            "alt": "Y-intercept shown where line crosses y-axis",
+            "caption": "The constant \\(c\\) is where the line meets the y-axis."
+          },
+
+          { "type": "table",
+            "caption": "Table of values for \\(y = 2x - 3\\)",
+            "headers": ["x", "y"],
+            "rows": [[-2, -7], [-1, -5], [0, -3], [1, -1], [2, 1]]
+          },
+
+          { "type": "example",
+            "title": "Example 1 - Drawing y = 2x - 3",
+            "content": [
+              "Create the table above.",
+              "Plot each (x,y) pair on the plane.",
+              "Join with a ruler to get a straight line."
+            ]
+          },
+          { "type": "images",
+            "src": "/images/linfunc_2xminus3_graph.png",
+            "alt": "Graph of y = 2x - 3",
+            "caption": "Straight-line graph of the worked example."
+          },
+
+          { "type": "text",
+            "value": "► **Parallel lines** have **identical gradients** (e.g. \\(m = 2\\) and \\(m = 2\\)).  They never meet.  \n► **Perpendicular lines** have gradients that are **negative reciprocals**: \\(m_1 m_2 = -1\\)."
+          },
+          { "type": "images",
+            "src": "/images/lines_properties.png",
+            "alt": "Two parallel lines never intersect",
+            "caption": "Parallel lines: same slope, different y-intercepts."
+          },
+          { "type": "example",
+            "title": "Example 2 - Finding an equation parallel / perpendicular",
+            "content": [
+              "Line 1: \\(y = 3x + 4\\).  Parallel line through (0, -2): \\(y = 3x - 2\\).",
+              "Perpendicular line through (0, -2): gradient = \\(-\\tfrac{1}{3}\\), so equation \\(y = -\\tfrac{1}{3}x - 2\\)."
+            ]
+          }
+        ]
+      },
+
+      "2": {
+        "title": "Linear Models",
+        "content": [
+
+          { "type": "text",
+            "value": "Linear models convert real-world relationships into straight-line equations so we can predict, compare and interpret."
+          },
+
+          { "type": "images",
+            "src": "/images/linear_model_phoneplan.png",
+            "alt": "Straight line phone-plan cost graph",
+            "caption": "Phone plan: \\(C = 40 + 0.15n\\)."
+          },
+
+          { "type": "example",
+            "title": "Example 1 - Phone Plan",
+            "content": [
+              "Monthly cost \\(C = 40 + 0.15n\\) dollars, where \\(n\\) is texts.",
+              "Gradient 0.15 dollars/text, y-intercept 40 dollars (base fee)."
+            ]
+          },
+
+          { "type": "images",
+            "src": "/images/aud_to_nzd_graph.png",
+            "alt": "Currency conversion straight line",
+            "caption": "Currency conversion graph (AUD → NZD)"
+          },
+
+          { "type": "example",
+            "title": "Example 2 - Currency Conversion",
+            "content": [
+              "Graph gives gradient 1.25 (each $1 AUD ≈ $1.25 NZD).",
+              "Convert 40 AUD ⇒ 50 NZD, 25 NZD ⇒ 20 AUD."
+            ]
+          },
+
+          { "type": "table",
+            "caption": "Constant speed example (5 km/h)",
+            "headers": ["Time (h)", "Distance (km)"],
+            "rows": [[0,0],[1,5],[2,10],[3,15],[4,20]]
+          },
+
+          { "type": "example",
+            "title": "Example 3 - Constant Speed",
+            "content": [
+              "Distance Travelled: 160km at 2hrs, 240km at 3hrs.",
+              "Gradient \\(5\\) km/hr, so \\(d = 5t\\), predict 30 km ⇒ 6 hrs."
+            ]
+          },
+
+          { "type": "images",
+            "src": "/images/constant_speed.png",
+            "alt": "Constant Speed line",
+            "caption": "Linear model for constant speed."
+          }
+        ]
+      },
+
+      "3": {
+        "title": "Simultaneous Equations - Graphically",
+        "content": [
+
+          { "type": "text",
+            "value": "Plot both equations on the same axes: the intersection is the solution.  Parallel lines ⇒ no solution; coincident lines ⇒ infinitely many solutions."
+          },
+
+          { "type": "images",
+            "src": "/images/intersection_example.png",
+            "alt": "Graph showing intersection of two lines",
+            "caption": "Intersection of \\(y = x + 3\\) and \\(y = -2x\\) at (−1,2)."
+          },
+
+          { "type": "example",
+            "title": "Example 1 - Single Solution",
+            "content": [
+              "Lines \\(y = 2x + 1\\) and \\(y = -x + 4\\) intersect at (1,3)."
+            ]
+          },
+
+          { "type": "images",
+            "src": "/images/parallel_no_solution.png",
+            "alt": "Parallel lines with no intersection",
+            "caption": "No solution: \\(y = 3x - 2\\) and \\(y = 3x + 5\\)."
+          },
+
+          { "type": "example",
+            "title": "Example 2 - Infinite Solutions",
+            "content": [
+              "Equations \\(y = 0.5x + 1\\) and \\(2y = x + 2\\) are identical ⇒ every point satisfies both."
+            ]
+          },
+
+          { "type": "table",
+            "caption": "Matching table of values reveals intersection",
+            "headers": ["x", "y = x + 3", "y = -2x"],
+            "rows": [[-2,1,4],[-1,2,2],[0,3,0],[1,4,-2]]
+          }
+        ]
+      },
+
+      "4": {
+        "title": "Simultaneous Equations - Algebraically",
+        "content": [
+
+          { "type": "text",
+            "value": "We solve two linear equations by either **substitution** (replace a variable) or **elimination** (add/subtract multiples to cancel)."
+          },
+
+          { "type": "images",
+            "src": "/images/substitution_flowchart.png",
+            "alt": "Substitution steps flow chart",
+            "caption": "Substitution method: isolate → substitute → solve → back-substitute."
+          },
+
+          { "type": "example",
+            "title": "Example 1 - Substitution",
+            "content": [
+              "Solve \\(y = 4x - 7\\) and \\(2x + y = 1\\).",
+              "Substitute to get \\(2x + (4x - 7) = 1 ⇒ 6x = 8 ⇒ x = 4/3, y = -5/3\\)."
+            ]
+          },
+
+          { "type": "images",
+            "src": "/images/elimination_diagram.png",
+            "alt": "Elimination diagram showing line addition",
+            "caption": "Elimination method visually cancels one variable."
+          },
+
+          { "type": "example",
+            "title": "Example 2 - Elimination",
+            "content": [
+              "Solve \\(3x + 2y = 7\\) and \\(5x - 2y = 1\\).",
+              "Add ⇒ \\(8x = 8 ⇒ x = 1\\), then \\(y = 2\\)."
+            ]
+          },
+
+          { "type": "text",
+            "value": "Tip: Make the coefficients equal (or negatives) before adding/subtracting."
+          }
+        ]
+      },
+
+      "5": {
+        "title": "Simultaneous Equations as Models",
+        "content": [
+
+          { "type": "text",
+            "value": "Two linked linear relationships often describe cost vs income, mixture problems, or mark allocations.  Their intersection solves the practical question."
+          },
+
+          { "type": "images",
+            "src": "/images/marks_intersection_graph.png",
+            "alt": "Marks intersection for Maths/English scores",
+            "caption": "Isabella's marks model (Maths vs English)."
+          },
+
+          { "type": "example",
+            "title": "Example 1 - Cinema Tickets",
+            "content": [
+              "Equations: \\(2a + 3c = 64.5\\) and \\(3a + 2c = 69\\).",
+              "Solution: adult $15, child $11."
+            ]
+          },
+
+          { "type": "example",
+            "title": "Example 2 - Mixture Problem",
+            "content": [
+              "Make 200 mL of 30% acid from 20% and 45% solutions.",
+              "Equations: \\(x + y = 200\\) and \\(0.20x + 0.45y = 60\\).",
+              "Solution: 120 mL of 20%, 80 mL of 45%."
+            ]
+          },
+
+          { "type": "images",
+            "src": "/images/books_income_cost.png",
+            "alt": "Books cost vs income lines",
+            "caption": "Book-selling model: \\(I = 16n\\), \\(C = 8n + 24\\). Break-even at 3 books."
+          }
+        ]
+      },
+
+      "6": {
+        "title": "Break-even Analysis",
+        "content": [
+
+          { "type": "text",
+            "value": "Break-even occurs when total revenue \\(R\\) equals total cost \\(C\\).  For a single product sold at constant price, both \\(R\\) and \\(C\\) are linear in quantity."
+          },
+
+          { "type": "images",
+            "src": "/images/breakeven_generic.png",
+            "alt": "Generic break-even chart",
+            "caption": "Revenue vs Cost - break-even where the lines meet."
+          },
+
+          { "type": "example",
+            "title": "Example 1 - Cupcake Stall",
+            "content": [
+              "Fixed cost $90, variable cost $0.80 each, price $3 each.",
+              "Break-even: \\(3q = 0.8q + 90\\) cupcakes.",
+              "\\(q = 41\\)"
+            ]
+          },
+
+          { "type": "table",
+            "caption": "Cupcake Revenue vs Cost",
+            "headers": ["qunatity", "Revenue $", "Cost $", "Profit $"],
+            "rows": [[0,0,90,-90],[20,60,106,-46],[40,120,122,-2],[60,180,138,42]]
+          },
+
+          { "type": "example",
+            "title": "Example 2 - Streaming Subscribers",
+            "content": [
+              "Startup $12 000; server cost $1.20 per subscriber; fee $4.50 per subscriber.",
+              "Break-even subscribers: \\(4.5n = 12000 + 1.2n\\).",
+              "\\(n = 3637\\)"
+            ]
+          },
+
+          { "type": "images",
+            "src": "/images/streaming_breakeven.png",
+            "alt": "Streaming service break-even graph",
+            "caption": "Break-even quantity ~3637 subscribers."
+          }
+        ]
+      },
+    
+  "7": {
+    "title": "Topic Test - Simultaneous Linear Equations",
+    "content": [
+      {
+        "type": "text",
+        "value": "This lesson is a final summary of everything covered in Chapter 5. Review the key ideas, diagrams, and formulas before attempting the topic test."
+      },
+      {
+        "type": "text",
+        "value": "**Linear Functions** describe straight-line relationships. The general form is \\( y = mx + c \\), where \\( m \\) is the gradient and \\( c \\) is the y-intercept."
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_linear_function.png",
+        "alt": "Graph showing y = mx + c",
+        "caption": "The line's steepness is controlled by the gradient \\( m \\); the y-intercept \\( c \\) is where the line crosses the y-axis."
+      },
+      {
+        "type": "text",
+        "value": "**Linear Models** use straight-line equations to describe real-life relationships, such as cost, distance, or temperature changes."
+      },
+      {
+        "type": "images",
+        "src": "/images/aud_to_nzd_graph.png",
+        "alt": "Real-life example of a linear model",
+        "caption": "Linear models are useful for making predictions and comparing rates."
+      },
+      {
+        "type": "text",
+        "value": "**Graphical Solutions** to simultaneous equations find the intersection point of two lines. That point is the solution \\((x, y)\\)."
+      },
+      {
+        "type": "images",
+        "src": "/images/intersection_example.png",
+        "alt": "Intersection of two linear graphs",
+        "caption": "Each line represents one equation. Their intersection is the solution to both."
+      },
+      {
+        "type": "text",
+        "value": "**Algebraic Methods** include substitution and elimination. These solve two equations exactly without graphing."
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_substitution_elimination.png",
+        "alt": "Algebraic solving methods diagram",
+        "caption": "Substitution replaces one variable; elimination cancels one out."
+      },
+      {
+        "type": "text",
+        "value": "**Modelling with Simultaneous Equations** lets us solve problems with two unknowns, like prices or marks."
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_modelling.png",
+        "alt": "Example of a marks modelling problem",
+        "caption": "Modelling lets us turn word problems into equations."
+      },
+      {
+        "type": "text",
+        "value": "**Break-even Analysis** compares revenue and cost lines. Where they intersect is the break-even point."
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_breakeven.png",
+        "alt": "Break-even graph with cost and income lines",
+        "caption": "The break-even point is where revenue equals cost. Before it = loss, after it = profit."
+      },
+      {
+        "type": "text",
+        "value": "✅ You've now revised all key ideas in this topic. Make sure you can explain them and apply them to unfamiliar problems. Good luck!"
+      }
+    ]},
+  "8": {
+    "title": "Exponential functions",
+    "content": [
+      {
+        "type": "text",
+        "value": "An exponential function is one where the variable is the exponent. These functions model rapid growth or decay, common in populations, finance, and physics."
+      },
+      {
+        "type": "math",
+        "value": "y = a^x \\quad \\text{where } a > 0, a \\neq 1"
+      },
+      {
+        "type": "images",
+        "src": "/images/exponential_growth_curve.png",
+        "alt": "Graph of exponential function",
+        "caption": "The graph of \\( y = 2^x \\) shows exponential growth."
+      },
+      {
+        "type": "example",
+        "title": "Example 1 - Calculating values",
+        "content": [
+          "Evaluate \\( y = 3^x \\) for \\( x = -2, -1, 0, 1, 2 \\):",
+          "\\( 3^{-2} = 1/9, 3^{-1} = 1/3, 3^0 = 1, 3^1 = 3, 3^2 = 9 \\)"
+        ]
+      },
+      {
+        "type": "table",
+        "caption": "Table of values for \\( y = 3^x \\)",
+        "headers": ["x", "-2", "-1", "0", "1", "2"],
+        "rows": [["y", "1/9", "1/3", "1", "3", "9"]]
+      },
+      {
+        "type": "example",
+        "title": "Example 2 - Sketching \\( y = 0.5^x \\)",
+        "content": [
+          "Plot values for \\( x = -2 \\) to \\( x = 2 \\).",
+          "\\( y = 4, 2, 1, 0.5, 0.25 \\)",
+          "This shows exponential decay."
+        ]
+      },
+      {
+        "type": "images",
+        "src": "/images/exponential_decay.png",
+        "alt": "Exponential decay curve",
+        "caption": "The function \\( y = 0.5^x \\) decreases rapidly."
+      }
+    ]
+  },
+  "9": {
+    "title": "Exponential models",
+    "content": [
+      {
+        "type": "text",
+        "value": "Exponential models are used to describe real-world growth or decay over time. The general form is \\( y = a \\times b^x \\), where:"
+      },
+      {
+        "type": "text",
+        "value": "- \\( a \\) is the initial value\n- \\( b > 1 \\) indicates growth\n- \\( 0 < b < 1 \\) indicates decay"
+      },
+      {
+        "type": "example",
+        "title": "Example 1 - Bacteria Growth",
+        "content": [
+          "A bacteria population doubles every hour. Starting with 100 bacteria, the model is:",
+          "\\( P = 100 \\times 2^t \\), where \\( t \\) is time in hours.",
+          "After 3 hours: \\( P = 100 \\times 2^3 = 800 \\) bacteria."
+        ]
+      },
+      {
+        "type": "images",
+        "src": "/images/exponential_model_bacteria.png",
+        "alt": "Exponential growth of bacteria",
+        "caption": "Exponential model showing doubling population over time."
+      },
+      {
+        "type": "example",
+        "title": "Example 2 - Radioactive Decay",
+        "content": [
+          "A substance decays by 25% per hour. The model is:",
+          "\\( M = 500 \\times (0.75)^t \\), where \\( t \\) is time in hours.",
+          "After 2 hours: \\( M = 500 \\times 0.75^2 = 281.25 \\) grams."
+        ]
+      },
+      {
+        "type": "table",
+        "caption": "Mass over time using decay model",
+        "headers": ["Time (hours)", "0", "1", "2", "3"],
+        "rows": [["Mass (g)", "500", "375", "281.25", "210.94"]]
+      }
+    ]
+  },
+  "10": {
+    "title": "Quadratic functions",
+    "content": [
+      {
+        "type": "text",
+        "value": "Quadratic functions have the form \\( y = ax^2 + bx + c \\). Their graphs are parabolas."
+      },
+      {
+        "type": "images",
+        "src": "/images/parabola_upward.png",
+        "alt": "Upward-opening parabola",
+        "caption": "Graph of \\( y = x^2 \\) is a basic parabola opening upward."
+      },
+      {
+        "type": "text",
+        "value": "Key features:\n- Vertex: the turning point of the parabola\n- Axis of symmetry: a vertical line through the vertex\n- Direction: opens up if \\( a > 0 \\), down if \\( a < 0 \\)"
+      },
+      {
+        "type": "example",
+        "title": "Example 1 - Graphing \\( y = x^2 - 4x + 3 \\)",
+        "content": [
+          "Factor: \\( y = (x - 1)(x - 3) \\), so x-intercepts at 1 and 3.",
+          "Vertex is at \\( x = 2 \\), \\( y = -1 \\)."
+        ]
+      },
+      {
+        "type": "table",
+        "caption": "Values for \\( y = x^2 - 4x + 3 \\)",
+        "headers": ["x", "0", "1", "2", "3", "4"],
+        "rows": [["y", "3", "0", "-1", "0", "3"]]
+      },
+      {
+        "type": "images",
+        "src": "/images/quadratic_vertex.png",
+        "alt": "Graph of y = x^2 - 4x + 3",
+        "caption": "The vertex is the lowest point since \\( a > 0 \\)."
+      }
+    ]
+  },
+  "11": {
+    "title": "Quadratic models",
+    "content": [
+      {
+        "type": "text",
+        "value": "Quadratic functions can be used to model real-world relationships such as projectile motion, area, and profit. These models follow the general form \\( y = ax^2 + bx + c \\)."
+      },
+      {
+        "type": "example",
+        "title": "Example 1 - Profit Model",
+        "content": [
+          "A business has profit \\( P = -5x^2 + 150x - 1000 \\), where \\( x \\) is items sold.",
+          "The maximum profit occurs at the vertex: \\( x = -\\frac{b}{2a} = -\\frac{150}{2(-5)} = 15 \\).",
+          "Profit at \\( x = 15 \\): \\( P = -5(15)^2 + 150(15) - 1000 = 125 \\)."
+        ]
+      },
+      {
+        "type": "images",
+        "src": "/images/profit_parabola.png",
+        "alt": "Profit vs items sold",
+        "caption": "The vertex represents maximum profit in the quadratic model."
+      },
+      {
+        "type": "example",
+        "title": "Example 2 - Area of a rectangle",
+        "content": [
+          "A garden is built along a wall. One side is fixed at 20 m, and the other is \\( x \\) m. The area is \\( A = x(20 - x) \\).",
+          "Expanding: \\( A = 20x - x^2 \\). This is a quadratic model.",
+          "Maximum area at \\( x = 10 \\): \\( A = 100 \\) m²."
+        ]
+      },
+      {
+        "type": "images",
+        "src": "/images/garden_area_quadratic.png",
+        "alt": "Quadratic model for area",
+        "caption": "The graph of area vs width is a parabola."
+      }
+    ]
+  },
+  "12": {
+    "title": "Reciprocal function",
+    "content": [
+      {
+        "type": "text",
+        "value": "The reciprocal function is defined by \\( y = \\frac{k}{x} \\), where \\( x \\neq 0 \\). It produces a curve called a hyperbola."
+      },
+      {
+        "type": "images",
+        "src": "/images/reciprocal_hyperbola.png",
+        "alt": "Graph of reciprocal function",
+        "caption": "As \\( x \\) increases, \\( y = \\frac{1}{x} \\) decreases. The curve has vertical and horizontal asymptotes."
+      },
+      {
+        "type": "text",
+        "value": "Important features:\n- \\( x = 0 \\) is a vertical asymptote\n- \\( y = 0 \\) is a horizontal asymptote\n- The function is undefined at \\( x = 0 \\)"
+      },
+      {
+        "type": "example",
+        "title": "Example - Evaluating values of \\( y = \\frac{2}{x} \\)",
+        "content": [
+          "If \\( x = 1 \\), \\( y = 2 \\); if \\( x = 2 \\), \\( y = 1 \\); if \\( x = 0.5 \\), \\( y = 4 \\)."
+        ]
+      },
+      {
+        "type": "table",
+        "caption": "Values for \\( y = \\frac{2}{x} \\)",
+        "headers": ["x", "-2", "-1", "-0.5", "0.5", "1", "2"],
+        "rows": [["y", "-1", "-2", "-4", "4", "2", "1"]]
+      }
+    ]
+  },
+
+  "13": {
+    "title": "Reciprocal models",
+    "content": [
+      {
+        "type": "text",
+        "value": "In a reciprocal relationship, one quantity decreases as the other increases. These are used in real-world models where time, speed, or rates are inversely related to a variable."
+      },
+      {
+        "type": "text",
+        "value": "The general form is \\( y = \\frac{k}{x} \\), where \\( k \\) is a constant of proportionality."
+      },
+      {
+        "type": "example",
+        "title": "Example 1 - Time to Travel",
+        "content": [
+          "A car travels 240 km. The time taken \\( t \\) in hours is given by \\( t = \\frac{240}{s} \\), where \\( s \\) is speed in km/h.",
+          "If \\( s = 60 \\), \\( t = \\frac{240}{60} = 4 \\) hours.",
+          "If \\( s = 80 \\), \\( t = 3 \\) hours."
+        ]
+      },
+      {
+        "type": "table",
+        "caption": "Speed vs Time for a 240 km Trip",
+        "headers": ["Speed (km/h)", "40", "60", "80", "120"],
+        "rows": [["Time (hours)", "6", "4", "3", "2"]]
+      },
+      {
+        "type": "images",
+        "src": "/images/reciprocal_model_speed_time.png",
+        "alt": "Reciprocal model graph showing speed vs time",
+        "caption": "This graph shows that as speed increases, time decreases — a reciprocal curve."
+      },
+      {
+        "type": "example",
+        "title": "Example 2 - Worker Efficiency",
+        "content": [
+          "If \\( k = 10 \\), then \\( y = \\frac{10}{x} \\) models time (\\( y \\)) taken for \\( x \\) workers to complete a task.",
+          "For \\( x = 2 \\), \\( y = 5 \\) hours.",
+          "For \\( x = 5 \\), \\( y = 2 \\) hours.",
+          "This assumes workers work at the same rate and combine efficiently."
+        ]
+      }
+    ]
+  },
+"14": {
+    "title": "Inverse variation",
+    "content": [
+      {
+        "type": "text",
+        "value": "Two variables vary inversely when their product is constant. This means as one variable increases, the other decreases proportionally."
+      },
+      {
+        "type": "math",
+        "value": "xy = k \\quad \\text{or} \\quad y = \\frac{k}{x}"
+      },
+      {
+        "type": "text",
+        "value": "This relationship is common in physical contexts like pressure vs volume in gases, or time vs number of workers."
+      },
+      {
+        "type": "example",
+        "title": "Example - Inverse Variation with Numbers",
+        "content": [
+          "Given \\( y = \\frac{12}{x} \\), find \\( y \\) for different \\( x \\):",
+          "\\( x = 2 \\Rightarrow y = 6 \\),",
+          "\\( x = 4 \\Rightarrow y = 3 \\),",
+          "\\( x = 6 \\Rightarrow y = 2 \\)"
+        ]
+      },
+      {
+        "type": "images",
+        "src": "/images/inverse_variation_curve.png",
+        "alt": "Graph of y = k/x",
+        "caption": "The curve shows a hyperbola, with vertical and horizontal asymptotes at \\( x = 0 \\) and \\( y = 0 \\)."
+      },
+      {
+        "type": "example",
+        "title": "Example - Pressure and Volume",
+        "content": [
+          "The pressure \\( P \\) of a gas varies inversely with volume \\( V \\): \\( PV = 100 \\).",
+          "If \\( V = 20 \\), \\( P = 5 \\); if \\( V = 10 \\), \\( P = 10 \\)."
+        ]
+      }
+    ]
+  },
+ "15": {
+    "title": "Miscellaneous problems",
+    "content": [
+      {
+        "type": "text",
+        "value": "This lesson covers a range of real-world applications involving exponential, quadratic, and reciprocal relationships. These problems test your ability to select and apply the right model."
+      },
+      {
+        "type": "example",
+        "title": "Example 1 - Exponential Decay in Medicine",
+        "content": [
+          "A 200 mg drug dose decays by 20% per hour. The model is:",
+          "\\( D = 200 \\times (0.8)^t \\), where \\( t \\) is hours after dosage.",
+          "After 3 hours: \\( D = 200 \\times (0.8)^3 = 102.4 \\) mg"
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Example 2 - Quadratic Revenue Model",
+        "content": [
+          "Revenue \\( R = -2x^2 + 60x \\), where \\( x \\) is items sold.",
+          "Maximum revenue: \\( x = \\frac{-60}{2(-2)} = 15 \\)",
+          "Substitute: \\( R = -2(15)^2 + 60(15) = 450 \\)"
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Example 3 - Reciprocal Model in Workforce",
+        "content": [
+          "Time to complete task: \\( T = \\frac{120}{n} \\), where \\( n \\) is number of workers.",
+          "With 5 workers: \\( T = 24 \\) hours.",
+          "With 10 workers: \\( T = 12 \\) hours."
+        ]
+      },
+      {
+        "type": "images",
+        "src": "/images/mixed_non_linear.png",
+        "alt": "Mixed graphs showing nonlinear behavior",
+        "caption": "Problems may combine quadratic, exponential or reciprocal behaviour."
+      }
+    ]
+  },
+  "16": {
+    "title": "Topic Test - Non-Linear Relationships",
+    "content": [
+      {
+        "type": "text",
+        "value": "This summary reviews the main concepts from the Non-Linear Relationships topic. Use this as revision before completing the topic test."
+      },
+      {
+        "type": "text",
+        "value": "**Exponential Functions** model growth or decay. They use a base greater than 0 (and not equal to 1) raised to the power of the variable."
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_exponential_growth.png",
+        "alt": "Exponential growth graph",
+        "caption": "Exponential growth curves increase rapidly and never touch the x-axis."
+      },
+      {
+        "type": "text",
+        "value": "**Exponential Models** represent population growth, drug decay, and investments. The form is \\( y = a \\times b^x \\)."
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_exponential_model.png",
+        "alt": "Graph of drug decay",
+        "caption": "Real-world models use exponential decay when values decrease over time."
+      },
+      {
+        "type": "text",
+        "value": "**Quadratic Functions** graph as parabolas. Key features include the vertex, axis of symmetry, and direction (opening up or down)."
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_parabola.png",
+        "alt": "Basic parabola",
+        "caption": "The turning point is the vertex. Quadratics can be factorised or completed square."
+      },
+      {
+        "type": "text",
+        "value": "**Quadratic Models** solve problems like profit maximisation or projectile motion. Vertex form helps identify max/min points."
+      },
+      {
+        "type": "text",
+        "value": "**Reciprocal Functions** have the form \\( y = \\frac{k}{x} \\), with hyperbolic graphs and asymptotes at \\( x = 0 \\) and \\( y = 0 \\)."
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_reciprocal.png",
+        "alt": "Hyperbola for reciprocal function",
+        "caption": "Reciprocal curves approach the axes but never touch them."
+      },
+      {
+        "type": "text",
+        "value": "**Inverse Variation** is a type of reciprocal relationship where \\( xy = k \\) remains constant. Used in pressure-volume models and workforce planning."
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_inverse_variation.png",
+        "alt": "Inverse variation curve",
+        "caption": "As one variable increases, the other decreases — inversely proportional."
+      },
+      {
+        "type": "text",
+        "value": "✅ You've now reviewed all key ideas in Non-Linear Relationships. Make sure you're comfortable with identifying function types, sketching graphs, and interpreting models. Good luck!"
+      }
+    ]
+  },
+  "17": {
+    "title": "Angles of elevation and depression",
+    "content": [
+      {
+        "type": "text",
+        "value": "An angle of elevation is measured upward from the horizontal to an object above the observer. An angle of depression is measured downward from the horizontal to an object below the observer."
+      },
+      {
+        "type": "images",
+        "src": "/images/elevation_depression_diagram.png",
+        "alt": "Diagram showing angles of elevation and depression",
+        "caption": "Elevation and depression angles are always measured from horizontal."
+      },
+      {
+        "type": "example",
+        "title": "Example 1 - Angle of Elevation",
+        "content": [
+          "You are standing 40 m away from a tower. The angle of elevation to the top is \\( 35^\\circ \\).",
+          "Use: \\( \\tan(35^\\circ) = \\frac{h}{40} \\Rightarrow h = 40 \\times \\tan(35^\\circ) \\approx 28.0 \\) m"
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Example 2 - Angle of Depression",
+        "content": [
+          "From a cliff 50 m high, the angle of depression to a boat is \\( 20^\\circ \\).",
+          "Use: \\( \\tan(20^\\circ) = \\frac{50}{x} \\Rightarrow x = \\frac{50}{\\tan(20^\\circ)} \\approx 137.4 \\) m"
+        ]
+      },
+      {
+        "type": "text",
+        "value": "These problems often form right-angled triangles, and trigonometric ratios (sin, cos, tan) can be used to solve them."
+      }
+    ]
+  },
+  "18": {
+    "title": "Compass and true bearings",
+    "content": [
+      {
+        "type": "text",
+        "value": "Bearings describe direction. There are two main types: **compass bearings** (e.g. N30°E) and **true bearings** (3-digit angles measured clockwise from north)."
+      },
+      {
+        "type": "images",
+        "src": "/images/compass_vs_true_bearings.png",
+        "alt": "Compass and true bearing diagrams",
+        "caption": "Compass bearings use cardinal directions, while true bearings are measured clockwise from North."
+      },
+      {
+        "type": "text",
+        "value": "**Compass Bearings** are written as angles from the north or south toward east or west (e.g. S60°E means 60° east of south)."
+      },
+      {
+        "type": "text",
+        "value": "**True Bearings** use 3-digit notation measured clockwise from north: e.g. due east is 090°, due south is 180°."
+      },
+      {
+        "type": "example",
+        "title": "Example 1 - Converting Compass to True",
+        "content": [
+          "Compass bearing: N40°E → True bearing: 040°",
+          "Compass bearing: S70°W → True bearing: 250°"
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Example 2 - Using Bearings in Geometry",
+        "content": [
+          "A plane flies from A to B on a bearing of 135° for 300 km.",
+          "Then flies to C on a bearing of 225° for 200 km.",
+          "Sketch the path and calculate total distance travelled."
+        ]
+      }
+    ]
+  },
+   "19": {
+    "title": "Trigonometry with obtuse angles",
+    "content": [
+      {
+        "type": "text",
+        "value": "When working with non-right-angled triangles, we use the sine and cosine rules. These work even if angles are **obtuse** (greater than 90°)."
+      },
+      {
+        "type": "text",
+        "value": "Recall: \\( \\sin(180° - \\theta) = \\sin(\\theta) \\). This allows the sine rule to handle obtuse angles correctly."
+      },
+      {
+        "type": "math",
+        "value": "\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C}"
+      },
+      {
+        "type": "images",
+        "src": "/images/obtuse_triangle.png",
+        "alt": "Triangle with obtuse angle",
+        "caption": "In triangle ABC, angle C is obtuse. The sine rule still applies."
+      },
+      {
+        "type": "example",
+        "title": "Example - Solving a triangle with obtuse angle",
+        "content": [
+          "In triangle ABC, \\( a = 7.2 \\), \\( b = 9.5 \\), \\( A = 110° \\).",
+          "Using sine rule: \\( \\frac{7.2}{\\sin 110°} = \\frac{9.5}{\\sin B} \\).",
+          "Solve for \\( B \\), then use \\( C = 180° - A - B \\)."
+        ]
+      },
+      {
+        "type": "text",
+        "value": "If the included angle is obtuse, cosine rule is often more appropriate:\n\\( c^2 = a^2 + b^2 - 2ab\\cos C \\)"
+      }
+    ]
+  },
+    "20": {
+    "title": "Area of a triangle",
+    "content": [
+      {
+        "type": "text",
+        "value": "When a triangle does not have a right angle, the standard \\( \\frac{1}{2} \\times \\, \\text{base} \\times \\, \\text{height} \\) formula isn't always usable. Instead, we apply the sine rule for area:"
+      },
+      {
+        "type": "math",
+        "value": "\\text{Area} = \\frac{1}{2} ab \\sin C"
+      },
+      {
+        "type": "images",
+        "src": "/images/area_sine_triangle.png",
+        "alt": "Triangle with angle between two sides",
+        "caption": "The area formula uses two sides and the included angle."
+      },
+      {
+        "type": "text",
+        "value": "This works when two sides and the included angle are known. You can also use it with any pair of sides and the angle between them."
+      },
+      {
+        "type": "example",
+        "title": "Example - Area Using Sine",
+        "content": [
+          "Given \\( a = 8 \\) cm, \\( b = 10 \\) cm, and \\( C = 60^\\circ \\):",
+          "\\( \\text{Area} = \\frac{1}{2} \\times 8 \\times 10 \\times \\sin(60^\\circ) \\approx 34.6 \\text{ cm}^2 \\)"
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Example - Real-World Application",
+        "content": [
+          "A triangular paddock has two sides 100 m and 120 m, with an angle of \\( 75^\\circ \\) between them.",
+          "Area = \\( \\frac{1}{2} \\times 100 \\times 120 \\times \\sin(75^\\circ) \\approx 5792 \\text{ m}^2 \\)"
+        ]
+      }
+    ]
+  },
+    "21": {
+    "title": "The sine rule",
+    "content": [
+      {
+        "type": "text",
+        "value": "The sine rule relates sides and angles in any triangle — not just right-angled ones. It is especially useful when dealing with known angle-side pairs."
+      },
+      {
+        "type": "math",
+        "value": "\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C}"
+      },
+      {
+        "type": "text",
+        "value": "Use the sine rule when:\n- You know two angles and one side (AAS or ASA)\n- You know two sides and a non-included angle (SSA)"
+      },
+      {
+        "type": "example",
+        "title": "Example 1 - Finding a side",
+        "content": [
+          "In triangle ABC, \\( A = 50^\\circ \\), \\( B = 60^\\circ \\), and \\( a = 10 \\) cm.",
+          "Find side \\( b \\):",
+          "\\( \\frac{10}{\\sin 50^\\circ} = \\frac{b}{\\sin 60^\\circ} \\Rightarrow b = 10 \\times \\frac{\\sin 60^\\circ}{\\sin 50^\\circ} \\approx 11.5 \\text{ cm} \\)"
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Example 2 - Finding an angle",
+        "content": [
+          "In triangle PQR, \\( p = 12 \\), \\( q = 15 \\), \\( \\angle P = 35^\\circ \\).",
+          "\\( \\frac{12}{\\sin 35^\\circ} = \\frac{15}{\\sin Q} \\Rightarrow \\sin Q = \\frac{15 \\times \\sin 35^\\circ}{12} \\)",
+          "Then take inverse sine to find angle Q."
+        ]
+      },
+      {
+        "type": "images",
+        "src": "/images/sine_rule_triangle.png",
+        "alt": "Triangle labelled for sine rule",
+        "caption": "Any triangle can use the sine rule if at least one opposite angle-side pair is known."
+      }
+    ]
+  },
+    "22": {
+    "title": "The cosine rule",
+    "content": [
+      {
+        "type": "text",
+        "value": "The cosine rule is used in any triangle when:\n- You know two sides and the included angle (SAS), or\n- You know all three sides (SSS) and want to find an angle."
+      },
+      {
+        "type": "math",
+        "value": "c^2 = a^2 + b^2 - 2ab\\cos C"
+      },
+      {
+        "type": "text",
+        "value": "This formula relates the three sides and one included angle of a triangle. It is especially useful when the sine rule cannot be applied."
+      },
+      {
+        "type": "example",
+        "title": "Example 1 - Finding a side",
+        "content": [
+          "In triangle ABC, \\( a = 7 \\) cm, \\( b = 10 \\) cm, and \\( C = 60^\\circ \\).",
+          "Find \\( c \\):",
+          "\\( c^2 = 7^2 + 10^2 - 2 \\cdot 7 \\cdot 10 \\cdot \\cos(60^\\circ) = 49 + 100 - 70 = 79 \\)",
+          "\\( c = \\sqrt{79} \\approx 8.89 \\) cm"
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Example 2 - Finding an angle",
+        "content": [
+          "Given \\( a = 9 \\), \\( b = 6 \\), and \\( c = 10 \\), find angle \\( C \\):",
+          "\\( c^2 = a^2 + b^2 - 2ab\\cos C \\)",
+          "\\( 100 = 81 + 36 - 2 \\cdot 9 \\cdot 6 \\cos C \\)",
+          "\\( 100 = 117 - 108\\cos C \\Rightarrow \\cos C = \\frac{17}{108} \\Rightarrow C = \\cos^{-1}\\left(\\frac{17}{108}\\right) \\approx 81^\\circ \\)"
+        ]
+      },
+      {
+        "type": "images",
+        "src": "/images/cosine_rule_diagram.png",
+        "alt": "Triangle labelled for cosine rule",
+        "caption": "Use the cosine rule when no opposite angle-side pair is known."
+      }
+    ]
+  },
+    "23": {
+    "title": "Miscellaneous problems",
+    "content": [
+      {
+        "type": "text",
+        "value": "This lesson brings together all the trigonometric tools you've learned for non-right-angled triangles. These problems require choosing between the sine rule, cosine rule, or area formula based on the given information."
+      },
+      {
+        "type": "example",
+        "title": "Example 1 - Mixed Rule Problem",
+        "content": [
+          "In triangle ABC, \\( A = 35^\\circ \\), \\( b = 12 \\), \\( c = 15 \\).",
+          "Find angle \\( C \\), then use the sine rule to find side \\( a \\), then area.",
+          "Start by using the sine rule: \\( \\frac{b}{\\sin B} = \\frac{c}{\\sin C} \\) to find the missing angle, then apply area: \\( \\frac{1}{2}bc\\sin A \\)."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Example 2 - Cosine Rule + Area",
+        "content": [
+          "Given all three sides: \\( a = 8 \\), \\( b = 9 \\), \\( c = 7 \\),",
+          "Find angle \\( C \\) using cosine rule, then use \\( \\frac{1}{2}ab\\sin C \\) to find area.",
+          "A multi-step solution using both rules."
+        ]
+      },
+      {
+        "type": "images",
+        "src": "/images/mixed_triangle_problem.png",
+        "alt": "Non-right-angled triangle example",
+        "caption": "You must identify when to apply each rule depending on the known values."
+      }
+    ]
+  },
+    "24": {
+    "title": "Radial survey",
+    "content": [
+      {
+        "type": "text",
+        "value": "Radial surveys are used in land measurement to calculate the area of irregular plots. The area is divided into triangles radiating from a central point, often using bearings and distances."
+      },
+      {
+        "type": "images",
+        "src": "/images/radial_survey_diagram.png",
+        "alt": "Radial survey layout",
+        "caption": "The land is divided into triangles from a central station."
+      },
+      {
+        "type": "text",
+        "value": "To find the area:\n1. Break the shape into triangles.\n2. Use bearings and distances to find included angles.\n3. Use the formula \\( \\text{Area} = \\frac{1}{2}ab\\sin C \\) for each triangle."
+      },
+      {
+        "type": "example",
+        "title": "Example - Area of a Plot",
+        "content": [
+          "From station O, points A and B are on bearings of 0° and 60° respectively.",
+          "OA = 80 m, OB = 100 m.",
+          "Angle between them is \\( 60° \\), so:",
+          "\\( \\text{Area} = \\frac{1}{2} \\cdot 80 \\cdot 100 \\cdot \\sin 60° \\approx 3464.1 \\text{ m}^2 \\)"
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Example - Total Area from Multiple Triangles",
+        "content": [
+          "Divide land into 3 triangles from the central station. Use distances and angles between lines to calculate each triangle's area separately, then sum them.",
+          "Ensure angles are found using bearing differences."
+        ]
+      }
+    ]
+  },
+    "25": {
+    "title": "Topic Test - Non-Right-Angled Trigonometry",
+    "content": [
+      {
+        "type": "text",
+        "value": "This is a summary and review of the key trigonometry concepts you've learned in this topic. Use this guide to revise before attempting the Topic Test."
+      },
+      {
+        "type": "text",
+        "value": "**Angles of Elevation and Depression** involve trigonometry in right-angled triangles to calculate heights or distances using horizontal reference lines."
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_elevation_depression.png",
+        "alt": "Elevation and depression triangles",
+        "caption": "Use right-angle trigonometry to solve these real-world problems."
+      },
+      {
+        "type": "text",
+        "value": "**Bearings** are used to describe direction in navigation. Compass bearings use cardinal points, while true bearings use 3-digit degrees from North."
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_bearings.png",
+        "alt": "Compass vs true bearings",
+        "caption": "True bearings are measured clockwise from north."
+      },
+      {
+        "type": "text",
+        "value": "**The Sine Rule** relates side lengths and opposite angles in any triangle. It's useful when a side and opposite angle are known."
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_sine_rule.png",
+        "alt": "Sine rule triangle",
+        "caption": "Works for both acute and obtuse angles."
+      },
+      {
+        "type": "text",
+        "value": "**The Cosine Rule** allows you to find unknown sides or angles when two sides and an included angle or three sides are known."
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_cosine_rule.png",
+        "alt": "Cosine rule example",
+        "caption": "Ideal when no opposite angle-side pair is known."
+      },
+      {
+        "type": "text",
+        "value": "**Area of a Triangle** can be calculated with \\( \\frac{1}{2}ab\\sin C \\), even when no height is known, using two sides and the included angle."
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_area_sine.png",
+        "alt": "Triangle area with sine",
+        "caption": "This method works for any triangle, not just right-angled ones."
+      },
+      {
+        "type": "text",
+        "value": "**Radial Surveys** divide irregular land areas into triangles from a central point, using bearings and distances to calculate total area."
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_radial_survey.png",
+        "alt": "Land divided into triangles",
+        "caption": "Each triangle's area is found using \\( \\frac{1}{2}ab\\sin C \\)."
+      },
+      {
+        "type": "text",
+        "value": "✅ You've reviewed all essential tools for solving non-right-angled triangles. Mastering these rules allows you to solve a wide range of real-world problems. Good luck with the test!"
+      }
+    ]
+  },
+    "26": {
+    "title": "Rates and concentrations",
+    "content": [
+      {
+        "type": "text",
+        "value": "A rate compares two quantities with different units. It tells us how much of one thing happens per unit of another. Common examples include speed (km/h), concentration (g/L), and cost per item."
+      },
+      {
+        "type": "text",
+        "value": "Concentration is a rate that measures how much of a substance is present in a given volume of solution. It is usually expressed in grams per litre (g/L)."
+      },
+      {
+        "type": "example",
+        "title": "Example 1 - Calculating a rate",
+        "content": [
+          "A car travels 180 km in 3 hours. Rate = \\( \\frac{180}{3} = 60 \\) km/h."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Example 2 - Concentration of a solution",
+        "content": [
+          "A solution contains 45 g of salt in 1.5 litres of water.",
+          "Concentration = \\( \\frac{45}{1.5} = 30 \\) g/L"
+        ]
+      },
+      {
+        "type": "table",
+        "caption": "Mass and concentration",
+        "headers": ["Mass (g)", "Volume (L)", "Concentration (g/L)"],
+        "rows": [[30, 2, 15], [40, 2, 20], [60, 3, 20]]
+      },
+      {
+        "type": "images",
+        "src": "/images/rate_concentration_diagram.png",
+        "alt": "Salt solution comparison",
+        "caption": "Higher concentration means more solute per litre of solvent."
+      }
+    ]
+  },
+    "27": {
+    "title": "Heart rate",
+    "content": [
+      {
+        "type": "text",
+        "value": "Heart rate is a measure of how many times your heart beats in one minute. It is a common example of a biological rate and is expressed in beats per minute (bpm)."
+      },
+      {
+        "type": "example",
+        "title": "Example 1 - Measuring heart rate",
+        "content": [
+          "If a person's heart beats 75 times in one minute, their heart rate is 75 bpm.",
+          "If 30 beats are counted in 20 seconds, then:",
+          "\\( \\frac{30}{20} = 1.5 \\) beats/sec ⇒ \\( 1.5 \\times 60 = 90 \\) bpm"
+        ]
+      },
+      {
+        "type": "table",
+        "caption": "Heartbeats over time",
+        "headers": ["Beats", "Time (sec)", "Beats per minute (bpm)"],
+        "rows": [[30, 15, 120], [36, 30, 72], [40, 20, 120]]
+      },
+      {
+        "type": "images",
+        "src": "/images/heart_rate_monitor.png",
+        "alt": "Person using heart rate monitor",
+        "caption": "Heart rate monitors measure the number of beats per minute during exercise or rest."
+      },
+      {
+        "type": "text",
+        "value": "Resting heart rate is typically 60-100 bpm. Athletes may have lower resting rates due to improved efficiency."
+      }
+    ]
+  },
+    "28": {
+    "title": "Energy rate",
+    "content": [
+      {
+        "type": "text",
+        "value": "The rate at which energy is used or produced is called **power**. It is measured in joules per second (J/s), also known as watts (W)."
+      },
+      {
+        "type": "math",
+        "value": "\\text{Power (W)} = \\frac{\\text{Energy (J)}}{\\text{Time (s)}}"
+      },
+      {
+        "type": "example",
+        "title": "Example 1 - Calculating power",
+        "content": [
+          "A machine uses 6000 J of energy in 60 seconds.",
+          "\\( \\text{Power} = \\frac{6000}{60} = 100 \\) W"
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Example 2 - Comparing appliances",
+        "content": [
+          "A 1000 W kettle uses more energy per second than a 60 W lightbulb.",
+          "This means it boils water quickly but consumes more electricity."
+        ]
+      },
+      {
+        "type": "table",
+        "caption": "Energy usage of devices",
+        "headers": ["Device", "Power (W)", "Time (min)", "Energy (J)"],
+        "rows": [["Kettle", 2000, 3, 360000], ["Toaster", 1200, 5, 360000], ["Lamp", 60, 30, 108000]]
+      },
+      {
+        "type": "images",
+        "src": "/images/energy_rate_appliances.png",
+        "alt": "Different household appliances with wattages",
+        "caption": "Higher power = faster energy use. Total energy = power × time."
+      }
+    ]
+  },
+    "29": {
+    "title": "Fuel consumption rate",
+    "content": [
+      {
+        "type": "text",
+        "value": "Fuel consumption rate describes how much fuel is used per distance. It is usually measured in litres per 100 kilometres (L/100 km)."
+      },
+      {
+        "type": "text",
+        "value": "The formula to calculate fuel consumption is:"
+      },
+      {
+        "type": "math",
+        "value": "\\text{Fuel rate} = \\frac{\\text{Fuel used (L)}}{\\text{Distance (km)}} \\times 100"
+      },
+      {
+        "type": "example",
+        "title": "Example 1 - Calculating fuel rate",
+        "content": [
+          "A car uses 30 L of fuel to travel 400 km:",
+          "\\( \\frac{30}{400} \\times 100 = 7.5 \\text{ L/100 km} \\)"
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Example 2 - Finding distance",
+        "content": [
+          "A car uses 8 L/100 km. If it has 40 L of fuel, how far can it go?",
+          "\\( \\frac{40}{8} \\times 100 = 500 \\) km"
+        ]
+      },
+      {
+        "type": "table",
+        "caption": "Fuel data for vehicles",
+        "headers": ["Vehicle", "Fuel (L)", "Distance (km)", "Rate (L/100 km)"],
+        "rows": [["Car A", 50, 625, 8], ["Car B", 36, 400, 9], ["Car C", 40, 500, 8]]
+      },
+      {
+        "type": "images",
+        "src": "/images/fuel_consumption_graph.png",
+        "alt": "Fuel consumption comparison chart",
+        "caption": "Lower L/100 km means greater fuel efficiency."
+      }
+    ]
+  },
+    "30": {
+    "title": "Calculations with ratios",
+    "content": [
+      {
+        "type": "text",
+        "value": "Ratios compare parts of a quantity. To calculate using ratios, you divide a whole into parts based on the ratio given."
+      },
+      {
+        "type": "example",
+        "title": "Example 1 - Total to parts",
+        "content": [
+          "Divide $120 in the ratio 2:3.",
+          "2 + 3 = 5 parts. Each part = $120 ÷ 5 = $24.",
+          "So: 2 parts = $48, 3 parts = $72."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Example 2 - Finding the whole",
+        "content": [
+          "If a = 8 and b = 12 in the ratio a:b = 2:3, find the total.",
+          "Parts = 2 + 3 = 5 parts.",
+          "Each part = 8 ÷ 2 = 4. Total = 5 × 4 = 20."
+        ]
+      },
+      {
+        "type": "table",
+        "caption": "Shared amounts in a ratio",
+        "headers": ["Total", "Ratio", "Part A", "Part B"],
+        "rows": [["150", "2:3", "60", "90"], ["200", "3:5", "75", "125"]]
+      },
+      {
+        "type": "images",
+        "src": "/images/ratio_pie_chart.png",
+        "alt": "Pie chart showing parts in a ratio",
+        "caption": "Each part of the ratio represents a fraction of the whole."
+      }
+    ]
+  },
+    "31": {
+    "title": "Dividing a quantity in a given ratio",
+    "content": [
+      {
+        "type": "text",
+        "value": "To divide a quantity into a given ratio, you:\n1. Add the parts of the ratio.\n2. Divide the total by the number of parts.\n3. Multiply to find each share."
+      },
+      {
+        "type": "example",
+        "title": "Example - Dividing an inheritance",
+        "content": [
+          "A $6000 inheritance is split in the ratio 1:2:3.",
+          "1 + 2 + 3 = 6 parts. Each part = $6000 ÷ 6 = $1000.",
+          "Shares: $1000, $2000, $3000."
+        ]
+      },
+      {
+        "type": "images",
+        "src": "/images/money_split_ratio.png",
+        "alt": "Money divided into 3 parts",
+        "caption": "Ratios divide a quantity fairly based on pre-agreed parts."
+      },
+      {
+        "type": "example",
+        "title": "Example - Mixing paint",
+        "content": [
+          "To mix paint in the ratio 4:1 (blue to white), how much white is needed for 20 L of blue?",
+          "Total parts = 4 + 1 = 5.",
+          "Each part = 20 ÷ 4 = 5 L → white = 1 part = 5 L."
+        ]
+      },
+      {
+        "type": "table",
+        "caption": "Quantity divisions",
+        "headers": ["Total", "Ratio", "Shares"],
+        "rows": [["900", "1:2:3", "150, 300, 450"], ["120", "2:3", "48, 72"]]
+      }
+    ]
+  },
+    "32": {
+    "title": "Scale drawings",
+    "content": [
+      {
+        "type": "text",
+        "value": "Scale drawings are used to represent large objects (like buildings) or small ones (like machine parts) on paper. A scale shows the ratio between drawing size and real size."
+      },
+      {
+        "type": "text",
+        "value": "Scales may be written as:\n- A ratio: 1:100 (1 unit on the drawing = 100 units in reality)\n- A statement: 1 cm represents 2 m\n- A bar scale (a visual representation)"
+      },
+      {
+        "type": "example",
+        "title": "Example - Using a scale",
+        "content": [
+          "A house has a length of 20 m. On a 1:100 scale drawing, it is:",
+          "\\( \\frac{20}{100} = 0.2 \\) m = 20 cm on paper."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Example - Finding real length",
+        "content": [
+          "A room is 3.5 cm long on a 1:50 scale drawing.",
+          "Real length = \\( 3.5 \\times 50 = 175 \\) cm = 1.75 m"
+        ]
+      },
+      {
+        "type": "images",
+        "src": "/images/scale_drawing_example.png",
+        "alt": "Scaled blueprint of a room",
+        "caption": "A scaled floor plan shows accurate dimensions using a chosen ratio."
+      },
+      {
+        "type": "table",
+        "caption": "Scale conversions",
+        "headers": ["Scale", "Drawing (cm)", "Real Length (m)"],
+        "rows": [["1:100", "2", "2"], ["1:50", "3", "1.5"]]
+      }
+    ]
+  },
+    "33": {
+    "title": "Plans and elevations",
+    "content": [
+      {
+        "type": "text",
+        "value": "Architectural and engineering drawings often show 3 views of an object:\n- Plan: the view from above\n- Front elevation: the view from the front\n- Side elevation: the view from the side"
+      },
+      {
+        "type": "images",
+        "src": "/images/plan_elevation_views.png",
+        "alt": "Plan and elevation of a 3D object",
+        "caption": "Each view shows only 2 dimensions: width & depth (plan), height & width (front), height & depth (side)."
+      },
+      {
+        "type": "example",
+        "title": "Example - Interpreting a plan",
+        "content": [
+          "A shed has dimensions: width = 4 m, depth = 6 m, height = 2.5 m.",
+          "- Plan view shows 4 m × 6 m rectangle.\n- Front elevation: 4 m wide × 2.5 m high.\n- Side elevation: 6 m wide × 2.5 m high."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Example - Drawing from views",
+        "content": [
+          "Given a plan and front elevation, draw a side elevation by matching widths and heights across views."
+        ]
+      },
+      {
+        "type": "table",
+        "caption": "View dimensions",
+        "headers": ["View", "Dimensions"],
+        "rows": [["Plan", "Width × Depth"], ["Front Elevation", "Width × Height"], ["Side Elevation", "Depth × Height"]]
+      }
+    ]
+  },
+    "34": {
+    "title": "Perimeter, area and volume",
+    "content": [
+      {
+        "type": "text",
+        "value": "In measurement problems, it's important to distinguish between:\n- **Perimeter**: the total length around a shape (1D)\n- **Area**: the space inside a flat shape (2D)\n- **Volume**: the amount of space a 3D object occupies"
+      },
+      {
+        "type": "example",
+        "title": "Example 1 - Perimeter of a rectangle",
+        "content": [
+          "Rectangle: length = 8 m, width = 5 m.",
+          "Perimeter = \\( 2(8 + 5) = 26 \\) m"
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Example 2 - Area of a triangle",
+        "content": [
+          "Base = 6 cm, height = 4 cm.",
+          "Area = \\( \\frac{1}{2} \\times 6 \\times 4 = 12 \\) cm²"
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Example 3 - Volume of a cylinder",
+        "content": [
+          "Radius = 3 cm, height = 10 cm.",
+          "Volume = \\( \\pi r^2 h = \\pi \\times 9 \\times 10 = 90\\pi \\approx 282.74 \\) cm³"
+        ]
+      },
+      {
+        "type": "images",
+        "src": "/images/perimeter_area_volume.png",
+        "alt": "Formulas for perimeter, area, and volume",
+        "caption": "Use appropriate formulas depending on the shape and measurement type."
+      },
+      {
+        "type": "table",
+        "caption": "Common formula reference",
+        "headers": ["Shape", "Perimeter", "Area", "Volume"],
+        "rows": [
+          ["Rectangle", "2(l + w)", "l × w", "-"],
+          ["Triangle", "Sum of sides", "½ × b × h", "-"],
+          ["Cylinder", "-", "πr²", "πr²h"]
+        ]
+      }
+    ]
+  },
+    "35": {
+    "title": "Topic Test - Rates and Ratios",
+    "content": [
+      {
+        "type": "text",
+        "value": "This lesson is a full revision of the Rates and Ratios topic. Review each concept and diagram to prepare for your topic test."
+      },
+      {
+        "type": "text",
+        "value": "**Rates and Concentrations** compare quantities with different units. Concentration is usually measured in g/L."
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_concentration.png",
+        "alt": "Salt in water solutions",
+        "caption": "Concentration = mass ÷ volume (e.g. 30 g in 1.5 L = 20 g/L)."
+      },
+      {
+        "type": "text",
+        "value": "**Heart Rate** is measured in bpm and often found by scaling short time intervals to one minute."
+      },
+      {
+        "type": "text",
+        "value": "**Energy Rate (Power)** is energy per second. \\( \\text{Power} = \\frac{\\text{Energy}}{\\text{Time}} \\)."
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_energy_rate.png",
+        "alt": "Comparing appliance power",
+        "caption": "Devices with higher wattage consume more energy per second."
+      },
+      {
+        "type": "text",
+        "value": "**Fuel Consumption** is often measured in L/100 km. Lower values = better efficiency."
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_fuel_efficiency.png",
+        "alt": "Fuel rate graph",
+        "caption": "Efficient cars use less fuel over the same distance."
+      },
+      {
+        "type": "text",
+        "value": "**Ratios** divide quantities into proportional parts. Total is divided by sum of parts, then scaled."
+      },
+      {
+        "type": "text",
+        "value": "**Scale Drawings** shrink or enlarge real measurements using a fixed ratio."
+      },
+      {
+        "type": "text",
+        "value": "**Plans and Elevations** are 2D views of 3D objects from different perspectives."
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_views.png",
+        "alt": "Plan and elevation diagram",
+        "caption": "Each view shows only two dimensions."
+      },
+      {
+        "type": "text",
+        "value": "**Perimeter, Area and Volume** depend on the shape. Know key formulas and when to apply them."
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_formula_table.png",
+        "alt": "Key measurement formulas",
+        "caption": "Keep this table handy during your test!"
+      },
+      {
+        "type": "text",
+        "value": "✅ You've now reviewed all key concepts in the Rates and Ratios topic. Make sure you can calculate, interpret, and explain each idea. You're ready — go smash that test!"
+      }
+    ]
+  },
+    "36": {
+    "title": "Future value",
+    "content": [
+      {
+        "type": "text",
+        "value": "The future value (FV) of an investment is the total amount of money you will have after investing for a period of time, including interest earned."
+      },
+      {
+        "type": "math",
+        "value": "FV = P(1 + r)^n"
+      },
+      {
+        "type": "text",
+        "value": "Where:\n- \\( P \\) is the initial amount (principal)\n- \\( r \\) is the interest rate per period (decimal)\n- \\( n \\) is the number of periods"
+      },
+      {
+        "type": "example",
+        "title": "Example - Compound interest",
+        "content": [
+          "Invest $1000 at 5% annual interest for 3 years:",
+          "\\( FV = 1000(1 + 0.05)^3 = 1000(1.157625) = 1157.63 \\)",
+          "You earn \\( 157.63 \\) in interest."
+        ]
+      },
+      {
+        "type": "images",
+        "src": "/images/future_value_growth.png",
+        "alt": "Compound interest graph",
+        "caption": "Compound interest grows faster over time compared to simple interest."
+      },
+      {
+        "type": "table",
+        "caption": "Future value at 5% interest",
+        "headers": ["Year", "Balance ($)"],
+        "rows": [[0, 1000], [1, 1050], [2, 1102.50], [3, 1157.63]]
+      }
+    ]
+  },
+    "37": {
+    "title": "Investment graphs",
+    "content": [
+      {
+        "type": "text",
+        "value": "Graphs help us visualise how investments grow over time. Compound interest produces a curve, while simple interest grows linearly."
+      },
+      {
+        "type": "example",
+        "title": "Example - Comparing investments",
+        "content": [
+          "Investment A: $1000 at 5% simple interest",
+          "Investment B: $1000 at 5% compound interest",
+          "After 5 years:\n- A: \\( 1000 + 5(0.05)(1000) = 1250 \\)\n- B: \\( 1000(1.05)^5 \\approx 1276.28 \\)"
+        ]
+      },
+      {
+        "type": "images",
+        "src": "/images/investment_graph_compare.png",
+        "alt": "Simple vs compound graph",
+        "caption": "Compound interest grows more rapidly than simple interest."
+      },
+      {
+        "type": "example",
+        "title": "Example - Using graphs to estimate",
+        "content": [
+          "A graph shows a compound investment growing from $2000 to $3200 in 6 years.",
+          "Estimate interest rate using the growth ratio: \\( \\frac{3200}{2000} = 1.6 \\)",
+          "Solve \\( 1.6 = (1 + r)^6 \\) ⇒ \\( r \\approx 0.0826 = 8.26\\% \\)"
+        ]
+      }
+    ]
+  },
+    "38": {
+    "title": "Appreciation and inflation",
+    "content": [
+      {
+        "type": "text",
+        "value": "Appreciation is when the value of an item increases over time. Inflation is the general increase in prices across an economy, reducing purchasing power."
+      },
+      {
+        "type": "math",
+        "value": "\\text{New Value} = \\text{Original Value} \\times (1 + r)^n"
+      },
+      {
+        "type": "example",
+        "title": "Example 1 - Appreciation of property",
+        "content": [
+          "A house worth $400,000 appreciates at 3% per year for 5 years.",
+          "\\( 400000 \\times (1.03)^5 = 400000 \\times 1.15927 \\approx 463,708 \\)"
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Example 2 - Inflation adjustment",
+        "content": [
+          "If inflation is 2.5% per year, a $100 item today would cost:",
+          "\\( 100 \\times (1.025)^4 = 100 \\times 1.1038 = 110.38 \\) in 4 years."
+        ]
+      },
+      {
+        "type": "images",
+        "src": "/images/appreciation_inflation_graph.png",
+        "alt": "Graph comparing appreciation vs inflation",
+        "caption": "Appreciation and inflation both use compound growth formulas but affect value differently."
+      }
+    ]
+  },
+    "39": {
+    "title": "Shares and dividends",
+    "content": [
+      {
+        "type": "text",
+        "value": "A share is a unit of ownership in a company. Shareholders may receive dividends, which are payments from the company's profits."
+      },
+      {
+        "type": "math",
+        "value": "\\text{Dividend} = \\text{Dividend per share} \\times \\text{Number of shares}"
+      },
+      {
+        "type": "example",
+        "title": "Example - Calculating dividend income",
+        "content": [
+          "You own 300 shares. Each pays a dividend of $0.85.",
+          "\\( 300 \\times 0.85 = 255 \\)",
+          "You receive $255 in dividends."
+        ]
+      },
+      {
+        "type": "text",
+        "value": "You can also calculate dividend yield, which is the return on investment from dividends alone:"
+      },
+      {
+        "type": "math",
+        "value": "\\text{Yield} = \\frac{\\text{Dividend}}{\\text{Share Price}} \\times 100\\%"
+      },
+      {
+        "type": "example",
+        "title": "Example - Dividend yield",
+        "content": [
+          "If a share worth $25 pays a $1.50 dividend:",
+          "\\( \\text{Yield} = \\frac{1.50}{25} \\times 100\\% = 6\\% \\)"
+        ]
+      },
+      {
+        "type": "images",
+        "src": "/images/shares_dividends.png",
+        "alt": "Person holding stock certificate and cash",
+        "caption": "Owning shares gives you a portion of the company and potential dividend earnings."
+      }
+    ]
+  },
+    "40": {
+    "title": "Declining-balance depreciation",
+    "content": [
+      {
+        "type": "text",
+        "value": "The declining-balance method reduces an asset's value by a fixed percentage each year. It is commonly used for cars, machinery, and electronics."
+      },
+      {
+        "type": "math",
+        "value": "\\text{Value} = \\text{Initial value} \\times (1 - r)^n"
+      },
+      {
+        "type": "text",
+        "value": "Where:\n- \\( r \\) is the depreciation rate (as a decimal)\n- \\( n \\) is the number of years"
+      },
+      {
+        "type": "example",
+        "title": "Example - Car depreciation",
+        "content": [
+          "A car is worth $30,000 and depreciates at 20% per year.",
+          "After 3 years:",
+          "\\( 30000 \\times (0.8)^3 = 30000 \\times 0.512 = 15,360 \\)"
+        ]
+      },
+      {
+        "type": "table",
+        "caption": "Car value over time",
+        "headers": ["Year", "Value ($)"],
+        "rows": [[0, 30000], [1, 24000], [2, 19200], [3, 15360]]
+      },
+      {
+        "type": "images",
+        "src": "/images/declining_value_car.png",
+        "alt": "Car value decreasing graph",
+        "caption": "Depreciation reduces value faster in early years than later years."
+      }
+    ]
+  },
+    "41": {
+    "title": "Reducing-balance loans",
+    "content": [
+      {
+        "type": "text",
+        "value": "In reducing-balance loans, interest is only charged on the amount still owed. As you make repayments, the loan balance reduces and so does the interest."
+      },
+      {
+        "type": "text",
+        "value": "Each payment includes some interest and some repayment of the principal. Over time, the interest portion gets smaller."
+      },
+      {
+        "type": "example",
+        "title": "Example - Reducing-balance interest",
+        "content": [
+          "Loan = $10,000 at 6% p.a., paid annually.",
+          "Year 1 interest = \\( 0.06 \\times 10000 = 600 \\)",
+          "Payment = $3000 → balance = 10,000 − (3000 − 600) = 7600",
+          "Year 2 interest = \\( 0.06 \\times 7600 = 456 \\)"
+        ]
+      },
+      {
+        "type": "table",
+        "caption": "Loan balance over 3 years",
+        "headers": ["Year", "Payment", "Interest", "Principal", "Balance"],
+        "rows": [
+          [1, 3000, 600, 2400, 7600],
+          [2, 3000, 456, 2544, 5056],
+          [3, 3000, 304, 2696, 2360]
+        ]
+      },
+      {
+        "type": "images",
+        "src": "/images/reducing_balance_loan.png",
+        "alt": "Loan balance decreasing graph",
+        "caption": "Each year the balance decreases and interest falls accordingly."
+      }
+    ]
+  },
+    "42": {
+    "title": "Credit cards",
+    "content": [
+      {
+        "type": "text",
+        "value": "Credit cards let you buy goods or services using borrowed money. You're expected to repay the balance by a due date. Interest is charged on unpaid balances."
+      },
+      {
+        "type": "text",
+        "value": "Credit cards offer a **grace period**, during which no interest is charged if the full balance is paid. If only part is paid, interest is charged on the **entire** unpaid balance."
+      },
+      {
+        "type": "example",
+        "title": "Example - Calculating interest",
+        "content": [
+          "A credit card has a 19.8% annual interest rate (or 1.65% per month).",
+          "If $1200 is unpaid, the interest charged next month is:",
+          "\\( 1200 \\times 0.0165 = 19.80 \\)"
+        ]
+      },
+      {
+        "type": "images",
+        "src": "/images/credit_card_usage.png",
+        "alt": "Person paying with credit card",
+        "caption": "Credit cards are convenient, but high-interest charges can accumulate quickly."
+      },
+      {
+        "type": "text",
+        "value": "Paying only the **minimum repayment** leads to large interest costs over time. It's best to pay the full amount every month to avoid interest."
+      }
+    ]
+  },
+    "43": {
+    "title": "Credit card statements",
+    "content": [
+      {
+        "type": "text",
+        "value": "A credit card statement summarises your account activity for the month. It shows:\n- Previous balance\n- Purchases and payments\n- Interest and fees\n- New balance and due date"
+      },
+      {
+        "type": "images",
+        "src": "/images/credit_card_statement_sample.png",
+        "alt": "Sample credit card statement",
+        "caption": "Statements detail every transaction, fees, and required payment."
+      },
+      {
+        "type": "example",
+        "title": "Example - Reading a statement",
+        "content": [
+          "Previous balance: $500\nPurchases: $200\nPayment: $300\nInterest: $10",
+          "New balance = 500 + 200 - 300 + 10 = $410"
+        ]
+      },
+      {
+        "type": "text",
+        "value": "The **minimum payment** is usually around 2-3% of the balance. Paying only this leads to slow repayment and high interest."
+      },
+      {
+        "type": "example",
+        "title": "Example - Interest-free period",
+        "content": [
+          "If you paid off last month's balance in full and buy $100 today, you won't be charged interest until the end of the next cycle.",
+          "But if you carry a balance, interest applies from the **purchase date**."
+        ]
+      }
+    ]
+  },
+    "44": {
+    "title": "Fees and charges for credit card usage",
+    "content": [
+      {
+        "type": "text",
+        "value": "Credit cards can include several types of fees, in addition to interest. It's important to understand them so you can avoid unnecessary costs."
+      },
+      {
+        "type": "table",
+        "caption": "Common credit card fees",
+        "headers": ["Fee Type", "Explanation"],
+        "rows": [
+          ["Annual fee", "Charged once per year to maintain the card"],
+          ["Late payment fee", "Applies if the minimum payment isn't made by the due date"],
+          ["Over-limit fee", "Charged if spending exceeds your credit limit"],
+          ["Cash advance fee", "Extra fee (plus higher interest) for withdrawing cash"],
+          ["Foreign transaction fee", "Applies when using the card overseas or for foreign currency"]
+        ]
+      },
+      {
+        "type": "images",
+        "src": "/images/credit_card_fees.png",
+        "alt": "Credit card fee infographic",
+        "caption": "Using your card carefully helps avoid unnecessary charges."
+      },
+      {
+        "type": "example",
+        "title": "Example - Understanding a fee scenario",
+        "content": [
+          "You miss your minimum payment and use your card for a cash advance.",
+          "You're charged:\n- Late fee = $25\n- Cash advance fee = $5\n- Extra interest at 22% p.a. for cash use"
+        ]
+      },
+      {
+        "type": "text",
+        "value": "Smart tip: Always read your statement carefully and avoid high-cost transactions like cash advances or missed payments."
+      }
+    ]
+  },
+    "45": {
+    "title": "Topic Test - Investments and Loans",
+    "content": [
+      {
+        "type": "text",
+        "value": "Use this summary to review all key ideas from the Investments and Loans topic before attempting the Topic Test."
+      },
+      {
+        "type": "text",
+        "value": "**Future Value** calculates the value of an investment using compound interest: \\( FV = P(1 + r)^n \\)."
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_future_value.png",
+        "alt": "Future value chart",
+        "caption": "Compound interest grows investments exponentially over time."
+      },
+      {
+        "type": "text",
+        "value": "**Investment Graphs** compare simple and compound growth visually. Compound interest curves upward; simple interest grows linearly."
+      },
+      {
+        "type": "text",
+        "value": "**Appreciation and Inflation** both use compound formulas to model growth. Appreciation adds value, while inflation erodes purchasing power."
+      },
+      {
+        "type": "text",
+        "value": "**Shares and Dividends** give income from company profits. \\( \\text{Yield} = \\frac{\\text{Dividend}}{\\text{Share Price}} \\times 100\\% \\)."
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_shares.png",
+        "alt": "Shareholder holding stock",
+        "caption": "Dividends reward investors from company profits."
+      },
+      {
+        "type": "text",
+        "value": "**Declining-Balance Depreciation** reduces an asset's value by a fixed percentage per year. \\( V = V_0(1 - r)^n \\)."
+      },
+      {
+        "type": "text",
+        "value": "**Reducing-Balance Loans** charge interest only on what you owe. Each payment reduces the principal, lowering future interest."
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_loan.png",
+        "alt": "Loan balance decrease chart",
+        "caption": "As the balance shrinks, interest decreases too."
+      },
+      {
+        "type": "text",
+        "value": "**Credit Cards** allow flexible payments but can incur high interest if not paid in full. Watch for fees, interest, and cash advance charges."
+      },
+      {
+        "type": "text",
+        "value": "✅ You've now reviewed all concepts in this topic. Make sure you can apply formulas, read statements, and explain key terms. You've got this!"
+      }
+    ]
+  },
+    "46": {
+    "title": "Annuity as a recurrence relation",
+    "content": [
+      {
+        "type": "text",
+        "value": "An annuity is a financial product that provides a series of payments over time, typically used for retirement savings or loan repayments. Each payment includes both interest and a change in principal."
+      },
+      {
+        "type": "text",
+        "value": "We can model the value of an annuity using a **recurrence relation**, where each term depends on the previous one."
+      },
+      {
+        "type": "math",
+        "value": "A_n = (1 + r)A_{n-1} - P"
+      },
+      {
+        "type": "text",
+        "value": "Where:\n- \\( A_n \\) is the amount owed after \\( n \\) periods\n- \\( r \\) is the interest rate per period (decimal)\n- \\( P \\) is the regular payment amount"
+      },
+      {
+        "type": "example",
+        "title": "Example - Recurrence model of an annuity",
+        "content": [
+          "Loan: $10,000, monthly interest rate = 1% (\\( r = 0.01 \\)), payment = $300",
+          "\\( A_1 = (1 + 0.01) \\times 10000 - 300 = 10100 - 300 = 9800 \\)",
+          "\\( A_2 = (1 + 0.01) \\times 9800 - 300 = 9898 - 300 = 9598 \\)"
+        ]
+      },
+      {
+        "type": "images",
+        "src": "/images/annuity_recurrence_graph.png",
+        "alt": "Graph showing reducing annuity value",
+        "caption": "Over time, the balance decreases as each payment covers interest and principal."
+      },
+      {
+        "type": "text",
+        "value": "This method helps track the value of a loan or investment over multiple periods, showing how the balance changes with each payment."
+      }
+    ]
+  },
+    "47": {
+    "title": "Using a future value table",
+    "content": [
+      {
+        "type": "text",
+        "value": "Future value tables help calculate the total value of a series of regular payments into an annuity, accounting for compound interest over time."
+      },
+      {
+        "type": "math",
+        "value": "FV = P \\times FVAF"
+      },
+      {
+        "type": "text",
+        "value": "Where:\n- \\( P \\) is the regular payment\n- \\( FVAF \\) is the Future Value Annuity Factor, read from a table based on \\( r \\) and \\( n \\)"
+      },
+      {
+        "type": "example",
+        "title": "Example - Using the table",
+        "content": [
+          "Monthly deposit: $200, interest rate = 6% p.a. (0.5% per month), term = 12 months.",
+          "From table: FVAF for 0.5%, 12 periods = 12.5779",
+          "\\( FV = 200 \\times 12.5779 = 2515.58 \\)"
+        ]
+      },
+      {
+        "type": "images",
+        "src": "/images/fv_annuity_table.png",
+        "alt": "Extract of future value annuity table",
+        "caption": "Tables simplify annuity calculations without repeated compounding."
+      },
+      {
+        "type": "text",
+        "value": "Use tables when you don't want to manually apply \\( (1 + r)^n \\) for every payment — they save time and reduce error."
+      }
+    ]
+  },
+    "48": {
+    "title": "Using a present value table",
+    "content": [
+      {
+        "type": "text",
+        "value": "Present value tables help calculate the value today of a future stream of payments. They are commonly used to value loans, mortgages, or structured repayments."
+      },
+      {
+        "type": "math",
+        "value": "PV = P \\times PVAF"
+      },
+      {
+        "type": "text",
+        "value": "Where:\n- \\( P \\) is the regular payment\n- \\( PVAF \\) is the Present Value Annuity Factor (from a table)"
+      },
+      {
+        "type": "example",
+        "title": "Example - Present value of a loan",
+        "content": [
+          "You plan to repay $300 monthly for 5 years at 6% p.a. (0.5% per month).",
+          "From the PV table: PVAF for 0.5%, 60 periods = 51.7256",
+          "\\( PV = 300 \\times 51.7256 = 15,517.68 \\)",
+          "So, the loan value today is $15,517.68"
+        ]
+      },
+      {
+        "type": "images",
+        "src": "/images/pv_annuity_table.png",
+        "alt": "Extract of present value annuity table",
+        "caption": "Each row gives a multiplier to calculate present value based on payment period and rate."
+      },
+      {
+        "type": "text",
+        "value": "Present value helps borrowers or lenders understand how much a series of future payments is worth in today's dollars."
+      }
+    ]
+  },
+    "49": {
+    "title": "Use of annuities",
+    "content": [
+      {
+        "type": "text",
+        "value": "Annuities are used in many everyday financial contexts:\n- Superannuation\n- Home loans\n- Car loans\n- Investment plans\n- Retirement income streams"
+      },
+      {
+        "type": "text",
+        "value": "There are two main types of annuities:\n- **Ordinary annuity**: payments made at the end of each period\n- **Annuity due**: payments made at the start of each period"
+      },
+      {
+        "type": "example",
+        "title": "Example - Superannuation investment",
+        "content": [
+          "You invest $150 every month into superannuation for 30 years at 7% p.a. compounded monthly.",
+          "Monthly rate = \\( \\frac{7}{12} = 0.5833\\% \\)",
+          "From table: FVAF = 1210.697",
+          "\\( FV = 150 \\times 1210.697 = 181,604.55 \\)"
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Example - Home loan repayments",
+        "content": [
+          "You borrow $200,000 to repay over 25 years at 6% p.a. (monthly rate 0.5%).",
+          "From table: PVAF = 199.635",
+          "\\( P = \\frac{200000}{199.635} = 1001.83 \\) monthly payment"
+        ]
+      },
+      {
+        "type": "images",
+        "src": "/images/annuity_applications.png",
+        "alt": "Annuities used for retirement and loans",
+        "caption": "Annuities are central to both saving for the future and borrowing responsibly."
+      }
+    ]
+  },
+    "50": {
+    "title": "Topic Test - Annuities",
+    "content": [
+      {
+        "type": "text",
+        "value": "This summary recaps the key concepts covered in the Annuities topic. Review these ideas before attempting your topic test."
+      },
+      {
+        "type": "text",
+        "value": "**Annuity as a Recurrence Relation** models the changing value of a loan or investment. Each term is calculated as:\n\\( A_n = (1 + r)A_{n-1} - P \\)"
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_annuity_recurrence.png",
+        "alt": "Recurring annuity calculation diagram",
+        "caption": "Each payment reduces the amount owed and interest is recalculated."
+      },
+      {
+        "type": "text",
+        "value": "**Future Value Tables** allow you to find the total amount saved after a series of equal deposits:\n\\( FV = P \\times FVAF \\)"
+      },
+      {
+        "type": "text",
+        "value": "**Present Value Tables** let you calculate how much a loan or investment is worth today:\n\\( PV = P \\times PVAF \\)"
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_pv_fv_tables.png",
+        "alt": "Side-by-side future and present value tables",
+        "caption": "Use these tables to avoid manual compounding."
+      },
+      {
+        "type": "text",
+        "value": "**Use of Annuities** is widespread:\n- Investing in superannuation\n- Paying off home or car loans\n- Creating retirement income streams\n- Saving over time with regular deposits"
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_annuity_uses.png",
+        "alt": "Visuals of people saving and borrowing",
+        "caption": "Annuities help with both long-term saving and structured borrowing."
+      },
+      {
+        "type": "text",
+        "value": "✅ You've now revised all annuity concepts. Be confident in using recurrence, interpreting tables, and applying formulas. Good luck!"
+      }
+    ]
+  },
+    "51": {
+    "title": "Constructing a bivariate scatterplot",
+    "content": [
+      {
+        "type": "text",
+        "value": "A bivariate scatterplot displays the relationship between two numerical variables. Each point on the graph represents a pair of values (x, y)."
+      },
+      {
+        "type": "text",
+        "value": "The horizontal axis (x-axis) represents the **independent variable**, and the vertical axis (y-axis) represents the **dependent variable**."
+      },
+      {
+        "type": "example",
+        "title": "Example - Height vs Arm Span",
+        "content": [
+          "Data is collected from 10 students measuring height (cm) and arm span (cm).",
+          "Each (height, arm span) pair is plotted as a point on the graph."
+        ]
+      },
+      {
+        "type": "table",
+        "caption": "Sample height and arm span data",
+        "headers": ["Height (cm)", "Arm Span (cm)"],
+        "rows": [[160, 158], [170, 169], [165, 167], [180, 181], [175, 173]]
+      },
+      {
+        "type": "images",
+        "src": "/images/scatterplot_construction.png",
+        "alt": "Scatterplot of height vs arm span",
+        "caption": "Each dot shows the height and arm span of one individual."
+      },
+      {
+        "type": "text",
+        "value": "A scatterplot helps us see patterns, clusters, and trends. It's the first step in analysing relationships between variables."
+      }
+    ]
+  },
+    "52": {
+    "title": "Using a bivariate scatterplot",
+    "content": [
+      {
+        "type": "text",
+        "value": "Once the scatterplot is constructed, you can interpret the relationship between the two variables:\n- **Positive correlation**: as x increases, y increases\n- **Negative correlation**: as x increases, y decreases\n- **No correlation**: no clear pattern"
+      },
+      {
+        "type": "images",
+        "src": "/images/scatterplot_correlations.png",
+        "alt": "Positive, negative, and no correlation examples",
+        "caption": "Scatterplots help us detect the type and strength of correlation."
+      },
+      {
+        "type": "example",
+        "title": "Example - Interpreting trend",
+        "content": [
+          "In a scatterplot of study hours vs test scores, the points follow an upward trend.",
+          "Conclusion: students who study more tend to score higher ⇒ **positive correlation**."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Example - Outlier detection",
+        "content": [
+          "If most points are clustered along a line but one point is far away, it may be an **outlier** — a value that does not fit the general pattern."
+        ]
+      },
+      {
+        "type": "text",
+        "value": "Scatterplots are powerful tools for identifying relationships, trends, and unusual data in two-variable datasets."
+      }
+    ]
+  },
+    "53": {
+    "title": "Pearson's correlation coefficient",
+    "content": [
+      {
+        "type": "text",
+        "value": "Pearson's correlation coefficient, written as \\( r \\), measures the strength and direction of a linear relationship between two variables."
+      },
+      {
+        "type": "math",
+        "value": "-1 \\leq r \\leq 1"
+      },
+      {
+        "type": "text",
+        "value": "Interpretation of \\( r \\):\n- \\( r = 1 \\): perfect positive correlation\n- \\( r = -1 \\): perfect negative correlation\n- \\( r = 0 \\): no linear correlation"
+      },
+      {
+        "type": "images",
+        "src": "/images/correlation_coefficient_graphs.png",
+        "alt": "Graphs showing different values of r",
+        "caption": "As \\( r \\) gets closer to ±1, the points align more closely to a straight line."
+      },
+      {
+        "type": "example",
+        "title": "Example - Calculating and interpreting \\( r \\)",
+        "content": [
+          "A data set has \\( r = 0.93 \\). This shows a strong positive linear relationship.",
+          "As x increases, y tends to increase as well."
+        ]
+      },
+      {
+        "type": "text",
+        "value": "A calculator or statistical software is used to compute \\( r \\) based on the formula involving the covariance of x and y and their standard deviations."
+      }
+    ]
+  },
+    "54": {
+    "title": "Line of best fit",
+    "content": [
+      {
+        "type": "text",
+        "value": "The line of best fit (or regression line) is a straight line that best represents the data on a scatterplot. It helps to make predictions and understand trends."
+      },
+      {
+        "type": "math",
+        "value": "y = mx + c"
+      },
+      {
+        "type": "text",
+        "value": "Where:\n- \\( m \\) is the gradient (rate of change)\n- \\( c \\) is the y-intercept (value when x = 0)"
+      },
+      {
+        "type": "images",
+        "src": "/images/line_of_best_fit.png",
+        "alt": "Scatterplot with line of best fit",
+        "caption": "The line of best fit goes through the middle of the data, minimising the distance of all points from the line."
+      },
+      {
+        "type": "example",
+        "title": "Example - Using the line of best fit",
+        "content": [
+          "Given a trend line \\( y = 2x + 5 \\), predict y when \\( x = 4 \\):",
+          "\\( y = 2 \\times 4 + 5 = 13 \\)"
+        ]
+      },
+      {
+        "type": "text",
+        "value": "The line can be drawn by:\n1. Plotting the data.\n2. Estimating a line that balances the points above and below.\n3. Using technology to calculate an exact regression line."
+      }
+    ]
+  },
+    "55": {
+    "title": "Interpolation and extrapolation",
+    "content": [
+      {
+        "type": "text",
+        "value": "Once a line of best fit is established, it can be used to make predictions. There are two types:\n- **Interpolation**: estimating within the range of known data\n- **Extrapolation**: predicting beyond the range of known data"
+      },
+      {
+        "type": "example",
+        "title": "Example - Interpolation",
+        "content": [
+          "A scatterplot shows study time vs test score. The line of best fit is \\( y = 10x + 40 \\).",
+          "To estimate the score for 3.5 hours of study (within known range):",
+          "\\( y = 10 \\times 3.5 + 40 = 75 \\)"
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Example - Extrapolation",
+        "content": [
+          "Using the same equation, predict the score for 8 hours of study (beyond known data):",
+          "\\( y = 10 \\times 8 + 40 = 120 \\)",
+          "⚠️ Be cautious: extrapolation assumes the trend continues, which may not be true."
+        ]
+      },
+      {
+        "type": "images",
+        "src": "/images/interpolation_extrapolation.png",
+        "alt": "Graph showing interpolation and extrapolation",
+        "caption": "Interpolation is safer. Extrapolation goes beyond the known data range and may be unreliable."
+      },
+      {
+        "type": "text",
+        "value": "Tip: Use interpolation when the x-value lies within your collected data. Use extrapolation only with care and justification."
+      }
+    ]
+  },
+    "56": {
+    "title": "Statistical investigation",
+    "content": [
+      {
+        "type": "text",
+        "value": "A statistical investigation follows a process to explore relationships between variables. It typically involves:"
+      },
+      {
+        "type": "text",
+        "value": "**Steps in a statistical investigation:**\n1. Pose a clear question\n2. Collect or identify data\n3. Represent the data (e.g. scatterplot)\n4. Analyse the data (e.g. calculate \\( r \\), draw a trend line)\n5. Draw conclusions and reflect on limitations"
+      },
+      {
+        "type": "example",
+        "title": "Example - Sleep and performance study",
+        "content": [
+          "Question: Does more sleep improve school performance?",
+          "Step 1: Record hours of sleep and test scores for 20 students.",
+          "Step 2: Plot scatterplot, calculate \\( r \\), draw line of best fit.",
+          "Step 3: Conclude based on correlation and trend."
+        ]
+      },
+      {
+        "type": "images",
+        "src": "/images/statistical_investigation_process.png",
+        "alt": "Diagram of the 5-step statistical process",
+        "caption": "A statistical investigation blends data collection, representation, and analysis to reach meaningful conclusions."
+      },
+      {
+        "type": "text",
+        "value": "Always reflect on:\n- Is the data reliable?\n- Are there outliers?\n- Can we generalise the results?\n- Are we making safe predictions (interpolation) or risky ones (extrapolation)?"
+      }
+    ]
+  },
+    "57": {
+    "title": "Topic Test - Bivariate Data Analysis",
+    "content": [
+      {
+        "type": "text",
+        "value": "This revision guide summarises the key concepts and techniques from the Bivariate Data Analysis topic. Review the steps and examples below before attempting your topic test."
+      },
+      {
+        "type": "text",
+        "value": "**Scatterplots** help visualise the relationship between two numerical variables. Each point represents a paired observation."
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_scatterplot.png",
+        "alt": "Example scatterplot",
+        "caption": "Each dot represents one observation. Patterns suggest correlation."
+      },
+      {
+        "type": "text",
+        "value": "**Correlation** describes the strength and direction of the relationship:\n- Positive, negative, or none\n- Strong, weak, or perfect"
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_correlation_types.png",
+        "alt": "Different types of correlation",
+        "caption": "Pearson's \\( r \\) quantifies the strength of a linear relationship."
+      },
+      {
+        "type": "text",
+        "value": "**Pearson's correlation coefficient** is a value between -1 and 1:\n- \\( r = 1 \\): perfect positive\n- \\( r = -1 \\): perfect negative\n- \\( r = 0 \\): no correlation"
+      },
+      {
+        "type": "text",
+        "value": "**Line of best fit** represents the trend in the data and allows predictions using the linear model \\( y = mx + c \\)."
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_best_fit_line.png",
+        "alt": "Scatterplot with best fit line",
+        "caption": "The line predicts y-values from x-values and helps identify the trend."
+      },
+      {
+        "type": "text",
+        "value": "**Interpolation and Extrapolation**:\n- Interpolation is safe: within data range\n- Extrapolation is risky: outside known range"
+      },
+      {
+        "type": "text",
+        "value": "**Statistical investigations** follow a process:\n1. Pose a question\n2. Collect data\n3. Represent with a scatterplot\n4. Analyse (\\( r \\), line of best fit)\n5. Conclude and reflect"
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_statistical_process.png",
+        "alt": "Steps of a statistical investigation",
+        "caption": "A structured approach leads to meaningful analysis."
+      },
+      {
+        "type": "text",
+        "value": "✅ You've now revised all key concepts in Bivariate Data Analysis. Make sure you're comfortable drawing, interpreting, and applying scatterplots, lines of best fit, and correlation. You're ready for the test!"
+      }
+    ]
+  },
+    "58": {
+    "title": "Normally distributed data",
+    "content": [
+      {
+        "type": "text",
+        "value": "A normal distribution is a bell-shaped curve that describes how data is spread. It's symmetric about the mean, and most values cluster near the center."
+      },
+      {
+        "type": "images",
+        "src": "/images/normal_distribution_curve.png",
+        "alt": "Bell-shaped curve",
+        "caption": "The mean, median, and mode are all at the center of a normal distribution."
+      },
+      {
+        "type": "text",
+        "value": "**Key features of a normal distribution:**\n- Symmetrical curve\n- Peak at the mean (\\( \\mu \\))\n- Spread determined by standard deviation (\\( \\sigma \\))"
+      },
+      {
+        "type": "example",
+        "title": "Example - Real-world normal data",
+        "content": [
+          "Heights of adult males follow a normal distribution with a mean of 175 cm and a standard deviation of 7 cm.",
+          "This means most men are between 168 cm and 182 cm tall."
+        ]
+      },
+      {
+        "type": "text",
+        "value": "Many natural and social variables are normally distributed:\n- Heights and weights\n- Test scores\n- Measurement errors"
+      },
+      {
+        "type": "table",
+        "caption": "Comparison of different distributions",
+        "headers": ["Type", "Symmetry", "Mean = Median?"],
+        "rows": [
+          ["Normal", "Yes", "Yes"],
+          ["Skewed Left", "No", "No"],
+          ["Skewed Right", "No", "No"]
+        ]
+      }
+    ]
+  },
+    "59": {
+    "title": "The 68-95-99.7 rule",
+    "content": [
+      {
+        "type": "text",
+        "value": "In a normal distribution, a predictable percentage of data lies within 1, 2, or 3 standard deviations from the mean. This is known as the Empirical Rule:"
+      },
+      {
+        "type": "list",
+        "value": [
+          "68% of values lie within 1 standard deviation (\\( \\mu \\pm 1\\sigma \\))",
+          "95% within 2 standard deviations (\\( \\mu \\pm 2\\sigma \\))",
+          "99.7% within 3 standard deviations (\\( \\mu \\pm 3\\sigma \\))"
+        ]
+      },
+      {
+        "type": "images",
+        "src": "/images/empirical_rule_curve.png",
+        "alt": "Empirical rule shown on normal curve",
+        "caption": "The percentages under the curve are consistent for all normal distributions."
+      },
+      {
+        "type": "example",
+        "title": "Example - Applying the rule",
+        "content": [
+          "If scores on a test are normally distributed with \\( \\mu = 70 \\) and \\( \\sigma = 5 \\):",
+          "- 68% of scores are between 65 and 75",
+          "- 95% between 60 and 80",
+          "- 99.7% between 55 and 85"
+        ]
+      },
+      {
+        "type": "text",
+        "value": "The rule allows quick approximations about the spread of data without needing exact z-scores."
+      }
+    ]
+  },
+    "60": {
+    "title": "z-scores",
+    "content": [
+      {
+        "type": "text",
+        "value": "A **z-score** tells us how far a data point is from the mean, measured in standard deviations. It standardises scores across different normal distributions."
+      },
+      {
+        "type": "math",
+        "value": "z = \\frac{x - \\mu}{\\sigma}"
+      },
+      {
+        "type": "text",
+        "value": "Where:\n- \\( x \\) is the data value\n- \\( \\mu \\) is the mean\n- \\( \\sigma \\) is the standard deviation"
+      },
+      {
+        "type": "example",
+        "title": "Example - Calculating a z-score",
+        "content": [
+          "A student scores 78 on a test with a mean of 70 and standard deviation of 4.",
+          "\\( z = \\frac{78 - 70}{4} = 2 \\)",
+          "This means the student scored 2 standard deviations above the mean."
+        ]
+      },
+      {
+        "type": "images",
+        "src": "/images/z_score_curve.png",
+        "alt": "Normal curve with z-values marked",
+        "caption": "z-scores locate a value's position on the normal distribution."
+      },
+      {
+        "type": "text",
+        "value": "**Positive z-scores** are above the mean; **negative z-scores** are below it. The larger the magnitude, the more unusual the score."
+      }
+    ]
+  },
+    "61": {
+    "title": "Converting z-scores into actual scores",
+    "content": [
+      {
+        "type": "text",
+        "value": "You can also reverse the z-score formula to find a raw score \\( x \\) if you know the z-score, mean, and standard deviation."
+      },
+      {
+        "type": "math",
+        "value": "x = \\mu + z\\sigma"
+      },
+      {
+        "type": "example",
+        "title": "Example - Convert a z-score",
+        "content": [
+          "Given: \\( \\mu = 100 \\), \\( \\sigma = 15 \\), \\( z = -1.2 \\)",
+          "\\( x = 100 + (-1.2 \\times 15) = 100 - 18 = 82 \\)",
+          "This means the score of 82 is 1.2 standard deviations below the mean."
+        ]
+      },
+      {
+        "type": "table",
+        "caption": "Sample conversions",
+        "headers": ["z", "σ", "μ", "x"],
+        "rows": [[0, 10, 50, 50], [1, 10, 50, 60], [-2, 5, 70, 60]]
+      },
+      {
+        "type": "text",
+        "value": "This method is useful for comparing scores from different distributions by translating standardised values back into their original contexts."
+      }
+    ]
+  },
+    "62": {
+    "title": "Using z-scores to compare data",
+    "content": [
+      {
+        "type": "text",
+        "value": "z-scores allow us to compare values from different distributions, even if the scales or units differ. The higher the z-score, the further above average the value lies."
+      },
+      {
+        "type": "example",
+        "title": "Example - Comparing test results",
+        "content": [
+          "Anna scored 78 on a Maths test with \\( \\mu = 70 \\), \\( \\sigma = 4 \\):",
+          "\\( z = \\frac{78 - 70}{4} = 2 \\)",
+          "She also scored 82 in English with \\( \\mu = 75 \\), \\( \\sigma = 5 \\):",
+          "\\( z = \\frac{82 - 75}{5} = 1.4 \\)",
+          "→ Anna performed better relative to her Maths class."
+        ]
+      },
+      {
+        "type": "text",
+        "value": "z-scores remove the effects of different scales or spreads. They allow fair comparison across different situations."
+      },
+      {
+        "type": "images",
+        "src": "/images/z_score_comparison.png",
+        "alt": "Graph comparing z-scores across distributions",
+        "caption": "z-scores position different results on the same normal scale."
+      },
+      {
+        "type": "table",
+        "caption": "Comparing scores using z-values",
+        "headers": ["Subject", "Raw Score", "Mean", "SD", "z-score"],
+        "rows": [["Maths", 78, 70, 4, 2.00], ["English", 82, 75, 5, 1.40]]
+      }
+    ]
+  },
+    "63": {
+    "title": "Further applications of normal distributions",
+    "content": [
+      {
+        "type": "text",
+        "value": "Normal distributions are used to model real-world scenarios and calculate probabilities. With z-scores and tables (or software), we can find the chance of certain outcomes."
+      },
+      {
+        "type": "text",
+        "value": "**Common applications include:**\n- Probabilities of test scores\n- Quality control in manufacturing\n- Comparing growth charts in health\n- Financial risk assessments"
+      },
+      {
+        "type": "example",
+        "title": "Example - Probability from a z-score",
+        "content": [
+          "A z-table shows that \\( P(z < 1.5) = 0.9332 \\)",
+          "This means 93.32% of values lie below a z-score of 1.5."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Example - Tail probability",
+        "content": [
+          "Find \\( P(z > 2) \\). From the z-table, \\( P(z < 2) = 0.9772 \\)",
+          "So, \\( P(z > 2) = 1 - 0.9772 = 0.0228 \\)",
+          "→ There's a 2.28% chance of a result more than 2 SD above the mean."
+        ]
+      },
+      {
+        "type": "images",
+        "src": "/images/z_table_usage.png",
+        "alt": "Normal distribution curve shaded",
+        "caption": "Use z-tables to find cumulative probabilities under the curve."
+      },
+      {
+        "type": "text",
+        "value": "Technology like spreadsheets or scientific calculators can also compute probabilities quickly using normal distribution functions."
+      }
+    ]
+  },
+    "64": {
+    "title": "Topic Test - The Normal Distribution",
+    "content": [
+      {
+        "type": "text",
+        "value": "This summary reviews all the key concepts in the Normal Distribution topic. Use it to refresh your understanding before completing the topic test."
+      },
+      {
+        "type": "text",
+        "value": "**Normal Distributions** are bell-shaped and symmetrical. The mean \\( \\mu \\), median, and mode are all equal."
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_normal_curve.png",
+        "alt": "Normal curve with shaded areas",
+        "caption": "The highest point is the mean. Values become less likely as you move away from the mean."
+      },
+      {
+        "type": "text",
+        "value": "**The 68-95-99.7 Rule** tells us how data is spread across standard deviations in a normal distribution:\n- 68% within 1 SD\n- 95% within 2 SD\n- 99.7% within 3 SD"
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_empirical_rule.png",
+        "alt": "Empirical rule zones",
+        "caption": "The Empirical Rule is a quick tool for estimating data spread in a normal distribution."
+      },
+      {
+        "type": "text",
+        "value": "**z-scores** indicate how far a value lies from the mean in terms of standard deviations:\n\\( z = \\frac{x - \\mu}{\\sigma} \\)"
+      },
+      {
+        "type": "example",
+        "title": "Example - z-score usage",
+        "content": [
+          "A test score of 85 on a test with \\( \\mu = 75 \\), \\( \\sigma = 5 \\):",
+          "\\( z = \\frac{85 - 75}{5} = 2 \\)"
+        ]
+      },
+      {
+        "type": "text",
+        "value": "**Converting z-scores** allows you to translate standardised values into actual data points:\n\\( x = \\mu + z \\cdot \\sigma \\)"
+      },
+      {
+        "type": "text",
+        "value": "**Comparing with z-scores** lets you fairly assess scores from different tests or distributions using their position relative to the mean."
+      },
+      {
+        "type": "text",
+        "value": "**Applications** include estimating probabilities and real-world modelling. Use z-tables or calculators to determine areas under the normal curve."
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_normal_applications.png",
+        "alt": "Z-score probabilities diagram",
+        "caption": "Use cumulative area from z-tables to estimate likelihood of certain results."
+      },
+      {
+        "type": "text",
+        "value": "✅ You've completed your review of the Normal Distribution topic! You should now be confident using z-scores, interpreting curves, and calculating probabilities. Good luck on your topic test!"
+      }
+    ]
+  },
+    "65": {
+    "title": "Networks",
+    "content": [
+      {
+        "type": "text",
+        "value": "A **network** is a diagram made up of points and lines. In mathematics, it's used to model connections between objects."
+      },
+      {
+        "type": "text",
+        "value": "The parts of a network include:\n- **Vertices** (or nodes): the points\n- **Edges** (or arcs): the lines connecting the vertices\n- **Weight**: a number associated with an edge (e.g. distance, cost)"
+      },
+      {
+        "type": "images",
+        "src": "/images/network_basics.png",
+        "alt": "Simple undirected network diagram",
+        "caption": "This network has 6 vertices and 7 edges. Some edges are weighted."
+      },
+      {
+        "type": "text",
+        "value": "Types of networks include:\n- **Undirected**: edges have no direction\n- **Directed** (or digraph): edges have arrows showing direction\n- **Weighted**: edges have values (like distance)\n- **Unweighted**: no values on edges"
+      },
+      {
+        "type": "example",
+        "title": "Example - Interpreting a road network",
+        "content": [
+          "In a road map network:\n- Each town is a vertex\n- Each road is an edge\n- Travel time (mins) is the weight on each edge"
+        ]
+      },
+      {
+        "type": "table",
+        "caption": "Basic network terminology",
+        "headers": ["Term", "Definition"],
+        "rows": [
+          ["Vertex", "A point in the network"],
+          ["Edge", "A connection between two vertices"],
+          ["Degree", "Number of edges at a vertex"],
+          ["Path", "Sequence of edges from one vertex to another"]
+        ]
+      }
+    ]
+  },
+    "66": {
+    "title": "Travelling a network",
+    "content": [
+      {
+        "type": "text",
+        "value": "A **path** is a sequence of edges that connects a set of vertices. You can ‘travel' through a network by following its paths."
+      },
+      {
+        "type": "text",
+        "value": "Important terms:\n- **Walk**: a sequence of vertices and edges (repeats allowed)\n- **Trail**: no repeated edges\n- **Path**: no repeated vertices\n- **Cycle**: path that starts and ends at the same vertex"
+      },
+      {
+        "type": "images",
+        "src": "/images/network_path_types.png",
+        "alt": "Example of walk, path, trail, and cycle",
+        "caption": "Different ways of moving through a network. A cycle loops back to the start."
+      },
+      {
+        "type": "example",
+        "title": "Example - Identifying paths",
+        "content": [
+          "Given a network A-B-C-D-A:\n- A-B-C-D-A is a cycle\n- A-B-C-D is a path\n- A-B-A-D is a walk (B repeated)"
+        ]
+      },
+      {
+        "type": "text",
+        "value": "Networks can model transport routes, data flow, or social connections. Understanding paths is essential to solving more advanced problems like shortest paths and spanning trees."
+      }
+    ]
+  },
+    "67": {
+    "title": "Drawing a network diagram",
+    "content": [
+      {
+        "type": "text",
+        "value": "To model real-world problems using networks, we draw network diagrams using vertices and edges. These diagrams can show connections between locations, tasks, or events."
+      },
+      {
+        "type": "text",
+        "value": "Key points when drawing a network:\n- Use circles or dots for vertices (label them A, B, C, etc.)\n- Draw lines or arrows for edges\n- Include weights where necessary (distance, time, cost)"
+      },
+      {
+        "type": "example",
+        "title": "Example - Road map network",
+        "content": [
+          "A network connecting towns A, B, C, and D with roads of known distances can be drawn using edges labelled with those distances.",
+          "E.g., A-B: 10 km, A-C: 15 km, B-D: 12 km."
+        ]
+      },
+      {
+        "type": "images",
+        "src": "/images/network_road_map.png",
+        "alt": "Map-style network diagram with distances",
+        "caption": "Each edge represents a road between towns. Weights show the distances."
+      },
+      {
+        "type": "text",
+        "value": "**Adjacency matrix**: Another way to represent a network is in a matrix showing which vertices are connected."
+      },
+      {
+        "type": "table",
+        "caption": "Adjacency matrix for network A-B-C",
+        "headers": ["", "A", "B", "C"],
+        "rows": [
+          ["A", 0, 1, 1],
+          ["B", 1, 0, 1],
+          ["C", 1, 1, 0]
+        ]
+      }
+    ]
+  },
+    "68": {
+    "title": "Eulerian and Hamiltonian walks",
+    "content": [
+      {
+        "type": "text",
+        "value": "These are special paths in a network:\n- **Eulerian walk**: uses every edge exactly once\n- **Eulerian circuit**: starts and ends at the same vertex, uses every edge once\n- **Hamiltonian path**: visits every vertex once\n- **Hamiltonian cycle**: visits every vertex once and returns to the start"
+      },
+      {
+        "type": "images",
+        "src": "/images/eulerian_hamiltonian.png",
+        "alt": "Eulerian and Hamiltonian examples",
+        "caption": "Eulerian walks cover all edges; Hamiltonian paths cover all vertices."
+      },
+      {
+        "type": "text",
+        "value": "**Euler's Theorem**:\n- A graph has an Eulerian circuit if all vertices have even degree\n- It has an Eulerian path if exactly two vertices have odd degree"
+      },
+      {
+        "type": "example",
+        "title": "Example - Eulerian or not?",
+        "content": [
+          "A network has degrees: A(2), B(4), C(4), D(2). All are even → Eulerian circuit exists."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Example - Hamiltonian path",
+        "content": [
+          "A path that visits every city once: A → C → B → D. No need to return to A.",
+          "This is a Hamiltonian path but not a cycle."
+        ]
+      }
+    ]
+  },
+    "69": {
+    "title": "Network problems",
+    "content": [
+      {
+        "type": "text",
+        "value": "Network problems often involve finding the most efficient or optimal way to travel, connect, or schedule using vertices and edges. Common problems include shortest paths, minimal connections, and cost minimisation."
+      },
+      {
+        "type": "text",
+        "value": "Types of network problems:\n- Finding the shortest route between two points\n- Ensuring all points are connected using the least number of edges\n- Minimising total travel cost or time"
+      },
+      {
+        "type": "example",
+        "title": "Example - Shortest route",
+        "content": [
+          "You want to travel from A to F on a weighted network.\nPossible paths: A-B-F (12 km), A-C-D-F (9 + 5 + 3 = 17 km), A-E-F (10 + 6 = 16 km)",
+          "Shortest path: A-B-F = 12 km"
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Example - Minimum total connection",
+        "content": [
+          "You need to connect five workstations with cables in the cheapest way possible. This is a **spanning tree** problem (see next lesson)."
+        ]
+      },
+      {
+        "type": "images",
+        "src": "/images/network_problem_paths.png",
+        "alt": "Weighted network showing possible routes",
+        "caption": "Each route has a total cost or length. Choose the shortest or cheapest."
+      },
+      {
+        "type": "text",
+        "value": "These problems are solved using strategies such as Dijkstra's algorithm, Kruskal's algorithm, or trial-and-error with clear working."
+      }
+    ]
+  },
+    "70": {
+    "title": "Minimal spanning trees",
+    "content": [
+      {
+        "type": "text",
+        "value": "A **spanning tree** connects all vertices in a network with the minimum number of edges and no cycles. A **minimal spanning tree (MST)** does so with the smallest total weight."
+      },
+      {
+        "type": "images",
+        "src": "/images/spanning_tree_example.png",
+        "alt": "Spanning tree of a network",
+        "caption": "All points are connected, and there are no loops (cycles)."
+      },
+      {
+        "type": "text",
+        "value": "You can use **Kruskal's Algorithm** to find an MST:\n1. List all edges in ascending order of weight\n2. Add edges one by one, avoiding cycles\n3. Stop when all vertices are connected"
+      },
+      {
+        "type": "example",
+        "title": "Example - Kruskal's Algorithm",
+        "content": [
+          "Edges (sorted): A-B(2), B-C(3), C-D(4), A-D(5)",
+          "Step 1: A-B, Step 2: B-C, Step 3: C-D → total = 2 + 3 + 4 = 9",
+          "Skip A-D to avoid forming a cycle"
+        ]
+      },
+      {
+        "type": "text",
+        "value": "**Prim's Algorithm** is another method:\n- Start from a vertex\n- Add the smallest connecting edge to a new vertex\n- Repeat until all vertices are connected"
+      },
+      {
+        "type": "text",
+        "value": "MSTs are useful in designing:\n- Telecommunication networks\n- Road systems\n- Computer networks"
+      }
+    ]
+  },
+    "71": {
+    "title": "Connector problems",
+    "content": [
+      {
+        "type": "text",
+        "value": "Connector problems involve connecting multiple locations or points using the least total distance, time, or cost — without creating unnecessary paths."
+      },
+      {
+        "type": "text",
+        "value": "This is essentially a **minimum spanning tree** (MST) problem. The aim is to ensure every vertex is reachable without any cycles and using the smallest total edge weight."
+      },
+      {
+        "type": "example",
+        "title": "Example - Connecting offices",
+        "content": [
+          "A company needs to connect 6 offices with cable.",
+          "Edges show cost in thousands of dollars. Use Kruskal's or Prim's algorithm.",
+          "Final MST: connects all offices for a total of $47,000."
+        ]
+      },
+      {
+        "type": "images",
+        "src": "/images/connector_network.png",
+        "alt": "Office network showing MST",
+        "caption": "Each connection is chosen to minimise total cable length while ensuring all buildings are connected."
+      },
+      {
+        "type": "text",
+        "value": "Connector problems are used in:\n- Designing electrical grids\n- Laying underground pipes or cables\n- Building low-cost road networks"
+      }
+    ]
+  },
+    "72": {
+    "title": "Shortest path",
+    "content": [
+      {
+        "type": "text",
+        "value": "Shortest path problems ask for the minimum distance or cost to travel from a starting vertex to a destination vertex, using edges with weights."
+      },
+      {
+        "type": "text",
+        "value": "**Dijkstra's Algorithm** is commonly used:\n1. Start from the initial vertex\n2. Assign a tentative distance of 0 to the start and ∞ to all others\n3. Visit the nearest unvisited vertex\n4. Update the distances to its neighbours\n5. Repeat until the destination is reached"
+      },
+      {
+        "type": "example",
+        "title": "Example - Find shortest route from A to F",
+        "content": [
+          "Possible paths:\n- A-B-F (cost: 10)\n- A-C-D-F (cost: 14)\n- A-E-F (cost: 12)",
+          "Shortest path: A-B-F = 10"
+        ]
+      },
+      {
+        "type": "images",
+        "src": "/images/shortest_path_example.png",
+        "alt": "Network showing highlighted shortest path",
+        "caption": "Dijkstra's algorithm guarantees the shortest path by testing all possible options efficiently."
+      },
+      {
+        "type": "text",
+        "value": "Shortest path problems appear in:\n- Navigation apps (e.g., Google Maps)\n- Delivery route planning\n- Network packet routing"
+      }
+    ]
+  },
+  "73": {
+    "title": "Topic Test - Network Concepts",
+    "content": [
+      {
+        "type": "text",
+        "value": "This summary reviews the key concepts and problem types from the Network Concepts topic. Make sure you're confident with terminology, path types, and algorithms before your test."
+      },
+      {
+        "type": "text",
+        "value": "**Basic Terminology**:\n- **Vertex**: a point (node)\n- **Edge**: a connection between vertices\n- **Degree**: number of edges at a vertex\n- **Path / Trail / Walk / Cycle**: types of travel through the network"
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_network_terms.png",
+        "alt": "Network with labelled terms",
+        "caption": "Recognise network structures and identify valid walks, paths, and cycles."
+      },
+      {
+        "type": "text",
+        "value": "**Drawing Networks**:\n- Use labelled circles and lines\n- Include weights for distance or cost\n- Represent networks with adjacency matrices if needed"
+      },
+      {
+        "type": "text",
+        "value": "**Eulerian Paths and Circuits**:\n- Path: uses each edge once (2 odd vertices)\n- Circuit: starts and ends at same vertex (all even degrees)"
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_eulerian.png",
+        "alt": "Eulerian path example",
+        "caption": "Eulerian circuits use every edge once and return to the start."
+      },
+      {
+        "type": "text",
+        "value": "**Hamiltonian Paths and Cycles**:\n- Path: visits every vertex once\n- Cycle: same, but returns to the starting point"
+      },
+      {
+        "type": "text",
+        "value": "**Network Problems** involve:\n- Shortest paths (Dijkstra's Algorithm)\n- Minimal spanning trees (Kruskal's or Prim's Algorithm)\n- Connector problems for lowest cost"
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_mst_shortestpath.png",
+        "alt": "Summary of MST and shortest path",
+        "caption": "Use different strategies depending on whether you're minimising distance or connecting all points."
+      },
+      {
+        "type": "text",
+        "value": "✅ You're ready! Make sure you can:\n- Identify valid paths\n- Draw networks accurately\n- Apply algorithms to optimise routes\n\nGood luck with your Topic Test!"
+      }
+    ]
+  },
+    "74": {
+    "title": "Introduction to critical path analysis",
+    "content": [
+      {
+        "type": "text",
+        "value": "Critical Path Analysis (CPA) is used to plan, schedule, and manage complex projects. It identifies the sequence of dependent activities that determines the minimum time needed to complete the project."
+      },
+      {
+        "type": "text",
+        "value": "**Terminology:**\n- **Activity**: a task or job with a known duration\n- **Event**: the start or end of one or more activities\n- **Network diagram**: a graph showing all activities and their dependencies\n- **Critical path**: the longest duration path through the network; delays here delay the entire project"
+      },
+      {
+        "type": "images",
+        "src": "/images/cpa_network_basic.png",
+        "alt": "Simple project network diagram",
+        "caption": "Each edge represents an activity. Each node is an event (start or finish)."
+      },
+      {
+        "type": "example",
+        "title": "Example - Project planning",
+        "content": [
+          "Activities:\n- A (2 days): start to event 1\n- B (4 days): follows A\n- C (3 days): also follows A\n- D (2 days): follows both B and C",
+          "We draw a network showing these dependencies and use CPA to calculate the project duration."
+        ]
+      },
+      {
+        "type": "text",
+        "value": "Critical Path Analysis helps:\n- Find minimum completion time\n- Identify tasks that can be delayed without delaying the project\n- Allocate resources efficiently"
+      }
+    ]
+  },
+    "75": {
+    "title": "Constructing a network diagram given an activity chart",
+    "content": [
+      {
+        "type": "text",
+        "value": "You can build a network diagram by converting an activity table into a graph. Each activity becomes an arrow between events (nodes). Dependencies determine which arrows go where."
+      },
+      {
+        "type": "table",
+        "caption": "Sample activity chart",
+        "headers": ["Activity", "Duration (days)", "Predecessors"],
+        "rows": [
+          ["A", "2", "—"],
+          ["B", "3", "A"],
+          ["C", "4", "A"],
+          ["D", "2", "B, C"]
+        ]
+      },
+      {
+        "type": "images",
+        "src": "/images/cpa_activity_chart_to_network.png",
+        "alt": "Network from activity chart",
+        "caption": "Each arrow is an activity. Arrows join events. Activities sharing dependencies join the same node."
+      },
+      {
+        "type": "text",
+        "value": "Tips for drawing:\n- Start at a single node (start event)\n- Create a new event each time an activity ends\n- Merge arrows when activities share the same start or end\n- Use **dummy activities** when two activities share some but not all dependencies (see next lesson)"
+      },
+      {
+        "type": "example",
+        "title": "Example - Drawing from table",
+        "content": [
+          "Activity B follows A, so arrow B leaves the node where A ends.\nActivity D needs both B and C completed, so their end nodes are joined before D starts."
+        ]
+      }
+    ]
+  },
+    "76": {
+    "title": "Dummy activities",
+    "content": [
+      {
+        "type": "text",
+        "value": "A **dummy activity** is used in network diagrams to show a dependency between activities without representing actual work or time. It ensures that the logic of the project is correctly represented when two activities share some but not all predecessors."
+      },
+      {
+        "type": "text",
+        "value": "**Key facts:**\n- Dummy activities have zero duration\n- Represented by dashed arrows\n- Used when two activities depend on the same predecessor but must be shown separately"
+      },
+      {
+        "type": "example",
+        "title": "Example - Dummy activity required",
+        "content": [
+          "Activity B and C both depend on A.\nActivity D depends only on B (not on C).",
+          "To reflect this in the network, a dummy activity is used to separate B and C correctly."
+        ]
+      },
+      {
+        "type": "images",
+        "src": "/images/cpa_dummy_activity.png",
+        "alt": "Network diagram showing dummy activity",
+        "caption": "The dashed arrow is a dummy — used to preserve dependencies."
+      },
+      {
+        "type": "text",
+        "value": "Without a dummy activity, the diagram would incorrectly suggest that D depends on both B and C. Dummies are essential for accurate modelling of project logic."
+      }
+    ]
+  },
+    "77": {
+    "title": "Forward and backward scanning",
+    "content": [
+      {
+        "type": "text",
+        "value": "**Forward scanning** calculates the earliest start and finish times for each activity.\n**Backward scanning** finds the latest start and finish times without delaying the project."
+      },
+      {
+        "type": "text",
+        "value": "This process helps identify slack time and critical paths."
+      },
+      {
+        "type": "example",
+        "title": "Example - Forward scan",
+        "content": [
+          "Start at time 0.\nIf A takes 3 days: ES = 0, EF = 3\nIf B depends on A and takes 4 days: ES = 3, EF = 7",
+          "Repeat this until all activities are complete."
+        ]
+      },
+      {
+        "type": "example",
+        "title": "Example - Backward scan",
+        "content": [
+          "Start at the end of the project.\nIf final event occurs at day 15, subtract durations backward:\nIf D takes 5 days: LF = 15, LS = 10",
+          "Continue backward through the network."
+        ]
+      },
+      {
+        "type": "images",
+        "src": "/images/cpa_forward_backward_scan.png",
+        "alt": "Diagram of scanning technique",
+        "caption": "Scan forward to find earliest times, backward for latest times."
+      },
+      {
+        "type": "text",
+        "value": "The **critical path** contains activities where ES = LS and EF = LF. These tasks have no slack time."
+      }
+    ]
+  },
+    "78": {
+    "title": "Float times and the critical path",
+    "content": [
+      {
+        "type": "text",
+        "value": "**Float (or slack)** is the amount of time an activity can be delayed without affecting the overall project duration. It helps identify which tasks have scheduling flexibility."
+      },
+      {
+        "type": "math",
+        "value": "Float = LS - ES = LF - EF"
+      },
+      {
+        "type": "text",
+        "value": "**Key points:**\n- Activities with **zero float** lie on the **critical path**\n- Delaying any activity on the critical path delays the whole project"
+      },
+      {
+        "type": "images",
+        "src": "/images/cpa_float_critical_path.png",
+        "alt": "Project network with critical path highlighted",
+        "caption": "The bold arrows show the critical path: no float, strict timing."
+      },
+      {
+        "type": "example",
+        "title": "Example - Calculating float",
+        "content": [
+          "Activity A: ES = 0, EF = 5, LS = 0, LF = 5 → Float = 0 (critical)",
+          "Activity B: ES = 5, EF = 9, LS = 6, LF = 10 → Float = 1 (not critical)"
+        ]
+      },
+      {
+        "type": "text",
+        "value": "Float gives project managers flexibility in scheduling. Only non-critical activities can be shifted without delay."
+      }
+    ]
+  },
+    "79": {
+    "title": "Minimum completion time",
+    "content": [
+      {
+        "type": "text",
+        "value": "The **minimum completion time** for a project is the total duration of the **critical path** — the longest time path from the start to the finish node."
+      },
+      {
+        "type": "text",
+        "value": "**How to find it:**\n1. Perform forward scanning to find EF values\n2. Identify the largest EF at the final event\n3. That EF value is the project's minimum time"
+      },
+      {
+        "type": "example",
+        "title": "Example - Project duration",
+        "content": [
+          "Activities on the critical path:\n- A: 4 days\n- C: 3 days\n- D: 5 days",
+          "→ Minimum completion time = 4 + 3 + 5 = 12 days"
+        ]
+      },
+      {
+        "type": "images",
+        "src": "/images/cpa_completion_time.png",
+        "alt": "Diagram of critical path adding up to project duration",
+        "caption": "The completion time is equal to the total duration of all activities on the critical path."
+      },
+      {
+        "type": "text",
+        "value": "Knowing the minimum completion time helps:\n- Set deadlines\n- Monitor progress\n- Allocate resources to critical tasks"
+      }
+    ]
+  },
+    "80": {
+    "title": "Network flow problems",
+    "content": [
+      {
+        "type": "text",
+        "value": "Network flow problems involve finding the **maximum flow** that can move through a network from a **source** to a **sink** (destination), without exceeding any edge's capacity."
+      },
+      {
+        "type": "text",
+        "value": "Each edge has a **capacity** — the maximum it can carry. The goal is to determine the maximum total flow from start to end across the whole network."
+      },
+      {
+        "type": "images",
+        "src": "/images/network_flow_example.png",
+        "alt": "Flow network with capacities",
+        "caption": "Arrows show capacities between nodes. The aim is to find the highest total flow from source to sink."
+      },
+      {
+        "type": "example",
+        "title": "Example - Simple flow network",
+        "content": [
+          "Given:\n- Source A → B (capacity 10), A → C (8)\n- B → D (6), C → D (5)\n- B → C (3), D is the sink",
+          "One possible flow:\n- A → B = 6, A → C = 5\n- B → D = 6, C → D = 5",
+          "→ Total flow to sink D = 11"
+        ]
+      },
+      {
+        "type": "text",
+        "value": "**Techniques for solving:**\n- Trial and error for small networks\n- Use **flow tables** to keep track\n- Ensure conservation of flow at each node (inflow = outflow, except at source/sink)"
+      },
+      {
+        "type": "text",
+        "value": "Applications include traffic routing, internet data transfer, and logistics/supply chain planning."
+      }
+    ]
+  },
+    "81": {
+    "title": "Topic Test - Critical Path Analysis",
+    "content": [
+      {
+        "type": "text",
+        "value": "This is your final review of the Critical Path Analysis topic. Ensure you understand the terminology, processes, and problem-solving strategies used throughout the unit."
+      },
+      {
+        "type": "text",
+        "value": "**Key Ideas:**\n- A network diagram uses arrows to represent tasks and circles for events.\n- The **critical path** is the longest duration path through the project."
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_critical_path.png",
+        "alt": "Critical path network example",
+        "caption": "Activities on the critical path must not be delayed."
+      },
+      {
+        "type": "text",
+        "value": "**Dummy activities** represent dependency, not time. Use dashed lines for dummies when activities share some but not all prerequisites."
+      },
+      {
+        "type": "text",
+        "value": "**Forward and backward scanning** calculate:\n- ES (Earliest Start), EF (Earliest Finish)\n- LS (Latest Start), LF (Latest Finish)"
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_forward_backward.png",
+        "alt": "Forward and backward scan diagram",
+        "caption": "Use forward scanning to calculate EF; use backward scanning for LF and LS."
+      },
+      {
+        "type": "text",
+        "value": "**Float** shows slack time: \\( \\text{Float} = LS - ES \\). Critical activities have zero float."
+      },
+      {
+        "type": "text",
+        "value": "**Network flow problems** use edge capacities to calculate maximum flow from a source to a sink."
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_flow_network.png",
+        "alt": "Flow network summary",
+        "caption": "Track incoming and outgoing flow carefully to solve max-flow problems."
+      },
+      {
+        "type": "text",
+        "value": "✅ You've now completed your Critical Path Analysis review. Be confident identifying the critical path, calculating floats, and drawing accurate project networks. Good luck!"
+      }
+    ]
+  }}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

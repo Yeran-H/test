@@ -1,0 +1,1120 @@
+{
+  "7": {
+    "title": "Topic Test - Simultaneous Linear Equations",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "What is the solution to the system: x + y = 4 and x - y = 2?",
+        "options": ["(3,1)", "(1,3)", "(2,2)", "(4,0)"],
+        "answer": "(3,1)",
+        "explanation": "Add the equations: x + y + x - y = 4 + 2 ⇒ 2x = 6 ⇒ x = 3. Substitute x into x + y = 4 to get y = 1."
+      },
+      {
+        "id": "q2",
+        "question": "Which algebraic method replaces one variable with an expression involving the other?",
+        "options": ["Substitution", "Elimination", "Graphing", "Factorisation"],
+        "answer": "Substitution",
+        "explanation": "Substitution involves solving one equation for a variable and inserting it into the other."
+      },
+      {
+        "id": "q3",
+        "question": "What does the intersection point of two lines represent?",
+        "options": ["The solution", "The y-intercept", "The midpoint", "The gradient"],
+        "answer": "The solution",
+        "explanation": "The point where two lines intersect satisfies both equations — it's the solution."
+      },
+      {
+        "id": "q4",
+        "question": "Solve the system: 2x + 3y = 12 and 4x - 3y = 6.",
+        "options": ["(3,2)", "(2,2)", "(0,4)", "(1,3)"],
+        "answer": "(3,2)",
+        "explanation": "Add the equations: 6x = 18 ⇒ x = 3. Substitute into 2x + 3y = 12: 6 + 3y = 12 ⇒ y = 2."
+      },
+      {
+        "id": "q5",
+        "question": "Which method is best when both equations are already solved for the same variable?",
+        "options": ["Substitution", "Elimination", "Graphing", "Trial and Error"],
+        "answer": "Substitution",
+        "explanation": "When both equations are solved for a variable, substitution directly finds the solution."
+      },
+      {
+        "id": "q6",
+        "question": "Which method is best when both equations are written in standard form and a variable can be easily cancelled?",
+        "options": ["Graphing", "Substitution", "Elimination", "Factoring"],
+        "answer": "Elimination",
+        "explanation": "Elimination is efficient when one variable has matching coefficients and can be removed by addition or subtraction."
+      },
+      {
+        "id": "q7",
+        "question": "If two lines are parallel and never intersect, what is the solution to the system?",
+        "options": ["One solution", "Two solutions", "No solution", "Infinite solutions"],
+        "answer": "No solution",
+        "explanation": "Parallel lines do not intersect, so there is no common solution."
+      },
+      {
+        "id": "q8",
+        "question": "If two equations describe the same line, what kind of solution does the system have?",
+        "options": ["One solution", "Two solutions", "No solution", "Infinite solutions"],
+        "answer": "Infinite solutions",
+        "explanation": "If the lines are the same, every point on the line is a solution."
+      },
+      {
+        "id": "q9",
+        "question": "What is the break-even point on a cost vs. revenue graph?",
+        "options": ["When cost is zero", "When profit is maximised", "When cost equals revenue", "When loss occurs"],
+        "answer": "When cost equals revenue",
+        "explanation": "The break-even point is where the total cost equals total revenue — no profit, no loss."
+      },
+      {
+        "id": "q10",
+        "question": "Which of the following best represents a real-world use of simultaneous equations?",
+        "options": ["Solving a single linear equation", "Finding x-intercepts of a parabola", "Comparing phone plans with different base and per-use rates", "Sketching a circle"],
+        "answer": "Comparing phone plans with different base and per-use rates",
+        "explanation": "Simultaneous equations can model and compare linear relationships, like phone plan costs."
+      }
+    ]
+  },
+  "16": {
+    "title": "Topic Test - Non-Linear Relationships",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "Which of the following is the general form of an exponential function?",
+        "options": ["y = a + bx", "y = ax^2 + bx + c", "y = a × b^x", "y = k/x"],
+        "answer": "y = a × b^x",
+        "explanation": "Exponential functions follow the form y = a × b^x, where b > 0 and b ≠ 1."
+      },
+      {
+        "id": "q2",
+        "question": "What does the graph of an exponential growth function look like?",
+        "options": ["A straight line", "A parabola", "A curve that increases rapidly", "A horizontal line"],
+        "answer": "A curve that increases rapidly",
+        "explanation": "Exponential growth increases rapidly and never touches the x-axis."
+      },
+      {
+        "id": "q3",
+        "question": "Which of the following is a quadratic function?",
+        "options": ["y = 2x", "y = 3^x", "y = 4x - 7", "y = x^2 + 2x + 1"],
+        "answer": "y = x^2 + 2x + 1",
+        "explanation": "Quadratic functions contain an x² term and graph as parabolas."
+      },
+      {
+        "id": "q4",
+        "question": "What is the name of the turning point of a parabola?",
+        "options": ["Axis", "Focus", "Vertex", "Root"],
+        "answer": "Vertex",
+        "explanation": "The vertex is the highest or lowest point on a parabola."
+      },
+      {
+        "id": "q5",
+        "question": "Which function type has a graph that approaches the axes but never touches them?",
+        "options": ["Linear", "Quadratic", "Exponential", "Reciprocal"],
+        "answer": "Reciprocal",
+        "explanation": "Reciprocal graphs (y = k/x) have asymptotes at x = 0 and y = 0."
+      },
+      {
+        "id": "q6",
+        "question": "What does inverse variation mean?",
+        "options": ["Both variables increase together", "Both variables decrease together", "One variable increases as the other decreases", "The variables remain constant"],
+        "answer": "One variable increases as the other decreases",
+        "explanation": "In inverse variation (xy = k), as one variable increases, the other must decrease."
+      },
+      {
+        "id": "q7",
+        "question": "Which real-world situation could be modelled with an exponential decay function?",
+        "options": ["Height of a building", "Speed of a car", "Amount of drug in the body over time", "Area of a rectangle"],
+        "answer": "Amount of drug in the body over time",
+        "explanation": "Exponential decay models situations where a value decreases rapidly over time."
+      },
+      {
+        "id": "q8",
+        "question": "What is the axis of symmetry in a quadratic function?",
+        "options": ["The x-value of the vertex", "The y-intercept", "The horizontal asymptote", "The x-intercept"],
+        "answer": "The x-value of the vertex",
+        "explanation": "A parabola is symmetrical around a vertical line passing through the vertex."
+      },
+      {
+        "id": "q9",
+        "question": "What type of function is y = 1/x?",
+        "options": ["Linear", "Quadratic", "Reciprocal", "Exponential"],
+        "answer": "Reciprocal",
+        "explanation": "y = 1/x is the simplest reciprocal function with vertical and horizontal asymptotes."
+      },
+      {
+        "id": "q10",
+        "question": "Which function type would you most likely use to model a projectile's path?",
+        "options": ["Linear", "Quadratic", "Reciprocal", "Exponential"],
+        "answer": "Quadratic",
+        "explanation": "Projectile motion follows a parabolic path, which is best modelled with a quadratic function."
+      }
+    ]
+  },
+  "25": {
+    "title": "Topic Test - Non-Right-Angled Trigonometry",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "What is the Sine Rule used for in trigonometry?",
+        "options": [
+          "To relate side lengths and opposite angles in any triangle",
+          "To find the area of right-angled triangles only",
+          "To calculate angles in right-angled triangles only",
+          "To find the perimeter of a triangle"
+        ],
+        "answer": "To relate side lengths and opposite angles in any triangle",
+        "explanation": "The Sine Rule relates the ratio of a side length to the sine of its opposite angle in any triangle."
+      },
+      {
+        "id": "q2",
+        "question": "Which rule would you use if you know two sides and the included angle?",
+        "options": ["Sine Rule", "Cosine Rule", "Pythagoras' Theorem", "Area Rule"],
+        "answer": "Cosine Rule",
+        "explanation": "The Cosine Rule is used to find unknown sides or angles when two sides and the included angle are known."
+      },
+      {
+        "id": "q3",
+        "question": "What formula calculates the area of any triangle when two sides and the included angle are known?",
+        "options": [
+          "1/2 × base × height",
+          "1/2 × a × b × sin C",
+          "a² + b² = c²",
+          "a / sin A = b / sin B"
+        ],
+        "answer": "1/2 × a × b × sin C",
+        "explanation": "The area can be found using half the product of two sides and the sine of the included angle."
+      },
+      {
+        "id": "q4",
+        "question": "In bearings, how is a true bearing measured?",
+        "options": [
+          "Clockwise from north using three digits",
+          "Counterclockwise from north",
+          "Using cardinal points like N, S, E, W",
+          "Using angles from east"
+        ],
+        "answer": "Clockwise from north using three digits",
+        "explanation": "True bearings are measured clockwise from north, often expressed as a three-digit number."
+      },
+      {
+        "id": "q5",
+        "question": "What does an angle of elevation measure?",
+        "options": [
+          "Angle below horizontal line",
+          "Angle above horizontal line",
+          "Angle inside a triangle",
+          "Angle between two bearings"
+        ],
+        "answer": "Angle above horizontal line",
+        "explanation": "Angle of elevation is the angle between the horizontal and the line of sight looking upwards."
+      },
+      {
+        "id": "q6",
+        "question": "What is the key difference between the Sine Rule and Cosine Rule?",
+        "options": [
+          "Sine Rule applies only to right triangles; Cosine Rule to all triangles",
+          "Sine Rule relates sides and opposite angles; Cosine Rule relates sides and included angles",
+          "Cosine Rule calculates perimeter; Sine Rule calculates area",
+          "Sine Rule uses cosine values; Cosine Rule uses sine values"
+        ],
+        "answer": "Sine Rule relates sides and opposite angles; Cosine Rule relates sides and included angles",
+        "explanation": "The Sine Rule relates sides to their opposite angles, while the Cosine Rule uses two sides and the included angle."
+      },
+      {
+        "id": "q7",
+        "question": "In radial surveys, how is total land area typically calculated?",
+        "options": [
+          "By measuring each side length and summing",
+          "By dividing land into triangles and calculating area for each",
+          "By using only the perimeter measurement",
+          "By estimating based on a rectangle"
+        ],
+        "answer": "By dividing land into triangles and calculating area for each",
+        "explanation": "Radial surveys break irregular shapes into triangles to calculate total area accurately."
+      },
+      {
+        "id": "q8",
+        "question": "Which of the following best describes a bearing?",
+        "options": [
+          "A measurement of angle between two points on a triangle",
+          "A compass direction measured clockwise from north",
+          "An angle between a side and the base of a triangle",
+          "An angle in a right triangle"
+        ],
+        "answer": "A compass direction measured clockwise from north",
+        "explanation": "Bearings give directions relative to north, measured clockwise in degrees."
+      },
+      {
+        "id": "q9",
+        "question": "Which triangle rule can be used when no angle-side opposite pair is known?",
+        "options": ["Sine Rule", "Cosine Rule", "Pythagoras' Theorem", "Area Rule"],
+        "answer": "Cosine Rule",
+        "explanation": "The Cosine Rule is useful when two sides and the included angle or three sides are known."
+      },
+      {
+        "id": "q10",
+        "question": "What is the main use of the cosine rule in solving triangles?",
+        "options": [
+          "To find the height of a triangle",
+          "To find an unknown side or angle when the opposite angle-side pair isn't available",
+          "To calculate the perimeter",
+          "To find the midpoint of a side"
+        ],
+        "answer": "To find an unknown side or angle when the opposite angle-side pair isn't available",
+        "explanation": "The cosine rule helps find missing sides or angles when the sine rule isn't applicable."
+      }
+    ]
+  },
+  "35": {
+    "title": "Topic Test - Rates and Ratios",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "What is the formula to calculate concentration in a solution?",
+        "options": [
+          "Mass × Volume",
+          "Mass ÷ Volume",
+          "Volume ÷ Mass",
+          "Mass + Volume"
+        ],
+        "answer": "Mass ÷ Volume",
+        "explanation": "Concentration is calculated by dividing mass by volume, usually expressed in g/L."
+      },
+      {
+        "id": "q2",
+        "question": "How is heart rate commonly measured?",
+        "options": [
+          "Beats per second",
+          "Beats per hour",
+          "Beats per minute",
+          "Total beats over a day"
+        ],
+        "answer": "Beats per minute",
+        "explanation": "Heart rate is measured in beats per minute (bpm), often scaled from short intervals."
+      },
+      {
+        "id": "q3",
+        "question": "What is the unit of power when measuring energy rate?",
+        "options": ["Joules", "Watts", "Volts", "Amperes"],
+        "answer": "Watts",
+        "explanation": "Power is energy per second, measured in watts (W)."
+      },
+      {
+        "id": "q4",
+        "question": "What does a lower fuel consumption value (L/100 km) indicate?",
+        "options": [
+          "Less efficient car",
+          "More efficient car",
+          "Higher speed",
+          "Longer travel time"
+        ],
+        "answer": "More efficient car",
+        "explanation": "Lower fuel consumption means the car uses less fuel over 100 km, indicating better efficiency."
+      },
+      {
+        "id": "q5",
+        "question": "How are ratios generally used?",
+        "options": [
+          "To multiply quantities directly",
+          "To divide quantities into proportional parts",
+          "To add quantities together",
+          "To subtract quantities"
+        ],
+        "answer": "To divide quantities into proportional parts",
+        "explanation": "Ratios split quantities into parts proportional to each other."
+      },
+      {
+        "id": "q6",
+        "question": "What is the purpose of scale drawings?",
+        "options": [
+          "To increase actual size",
+          "To represent real measurements proportionally smaller or larger",
+          "To measure area only",
+          "To find volume"
+        ],
+        "answer": "To represent real measurements proportionally smaller or larger",
+        "explanation": "Scale drawings shrink or enlarge real objects while maintaining proportional accuracy."
+      },
+      {
+        "id": "q7",
+        "question": "Plans and elevations are views that show how many dimensions?",
+        "options": ["One", "Two", "Three", "Four"],
+        "answer": "Two",
+        "explanation": "Plans and elevations are 2D views of 3D objects, showing two dimensions at a time."
+      },
+      {
+        "id": "q8",
+        "question": "What is the correct unit for concentration?",
+        "options": [
+          "g/L",
+          "L/g",
+          "m/s",
+          "kg/m"
+        ],
+        "answer": "g/L",
+        "explanation": "Concentration is commonly measured in grams per litre (g/L)."
+      },
+      {
+        "id": "q9",
+        "question": "Which formula would you use to find the power of an electrical device?",
+        "options": [
+          "Power = Energy × Time",
+          "Power = Energy ÷ Time",
+          "Power = Time ÷ Energy",
+          "Power = Voltage × Current"
+        ],
+        "answer": "Power = Energy ÷ Time",
+        "explanation": "Power is calculated as energy divided by time."
+      },
+      {
+        "id": "q10",
+        "question": "Which of the following best describes 'fuel consumption'?",
+        "options": [
+          "Fuel used per litre of distance",
+          "Fuel used per 100 kilometres",
+          "Distance travelled per litre of fuel",
+          "Fuel used per hour"
+        ],
+        "answer": "Fuel used per 100 kilometres",
+        "explanation": "Fuel consumption measures litres of fuel used per 100 km, showing efficiency."
+      }
+    ]
+  },
+  "45": {
+    "title": "Topic Test - Investments and Loans",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "What formula is used to calculate the future value of an investment with compound interest?",
+        "options": [
+          "FV = P(1 + r)^n",
+          "FV = P × r × n",
+          "FV = P + rn",
+          "FV = P / (1 + r)^n"
+        ],
+        "answer": "FV = P(1 + r)^n",
+        "explanation": "Future value with compound interest is calculated using FV = P(1 + r)^n."
+      },
+      {
+        "id": "q2",
+        "question": "How does compound interest growth compare to simple interest on a graph?",
+        "options": [
+          "Compound interest grows linearly; simple interest curves upward",
+          "Both grow linearly",
+          "Compound interest curves upward; simple interest grows linearly",
+          "Both curve upward exponentially"
+        ],
+        "answer": "Compound interest curves upward; simple interest grows linearly",
+        "explanation": "Compound interest grows exponentially causing a curved graph, while simple interest grows at a constant rate."
+      },
+      {
+        "id": "q3",
+        "question": "What effect does inflation have on purchasing power?",
+        "options": [
+          "Increases purchasing power",
+          "Has no effect",
+          "Erodes purchasing power",
+          "Doubles purchasing power"
+        ],
+        "answer": "Erodes purchasing power",
+        "explanation": "Inflation decreases the value of money over time, reducing purchasing power."
+      },
+      {
+        "id": "q4",
+        "question": "How is dividend yield calculated?",
+        "options": [
+          "Dividend ÷ Share Price × 100%",
+          "Share Price ÷ Dividend × 100%",
+          "Dividend + Share Price",
+          "Dividend - Share Price"
+        ],
+        "answer": "Dividend ÷ Share Price × 100%",
+        "explanation": "Dividend yield shows income return: dividend divided by share price, multiplied by 100%."
+      },
+      {
+        "id": "q5",
+        "question": "What does declining-balance depreciation do to an asset's value?",
+        "options": [
+          "Increases value each year",
+          "Reduces value by a fixed amount each year",
+          "Reduces value by a fixed percentage each year",
+          "Keeps value constant"
+        ],
+        "answer": "Reduces value by a fixed percentage each year",
+        "explanation": "Declining-balance depreciation decreases an asset's value by a consistent percentage annually."
+      },
+      {
+        "id": "q6",
+        "question": "What is a key feature of reducing-balance loans?",
+        "options": [
+          "Interest charged on original loan amount only",
+          "Interest charged on remaining balance after each payment",
+          "No interest charged",
+          "Interest increases over time"
+        ],
+        "answer": "Interest charged on remaining balance after each payment",
+        "explanation": "Reducing-balance loans calculate interest on the unpaid loan balance, so interest decreases as payments are made."
+      },
+      {
+        "id": "q7",
+        "question": "What should you watch out for when using credit cards?",
+        "options": [
+          "Low fees",
+          "Fixed monthly payments only",
+          "High interest and fees if not paid in full",
+          "No interest charges"
+        ],
+        "answer": "High interest and fees if not paid in full",
+        "explanation": "Credit cards can incur high interest and fees if balances are not paid off each billing cycle."
+      },
+      {
+        "id": "q8",
+        "question": "Which of these represents appreciation?",
+        "options": [
+          "Decrease in asset value",
+          "Increase in asset value",
+          "Stable asset value",
+          "Loss from investment"
+        ],
+        "answer": "Increase in asset value",
+        "explanation": "Appreciation is when an asset gains value over time."
+      },
+      {
+        "id": "q9",
+        "question": "What happens to the interest on a reducing-balance loan as you pay down the principal?",
+        "options": [
+          "Interest increases",
+          "Interest stays the same",
+          "Interest decreases",
+          "Interest becomes zero immediately"
+        ],
+        "answer": "Interest decreases",
+        "explanation": "As the loan balance lowers, interest calculated on the remaining principal also decreases."
+      },
+      {
+        "id": "q10",
+        "question": "Which formula represents declining-balance depreciation?",
+        "options": [
+          "V = V₀(1 + r)^n",
+          "V = V₀ - rn",
+          "V = V₀(1 - r)^n",
+          "V = V₀ / (1 + r)^n"
+        ],
+        "answer": "V = V₀(1 - r)^n",
+        "explanation": "Declining-balance depreciation reduces asset value by a fixed rate each year, expressed as V = V₀(1 - r)^n."
+      }
+    ]
+  },
+    "50": {
+    "title": "Topic Test - Annuities",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "What is the recurrence relation formula for an annuity?",
+        "options": [
+          "Aₙ = (1 + r)Aₙ₋₁ - P",
+          "Aₙ = Aₙ₋₁ + P",
+          "Aₙ = (1 - r)Aₙ₋₁ + P",
+          "Aₙ = P(1 + r)^n"
+        ],
+        "answer": "Aₙ = (1 + r)Aₙ₋₁ - P",
+        "explanation": "Each term in an annuity is calculated using Aₙ = (1 + r)Aₙ₋₁ - P, representing interest plus previous amount minus payment."
+      },
+      {
+        "id": "q2",
+        "question": "What do Future Value Tables (FVAF) help you calculate?",
+        "options": [
+          "Present value of a lump sum",
+          "Total amount saved after equal deposits",
+          "Monthly loan payments",
+          "Interest rate per period"
+        ],
+        "answer": "Total amount saved after equal deposits",
+        "explanation": "FVAF tables help find the total future value after a series of equal payments or deposits."
+      },
+      {
+        "id": "q3",
+        "question": "What is the formula for Present Value using PVAF?",
+        "options": [
+          "PV = P × PVAF",
+          "PV = P × FVAF",
+          "PV = P + PVAF",
+          "PV = P / PVAF"
+        ],
+        "answer": "PV = P × PVAF",
+        "explanation": "Present value is calculated as PV = P × PVAF, using the present value annuity factor."
+      },
+      {
+        "id": "q4",
+        "question": "In the annuity formula, what does the term P represent?",
+        "options": [
+          "Interest rate",
+          "Payment amount",
+          "Principal balance",
+          "Number of periods"
+        ],
+        "answer": "Payment amount",
+        "explanation": "P is the payment amount made each period in the annuity."
+      },
+      {
+        "id": "q5",
+        "question": "Which of these is NOT a common use of annuities?",
+        "options": [
+          "Paying off home loans",
+          "Creating retirement income",
+          "Daily stock trading",
+          "Investing in superannuation"
+        ],
+        "answer": "Daily stock trading",
+        "explanation": "Annuities are for structured payments and savings, not short-term trading."
+      },
+      {
+        "id": "q6",
+        "question": "How does an annuity payment affect the amount owed over time?",
+        "options": [
+          "Increases the amount owed",
+          "Decreases the amount owed",
+          "Keeps it the same",
+          "Doubles the amount owed"
+        ],
+        "answer": "Decreases the amount owed",
+        "explanation": "Each payment reduces the principal amount owed in an annuity."
+      },
+      {
+        "id": "q7",
+        "question": "What does the 'r' in the annuity formula represent?",
+        "options": [
+          "Payment amount",
+          "Number of periods",
+          "Interest rate per period",
+          "Principal balance"
+        ],
+        "answer": "Interest rate per period",
+        "explanation": "'r' is the interest rate applied each period in the annuity."
+      },
+      {
+        "id": "q8",
+        "question": "Why are present and future value tables useful?",
+        "options": [
+          "They eliminate the need for manual compounding calculations",
+          "They show monthly budgets",
+          "They predict stock prices",
+          "They calculate taxes"
+        ],
+        "answer": "They eliminate the need for manual compounding calculations",
+        "explanation": "These tables simplify calculations of compounded interest and annuities."
+      },
+      {
+        "id": "q9",
+        "question": "What type of payment schedule do annuities generally follow?",
+        "options": [
+          "Irregular payments",
+          "Single lump sum",
+          "Series of equal payments",
+          "Random deposits"
+        ],
+        "answer": "Series of equal payments",
+        "explanation": "Annuities consist of a series of equal payments made at regular intervals."
+      },
+      {
+        "id": "q10",
+        "question": "Which of the following best describes an annuity?",
+        "options": [
+          "A one-time investment",
+          "A recurring investment or loan payment",
+          "A type of stock",
+          "A tax deduction"
+        ],
+        "answer": "A recurring investment or loan payment",
+        "explanation": "An annuity involves recurring payments or deposits over time."
+      }
+    ]
+  },
+  "57": {
+    "title": "Topic Test - Bivariate Data Analysis",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "What does a scatterplot show?",
+        "options": [
+          "The relationship between two numerical variables",
+          "The frequency of a single variable",
+          "A pie chart representation",
+          "The average of data points"
+        ],
+        "answer": "The relationship between two numerical variables",
+        "explanation": "A scatterplot plots pairs of numerical data to visualize their relationship."
+      },
+      {
+        "id": "q2",
+        "question": "What is Pearson's correlation coefficient used for?",
+        "options": [
+          "Measuring the strength and direction of a linear relationship",
+          "Calculating the mean of a dataset",
+          "Finding the median value",
+          "Determining the mode"
+        ],
+        "answer": "Measuring the strength and direction of a linear relationship",
+        "explanation": "Pearson's r quantifies how strongly two variables are linearly related."
+      },
+      {
+        "id": "q3",
+        "question": "If Pearson's r = -1, what does it indicate?",
+        "options": [
+          "Perfect positive correlation",
+          "No correlation",
+          "Perfect negative correlation",
+          "Weak correlation"
+        ],
+        "answer": "Perfect negative correlation",
+        "explanation": "r = -1 indicates a perfect negative linear relationship."
+      },
+      {
+        "id": "q4",
+        "question": "What is the purpose of the line of best fit?",
+        "options": [
+          "To predict y-values based on x-values",
+          "To show data frequencies",
+          "To calculate mean values",
+          "To display categorical data"
+        ],
+        "answer": "To predict y-values based on x-values",
+        "explanation": "The line of best fit models the trend in data and helps make predictions."
+      },
+      {
+        "id": "q5",
+        "question": "Which of the following describes interpolation?",
+        "options": [
+          "Predicting values within the range of known data",
+          "Predicting values outside the known data range",
+          "Plotting categorical data",
+          "Calculating averages"
+        ],
+        "answer": "Predicting values within the range of known data",
+        "explanation": "Interpolation estimates values inside the range of data points."
+      },
+      {
+        "id": "q6",
+        "question": "What is risky about extrapolation?",
+        "options": [
+          "It involves predicting outside the range of observed data",
+          "It uses mean values",
+          "It always gives accurate results",
+          "It ignores data trends"
+        ],
+        "answer": "It involves predicting outside the range of observed data",
+        "explanation": "Extrapolation can be unreliable because it predicts beyond the data."
+      },
+      {
+        "id": "q7",
+        "question": "Which process step involves posing a question in a statistical investigation?",
+        "options": [
+          "Step 1",
+          "Step 3",
+          "Step 5",
+          "Step 2"
+        ],
+        "answer": "Step 1",
+        "explanation": "Posing a question is the first step in conducting a statistical investigation."
+      },
+      {
+        "id": "q8",
+        "question": "What does a positive correlation indicate?",
+        "options": [
+          "As one variable increases, the other decreases",
+          "No relationship",
+          "As one variable increases, the other increases",
+          "Variables are independent"
+        ],
+        "answer": "As one variable increases, the other increases",
+        "explanation": "Positive correlation means both variables tend to increase together."
+      },
+      {
+        "id": "q9",
+        "question": "What kind of variable pairs are plotted on a scatterplot?",
+        "options": [
+          "Two numerical variables",
+          "One numerical and one categorical variable",
+          "Two categorical variables",
+          "Text data"
+        ],
+        "answer": "Two numerical variables",
+        "explanation": "Scatterplots represent pairs of numerical data points."
+      },
+      {
+        "id": "q10",
+        "question": "What is the range of values for Pearson's r?",
+        "options": [
+          "-100 to 100",
+          "-1 to 1",
+          "0 to 1",
+          "0 to 100"
+        ],
+        "answer": "-1 to 1",
+        "explanation": "Pearson's r ranges from -1 (perfect negative) to 1 (perfect positive) correlation."
+      }
+    ]
+  },
+    "64": {
+    "title": "Topic Test - The Normal Distribution",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "What shape does a normal distribution curve have?",
+        "options": [
+          "Bell-shaped and symmetrical",
+          "Skewed left",
+          "Skewed right",
+          "Uniform"
+        ],
+        "answer": "Bell-shaped and symmetrical",
+        "explanation": "A normal distribution curve is bell-shaped and symmetrical about the mean."
+      },
+      {
+        "id": "q2",
+        "question": "In a normal distribution, which of these are equal?",
+        "options": [
+          "Mean, median, and mode",
+          "Mean and variance",
+          "Median and range",
+          "Mode and standard deviation"
+        ],
+        "answer": "Mean, median, and mode",
+        "explanation": "The mean, median, and mode all coincide at the center of a normal distribution."
+      },
+      {
+        "id": "q3",
+        "question": "According to the 68-95-99.7 rule, what percentage of data lies within 2 standard deviations of the mean?",
+        "options": ["68%", "95%", "99.7%", "50%"],
+        "answer": "95%",
+        "explanation": "Approximately 95% of data falls within 2 standard deviations in a normal distribution."
+      },
+      {
+        "id": "q4",
+        "question": "What does a z-score represent?",
+        "options": [
+          "The number of standard deviations a value is from the mean",
+          "The mean value",
+          "The median of data",
+          "The total data count"
+        ],
+        "answer": "The number of standard deviations a value is from the mean",
+        "explanation": "A z-score standardizes a data point's position relative to the mean."
+      },
+      {
+        "id": "q5",
+        "question": "How do you calculate a z-score?",
+        "options": [
+          "z = (x - μ) / σ",
+          "z = μ + x / σ",
+          "z = x / μ - σ",
+          "z = (σ - x) / μ"
+        ],
+        "answer": "z = (x - μ) / σ",
+        "explanation": "The z-score formula is z = (value - mean) divided by standard deviation."
+      },
+      {
+        "id": "q6",
+        "question": "What does a z-score of 0 mean?",
+        "options": [
+          "Value equals the mean",
+          "Value is one standard deviation above the mean",
+          "Value is one standard deviation below the mean",
+          "Value is an outlier"
+        ],
+        "answer": "Value equals the mean",
+        "explanation": "A z-score of 0 means the value is exactly at the mean."
+      },
+      {
+        "id": "q7",
+        "question": "Which formula converts a z-score back to an actual data value?",
+        "options": [
+          "x = μ + z × σ",
+          "x = z - μ × σ",
+          "x = μ - z × σ",
+          "x = z + μ / σ"
+        ],
+        "answer": "x = μ + z × σ",
+        "explanation": "To find the original value from a z-score, multiply z by σ and add μ."
+      },
+      {
+        "id": "q8",
+        "question": "What percentage of data lies within 3 standard deviations in a normal distribution?",
+        "options": ["68%", "95%", "99.7%", "100%"],
+        "answer": "99.7%",
+        "explanation": "About 99.7% of data is within 3 standard deviations according to the empirical rule."
+      },
+      {
+        "id": "q9",
+        "question": "Why are z-tables or calculators used with normal distributions?",
+        "options": [
+          "To find probabilities or areas under the curve",
+          "To calculate the mode",
+          "To plot histograms",
+          "To count data points"
+        ],
+        "answer": "To find probabilities or areas under the curve",
+        "explanation": "Z-tables help find cumulative probabilities for z-scores."
+      },
+      {
+        "id": "q10",
+        "question": "Which of the following is NOT true about the normal distribution?",
+        "options": [
+          "It is symmetrical",
+          "Mean = median = mode",
+          "Data are skewed",
+          "It follows the 68-95-99.7 rule"
+        ],
+        "answer": "Data are skewed",
+        "explanation": "The normal distribution is symmetrical and not skewed."
+      }
+    ]
+  },
+  "73": {
+    "title": "Topic Test - Network Concepts",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "What is a vertex in a network?",
+        "options": [
+          "A point or node",
+          "A connection between points",
+          "The total number of edges",
+          "A path through the network"
+        ],
+        "answer": "A point or node",
+        "explanation": "A vertex is a point or node in a network."
+      },
+      {
+        "id": "q2",
+        "question": "What does the degree of a vertex represent?",
+        "options": [
+          "Number of edges connected to it",
+          "Total weight of edges",
+          "Number of paths in the network",
+          "Length of the longest path"
+        ],
+        "answer": "Number of edges connected to it",
+        "explanation": "The degree of a vertex is the number of edges incident on it."
+      },
+      {
+        "id": "q3",
+        "question": "Which of the following best describes an Eulerian circuit?",
+        "options": [
+          "Uses every edge exactly once and starts and ends at the same vertex",
+          "Visits every vertex exactly once",
+          "Uses every vertex at least twice",
+          "Travels the longest path in the network"
+        ],
+        "answer": "Uses every edge exactly once and starts and ends at the same vertex",
+        "explanation": "An Eulerian circuit covers every edge once and returns to the start."
+      },
+      {
+        "id": "q4",
+        "question": "How many vertices of odd degree can a graph have to contain an Eulerian path?",
+        "options": ["0", "1", "2", "4"],
+        "answer": "2",
+        "explanation": "An Eulerian path exists if exactly two vertices have odd degree."
+      },
+      {
+        "id": "q5",
+        "question": "What defines a Hamiltonian path?",
+        "options": [
+          "Visits every vertex exactly once",
+          "Uses every edge exactly once",
+          "Starts and ends at the same vertex",
+          "Visits only odd degree vertices"
+        ],
+        "answer": "Visits every vertex exactly once",
+        "explanation": "A Hamiltonian path visits every vertex once without repetition."
+      },
+      {
+        "id": "q6",
+        "question": "Which algorithm is commonly used to find the shortest path in a weighted network?",
+        "options": [
+          "Dijkstra's Algorithm",
+          "Kruskal's Algorithm",
+          "Prim's Algorithm",
+          "Bellman-Ford Algorithm"
+        ],
+        "answer": "Dijkstra's Algorithm",
+        "explanation": "Dijkstra's Algorithm finds the shortest path from a start vertex to all others."
+      },
+      {
+        "id": "q7",
+        "question": "Which algorithms help find a minimum spanning tree (MST)?",
+        "options": [
+          "Kruskal's and Prim's Algorithms",
+          "Dijkstra's and Bellman-Ford Algorithms",
+          "Floyd-Warshall and Bellman-Ford Algorithms",
+          "Ford-Fulkerson and Kruskal's Algorithms"
+        ],
+        "answer": "Kruskal's and Prim's Algorithms",
+        "explanation": "Both Kruskal's and Prim's are used for MST problems."
+      },
+      {
+        "id": "q8",
+        "question": "What is an adjacency matrix used for in networks?",
+        "options": [
+          "Representing connections and weights between vertices",
+          "Finding shortest paths",
+          "Drawing Eulerian paths",
+          "Calculating vertex degrees"
+        ],
+        "answer": "Representing connections and weights between vertices",
+        "explanation": "An adjacency matrix encodes edges and weights in a grid format."
+      },
+      {
+        "id": "q9",
+        "question": "What type of network problem involves connecting all points with the lowest total cost?",
+        "options": [
+          "Minimum spanning tree",
+          "Shortest path",
+          "Eulerian path",
+          "Hamiltonian cycle"
+        ],
+        "answer": "Minimum spanning tree",
+        "explanation": "Minimum spanning tree problems find the cheapest way to connect all vertices."
+      },
+      {
+        "id": "q10",
+        "question": "If a network has no vertices of odd degree, what can we say about Eulerian paths or circuits?",
+        "options": [
+          "It has an Eulerian circuit",
+          "It has exactly two Eulerian paths",
+          "It has no Eulerian paths",
+          "It has a Hamiltonian cycle"
+        ],
+        "answer": "It has an Eulerian circuit",
+        "explanation": "All even-degree vertices mean an Eulerian circuit exists."
+      }
+    ]
+  },
+    "81": {
+    "title": "Topic Test - Critical Path Analysis",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "In a project network diagram, what do arrows and circles represent?",
+        "options": [
+          "Arrows represent tasks, circles represent events",
+          "Arrows represent events, circles represent tasks",
+          "Arrows represent dependencies, circles represent resources",
+          "Arrows represent float, circles represent critical paths"
+        ],
+        "answer": "Arrows represent tasks, circles represent events",
+        "explanation": "Arrows show the activities or tasks, while circles (nodes) mark events or milestones."
+      },
+      {
+        "id": "q2",
+        "question": "What is the critical path in a project network?",
+        "options": [
+          "The shortest path through the project",
+          "The path with the most activities",
+          "The longest duration path through the project",
+          "The path with the most float"
+        ],
+        "answer": "The longest duration path through the project",
+        "explanation": "The critical path determines the minimum project completion time and has zero float."
+      },
+      {
+        "id": "q3",
+        "question": "What is a dummy activity in critical path analysis?",
+        "options": [
+          "An activity with zero duration used to show dependency",
+          "An activity that can be skipped",
+          "An activity that takes twice the normal time",
+          "An activity with maximum float"
+        ],
+        "answer": "An activity with zero duration used to show dependency",
+        "explanation": "Dummy activities are used to represent dependencies without consuming time."
+      },
+      {
+        "id": "q4",
+        "question": "Which scanning method calculates Earliest Start (ES) and Earliest Finish (EF)?",
+        "options": [
+          "Forward scanning",
+          "Backward scanning",
+          "Float scanning",
+          "Critical path scanning"
+        ],
+        "answer": "Forward scanning",
+        "explanation": "Forward scanning starts at the project beginning and calculates ES and EF times."
+      },
+      {
+        "id": "q5",
+        "question": "How is float (slack time) calculated in a project network?",
+        "options": [
+          "Float = LS - ES",
+          "Float = EF - LF",
+          "Float = ES - LS",
+          "Float = EF + LF"
+        ],
+        "answer": "Float = LS - ES",
+        "explanation": "Float is the difference between Latest Start and Earliest Start times."
+      },
+      {
+        "id": "q6",
+        "question": "What does it mean if an activity has zero float?",
+        "options": [
+          "It is on the critical path",
+          "It can be delayed without affecting the project",
+          "It has no dependencies",
+          "It is a dummy activity"
+        ],
+        "answer": "It is on the critical path",
+        "explanation": "Activities on the critical path have zero float and cannot be delayed."
+      },
+      {
+        "id": "q7",
+        "question": "In network flow problems, what does edge capacity represent?",
+        "options": [
+          "Maximum flow allowed on the connection",
+          "Duration of the task",
+          "Number of dependencies",
+          "Amount of float available"
+        ],
+        "answer": "Maximum flow allowed on the connection",
+        "explanation": "Edge capacity limits the amount of flow through that connection in flow networks."
+      },
+      {
+        "id": "q8",
+        "question": "What is the purpose of backward scanning in critical path analysis?",
+        "options": [
+          "Calculate Latest Finish (LF) and Latest Start (LS)",
+          "Determine Earliest Start (ES)",
+          "Find the critical path",
+          "Calculate float"
+        ],
+        "answer": "Calculate Latest Finish (LF) and Latest Start (LS)",
+        "explanation": "Backward scanning moves from the project end to find LF and LS times."
+      },
+      {
+        "id": "q9",
+        "question": "Which of the following is true about the critical path?",
+        "options": [
+          "It contains the tasks with the least float",
+          "It always contains dummy activities",
+          "It is the path with the most edges",
+          "It can be delayed without affecting the project duration"
+        ],
+        "answer": "It contains the tasks with the least float",
+        "explanation": "Critical path activities have zero float and directly impact project duration."
+      },
+      {
+        "id": "q10",
+        "question": "In a flow network, what must be true for maximum flow to be found?",
+        "options": [
+          "The flow into each node equals the flow out, except source and sink",
+          "All edges must have equal capacity",
+          "Dummy activities must be removed",
+          "The critical path is the shortest path"
+        ],
+        "answer": "The flow into each node equals the flow out, except source and sink",
+        "explanation": "Flow conservation requires incoming flow equals outgoing flow at intermediate nodes."
+      }
+    ]
+  }
+}
+
+
+

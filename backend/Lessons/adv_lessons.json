@@ -1,0 +1,2607 @@
+{
+  "1": {
+    "title": "Vertical translations of functions",
+    "lessonID": "1",
+    "content": [
+      {
+        "type": "text",
+        "value": "A vertical translation shifts a graph up or down without changing its shape. This transformation is represented by adding or subtracting a constant to a function: \\( y = f(x) + c \\)."
+      },
+      {
+        "type": "math",
+        "value": "f(x) = x^2 \\rightarrow f(x) = x^2 + 3 \\quad \\text{(shift up 3 units)}"
+      },
+      {
+        "type": "math",
+        "value": "f(x) = \\sqrt{x} \\rightarrow f(x) = \\sqrt{x} - 2 \\quad \\text{(shift down 2 units)}"
+      },
+      {
+        "type": "images",
+        "value": "/images/vertical_translation_parabola.png"
+      },
+      {
+        "type": "example",
+        "value": "Sketch the graph of \\( f(x) = |x| + 2 \\). Describe the transformation.\n\n**Solution:** This is a vertical translation of the basic absolute value graph \\( y = |x| \\) up 2 units."
+      },
+      {
+        "type": "example",
+        "value": "Sketch \\( f(x) = \\dfrac{1}{x} - 3 \\). Describe the transformation.\n\n**Solution:** The graph of \\( y = \\dfrac{1}{x} \\) is shifted 3 units down."
+      },
+      {
+        "type": "text",
+        "value": "Note that vertical translations affect the \\( y \\)-coordinates of points, leaving the \\( x \\)-coordinates unchanged."
+      }
+    ]
+  },
+  "2": {
+    "title": "Horizontal translations of functions",
+    "lessonID": "2",
+    "content": [
+      {
+        "type": "text",
+        "value": "A horizontal translation shifts a graph left or right. This is achieved by replacing \\( x \\) with \\( x - c \\) in the function: \\( y = f(x - c) \\)."
+      },
+      {
+        "type": "math",
+        "value": "f(x) = x^2 \\rightarrow f(x) = (x - 4)^2 \\quad \\text{(shift right 4 units)}"
+      },
+      {
+        "type": "math",
+        "value": "f(x) = \\sqrt{x} \\rightarrow f(x) = \\sqrt{x + 1} \\quad \\text{(shift left 1 unit)}"
+      },
+      {
+        "type": "images",
+        "value": "/images/horizontal_translation_parabola.png"
+      },
+      {
+        "type": "example",
+        "value": "Sketch the graph of \\( f(x) = |x - 3| \\). Describe the transformation.\n\n**Solution:** This is a horizontal translation of \\( y = |x| \\) shifted 3 units to the right."
+      },
+      {
+        "type": "example",
+        "value": "Sketch \\( f(x) = \\dfrac{1}{x + 2} \\). Describe the transformation.\n\n**Solution:** The graph of \\( y = \\dfrac{1}{x} \\) is shifted 2 units to the left."
+      },
+      {
+        "type": "text",
+        "value": "Unlike vertical translations, horizontal shifts affect the \\( x \\)-coordinates of points, not the \\( y \\)-coordinates."
+      }
+    ]
+  },
+    "3": {
+    "title": "Vertical dilations of functions",
+    "lessonID": "3",
+    "content": [
+      {
+        "type": "text",
+        "value": "A vertical dilation stretches or compresses the graph of a function in the vertical direction. This transformation is represented by multiplying the entire function by a constant: \\( y = a f(x) \\)."
+      },
+      {
+        "type": "text",
+        "value": "If \\( a > 1 \\), the graph stretches vertically (becomes steeper). If \\( 0 < a < 1 \\), the graph is compressed vertically (flattens). If \\( a < 0 \\), it also reflects in the x-axis."
+      },
+      {
+        "type": "math",
+        "value": "f(x) = x^2 \\rightarrow y = 2x^2 \\quad \\text{(stretched vertically by factor of 2)}"
+      },
+      {
+        "type": "math",
+        "value": "f(x) = \\sqrt{x} \\rightarrow y = \\frac{1}{2}\\sqrt{x} \\quad \\text{(compressed vertically)}"
+      },
+      {
+        "type": "images",
+        "value": "/images/vertical_dilation.png"
+      },
+      {
+        "type": "example",
+        "value": "Sketch the graph of \\( y = 3|x| \\). Describe the transformation.\n\n**Solution:** The basic absolute value graph \\( y = |x| \\) is stretched vertically by a factor of 3."
+      },
+      {
+        "type": "example",
+        "value": "Sketch \\( y = -2x^2 \\). Describe the transformation.\n\n**Solution:** This is a vertical dilation by a factor of 2 combined with a reflection in the x-axis."
+      }
+    ]
+  },
+  "4": {
+    "title": "Horizontal dilations of functions",
+    "lessonID": "4",
+    "content": [
+      {
+        "type": "text",
+        "value": "A horizontal dilation stretches or compresses the graph along the x-axis. This is achieved by multiplying the variable \\( x \\) inside the function by a constant: \\( y = f(bx) \\)."
+      },
+      {
+        "type": "text",
+        "value": "If \\( b > 1 \\), the graph compresses horizontally. If \\( 0 < b < 1 \\), it stretches. This transformation affects the graph's width."
+      },
+      {
+        "type": "math",
+        "value": "f(x) = x^2 \\rightarrow y = f(2x) = (2x)^2 = 4x^2 \\quad \\text{(compresses horizontally)}"
+      },
+      {
+        "type": "math",
+        "value": "f(x) = \\sin(x) \\rightarrow y = \\sin(\\frac{1}{2}x) \\quad \\text{(stretches horizontally)}"
+      },
+      {
+        "type": "images",
+        "value": "/images/horizontal_dilation.png"
+      },
+      {
+        "type": "example",
+        "value": "Sketch \\( y = |2x| \\). Describe the transformation.\n\n**Solution:** The graph of \\( y = |x| \\) is compressed horizontally by a factor of \\( \\frac{1}{2} \\)."
+      },
+      {
+        "type": "example",
+        "value": "Sketch \\( y = \\sqrt{\\frac{1}{4}x} \\). Describe the transformation.\n\n**Solution:** The graph of \\( y = \\sqrt{x} \\) is stretched horizontally by a factor of 2."
+      }
+    ]
+  },
+    "5": {
+    "title": "Combinations of transformations",
+    "lessonID": "5",
+    "content": [
+      {
+        "type": "text",
+        "value": "Transformations can be combined to shift, stretch, and reflect a graph in multiple ways. A function can undergo vertical and horizontal translations, dilations, and reflections simultaneously."
+      },
+      {
+        "type": "text",
+        "value": "A general transformation of a function \\( f(x) \\) is given by:\n\\[ y = a f(bx + c) + d \\]\nwhere:\n- \\( a \\) controls vertical dilation and reflection,\n- \\( b \\) controls horizontal dilation and reflection,\n- \\( c \\) controls horizontal translation (shift left/right),\n- \\( d \\) controls vertical translation (shift up/down)."
+      },
+      {
+        "type": "images",
+        "value": "/images/combined_transformations.png"
+      },
+      {
+        "type": "example",
+        "value": "Sketch the graph of \\( y = -2(x - 1)^2 + 3 \\).\n\n**Solution:**\n- \\( x - 1 \\): shift right 1 unit\n- \\( -2 \\): reflect in x-axis and stretch vertically by 2\n- \\( +3 \\): shift up 3 units"
+      },
+      {
+        "type": "example",
+        "value": "Describe the transformations of \\( y = \\frac{1}{2} \\sqrt{3x + 6} - 4 \\).\n\n**Solution:**\n- \\( 3x \\): compress horizontally by a factor of \\( \\frac{1}{3} \\)\n- \\( +6 \\): shift left 2 units (since \\( 3x + 6 = 3(x + 2) \\))\n- \\( \\frac{1}{2} \\): compress vertically by a factor of \\( \\frac{1}{2} \\)\n- \\( -4 \\): shift down 4 units"
+      },
+      {
+        "type": "text",
+        "value": "Always apply horizontal transformations (inside the function) before vertical ones (outside the function)."
+      }
+    ]
+  },
+  "6": {
+    "title": "Graphs of functions with combined transformations",
+    "lessonID": "6",
+    "content": [
+      {
+        "type": "text",
+        "value": "When sketching functions with multiple transformations, it's useful to start with the base function and apply one transformation at a time."
+      },
+      {
+        "type": "text",
+        "value": "Example structure: \\( y = -2|x + 1| + 4 \\)\n- Base function: \\( y = |x| \\)\n- Shift left 1 unit\n- Reflect in the x-axis\n- Vertical stretch by 2\n- Shift up 4 units"
+      },
+      {
+        "type": "images",
+        "value": "/images/graph_combined_transformations.png"
+      },
+      {
+        "type": "example",
+        "value": "Sketch the graph of \\( y = -\\frac{1}{2}(x + 3)^2 + 1 \\).\n\n**Solution:**\n1. Start with \\( y = x^2 \\)\n2. Shift left 3 units\n3. Reflect in x-axis and compress vertically by \\( \\frac{1}{2} \\)\n4. Shift up 1 unit"
+      },
+      {
+        "type": "example",
+        "value": "Sketch \\( y = 2\\sqrt{-x + 4} - 5 \\).\n\n**Solution:**\n- \\( -x \\): reflect in the y-axis\n- \\( +4 \\): shift left 4 units\n- \\( \\times 2 \\): vertical stretch\n- \\( -5 \\): shift down 5 units"
+      },
+      {
+        "type": "text",
+        "value": "Label key points, intercepts, and turning points to ensure accuracy when graphing transformed functions."
+      }
+    ]
+  },
+    "7": {
+    "title": "Equations and inequalities",
+    "lessonID": "7",
+    "content": [
+      {
+        "type": "text",
+        "value": "Transformations of functions can help us solve equations and inequalities graphically. By understanding how transformations affect the graph of a function, we can interpret or estimate solutions to equations like \\( f(x) = g(x) \\) or inequalities like \\( f(x) > g(x) \\)."
+      },
+      {
+        "type": "text",
+        "value": "To solve \\( f(x) = g(x) \\) graphically:\n- Graph both functions on the same set of axes.\n- The x-values of points of intersection are the solutions."
+      },
+      {
+        "type": "text",
+        "value": "To solve \\( f(x) > g(x) \\) or \\( f(x) < g(x) \\):\n- Find where the graph of \\( f(x) \\) lies above or below the graph of \\( g(x) \\)."
+      },
+      {
+        "type": "images",
+        "value": "/images/graphical_solutions_equations_inequalities.png"
+      },
+      {
+        "type": "example",
+        "value": "Solve \\( |x - 2| = x^2 - 4 \\) graphically.\n\n**Solution:**\n1. Graph \\( y = |x - 2| \\)\n2. Graph \\( y = x^2 - 4 \\)\n3. Points of intersection give solutions to the equation.\n4. Approximate the x-values where the graphs intersect."
+      },
+      {
+        "type": "example",
+        "value": "Solve \\( \\sqrt{x} > x - 2 \\) graphically.\n\n**Solution:**\n- Graph \\( y = \\sqrt{x} \\) and \\( y = x - 2 \\).\n- Find where the graph of \\( \\sqrt{x} \\) lies above \\( x - 2 \\).\n- The x-values in that region solve the inequality."
+      },
+      {
+        "type": "text",
+        "value": "For complex equations or inequalities involving transformations, graphing is especially helpful when algebraic solutions are difficult or impossible."
+      }
+    ]
+  },
+  "8": {
+    "title": "Topic Test - Transformations of Functions",
+    "lessonID": "8",
+    "content": [
+      {
+        "type": "text",
+        "value": "This lesson is a final summary of everything covered in the subtopic 'Transformations of Functions'. Review the key concepts, diagrams, and transformations before moving on."
+      },
+      {
+        "type": "text",
+        "value": "**Translations** shift the graph of a function without changing its shape:\n- \\( y = f(x) + d \\): vertical shift\n- \\( y = f(x + c) \\): horizontal shift"
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_translation.png",
+        "alt": "Graph showing vertical and horizontal translations",
+        "caption": "Vertical translations move the graph up/down; horizontal translations shift it left/right."
+      },
+      {
+        "type": "text",
+        "value": "**Dilations** stretch or compress the graph:\n- \\( y = a f(x) \\): vertical dilation (affects height)\n- \\( y = f(bx) \\): horizontal dilation (affects width)"
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_dilation.png",
+        "alt": "Graph showing vertical and horizontal dilation",
+        "caption": "If \\( |a| > 1 \\), the graph stretches vertically; if \\( 0 < |a| < 1 \\), it compresses. Horizontal dilations behave inversely with \\( b \\)."
+      },
+      {
+        "type": "text",
+        "value": "**Reflections** flip the graph:\n- \\( y = -f(x) \\): reflects in the x-axis\n- \\( y = f(-x) \\): reflects in the y-axis"
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_reflection.png",
+        "alt": "Graph showing reflection in x-axis and y-axis",
+        "caption": "Reflections flip graphs over the x- or y-axis depending on the sign and placement of the negative."
+      },
+      {
+        "type": "text",
+        "value": "**Combinations of Transformations** use the general form:\n\\[ y = a f(bx + c) + d \\]\nApply transformations in the correct order: horizontal first (inside the function), then vertical (outside)."
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_combined_transformations.png",
+        "alt": "Graph with multiple combined transformations",
+        "caption": "This graph combines shifts, stretches, and reflections. Careful order makes complex transformations easier to sketch."
+      },
+      {
+        "type": "text",
+        "value": "**Solving Graphically**:\n- Find where graphs intersect to solve equations like \\( f(x) = g(x) \\)\n- Look above/below for inequalities like \\( f(x) > g(x) \\)"
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_graphical_solution.png",
+        "alt": "Graph showing intersection and inequality regions",
+        "caption": "Use intersections for equations and shaded regions for inequalities."
+      },
+      {
+        "type": "text",
+        "value": "✅ You've now revised all key transformation techniques. Make sure you can identify, describe, and sketch these transformations before moving on."
+      }
+    ]
+  },
+    "9": {
+    "title": "Transformations of Trigonometric Functions",
+    "lessonID": "9",
+    "content": [
+      {
+        "type": "text",
+        "value": "Trigonometric functions such as \\( y = \\sin x \\), \\( y = \\cos x \\), and \\( y = \\tan x \\) can be transformed using translations, dilations, and reflections, just like other functions."
+      },
+      {
+        "type": "text",
+        "value": "The general form for sine and cosine functions is:\n\\[ y = a \\sin(bx + c) + d \\quad \\text{or} \\quad y = a \\cos(bx + c) + d \\]\n\nEach parameter affects the graph in the following way:"
+      },
+      {
+        "type": "text",
+        "value": "- \\( a \\): Vertical dilation (amplitude = \\( |a| \\)); if \\( a < 0 \\), reflection in x-axis\n- \\( b \\): Affects the period: \\( \\text{Period} = \\frac{2\\pi}{|b|} \\)\n- \\( c \\): Horizontal shift (phase shift = \\( -\\frac{c}{b} \\))\n- \\( d \\): Vertical shift"
+      },
+      {
+        "type": "images",
+        "src": "/images/sine_transformations_summary.png",
+        "alt": "Graph of sine function with amplitude, phase shift and vertical shift",
+        "caption": "Vertical shifts move the sine graph up/down, amplitude changes the height, and phase shift slides it left/right."
+      },
+      {
+        "type": "example",
+        "value": "**Example:**\nSketch \\( y = 2 \\sin(x) \\)\n\n- Amplitude = 2\n- Period = \\( 2\\pi \\)\n- No phase or vertical shift\n- Graph oscillates between -2 and 2"
+      },
+      {
+        "type": "example",
+        "value": "**Example:**\nSketch \\( y = \\cos(2x - \\frac{\\pi}{2}) \\)\n\n- \\( b = 2 \\): period = \\( \\pi \\)\n- Phase shift = \\( \\frac{\\pi}{4} \\) right\n- Graph compresses horizontally and shifts"
+      },
+      {
+        "type": "text",
+        "value": "The tangent function also transforms similarly:\n\\[ y = a \\tan(bx + c) + d \\]\n- The period is \\( \\frac{\\pi}{|b|} \\)\n- Tangent has vertical asymptotes where \\( \\cos x = 0 \\)"
+      },
+      {
+        "type": "images",
+        "src": "/images/tangent_transformations_summary.png",
+        "alt": "Graph of tangent with transformed period and reflection",
+        "caption": "Transformations can shift and reflect the tangent curve. Period and asymptotes are affected by \\( b \\) and \\( c \\)."
+      },
+      {
+        "type": "example",
+        "value": "**Example:**\nSketch \\( y = -\\tan(x + \\frac{\\pi}{4}) \\)\n\n- Reflection in x-axis\n- Phase shift left by \\( \\frac{\\pi}{4} \\)\n- Period = \\( \\pi \\)"
+      },
+      {
+        "type": "text",
+        "value": "Always label amplitude, period, phase shift, and vertical shift when sketching transformed trigonometric functions. Use clear marking of intercepts and maxima/minima where applicable."
+      }
+    ]
+  },
+    "10": {
+    "title": "Combined Transformations of Trigonometric Functions",
+    "lessonID": "10",
+    "content": [
+      {
+        "type": "text",
+        "value": "When multiple transformations are applied to trigonometric functions like \\( \\sin x \\), \\( \\cos x \\), or \\( \\tan x \\), we use the general form:"
+      },
+      {
+        "type": "math",
+        "value": "y = a \\sin(bx + c) + d"
+      },
+      {
+        "type": "text",
+        "value": "Each part affects the graph as follows:\n- \\( a \\): amplitude (vertical stretch/reflection)\n- \\( b \\): affects the period (\\( \\frac{2\\pi}{|b|} \\) for sine and cosine)\n- \\( c \\): horizontal shift (phase shift = \\( -\\frac{c}{b} \\))\n- \\( d \\): vertical shift"
+      },
+      {
+        "type": "images",
+        "src": "/images/combined_trig_transformations.png",
+        "alt": "Sine function with combined transformations",
+        "caption": "This graph shows amplitude, phase shift, vertical shift, and change in period applied to a sine wave."
+      },
+      {
+        "type": "text",
+        "value": "To sketch these functions, follow this order:\n1. Factor out \\( b \\) inside the function\n2. Apply horizontal shift\n3. Apply dilation/reflection\n4. Apply vertical shift"
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Sketch \\( y = -3 \\sin(2x - \\pi) + 1 \\)\n\n- Amplitude: 3 (with reflection in x-axis)\n- Period: \\( \\frac{2\\pi}{2} = \\pi \\)\n- Phase shift: \\( \\frac{\\pi}{2} \\) to the right\n- Vertical shift: up 1"
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Sketch \\( y = 2 \\cos\\left(\\frac{1}{2}x + \\pi\\right) - 2 \\)\n\n- Amplitude: 2\n- Period: \\( \\frac{2\\pi}{1/2} = 4\\pi \\)\n- Phase shift: \\( -2\\pi \\) (left)\n- Vertical shift: down 2"
+      },
+      {
+        "type": "text",
+        "value": "Label key points such as maxima, minima, intercepts, and turning points. Always indicate the start and end of one full cycle, especially when the period is not \\( 2\\pi \\)."
+      }
+    ]
+  },
+    "11": {
+    "title": "Trigonometric Equations",
+    "lessonID": "11",
+    "content": [
+      {
+        "type": "text",
+        "value": "Trigonometric equations involve finding the values of \\( x \\) that satisfy equations with \\( \\sin x \\), \\( \\cos x \\), or \\( \\tan x \\). These solutions can be found using inverse trigonometric functions and knowledge of the unit circle."
+      },
+      {
+        "type": "text",
+        "value": "For any equation \\( \\sin x = a \\), \\( \\cos x = a \\), or \\( \\tan x = a \\), use:\n- Inverse functions to find the principal value\n- The symmetry of trigonometric graphs to find all solutions in a given domain"
+      },
+      {
+        "type": "images",
+        "src": "/images/unit_circle_summary.png",
+        "alt": "Unit circle showing sine, cosine and tangent angles",
+        "caption": "The unit circle helps determine all angle solutions where sine, cosine, or tangent take a specific value."
+      },
+      {
+        "type": "text",
+        "value": "**Solving \\( \\sin x = a \\)**\n- Find the principal angle \\( \\theta = \\sin^{-1}(a) \\)\n- Use the unit circle to find all values where \\( \\sin x = a \\) within the required interval"
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Solve \\( \\sin x = \\frac{1}{2} \\) for \\( 0 \\leq x \\leq 2\\pi \\)\n\n- \\( x = \\frac{\\pi}{6}, \\frac{5\\pi}{6} \\)"
+      },
+      {
+        "type": "text",
+        "value": "**Solving \\( \\cos x = a \\)**\n- Use \\( x = \\cos^{-1}(a) \\) to find the principal angle\n- Determine all angles in the interval using the unit circle"
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Solve \\( \\cos x = -\\frac{\\sqrt{2}}{2} \\) for \\( 0 \\leq x \\leq 2\\pi \\)\n\n- \\( x = \\frac{3\\pi}{4}, \\frac{5\\pi}{4} \\)"
+      },
+      {
+        "type": "text",
+        "value": "**Solving \\( \\tan x = a \\)**\n- Use \\( x = \\tan^{-1}(a) \\)\n- Tangent has period \\( \\pi \\), so solutions occur every \\( \\pi \\) units"
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Solve \\( \\tan x = 1 \\) for \\( 0 \\leq x \\leq 2\\pi \\)\n\n- \\( x = \\frac{\\pi}{4}, \\frac{5\\pi}{4} \\)"
+      },
+      {
+        "type": "text",
+        "value": "Always check that your answers are within the given domain. Use radians unless otherwise stated, and label exact values where possible."
+      }
+    ]
+  },
+    "12": {
+    "title": "Topic Test - Trigonometric Functions",
+    "lessonID": "12",
+    "content": [
+      {
+        "type": "text",
+        "value": "This lesson is a summary of all concepts covered in the subtopic 'Trigonometric Functions'. It includes key transformation rules, how to sketch modified graphs, and how to solve trigonometric equations."
+      },
+      {
+        "type": "text",
+        "value": "**Sine and Cosine Functions** follow the general form:\n\\[ y = a \\sin(bx + c) + d \\quad \\text{or} \\quad y = a \\cos(bx + c) + d \\]\n\n- Amplitude: \\( |a| \\)\n- Period: \\( \\frac{2\\pi}{|b|} \\)\n- Phase shift: \\( -\\frac{c}{b} \\)\n- Vertical shift: \\( d \\)"
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_sine_cosine_transforms.png",
+        "alt": "Transformed sine and cosine graphs",
+        "caption": "Sine and cosine graphs can be stretched, reflected, and shifted using parameters \\( a, b, c, d \\)."
+      },
+      {
+        "type": "text",
+        "value": "**Tangent Functions** are written as:\n\\[ y = a \\tan(bx + c) + d \\]\n- Period: \\( \\frac{\\pi}{|b|} \\)\n- Asymptotes occur where \\( \\cos(bx + c) = 0 \\)"
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_tangent_transforms.png",
+        "alt": "Transformed tangent graph",
+        "caption": "Tangent transformations affect period, orientation, and vertical shift."
+      },
+      {
+        "type": "text",
+        "value": "**Sketching Combined Transformations**:\nApply transformations in the following order:\n1. Factor and simplify inside the function\n2. Apply phase shift\n3. Apply vertical dilation and reflection\n4. Apply vertical shift"
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_combined_trig.png",
+        "alt": "Graph with all four transformations",
+        "caption": "The order of transformations affects the final graph. Always label amplitude, phase shift, and period."
+      },
+      {
+        "type": "text",
+        "value": "**Solving Trigonometric Equations**:\n- Use inverse functions to find principal solutions\n- Use symmetry or the unit circle to find all valid solutions in the given domain"
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_trig_equations.png",
+        "alt": "Unit circle with labelled angles",
+        "caption": "The unit circle shows all angles for which sine, cosine, or tangent take a given value."
+      },
+      {
+        "type": "text",
+        "value": "✅ You've now revised transformations and equations involving trigonometric functions. Make sure you're confident sketching graphs, identifying features, and solving equations both graphically and algebraically."
+      }
+    ]
+  },
+    "13": {
+    "title": "Differentiation Review",
+    "lessonID": "13",
+    "content": [
+      {
+        "type": "text",
+        "value": "Differentiation is the process of finding the derivative of a function. The derivative gives the rate of change of a function and the slope of the tangent to its curve at any point."
+      },
+      {
+        "type": "text",
+        "value": "**Basic Rules of Differentiation:**\nLet \\( f(x) = x^n \\), then:\n\\[ f'(x) = nx^{n-1} \\]\n\nOther key rules:\n- Constant rule: \\( \\frac{d}{dx}(c) = 0 \\)\n- Constant multiple: \\( \\frac{d}{dx}(cf(x)) = c \\cdot f'(x) \\)\n- Sum rule: \\( \\frac{d}{dx}(f(x) + g(x)) = f'(x) + g'(x) \\)"
+      },
+      {
+        "type": "images",
+        "src": "/images/differentiation_power_rule.png",
+        "alt": "Diagram of tangent to a curve",
+        "caption": "The derivative at a point gives the slope of the tangent to the curve."
+      },
+      {
+        "type": "text",
+        "value": "**Common Derivatives:**\n- \\( \\frac{d}{dx}(x^n) = nx^{n-1} \\)\n- \\( \\frac{d}{dx}(\\sin x) = \\cos x \\)\n- \\( \\frac{d}{dx}(\\cos x) = -\\sin x \\)\n- \\( \\frac{d}{dx}(e^x) = e^x \\)\n- \\( \\frac{d}{dx}(\\ln x) = \\frac{1}{x} \\)"
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Differentiate \\( f(x) = 5x^3 - 4x + 7 \\)\n\n- \\( f'(x) = 15x^2 - 4 \\)"
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Find the gradient of the curve \\( y = \\frac{1}{x} \\) at \\( x = 2 \\)\n\n- \\( \\frac{d}{dx}(\\frac{1}{x}) = -\\frac{1}{x^2} \\)\n- So at \\( x = 2 \\), gradient = \\( -\\frac{1}{4} \\)"
+      },
+      {
+        "type": "text",
+        "value": "**Notation:**\n- \\( f'(x) \\): derivative of \\( f(x) \\)\n- \\( \\frac{dy}{dx} \\): derivative of \\( y \\) with respect to \\( x \\)\n- \\( y' \\): another shorthand for \\( \\frac{dy}{dx} \\)"
+      },
+      {
+        "type": "text",
+        "value": "Differentiation underpins many real-world applications including velocity, acceleration, rates of change, and optimisation. This review prepares you for more advanced derivative rules coming up next."
+      }
+    ]
+  },
+    "14": {
+    "title": "Derivative of Exponential Functions",
+    "lessonID": "14",
+    "content": [
+      {
+        "type": "text",
+        "value": "Exponential functions grow or decay rapidly. The most common exponential function is \\( f(x) = e^x \\), where \\( e \\approx 2.718 \\). This function has a unique property: its derivative is the same as the function itself."
+      },
+      {
+        "type": "text",
+        "value": "**Key Rule:**\n\\[ \\frac{d}{dx}(e^x) = e^x \\]"
+      },
+      {
+        "type": "text",
+        "value": "More generally, if \\( f(x) = e^{u(x)} \\), then:\n\\[ \\frac{d}{dx}(e^{u(x)}) = u'(x) \\cdot e^{u(x)} \\]\nThis uses the chain rule."
+      },
+      {
+        "type": "images",
+        "src": "/images/derivative_exponential_function.png",
+        "alt": "Graph of e^x and its derivative",
+        "caption": "The graph of \\( y = e^x \\) is identical to its derivative, meaning the rate of change always matches the value."
+      },
+      {
+        "type": "example",
+        "value": "**Example 1:** Differentiate \\( f(x) = 3e^x \\)\n\n- \\( f'(x) = 3e^x \\)"
+      },
+      {
+        "type": "example",
+        "value": "**Example 2:** Differentiate \\( f(x) = e^{2x} \\)\n\n- Let \\( u = 2x \\), so \\( u' = 2 \\)\n- \\( f'(x) = 2e^{2x} \\)"
+      },
+      {
+        "type": "example",
+        "value": "**Example 3:** Differentiate \\( f(x) = 5e^{-x^2} \\)\n\n- Let \\( u = -x^2 \\), so \\( u' = -2x \\)\n- \\( f'(x) = 5 \\cdot (-2x) \\cdot e^{-x^2} = -10x e^{-x^2} \\)"
+      },
+      {
+        "type": "text",
+        "value": "Exponential functions are widely used to model population growth, radioactive decay, and continuously compounded interest. Their derivatives are essential for understanding how these systems change."
+      }
+    ]
+  },
+    "15": {
+    "title": "Derivative of Logarithmic Functions",
+    "lessonID": "15",
+    "content": [
+      {
+        "type": "text",
+        "value": "Logarithmic functions are the inverses of exponential functions. The most common logarithmic function is the natural logarithm \\( \\ln x \\)."
+      },
+      {
+        "type": "text",
+        "value": "**Key Rule:**\n\\[ \\frac{d}{dx}(\\ln x) = \\frac{1}{x} \\quad (x > 0) \\]"
+      },
+      {
+        "type": "text",
+        "value": "If the logarithm has a more complicated argument, we apply the chain rule:\n\\[ \\frac{d}{dx}(\\ln u(x)) = \\frac{u'(x)}{u(x)} \\]"
+      },
+      {
+        "type": "images",
+        "src": "/images/derivative_ln.png",
+        "alt": "Graph of ln(x) and its derivative",
+        "caption": "The derivative of \\( \\ln x \\) is \\( \\frac{1}{x} \\), which decreases as \\( x \\) increases."
+      },
+      {
+        "type": "example",
+        "value": "**Example 1:** Differentiate \\( y = \\ln(5x) \\)\n\n- Let \\( u = 5x \\), then \\( u' = 5 \\)\n- \\( \\frac{dy}{dx} = \\frac{5}{5x} = \\frac{1}{x} \\)"
+      },
+      {
+        "type": "example",
+        "value": "**Example 2:** Differentiate \\( y = \\ln(x^2 + 1) \\)\n\n- Let \\( u = x^2 + 1 \\), then \\( u' = 2x \\)\n- \\( \\frac{dy}{dx} = \\frac{2x}{x^2 + 1} \\)"
+      },
+      {
+        "type": "text",
+        "value": "Logarithmic differentiation is also a technique used when differentiating products, quotients, or powers of variables."
+      }
+    ]
+  },
+    "16": {
+    "title": "Derivative of Trigonometric Functions",
+    "lessonID": "16",
+    "content": [
+      {
+        "type": "text",
+        "value": "The derivatives of the basic trigonometric functions \\( \\sin x \\), \\( \\cos x \\), and \\( \\tan x \\) are essential tools in calculus."
+      },
+      {
+        "type": "text",
+        "value": "**Key Trigonometric Derivatives:**\n\\[ \\frac{d}{dx}(\\sin x) = \\cos x \\]\n\\[ \\frac{d}{dx}(\\cos x) = -\\sin x \\]\n\\[ \\frac{d}{dx}(\\tan x) = \\sec^2 x \\quad (x \\ne \\frac{\\pi}{2} + n\\pi) \\]"
+      },
+      {
+        "type": "images",
+        "src": "/images/derivatives_trig_functions.png",
+        "alt": "Graphs of sine, cosine, and tangent with their derivatives",
+        "caption": "Each trigonometric function has a distinct derivative that affects amplitude and symmetry."
+      },
+      {
+        "type": "example",
+        "value": "**Example 1:** Differentiate \\( y = 3\\cos x \\)\n\n- \\( \\frac{dy}{dx} = -3\\sin x \\)"
+      },
+      {
+        "type": "example",
+        "value": "**Example 2:** Differentiate \\( y = \\tan(2x) \\)\n\n- Let \\( u = 2x \\), \\( u' = 2 \\)\n- \\( \\frac{dy}{dx} = 2 \\sec^2(2x) \\)"
+      },
+      {
+        "type": "text",
+        "value": "Be careful with domains: \\( \\tan x \\) and its derivative are undefined at \\( \\frac{\\pi}{2} + n\\pi \\). Always use the chain rule when differentiating compositions involving trigonometric functions."
+      }
+    ]
+  },
+    "17": {
+    "title": "Second Derivatives",
+    "lessonID": "17",
+    "content": [
+      {
+        "type": "text",
+        "value": "The second derivative is the derivative of the derivative. It provides information about the curvature of a function and helps identify concavity and points of inflection."
+      },
+      {
+        "type": "text",
+        "value": "Notation:\n- \\( f''(x) \\) or \\( \\frac{d^2y}{dx^2} \\)\n- If \\( y = f(x) \\), then \\( y'' = \\frac{d}{dx}(f'(x)) \\)"
+      },
+      {
+        "type": "text",
+        "value": "**What does the second derivative tell us?**\n- If \\( f''(x) > 0 \\), the graph is concave up (smiling)\n- If \\( f''(x) < 0 \\), the graph is concave down (frowning)\n- If \\( f''(x) = 0 \\), it may be a point of inflection (change in concavity)"
+      },
+      {
+        "type": "images",
+        "src": "/images/second_derivative_concavity.png",
+        "alt": "Concavity and second derivative",
+        "caption": "The second derivative reveals the concavity of the function and helps detect inflection points."
+      },
+      {
+        "type": "example",
+        "value": "**Example:**\nLet \\( f(x) = x^3 - 6x^2 + 9x \\)\n\n- First derivative: \\( f'(x) = 3x^2 - 12x + 9 \\)\n- Second derivative: \\( f''(x) = 6x - 12 \\)"
+      },
+      {
+        "type": "text",
+        "value": "We use second derivatives in curve sketching, motion analysis, and optimisation to assess the nature of stationary points."
+      }
+    ]
+  },
+    "18": {
+    "title": "Anti-Derivative Graphs",
+    "lessonID": "18",
+    "content": [
+      {
+        "type": "text",
+        "value": "An anti-derivative is the reverse of differentiation. If you know the graph of \\( f'(x) \\), you can sketch a possible graph of \\( f(x) \\) by working backwards."
+      },
+      {
+        "type": "text",
+        "value": "Key ideas when sketching \\( f(x) \\) from \\( f'(x) \\):\n- \\( f'(x) > 0 \\) means \\( f(x) \\) is increasing\n- \\( f'(x) < 0 \\) means \\( f(x) \\) is decreasing\n- \\( f'(x) = 0 \\) means \\( f(x) \\) has a stationary point\n- Points where \\( f'(x) \\) changes sign may be local maxima or minima"
+      },
+      {
+        "type": "images",
+        "src": "/images/antiderivative_from_derivative.png",
+        "alt": "Sketching f(x) from f'(x)",
+        "caption": "Use slopes and sign changes in \\( f'(x) \\) to reconstruct a possible shape for \\( f(x) \\)."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Suppose \\( f'(x) \\) is positive between \\( x = 1 \\) and \\( x = 3 \\), and zero at \\( x = 1, 3 \\).\n\nThen \\( f(x) \\) has:\n- A local minimum at \\( x = 1 \\)\n- A local maximum at \\( x = 3 \\)\n- Increasing behaviour between them"
+      },
+      {
+        "type": "text",
+        "value": "Remember: you can’t determine vertical position (y-intercepts) of \\( f(x) \\) from \\( f'(x) \\) unless an initial condition is given (e.g. \\( f(0) = 5 \\))."
+      }
+    ]
+  },
+    "19": {
+    "title": "Anti-Derivatives",
+    "lessonID": "19",
+    "content": [
+      {
+        "type": "text",
+        "value": "An anti-derivative of a function \\( f(x) \\) is a function \\( F(x) \\) such that \\( F'(x) = f(x) \\). This is also called an indefinite integral."
+      },
+      {
+        "type": "text",
+        "value": "**Notation:**\n\\[ \\int f(x) \\, dx = F(x) + C \\]\nWhere \\( C \\) is the constant of integration (since many functions can share the same derivative)."
+      },
+      {
+        "type": "text",
+        "value": "**Basic Anti-Derivatives:**\n- \\( \\int x^n \\, dx = \\frac{x^{n+1}}{n+1} + C \\quad (n \\ne -1) \\)\n- \\( \\int \\frac{1}{x} \\, dx = \\ln|x| + C \\)\n- \\( \\int e^x \\, dx = e^x + C \\)"
+      },
+      {
+        "type": "images",
+        "src": "/images/antiderivatives_table.png",
+        "alt": "Common anti-derivatives",
+        "caption": "This table summarises common functions and their anti-derivatives."
+      },
+      {
+        "type": "example",
+        "value": "**Example 1:** \\( \\int 5x^4 \\, dx = x^5 + C \\)"
+      },
+      {
+        "type": "example",
+        "value": "**Example 2:** \\( \\int \\frac{3}{x} \\, dx = 3\\ln|x| + C \\)"
+      },
+      {
+        "type": "text",
+        "value": "Anti-differentiation is essential for solving problems in area, motion, and accumulation. We always include \\( +C \\) unless the problem provides boundary conditions (i.e., definite integration)."
+      }
+    ]
+  },
+    "20": {
+    "title": "Further Anti-Derivatives",
+    "lessonID": "20",
+    "content": [
+      {
+        "type": "text",
+        "value": "More complex functions require using substitution (reverse chain rule) or recognizing composite patterns. This lesson focuses on structured strategies for finding anti-derivatives beyond simple polynomials."
+      },
+      {
+        "type": "text",
+        "value": "**Useful techniques:**\n1. Rewrite radicals and fractions\n2. Factor constants outside the integral\n3. Use substitution where necessary"
+      },
+      {
+        "type": "example",
+        "value": "**Example 1:** \\( \\int 2(x^2 + 1)^5 \\, dx \\)\nLet \\( u = x^2 + 1 \\), so \\( du = 2x \\, dx \\).\nThis doesn't match exactly, so try substitution only when a full chain is present.\nIn this case:\n\\( \\int 2(x^2 + 1)^5 \\, dx = \\frac{2}{6}(x^2 + 1)^6 + C = \\frac{1}{3}(x^2 + 1)^6 + C \\)"
+      },
+      {
+        "type": "example",
+        "value": "**Example 2:** \\( \\int \\frac{4x}{x^2 + 2} \\, dx \\)\nLet \\( u = x^2 + 2 \\), then \\( du = 2x \\, dx \\).\nSo:\n\\( \\int \\frac{4x}{x^2 + 2} \\, dx = 2 \\int \\frac{2x}{x^2 + 2} \\, dx = 2 \\ln|x^2 + 2| + C \\)"
+      },
+      {
+        "type": "images",
+        "src": "/images/further_antiderivatives.png",
+        "alt": "Substitution examples in anti-derivatives",
+        "caption": "Recognising when to substitute is key in more complicated integrals."
+      },
+      {
+        "type": "text",
+        "value": "Not all integrals can be solved easily. You’ll learn more advanced techniques later, including integration by parts and partial fractions."
+      }
+    ]
+  },
+    "21": {
+    "title": "Topic Test - Differentiation",
+    "lessonID": "21",
+    "content": [
+      {
+        "type": "text",
+        "value": "This summary reviews all key concepts from the Differentiation subtopic, including basic rules, exponential, logarithmic, and trigonometric derivatives, second derivatives, and anti-derivative graphs."
+      },
+      {
+        "type": "text",
+        "value": "**Key Derivative Rules:**\n- \\( \\frac{d}{dx}(x^n) = nx^{n-1} \\)\n- \\( \\frac{d}{dx}(e^x) = e^x \\)\n- \\( \\frac{d}{dx}(\\ln x) = \\frac{1}{x} \\)\n- \\( \\frac{d}{dx}(\\sin x) = \\cos x \\)\n- \\( \\frac{d}{dx}(\\cos x) = -\\sin x \\)\n- \\( \\frac{d}{dx}(\\tan x) = \\sec^2 x \\)"
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_differentiation_rules.png",
+        "alt": "Summary table of derivative rules",
+        "caption": "This table shows core derivatives for algebraic, exponential, logarithmic, and trigonometric functions."
+      },
+      {
+        "type": "text",
+        "value": "**Second Derivatives and Concavity:**\n- \\( f''(x) > 0 \\): concave up\n- \\( f''(x) < 0 \\): concave down\n- \\( f''(x) = 0 \\): possible point of inflection"
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_second_derivatives.png",
+        "alt": "Graph showing concavity",
+        "caption": "Concavity reveals how a graph bends and helps identify points of inflection."
+      },
+      {
+        "type": "text",
+        "value": "**Anti-Derivative Graphs:**\nFrom \\( f'(x) \\), you can infer the shape of \\( f(x) \\):\n- \\( f'(x) > 0 \\): increasing\n- \\( f'(x) < 0 \\): decreasing\n- \\( f'(x) = 0 \\): stationary point"
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_antiderivative_graphs.png",
+        "alt": "Graph of f(x) based on f'(x)",
+        "caption": "Use the sign of \\( f'(x) \\) to sketch a rough graph of \\( f(x) \\) without needing an explicit equation."
+      },
+      {
+        "type": "text",
+        "value": "✅ You've now completed your review of differentiation techniques. Make sure you're confident applying rules, recognising concavity, and working from derivative graphs before continuing."
+      }
+    ]
+  },
+    "22": {
+    "title": "Increasing and Decreasing Curves",
+    "lessonID": "22",
+    "content": [
+      {
+        "type": "text",
+        "value": "The derivative \\( f'(x) \\) tells us whether a function is increasing or decreasing over an interval."
+      },
+      {
+        "type": "text",
+        "value": "**Key Rules:**\n- If \\( f'(x) > 0 \\) on an interval, the function is increasing\n- If \\( f'(x) < 0 \\) on an interval, the function is decreasing"
+      },
+      {
+        "type": "images",
+        "src": "/images/increasing_decreasing_graphs.png",
+        "alt": "Graphs showing increasing and decreasing behaviour",
+        "caption": "Positive slope = increasing, negative slope = decreasing. The sign of \\( f'(x) \\) determines the trend."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Given \\( f(x) = x^3 - 6x^2 + 9x \\), find intervals where the function is increasing.\n\n1. Find \\( f'(x) = 3x^2 - 12x + 9 \\)\n2. Solve \\( f'(x) > 0 \\)\n3. Factor: \\( 3(x^2 - 4x + 3) = 3(x - 1)(x - 3) \\)\n4. Solve: Increasing on \\( (-\\infty, 1) \\cup (3, \\infty) \\)"
+      },
+      {
+        "type": "text",
+        "value": "Use sign charts to test values between critical points and confirm whether the derivative is positive or negative in each region."
+      }
+    ]
+  },
+    "23": {
+    "title": "Stationary Points",
+    "lessonID": "23",
+    "content": [
+      {
+        "type": "text",
+        "value": "A stationary point occurs where the derivative \\( f'(x) = 0 \\). At these points, the function has a horizontal tangent and may have a local maximum, minimum, or point of inflection."
+      },
+      {
+        "type": "text",
+        "value": "**To find stationary points:**\n1. Differentiate \\( f(x) \\)\n2. Solve \\( f'(x) = 0 \\) to find x-values\n3. Substitute into \\( f(x) \\) to find coordinates"
+      },
+      {
+        "type": "images",
+        "src": "/images/stationary_points_graph.png",
+        "alt": "Graph with labelled maximum, minimum, and inflection points",
+        "caption": "Stationary points can be local maxima, local minima, or points of inflection depending on concavity around them."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Find the stationary points of \\( f(x) = x^3 - 3x^2 + 4 \\)\n\n1. \\( f'(x) = 3x^2 - 6x \\)\n2. Solve: \\( 3x(x - 2) = 0 \\) ⇒ \\( x = 0, 2 \\)\n3. Find coordinates: \\( f(0) = 4 \\), \\( f(2) = 0 \\)\n→ Stationary points at (0, 4) and (2, 0)"
+      },
+      {
+        "type": "text",
+        "value": "Further classification (max, min, inflection) is done using the second derivative test or sign charts."
+      }
+    ]
+  },
+    "24": {
+    "title": "Concavity and Points of Inflection",
+    "lessonID": "24",
+    "content": [
+      {
+        "type": "text",
+        "value": "The concavity of a graph tells us whether it curves upward (concave up) or downward (concave down). The second derivative \\( f''(x) \\) determines concavity."
+      },
+      {
+        "type": "text",
+        "value": "**Key rules:**\n- \\( f''(x) > 0 \\): concave up\n- \\( f''(x) < 0 \\): concave down\n- \\( f''(x) = 0 \\): possible point of inflection (check sign change)"
+      },
+      {
+        "type": "images",
+        "src": "/images/concavity_inflection.png",
+        "alt": "Graph showing change in concavity",
+        "caption": "A point of inflection occurs when the graph changes concavity — from concave up to concave down, or vice versa."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Determine concavity and points of inflection for \\( f(x) = x^3 - 3x^2 + 4 \\)\n\n1. \\( f'(x) = 3x^2 - 6x \\)\n2. \\( f''(x) = 6x - 6 \\)\n3. Set \\( f''(x) = 0 \\): \\( x = 1 \\)\n4. Test around \\( x = 1 \\):\n   - Left of 1: \\( f''(x) < 0 \\) ⇒ concave down\n   - Right of 1: \\( f''(x) > 0 \\) ⇒ concave up\n→ Point of inflection at \\( x = 1 \\)"
+      },
+      {
+        "type": "text",
+        "value": "Concavity helps determine the nature of stationary points and the overall shape of the graph."
+      }
+    ]
+  },
+    "25": {
+    "title": "Interpreting Rates of Change Graphically",
+    "lessonID": "25",
+    "content": [
+      {
+        "type": "text",
+        "value": "Rates of change describe how a quantity changes with respect to another (e.g. distance over time). The gradient of a tangent to a curve represents the instantaneous rate of change."
+      },
+      {
+        "type": "text",
+        "value": "When interpreting graphs:\n- The steeper the slope, the greater the rate of change\n- Positive slope: increasing trend\n- Negative slope: decreasing trend\n- Horizontal tangent (slope = 0): momentary pause (stationary point)"
+      },
+      {
+        "type": "images",
+        "src": "/images/rates_of_change_graph.png",
+        "alt": "Graph with tangents showing rate of change",
+        "caption": "The slope of each tangent line represents the instantaneous rate of change at that point."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** A car's position over time is given by \\( s(t) = t^2 \\). Find and interpret \\( s'(2) \\).\n\n- \\( s'(t) = 2t \\), so \\( s'(2) = 4 \\)\n- This means the car is moving at 4 m/s at \\( t = 2 \\) seconds."
+      },
+      {
+        "type": "text",
+        "value": "In real-world contexts, the shape of the graph tells us how a quantity is accelerating, slowing down, or stabilising. Always relate the slope to practical meaning."
+      }
+    ]
+  },
+    "26": {
+    "title": "Stationary Points and the Second Derivative",
+    "lessonID": "26",
+    "content": [
+      {
+        "type": "text",
+        "value": "Once you've found a stationary point using \\( f'(x) = 0 \\), you can use the second derivative \\( f''(x) \\) to determine its nature."
+      },
+      {
+        "type": "text",
+        "value": "**Second Derivative Test:**\n- If \\( f''(x) > 0 \\): local minimum (concave up)\n- If \\( f''(x) < 0 \\): local maximum (concave down)\n- If \\( f''(x) = 0 \\): test is inconclusive (use sign chart or graph)"
+      },
+      {
+        "type": "images",
+        "src": "/images/second_derivative_test.png",
+        "alt": "Illustration of second derivative test",
+        "caption": "The sign of the second derivative at a stationary point determines whether it is a maximum, minimum, or inconclusive."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Let \\( f(x) = x^3 - 3x^2 + 2 \\)\n\n1. \\( f'(x) = 3x^2 - 6x \\)\n2. Stationary points: \\( x = 0, 2 \\)\n3. \\( f''(x) = 6x - 6 \\)\n   - \\( f''(0) = -6 \\): local maximum at \\( x = 0 \\)\n   - \\( f''(2) = 6 \\): local minimum at \\( x = 2 \\)"
+      },
+      {
+        "type": "text",
+        "value": "The second derivative provides a quick way to classify turning points, but always double-check with a graph or sign chart if needed."
+      }
+    ]
+  },
+    "27": {
+    "title": "Curve Sketching",
+    "lessonID": "27",
+    "content": [
+      {
+        "type": "text",
+        "value": "Curve sketching involves using derivatives to analyse and draw the general shape of a function. This includes locating intercepts, stationary points, inflection points, and describing concavity."
+      },
+      {
+        "type": "text",
+        "value": "**Steps for sketching a curve:**\n1. Find intercepts\n2. Find \\( f'(x) \\) and solve \\( f'(x) = 0 \\) for stationary points\n3. Use \\( f''(x) \\) to determine concavity and classify turning points\n4. Identify points of inflection from \\( f''(x) = 0 \\) with sign change\n5. Use a sign chart for \\( f'(x) \\) and \\( f''(x) \\)\n6. Sketch key features"
+      },
+      {
+        "type": "images",
+        "src": "/images/curve_sketching_features.png",
+        "alt": "Sketch with turning and inflection points",
+        "caption": "Use derivatives to locate turning points, inflection points, and describe the function's behaviour."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Sketch \\( f(x) = x^3 - 3x^2 + 2 \\)\n\n1. \\( f'(x) = 3x^2 - 6x \\), solve \\( f'(x) = 0 \\): \\( x = 0, 2 \\)\n2. \\( f''(x) = 6x - 6 \\):\n   - \\( f''(0) = -6 \\): local max\n   - \\( f''(2) = 6 \\): local min\n3. Intercepts: \\( f(0) = 2 \\)\n4. Point of inflection: \\( f''(x) = 0 \\) at \\( x = 1 \\)"
+      },
+      {
+        "type": "text",
+        "value": "Include all important features: axis intercepts, shape, symmetry (if any), concavity, and behaviour as \\( x \\to \\pm\\infty \\)."
+      }
+    ]
+  },
+    "28": {
+    "title": "Global Maxima and Minima",
+    "lessonID": "28",
+    "content": [
+      {
+        "type": "text",
+        "value": "Global (or absolute) maximum and minimum values are the highest or lowest values a function reaches over a given domain."
+      },
+      {
+        "type": "text",
+        "value": "**To find global extrema on a closed interval [a, b]:**\n1. Differentiate the function and solve \\( f'(x) = 0 \\) for critical points\n2. Evaluate \\( f(x) \\) at the critical points AND endpoints\n3. The largest value is the global maximum, the smallest is the global minimum"
+      },
+      {
+        "type": "images",
+        "src": "/images/global_max_min_example.png",
+        "alt": "Graph showing global max and min",
+        "caption": "Both stationary points and endpoints must be tested to find global extrema."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Find the global maximum and minimum of \\( f(x) = x^3 - 3x^2 + 1 \\) on \\( [-1, 3] \\)\n\n1. \\( f'(x) = 3x^2 - 6x \\) ⇒ \\( x = 0, 2 \\)\n2. Evaluate:\n   - \\( f(-1) = -3 \\)\n   - \\( f(0) = 1 \\)\n   - \\( f(2) = -3 \\)\n   - \\( f(3) = 1 \\)\n→ Global max: 1 at \\( x = 0, 3 \\); Global min: -3 at \\( x = -1, 2 \\)"
+      },
+      {
+        "type": "text",
+        "value": "In real-world problems, global extrema represent optimal values like highest profit, lowest cost, or maximum height."
+      }
+    ]
+  },
+    "29": {
+    "title": "Finding Formulas for Optimisation Problems",
+    "lessonID": "29",
+    "content": [
+      {
+        "type": "text",
+        "value": "In optimisation problems, we aim to maximise or minimise a quantity such as area, volume, or cost. The first step is to develop a formula that relates the quantity to be optimised to a single variable."
+      },
+      {
+        "type": "text",
+        "value": "**Steps to create the function:**\n1. Identify the quantity to optimise (e.g. area, perimeter)\n2. Introduce variables for relevant dimensions\n3. Use constraints to eliminate extra variables\n4. Write the quantity as a function of one variable only"
+      },
+      {
+        "type": "images",
+        "src": "/images/optimisation_geometry_setup.png",
+        "alt": "Diagram of rectangle with constraints",
+        "caption": "Use geometric relationships and constraints to rewrite all quantities in terms of one variable."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** A rectangle has a fixed perimeter of 20 cm. Find a formula for its area in terms of one side.\n\nLet width = \\( x \\), then length = \\( 10 - x \\)\nArea = \\( A = x(10 - x) = 10x - x^2 \\)"
+      },
+      {
+        "type": "text",
+        "value": "After finding the formula, you’ll use calculus to find critical points and determine the maximum or minimum value."
+      }
+    ]
+  },
+    "30": {
+    "title": "Optimisation Problems",
+    "lessonID": "30",
+    "content": [
+      {
+        "type": "text",
+        "value": "Once a function has been written for the quantity to be optimised, use calculus to find the value that gives the maximum or minimum."
+      },
+      {
+        "type": "text",
+        "value": "**Steps for solving optimisation problems:**\n1. Differentiate the function\n2. Solve \\( f'(x) = 0 \\) to find critical points\n3. Use a sign chart or second derivative to confirm nature of each point\n4. Evaluate function value to find maximum or minimum"
+      },
+      {
+        "type": "images",
+        "src": "/images/optimisation_solution.png",
+        "alt": "Graph of area vs length",
+        "caption": "Critical points are candidates for maximum or minimum. Confirm using concavity or a sign chart."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Maximise the area of a rectangle with perimeter 20 cm.\n\nFrom previous lesson: \\( A(x) = 10x - x^2 \\)\n1. \\( A'(x) = 10 - 2x \\)\n2. \\( A'(x) = 0 \\) ⇒ \\( x = 5 \\)\n3. Second derivative: \\( A''(x) = -2 \\) ⇒ concave down ⇒ maximum\n→ Max area occurs when \\( x = 5 \\), so rectangle is a square"
+      },
+      {
+        "type": "text",
+        "value": "Always include units in your final answer and check that your solution satisfies all original constraints."
+      }
+    ]
+  },
+    "31": {
+    "title": "Topic Test - Applications of Differentiation",
+    "lessonID": "31",
+    "content": [
+      {
+        "type": "text",
+        "value": "This lesson is a summary of the key applications of differentiation, including increasing/decreasing functions, stationary points, concavity, curve sketching, and optimisation problems."
+      },
+      {
+        "type": "text",
+        "value": "**Increasing and Decreasing Functions:**\n- \\( f'(x) > 0 \\): function is increasing\n- \\( f'(x) < 0 \\): function is decreasing\n- \\( f'(x) = 0 \\): possible turning point (stationary point)"
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_increasing_decreasing.png",
+        "alt": "Graph with positive and negative gradient",
+        "caption": "The sign of the derivative indicates whether the function is rising or falling."
+      },
+      {
+        "type": "text",
+        "value": "**Stationary Points and Curve Sketching:**\n- Use \\( f'(x) = 0 \\) to find stationary points\n- Use \\( f''(x) \\) to classify them (max/min/inflection)\n- Include intercepts, endpoints, and asymptotic behaviour"
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_stationary_points.png",
+        "alt": "Sketch showing maximum, minimum and inflection points",
+        "caption": "Turning points and inflection points help shape the graph."
+      },
+      {
+        "type": "text",
+        "value": "**Optimisation Problems:**\n- Express the quantity to be optimised as a function\n- Differentiate and solve \\( f'(x) = 0 \\)\n- Use endpoints and second derivative to confirm extrema"
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_optimisation.png",
+        "alt": "Optimisation diagram for rectangle problem",
+        "caption": "Optimisation problems often require geometric or contextual setup with constraints."
+      },
+      {
+        "type": "text",
+        "value": "✅ You've revised all core applications of differentiation. Be sure you can apply calculus to describe, sketch, and optimise functions with confidence!"
+      }
+    ]
+  },
+    "32": {
+    "title": "Approximating Areas Under a Curve",
+    "lessonID": "32",
+    "content": [
+      {
+        "type": "text",
+        "value": "Before learning definite integration, we use approximation methods to estimate the area under a curve. The two most common techniques are using rectangles and the trapezoidal rule."
+      },
+      {
+        "type": "text",
+        "value": "**Rectangle Method (Left or Right sums):**\n- Divide the interval into equal subintervals\n- Use rectangles based on the left or right endpoint\n- Add all rectangle areas: \\( A \\approx \\sum f(x_i) \\cdot \\Delta x \\)"
+      },
+      {
+        "type": "images",
+        "src": "/images/area_approximation_rectangles.png",
+        "alt": "Graph with rectangles under a curve",
+        "caption": "Left and right sum approximations can over- or under-estimate depending on the curve's shape."
+      },
+      {
+        "type": "text",
+        "value": "**Trapezoidal Rule:**\nEach adjacent pair of points forms a trapezium.\n\\[ A \\approx \\frac{h}{2}(y_0 + 2y_1 + 2y_2 + ... + 2y_{n-1} + y_n) \\]\nWhere \\( h \\) is the subinterval width, and \\( y_i = f(x_i) \\)"
+      },
+      {
+        "type": "images",
+        "src": "/images/trapezoidal_rule_graph.png",
+        "alt": "Trapezoids used to estimate area",
+        "caption": "The trapezoidal rule gives a better estimate by smoothing the top edge compared to rectangles."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Approximate the area under \\( f(x) = x^2 \\) from \\( x = 0 \\) to \\( x = 2 \\) using 2 trapezoids.\n\n- Interval: \\( [0, 2] \\), \\( h = 1 \\)\n- \\( f(0) = 0, f(1) = 1, f(2) = 4 \\)\n- Area \\( = \\frac{1}{2}(0 + 2 \\cdot 1 + 4) = \\frac{1}{2}(6) = 3 \\)"
+      },
+      {
+        "type": "text",
+        "value": "These methods build intuition for integration and help estimate areas when a function is too complex to integrate exactly."
+      }
+    ]
+  },
+    "33": {
+    "title": "Trapezoidal Rule",
+    "lessonID": "33",
+    "content": [
+      {
+        "type": "text",
+        "value": "The trapezoidal rule is a method for estimating the area under a curve by dividing the area into trapezoids rather than rectangles. This produces a more accurate approximation."
+      },
+      {
+        "type": "text",
+        "value": "**Trapezoidal Rule Formula:**\nFor a function \\( f(x) \\) over an interval \\( [a, b] \\) divided into \\( n \\) equal parts:\n\\[ A \\approx \\frac{h}{2}(y_0 + 2y_1 + 2y_2 + \\dots + 2y_{n-1} + y_n) \\]\nwhere:\n- \\( h = \\frac{b - a}{n} \\)\n- \\( y_i = f(x_i) \\) are function values at the subinterval endpoints"
+      },
+      {
+        "type": "images",
+        "src": "/images/trapezoidal_formula_diagram.png",
+        "alt": "Trapezoidal approximation diagram",
+        "caption": "Each trapezoid connects two points on the curve, improving accuracy over rectangles."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Estimate the area under \\( f(x) = x^2 \\) from \\( x = 0 \\) to \\( x = 2 \\) using 2 subintervals.\n\n- \\( h = 1 \\)\n- \\( f(0) = 0, f(1) = 1, f(2) = 4 \\)\n- \\( A \\approx \\frac{1}{2}(0 + 2 \\cdot 1 + 4) = \\frac{1}{2}(6) = 3 \\)"
+      },
+      {
+        "type": "text",
+        "value": "The more subintervals you use, the better the approximation. The trapezoidal rule is especially useful when the function is not easily integrable algebraically."
+      }
+    ]
+  },
+    "34": {
+    "title": "Definite Integrals",
+    "lessonID": "34",
+    "content": [
+      {
+        "type": "text",
+        "value": "A definite integral calculates the exact area under a curve between two points \\( a \\) and \\( b \\), using the Fundamental Theorem of Calculus."
+      },
+      {
+        "type": "text",
+        "value": "**Notation:**\n\\[ \\int_a^b f(x) \\, dx \\]\nThis represents the signed area under the curve from \\( x = a \\) to \\( x = b \\)."
+      },
+      {
+        "type": "text",
+        "value": "**Fundamental Theorem of Calculus:**\n\\[ \\int_a^b f(x) \\, dx = F(b) - F(a) \\]\nWhere \\( F(x) \\) is any anti-derivative of \\( f(x) \\)."
+      },
+      {
+        "type": "images",
+        "src": "/images/definite_integral_area.png",
+        "alt": "Graph showing shaded area between curve and x-axis",
+        "caption": "The definite integral represents total signed area between the curve and the x-axis over an interval."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** \\( \\int_1^3 (2x + 1) \\, dx \\)\n\n1. Find anti-derivative: \\( F(x) = x^2 + x \\)\n2. Evaluate: \\( F(3) = 9 + 3 = 12 \\), \\( F(1) = 1 + 1 = 2 \\)\n3. \\( \\int_1^3 (2x + 1) \\, dx = 12 - 2 = 10 \\)"
+      },
+      {
+        "type": "text",
+        "value": "If the curve lies below the x-axis, the definite integral gives a negative value (representing negative area)."
+      }
+    ]
+  },
+    "35": {
+    "title": "Indefinite Integrals",
+    "lessonID": "35",
+    "content": [
+      {
+        "type": "text",
+        "value": "An indefinite integral, also known as an antiderivative, is the reverse process of differentiation. It represents a family of functions whose derivative is the given function."
+      },
+      {
+        "type": "text",
+        "value": "**Notation:**\n\\[ \\int f(x) \\, dx = F(x) + C \\]\nWhere \\( F'(x) = f(x) \\) and \\( C \\) is the constant of integration."
+      },
+      {
+        "type": "text",
+        "value": "**Basic Rules:**\n- \\( \\int x^n \\, dx = \\frac{x^{n+1}}{n+1} + C \\), \\( n \\ne -1 \\)\n- \\( \\int \\frac{1}{x} \\, dx = \\ln|x| + C \\)\n- \\( \\int e^x \\, dx = e^x + C \\)\n- \\( \\int a^x \\, dx = \\frac{a^x}{\\ln a} + C \\), \\( a > 0, a \\ne 1 \\)"
+      },
+      {
+        "type": "images",
+        "src": "/images/indefinite_integrals_table.png",
+        "alt": "Table of common indefinite integrals",
+        "caption": "Use these standard results as building blocks for more complex integrals."
+      },
+      {
+        "type": "example",
+        "value": "**Example 1:** \\( \\int (3x^2 - 4x + 1) \\, dx = x^3 - 2x^2 + x + C \\)"
+      },
+      {
+        "type": "example",
+        "value": "**Example 2:** \\( \\int \\frac{5}{x} \\, dx = 5 \\ln|x| + C \\)"
+      },
+      {
+        "type": "text",
+        "value": "The constant \\( C \\) represents an unknown vertical shift. If you are given an initial condition, you can solve for \\( C \\) to find a particular solution."
+      }
+    ]
+  },
+    "36": {
+    "title": "Chain Rule",
+    "lessonID": "36",
+    "content": [
+      {
+        "type": "text",
+        "value": "The chain rule is a method for differentiating composite functions. It is used when one function is nested inside another, such as \\( f(g(x)) \\)."
+      },
+      {
+        "type": "text",
+        "value": "**Chain Rule Formula:**\n\\[ \\frac{d}{dx}[f(g(x))] = f'(g(x)) \\cdot g'(x) \\]"
+      },
+      {
+        "type": "images",
+        "src": "/images/chain_rule_composite.png",
+        "alt": "Diagram showing outer and inner functions",
+        "caption": "Apply the chain rule by differentiating the outer function and multiplying by the derivative of the inner function."
+      },
+      {
+        "type": "example",
+        "value": "**Example 1:** Differentiate \\( y = (2x + 5)^4 \\)\n\nLet \\( u = 2x + 5 \\), then \\( y = u^4 \\)\n- \\( \\frac{dy}{dx} = 4(2x + 5)^3 \\cdot 2 = 8(2x + 5)^3 \\)"
+      },
+      {
+        "type": "example",
+        "value": "**Example 2:** Differentiate \\( y = \\sin(3x) \\)\n- Outer: \\( \\sin(u) \\), Inner: \\( u = 3x \\)\n- \\( \\frac{dy}{dx} = \\cos(3x) \\cdot 3 = 3\\cos(3x) \\)"
+      },
+      {
+        "type": "text",
+        "value": "The chain rule is essential for handling more complex expressions involving trigonometric, exponential, and logarithmic functions."
+      }
+    ]
+  },
+    "37": {
+    "title": "Integration Involving Exponential Functions",
+    "lessonID": "37",
+    "content": [
+      {
+        "type": "text",
+        "value": "Exponential functions are commonly integrated in calculus. The most important result is the integral of \\( e^x \\), which is straightforward:"
+      },
+      {
+        "type": "text",
+        "value": "**Basic Rule:**\n\\[ \\int e^x \\, dx = e^x + C \\]"
+      },
+      {
+        "type": "text",
+        "value": "For more complex arguments, apply substitution:\n\\[ \\int e^{u(x)} \\, dx = \\frac{1}{u'(x)} e^{u(x)} + C \\]"
+      },
+      {
+        "type": "images",
+        "src": "/images/integration_exponential.png",
+        "alt": "Exponential curve with shaded area",
+        "caption": "Exponential functions are smooth and increase or decrease rapidly depending on the sign of the exponent."
+      },
+      {
+        "type": "example",
+        "value": "**Example 1:** \\( \\int 3e^{2x} \\, dx \\)\n\nLet \\( u = 2x \\), \\( du = 2dx \\)\n→ \\( \\int 3e^{2x} \\, dx = \\frac{3}{2}e^{2x} + C \\)"
+      },
+      {
+        "type": "example",
+        "value": "**Example 2:** \\( \\int e^{-x} \\, dx = -e^{-x} + C \\)"
+      },
+      {
+        "type": "text",
+        "value": "Exponential integrals are commonly used in modelling growth, decay, and continuous change in fields such as finance, biology, and physics."
+      }
+    ]
+  },
+    "38": {
+    "title": "Integration Involving Logarithmic Functions",
+    "lessonID": "38",
+    "content": [
+      {
+        "type": "text",
+        "value": "Logarithmic functions often appear in integrals, especially when integrating rational expressions or using substitution."
+      },
+      {
+        "type": "text",
+        "value": "**Key Rule:**\n\\[ \\int \\frac{1}{x} \\, dx = \\ln|x| + C \\]"
+      },
+      {
+        "type": "text",
+        "value": "For composite functions, substitution is required:\n\\[ \\int \\frac{f'(x)}{f(x)} \\, dx = \\ln|f(x)| + C \\]"
+      },
+      {
+        "type": "images",
+        "src": "/images/integration_logarithmic.png",
+        "alt": "Graph of ln(x) with area shaded under curve",
+        "caption": "The integral of \\( \\frac{1}{x} \\) gives the natural logarithm function, \\( \\ln|x| \\)."
+      },
+      {
+        "type": "example",
+        "value": "**Example 1:** \\( \\int \\frac{2x}{x^2 + 1} \\, dx \\)\n\nLet \\( u = x^2 + 1 \\), \\( du = 2x \\, dx \\)\n→ \\( \\int \\frac{2x}{x^2 + 1} \\, dx = \\ln|x^2 + 1| + C \\)"
+      },
+      {
+        "type": "example",
+        "value": "**Example 2:** \\( \\int \\frac{5}{3x + 2} \\, dx \\)\nLet \\( u = 3x + 2 \\), \\( du = 3dx \\)\n→ \\( \\frac{5}{3} \\ln|3x + 2| + C \\)"
+      },
+      {
+        "type": "text",
+        "value": "Recognising the structure \\( \\frac{f'(x)}{f(x)} \\) is key to applying logarithmic integration rules efficiently."
+      }
+    ]
+  },
+    "39": {
+    "title": "Integration Involving Trigonometric Functions",
+    "lessonID": "39",
+    "content": [
+      {
+        "type": "text",
+        "value": "Integrating trigonometric functions often involves using standard formulas or substitution. Many common trigonometric integrals have well-known results."
+      },
+      {
+        "type": "text",
+        "value": "**Key Integrals:**\n- \\( \\int \\sin x \\, dx = -\\cos x + C \\)\n- \\( \\int \\cos x \\, dx = \\sin x + C \\)\n- \\( \\int \\sec^2 x \\, dx = \\tan x + C \\)\n- \\( \\int \\csc^2 x \\, dx = -\\cot x + C \\)"
+      },
+      {
+        "type": "images",
+        "src": "/images/integration_trig_functions.png",
+        "alt": "Graph showing sine and cosine integration",
+        "caption": "Trigonometric functions are often integrated using standard formulas, producing sine and cosine functions."
+      },
+      {
+        "type": "example",
+        "value": "**Example 1:** \\( \\int \\sin x \\, dx = -\\cos x + C \\)"
+      },
+      {
+        "type": "example",
+        "value": "**Example 2:** \\( \\int \\sec^2 x \\, dx = \\tan x + C \\)"
+      },
+      {
+        "type": "text",
+        "value": "When integrating more complex trigonometric functions, trigonometric identities or substitution methods (e.g. using \\( u = \\sin x \\)) are often helpful."
+      }
+    ]
+  },
+    "40": {
+    "title": "Areas Enclosed by the x-axis",
+    "lessonID": "40",
+    "content": [
+      {
+        "type": "text",
+        "value": "To find the area under a curve, we use definite integrals. The area between a curve \\( f(x) \\) and the x-axis can be calculated as follows."
+      },
+      {
+        "type": "text",
+        "value": "**Formula for Area Under Curve:**\n\\[ A = \\int_a^b |f(x)| \\, dx \\]\n- \\( |f(x)| \\) ensures the area is positive (even if the curve is below the x-axis)."
+      },
+      {
+        "type": "images",
+        "src": "/images/area_under_curve.png",
+        "alt": "Graph showing area between curve and x-axis",
+        "caption": "The area under a curve is calculated by integrating the absolute value of the function between the limits."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Find the area under \\( f(x) = x^2 - 4 \\) from \\( x = -3 \\) to \\( x = 3 \\).\n\n1. \\( f(x) = x^2 - 4 \\)\n2. For \\( x = -3 \\) to \\( x = 3 \\), \\( f(x) \\) is negative, so calculate area separately for positive and negative portions of the curve."
+      },
+      {
+        "type": "text",
+        "value": "When the function crosses the x-axis, split the integral into parts to evaluate the area above and below the x-axis."
+      }
+    ]
+  },
+    "41": {
+    "title": "Areas Enclosed by the y-axis",
+    "lessonID": "41",
+    "content": [
+      {
+        "type": "text",
+        "value": "To find the area enclosed by a curve and the y-axis, we use a similar approach as for the x-axis, but this time the integration is done with respect to y."
+      },
+      {
+        "type": "text",
+        "value": "**Formula for Area with respect to the y-axis:**\n\\[ A = \\int_{y_1}^{y_2} |g(y)| \\, dy \\]\nWhere \\( g(y) \\) is the inverse of the function \\( f(x) \\) and represents the x-values in terms of y."
+      },
+      {
+        "type": "images",
+        "src": "/images/area_enclosed_by_yaxis.png",
+        "alt": "Graph showing area enclosed by curve and y-axis",
+        "caption": "The area between the curve and the y-axis is found by integrating with respect to y."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Find the area between the curve \\( y = x^2 + 1 \\) and the y-axis, from \\( y = 1 \\) to \\( y = 5 \\).\n\n- Solve for \\( x = \\sqrt{y - 1} \\)\n- The area is \\( A = \\int_1^5 |\\sqrt{y - 1}| \\, dy \\)."
+      },
+      {
+        "type": "text",
+        "value": "For curves that are not easily solvable for \\( x \\), consider using numerical methods or approximation techniques."
+      }
+    ]
+  },
+    "42": {
+    "title": "Sums and Differences of Areas",
+    "lessonID": "42",
+    "content": [
+      {
+        "type": "text",
+        "value": "When dealing with multiple curves, you can find the total area between them by calculating the sum or difference of their individual areas."
+      },
+      {
+        "type": "text",
+        "value": "**Formula for Total Area Between Curves:**\n\\[ A = \\int_a^b |f(x) - g(x)| \\, dx \\]\nWhere \\( f(x) \\) and \\( g(x) \\) are the functions representing the curves, and \\( a, b \\) are the interval limits."
+      },
+      {
+        "type": "images",
+        "src": "/images/sum_diff_area.png",
+        "alt": "Graph showing area between two curves",
+        "caption": "The total area between two curves is the difference between their integrals."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Find the area between the curves \\( f(x) = x^2 + 1 \\) and \\( g(x) = 3x \\) from \\( x = 0 \\) to \\( x = 2 \\).\n\n- \\( A = \\int_0^2 |(3x) - (x^2 + 1)| \\, dx \\)"
+      },
+      {
+        "type": "text",
+        "value": "When using the absolute value, you may need to break the integral into intervals where one function is greater than the other."
+      }
+    ]
+  },
+    "43": {
+    "title": "Topic Test - Integration",
+    "lessonID": "43",
+    "content": [
+      {
+        "type": "text",
+        "value": "This lesson summarises the key techniques and applications of integration, including indefinite and definite integrals, the trapezoidal rule, and area calculations under and between curves."
+      },
+      {
+        "type": "text",
+        "value": "**Indefinite Integrals (Antiderivatives):**\n- \\( \\int x^n \\, dx = \\frac{x^{n+1}}{n+1} + C \\) for \\( n \\ne -1 \\)\n- \\( \\int e^x \\, dx = e^x + C \\)\n- \\( \\int \\frac{1}{x} \\, dx = \\ln|x| + C \\)\n- \\( \\int \\sin x \\, dx = -\\cos x + C \\), \\( \\int \\cos x \\, dx = \\sin x + C \\)"
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_indefinite_integrals.png",
+        "alt": "List of standard antiderivatives",
+        "caption": "Memorise standard results to simplify integration problems."
+      },
+      {
+        "type": "text",
+        "value": "**Definite Integrals:**\n\\[ \\int_a^b f(x) \\, dx = F(b) - F(a) \\]\nUse this to calculate the signed area under the curve \\( f(x) \\) from \\( a \\) to \\( b \\)."
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_definite_integral.png",
+        "alt": "Definite integral as net area",
+        "caption": "Area above the x-axis adds positively; area below subtracts."
+      },
+      {
+        "type": "text",
+        "value": "**Trapezoidal Rule:**\n\\[ A \\approx \\frac{h}{2}(y_0 + 2y_1 + 2y_2 + \\dots + 2y_{n-1} + y_n) \\]\nUsed to estimate area when a function is difficult to integrate exactly."
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_trapezoidal.png",
+        "alt": "Trapezoidal rule visual method",
+        "caption": "The trapezoidal rule improves accuracy by averaging top edges."
+      },
+      {
+        "type": "text",
+        "value": "**Areas Under and Between Curves:**\n- Area under a curve: \\( \\int_a^b |f(x)| \\, dx \\)\n- Area between curves: \\( \\int_a^b |f(x) - g(x)| \\, dx \\)"
+      },
+      {
+        "type": "images",
+        "src": "/images/summary_area_between_curves.png",
+        "alt": "Area between two curves",
+        "caption": "Always subtract lower curve from upper curve when integrating vertically."
+      },
+      {
+        "type": "text",
+        "value": "✅ You’ve now revised all key integration skills. Make sure you can apply rules to practical problems, sketch graphs, and interpret signed area in context."
+      }
+    ]
+  },
+    "44": {
+    "title": "General Sequences and Series",
+    "lessonID": "44",
+    "content": [
+      {
+        "type": "text",
+        "value": "A sequence is an ordered list of numbers, and a series is the sum of a sequence. Sequences can be defined explicitly by a formula or recursively by referencing previous terms."
+      },
+      {
+        "type": "text",
+        "value": "**Sequence:** A list of terms in a specific order, such as \\( a_1, a_2, a_3, \\dots \\)\n- Each term is denoted \\( a_n \\), where \\( n \\) is the term number."
+      },
+      {
+        "type": "text",
+        "value": "**Series:** The sum of the terms in a sequence:\n\\[ S_n = a_1 + a_2 + a_3 + \\dots + a_n \\]"
+      },
+      {
+        "type": "images",
+        "src": "/images/general_sequence_series.png",
+        "alt": "Diagram comparing sequences and series",
+        "caption": "A sequence lists numbers; a series adds them."
+      },
+      {
+        "type": "text",
+        "value": "**Recursive Definition:** Uses previous terms:\n\\( a_{n+1} = a_n + d \\) or \\( a_{n+1} = r a_n \\)"
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Consider the sequence: 2, 5, 8, 11, ...\n- Recursive: \\( a_1 = 2, a_{n+1} = a_n + 3 \\)\n- Explicit: \\( a_n = 2 + (n-1) \\cdot 3 = 3n - 1 \\)"
+      },
+      {
+        "type": "text",
+        "value": "This lesson provides the foundation for studying specific types of sequences: arithmetic (constant difference) and geometric (constant ratio)."
+      }
+    ]
+  },
+    "45": {
+    "title": "Arithmetic Sequences",
+    "lessonID": "45",
+    "content": [
+      {
+        "type": "text",
+        "value": "An arithmetic sequence is a sequence in which each term differs from the previous term by a constant amount, called the common difference \\( d \\)."
+      },
+      {
+        "type": "text",
+        "value": "**General Formula for an Arithmetic Sequence:**\n\\[ a_n = a_1 + (n - 1)d \\]\nWhere:\n- \\( a_n \\) is the nth term\n- \\( a_1 \\) is the first term\n- \\( d \\) is the common difference"
+      },
+      {
+        "type": "images",
+        "src": "/images/arithmetic_sequence_formula.png",
+        "alt": "Arithmetic sequence representation",
+        "caption": "The terms of an arithmetic sequence increase or decrease at a constant rate."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** The first term of an arithmetic sequence is 4, and the common difference is 5. Find the 10th term.\n\\[ a_{10} = 4 + (10 - 1) \\cdot 5 = 4 + 45 = 49 \\]"
+      },
+      {
+        "type": "text",
+        "value": "Arithmetic sequences are useful for modelling linear growth or decline in many financial and practical contexts, such as saving money with equal deposits."
+      }
+    ]
+  },
+    "46": {
+    "title": "Arithmetic Series",
+    "lessonID": "46",
+    "content": [
+      {
+        "type": "text",
+        "value": "An arithmetic series is the sum of the terms of an arithmetic sequence. The sum of the first \\( n \\) terms of an arithmetic sequence can be found using a specific formula."
+      },
+      {
+        "type": "text",
+        "value": "**Formula for the Sum of an Arithmetic Series:**\n\\[ S_n = \\frac{n}{2} (2a_1 + (n-1) d) \\]\nWhere \\( S_n \\) is the sum of the first \\( n \\) terms, \\( a_1 \\) is the first term, \\( d \\) is the common difference, and \\( n \\) is the number of terms."
+      },
+      {
+        "type": "images",
+        "src": "/images/arithmetic_series_formula.png",
+        "alt": "Arithmetic series sum formula",
+        "caption": "This formula helps compute the total sum of the terms in an arithmetic sequence."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Find the sum of the first 10 terms of the arithmetic sequence: 2, 5, 8, 11, ...\n\n- \\( a_1 = 2 \\), \\( d = 3 \\), \\( n = 10 \\)\n\\[ S_{10} = \\frac{10}{2} (2(2) + (10-1)(3)) = 5(4 + 27) = 5(31) = 155 \\]"
+      },
+      {
+        "type": "text",
+        "value": "Arithmetic series are often used to model financial scenarios such as calculating total payments or savings over time."
+      }
+    ]
+  },
+    "47": {
+    "title": "Geometric Sequences",
+    "lessonID": "47",
+    "content": [
+      {
+        "type": "text",
+        "value": "A geometric sequence is a sequence in which each term is found by multiplying the previous term by a constant ratio, \\( r \\)."
+      },
+      {
+        "type": "text",
+        "value": "**General Formula for a Geometric Sequence:**\n\\[ a_n = a_1 \\cdot r^{(n-1)} \\]\nWhere \\( a_n \\) is the nth term, \\( a_1 \\) is the first term, and \\( r \\) is the common ratio."
+      },
+      {
+        "type": "images",
+        "src": "/images/geometric_sequence_formula.png",
+        "alt": "Geometric sequence representation",
+        "caption": "In a geometric sequence, each term is multiplied by a fixed ratio."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** The first term of a geometric sequence is 3, and the common ratio is 2. Find the 5th term.\n\\[ a_5 = 3 \\cdot 2^{(5-1)} = 3 \\cdot 16 = 48 \\]"
+      },
+      {
+        "type": "text",
+        "value": "Geometric sequences are common in finance for modelling compound interest and exponential growth or decay."
+      }
+    ]
+  },
+    "48": {
+    "title": "Geometric Series",
+    "lessonID": "48",
+    "content": [
+      {
+        "type": "text",
+        "value": "A geometric series is the sum of the terms in a geometric sequence. The sum of the first \\( n \\) terms of a geometric series can be calculated using a specific formula."
+      },
+      {
+        "type": "text",
+        "value": "**Formula for the Sum of a Geometric Series:**\n\\[ S_n = a_1 \\cdot \\frac{1 - r^n}{1 - r} \\] for \\( r \\neq 1 \\)\nWhere \\( a_1 \\) is the first term, \\( r \\) is the common ratio, \\( n \\) is the number of terms, and \\( S_n \\) is the sum of the first \\( n \\) terms."
+      },
+      {
+        "type": "images",
+        "src": "/images/geometric_series_formula.png",
+        "alt": "Geometric series sum formula",
+        "caption": "This formula helps calculate the sum of the first \\( n \\) terms of a geometric series."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Find the sum of the first 6 terms of the geometric sequence: 5, 10, 20, 40, ... where \\( r = 2 \\).\n\n- \\( a_1 = 5 \\), \\( r = 2 \\), \\( n = 6 \\)\n\\[ S_6 = 5 \\cdot \\frac{1 - 2^6}{1 - 2} = 5 \\cdot \\frac{1 - 64}{-1} = 5 \\cdot 63 = 315 \\]"
+      },
+      {
+        "type": "text",
+        "value": "Geometric series are often used to model financial situations such as compound interest and population growth."
+      }
+    ]
+  },
+    "49": {
+    "title": "Limiting Sum of an Infinite Geometric Series",
+    "lessonID": "49",
+    "content": [
+      {
+        "type": "text",
+        "value": "An infinite geometric series is a series where the number of terms is unlimited. It only converges to a finite value if the common ratio \\( |r| < 1 \\)."
+      },
+      {
+        "type": "text",
+        "value": "**Formula for the Sum of an Infinite Geometric Series:**\n\\[ S = \\frac{a_1}{1 - r} \\] for \\( |r| < 1 \\)\nWhere \\( a_1 \\) is the first term, and \\( r \\) is the common ratio."
+      },
+      {
+        "type": "images",
+        "src": "/images/infinite_geometric_series_sum.png",
+        "alt": "Limiting sum of an infinite geometric series",
+        "caption": "The sum of an infinite geometric series converges only if the common ratio is between -1 and 1."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Find the sum of the infinite geometric series: 3, 6, 12, 24, ...\n\n- \\( a_1 = 3 \\), \\( r = 2 \\)\n- Since \\( |r| > 1 \\), the series does not converge and has no finite sum."
+      },
+      {
+        "type": "text",
+        "value": "For convergence to occur, the common ratio \\( r \\) must satisfy \\( |r| < 1 \\). If this condition is not met, the series diverges and the sum is infinite."
+      }
+    ]
+  },  
+  "50": {
+    "title": "Topic Test - Series and Sequences",
+    "lessonID": "50",
+    "content": [
+      {
+        "type": "text",
+        "value": "This lesson reviews the key concepts from the Series and Sequences subtopic. Use this summary to revise before tackling exam-style questions."
+      },
+      {
+        "type": "text",
+        "value": "**Arithmetic Sequences:**\n- Each term increases or decreases by a constant difference \\( d \\)\n- General term: \\( a_n = a_1 + (n - 1)d \\)"
+      },
+      {
+        "type": "images",
+        "src": "/images/arithmetic_sequence_summary.png",
+        "alt": "Arithmetic sequence formula and example",
+        "caption": "Arithmetic sequences model regular linear growth or decline."
+      },
+      {
+        "type": "text",
+        "value": "**Arithmetic Series:**\n- Sum of the first \\( n \\) terms: \\( S_n = \\frac{n}{2}(2a_1 + (n - 1)d) \\)"
+      },
+      {
+        "type": "images",
+        "src": "/images/arithmetic_series_summary.png",
+        "alt": "Arithmetic series sum formula",
+        "caption": "Used to find the total of regular payments, steps, or values in linear patterns."
+      },
+      {
+        "type": "text",
+        "value": "**Geometric Sequences:**\n- Each term is multiplied by a common ratio \\( r \\)\n- General term: \\( a_n = a_1 r^{n-1} \\)"
+      },
+      {
+        "type": "text",
+        "value": "**Geometric Series:**\n- Finite sum: \\( S_n = a_1 \\cdot \\frac{1 - r^n}{1 - r} \\) for \\( r \\ne 1 \\)\n- Infinite sum (if \\( |r| < 1 \\)): \\( S = \\frac{a_1}{1 - r} \\)"
+      },
+      {
+        "type": "images",
+        "src": "/images/geometric_series_summary.png",
+        "alt": "Geometric series formulas",
+        "caption": "Geometric models apply to compound interest, depreciation, and exponential growth/decay."
+      },
+      {
+        "type": "example",
+        "value": "**Example Question:**\nFind the sum of the geometric series: \\( 3 + 6 + 12 + \\dots \\) to 5 terms.\n- \\( a_1 = 3 \\), \\( r = 2 \\), \\( n = 5 \\)\n- \\( S_5 = 3 \\cdot \\frac{1 - 2^5}{1 - 2} = 3 \\cdot 31 = 93 \\)"
+      },
+      {
+        "type": "text",
+        "value": "✅ You're now ready to tackle problems involving sequences, series, and annuities. Be sure to understand how to identify the type of sequence and apply the correct formula."
+      }
+    ]
+  },
+    "51": {
+    "title": "Annuities",
+    "lessonID": "51",
+    "content": [
+      {
+        "type": "text",
+        "value": "An annuity is a series of equal payments or receipts made at regular intervals over a period of time. Annuities are commonly used in finance to model loan repayments, savings, and investments."
+      },
+      {
+        "type": "text",
+        "value": "**Annuity Formula:**\nThe present value \\( PV \\) of an annuity can be calculated using the following formula:\n\\[ PV = P \\cdot \\frac{1 - (1 + r)^{-n}}{r} \\]\nWhere:\n- \\( P \\) is the payment amount\n- \\( r \\) is the interest rate per period\n- \\( n \\) is the number of periods"
+      },
+      {
+        "type": "images",
+        "src": "/images/annuity_formula.png",
+        "alt": "Annuity payment formula diagram",
+        "caption": "The present value of an annuity is the sum of all payments discounted at the interest rate."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Find the present value of an annuity that pays \\$500 per year for 5 years at an interest rate of 4% per year.\n\\[ PV = 500 \\cdot \\frac{1 - (1 + 0.04)^{-5}}{0.04} \\] \n\\[ PV = 500 \\cdot \\frac{1 - 0.8220}{0.04} = 500 \\cdot 4.45 = 2225 \\]"
+      },
+      {
+        "type": "text",
+        "value": "Annuities are a fundamental concept in finance, used to calculate the present value of future payments and the future value of current payments."
+      }
+    ]
+  },
+    "52": {
+    "title": "Future Value of an Annuity",
+    "lessonID": "52",
+    "content": [
+      {
+        "type": "text",
+        "value": "The future value of an annuity is the total value of all payments made into the annuity over time, including interest earned during the investment period."
+      },
+      {
+        "type": "text",
+        "value": "**Future Value Formula:**\nThe future value \\( FV \\) of an annuity can be calculated using the following formula:\n\\[ FV = P \\cdot \\frac{(1 + r)^n - 1}{r} \\]\nWhere:\n- \\( P \\) is the payment amount\n- \\( r \\) is the interest rate per period\n- \\( n \\) is the number of periods"
+      },
+      {
+        "type": "images",
+        "src": "/images/future_value_annuity_formula.png",
+        "alt": "Future value of an annuity formula",
+        "caption": "The future value of an annuity grows as each payment is compounded at the interest rate."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Find the future value of an annuity that pays \\$200 annually for 6 years at an interest rate of 5% per year.\n\\[ FV = 200 \\cdot \\frac{(1 + 0.05)^6 - 1}{0.05} \\] \n\\[ FV = 200 \\cdot \\frac{1.3401 - 1}{0.05} = 200 \\cdot 6.802 = 1360.40 \\]"
+      },
+      {
+        "type": "text",
+        "value": "The future value of an annuity allows you to calculate how much your regular contributions will accumulate to over a set period of time, factoring in interest."
+      }
+    ]
+  },
+    "53": {
+    "title": "Present Value of an Annuity",
+    "lessonID": "53",
+    "content": [
+      {
+        "type": "text",
+        "value": "The present value of an annuity represents the current worth of a series of future payments, discounted at a given interest rate over time."
+      },
+      {
+        "type": "text",
+        "value": "**Present Value Formula:**\nThe present value \\( PV \\) of an annuity can be calculated using the following formula:\n\\[ PV = P \\cdot \\frac{1 - (1 + r)^{-n}}{r} \\]\nWhere:\n- \\( P \\) is the payment amount\n- \\( r \\) is the interest rate per period\n- \\( n \\) is the number of periods"
+      },
+      {
+        "type": "images",
+        "src": "/images/present_value_annuity.png",
+        "alt": "Present value of an annuity formula",
+        "caption": "The present value of an annuity calculates the current worth of future payments, discounted at a specific rate."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Find the present value of an annuity that pays \\$1,000 per year for 10 years at an interest rate of 6% per year.\n\\[ PV = 1000 \\cdot \\frac{1 - (1 + 0.06)^{-10}}{0.06} \\] \n\\[ PV = 1000 \\cdot \\frac{1 - 0.5584}{0.06} = 1000 \\cdot 7.367 = 7367.04 \\]"
+      },
+      {
+        "type": "text",
+        "value": "The present value formula allows you to determine the equivalent lump sum you would need today to generate future payments."
+      }
+    ]
+  },
+    "54": {
+    "title": "Geometric Growth and Decay",
+    "lessonID": "54",
+    "content": [
+      {
+        "type": "text",
+        "value": "Geometric growth and decay model processes where quantities increase or decrease at a constant rate over time, often seen in population growth, interest calculations, and radioactive decay."
+      },
+      {
+        "type": "text",
+        "value": "**General Formula for Geometric Growth/Decay:**\n\\[ A = A_0 (1 + r)^t \\]\nWhere:\n- \\( A_0 \\) is the initial amount\n- \\( r \\) is the growth (or decay) rate per period\n- \\( t \\) is the time"
+      },
+      {
+        "type": "images",
+        "src": "/images/geometric_growth_decay.png",
+        "alt": "Geometric growth and decay curves",
+        "caption": "Geometric growth leads to exponential increases, while decay leads to exponential decreases."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** A population of bacteria starts at 500 and grows at a rate of 10% per hour. Find the population after 5 hours.\n\\[ A = 500 \\cdot (1 + 0.10)^5 = 500 \\cdot 1.61051 = 805.255 \\]"
+      },
+      {
+        "type": "text",
+        "value": "For decay, use a negative growth rate. Geometric growth and decay are essential in finance (compound interest) and natural processes."
+      }
+    ]
+  },
+    "55": {
+    "title": "Applications of Series",
+    "lessonID": "55",
+    "content": [
+      {
+        "type": "text",
+        "value": "Arithmetic and geometric series are widely used in real-world problems involving finance, construction, planning, and resource management. Understanding how to apply series helps solve practical problems involving repeated payments or changes."
+      },
+      {
+        "type": "text",
+        "value": "**Common Applications Include:**\n- Saving plans (regular deposits over time)\n- Loan repayments (series of equal repayments)\n- Depreciation of assets\n- Compound interest and investment growth\n- Total distance travelled in physics with constant acceleration"
+      },
+      {
+        "type": "images",
+        "src": "/images/series_applications.png",
+        "alt": "Examples of real-world series applications",
+        "caption": "Series are used to model cumulative savings, repayments, or investment growth over time."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** A person deposits \\$100 into a savings account every month. If this continues for 12 months, the total saved is an arithmetic series:\n\\[ S = \\frac{12}{2} (100 + 100) = 6 \\cdot 200 = 1200 \\]"
+      },
+      {
+        "type": "example",
+        "value": "**Example:** A machine’s value depreciates geometrically by 20% per year. Initial value is \\$10,000. After 3 years:\n\\[ V = 10000 \\cdot (0.8)^3 = 5120 \\]"
+      },
+      {
+        "type": "text",
+        "value": "Choosing the correct type of series and formula is crucial. Arithmetic series apply when changes are linear; geometric series are used when changes are multiplicative or exponential."
+      }
+    ]
+  },
+    "56": {
+    "title": "Topic Test - Financial Modelling",
+    "lessonID": "56",
+    "content": [
+      {
+        "type": "text",
+        "value": "This lesson is a summary and review of the key concepts and formulas from the Financial Modelling topic. It includes sequences, series, annuities, and growth/decay models."
+      },
+      {
+        "type": "text",
+        "value": "**Arithmetic Sequences and Series:**\n- \\( a_n = a_1 + (n - 1)d \\)\n- \\( S_n = \\frac{n}{2}(2a_1 + (n-1)d) \\)"
+      },
+      {
+        "type": "images",
+        "src": "/images/arithmetic_summary.png",
+        "alt": "Arithmetic sequence and series formulas",
+        "caption": "Use arithmetic series to model repeated linear increases like fixed savings or repayments."
+      },
+      {
+        "type": "text",
+        "value": "**Geometric Sequences and Series:**\n- \\( a_n = a_1 r^{n-1} \\)\n- \\( S_n = a_1 \\cdot \\frac{1 - r^n}{1 - r} \\) (finite)\n- \\( S = \\frac{a_1}{1 - r} \\) for \\( |r| < 1 \\) (infinite)"
+      },
+      {
+        "type": "images",
+        "src": "/images/geometric_summary.png",
+        "alt": "Geometric formulas",
+        "caption": "Geometric models are used in compound interest and exponential growth or decay."
+      },
+      {
+        "type": "text",
+        "value": "**Annuities:**\n- Future value: \\( FV = P \\cdot \\frac{(1 + r)^n - 1}{r} \\)\n- Present value: \\( PV = P \\cdot \\frac{1 - (1 + r)^{-n}}{r} \\)"
+      },
+      {
+        "type": "images",
+        "src": "/images/annuity_summary.png",
+        "alt": "Annuity formulas summary",
+        "caption": "Annuity formulas model regular payments and how they accumulate or discount over time."
+      },
+      {
+        "type": "text",
+        "value": "**Growth and Decay:**\n- \\( A = A_0 (1 + r)^t \\)\nUsed in finance, biology, and physics for exponential change over time."
+      },
+      {
+        "type": "images",
+        "src": "/images/growth_decay_summary.png",
+        "alt": "Growth and decay curves",
+        "caption": "These exponential models handle compounding or decreasing processes."
+      },
+      {
+        "type": "text",
+        "value": "✅ Review each formula, understand when to use arithmetic vs geometric models, and practice applying the correct formulas to solve financial problems efficiently."
+      }
+    ]
+  },
+    "57": {
+    "title": "Types of Data",
+    "lessonID": "57",
+    "content": [
+      {
+        "type": "text",
+        "value": "In statistics, data is broadly classified into two main categories: **categorical (qualitative)** and **numerical (quantitative)**. Each category contains specific subtypes."
+      },
+      {
+        "type": "text",
+        "value": "**Categorical Data (Qualitative):**\n- Represents labels or categories.\n- Subtypes:\n  - **Nominal:** Names only, no order (e.g. colours, gender)\n  - **Ordinal:** Categories with a meaningful order (e.g. education level, survey ratings)"
+      },
+      {
+        "type": "images",
+        "src": "/images/qualitative_data_types.png",
+        "alt": "Nominal vs ordinal data",
+        "caption": "Ordinal data has an order or ranking; nominal data does not."
+      },
+      {
+        "type": "text",
+        "value": "**Numerical Data (Quantitative):**\n- Represents measurable quantities.\n- Subtypes:\n  - **Discrete:** Countable values (e.g. number of pets)\n  - **Continuous:** Measurable, can take any value in a range (e.g. height, temperature)"
+      },
+      {
+        "type": "images",
+        "src": "/images/quantitative_data_types.png",
+        "alt": "Discrete vs continuous data",
+        "caption": "Discrete data comes in counts; continuous data varies smoothly and includes decimals."
+      },
+      {
+        "type": "text",
+        "value": "Correctly identifying the type of data helps determine the best graph or statistical method to use."
+      }
+    ]
+  },
+    "58": {
+    "title": "Displaying Numerical and Categorical Data",
+    "lessonID": "58",
+    "content": [
+      {
+        "type": "text",
+        "value": "Data can be visualised using different types of graphs depending on whether the data is categorical or numerical. The right display method makes interpretation easier and more accurate."
+      },
+      {
+        "type": "text",
+        "value": "**For Categorical Data:**\n- **Bar charts** show frequencies of categories.\n- **Pie charts** display proportions in a circular format."
+      },
+      {
+        "type": "images",
+        "src": "/images/bar_pie_charts.png",
+        "alt": "Bar and pie charts for categorical data",
+        "caption": "Bar charts display individual category counts; pie charts show proportions of the whole."
+      },
+      {
+        "type": "text",
+        "value": "**For Numerical Data:**\n- **Histograms** are used for continuous data grouped into intervals.\n- **Dot plots** and **stem-and-leaf plots** show distribution for small data sets.\n- **Box-and-whisker plots** summarise key statistics (median, quartiles, outliers)."
+      },
+      {
+        "type": "images",
+        "src": "/images/histogram_box_plot.png",
+        "alt": "Histogram and box plot",
+        "caption": "Histograms group data into intervals; box plots highlight spread and outliers."
+      },
+      {
+        "type": "text",
+        "value": "Choosing the appropriate visualisation improves communication and helps detect trends, outliers, and patterns in the data."
+      }
+    ]
+  },
+    "59": {
+    "title": "Measures of Central Tendency",
+    "lessonID": "59",
+    "content": [
+      {
+        "type": "text",
+        "value": "Measures of central tendency describe the 'middle' or typical value of a data set. The three most common measures are the mean, median, and mode."
+      },
+      {
+        "type": "text",
+        "value": "**Mean (Average):**\n\\[ \\text{Mean} = \\frac{\\text{Sum of all data values}}{\\text{Number of values}} \\]\nIt is sensitive to outliers, meaning extreme values can skew the result."
+      },
+      {
+        "type": "text",
+        "value": "**Median:**\n- The middle value when the data is ordered from least to greatest.\n- If the data set has an even number of values, the median is the average of the two middle values.\n- The median is less affected by outliers."
+      },
+      {
+        "type": "text",
+        "value": "**Mode:**\n- The value that occurs most frequently in the data set.\n- There may be more than one mode (bimodal, multimodal) or no mode if no number repeats."
+      },
+      {
+        "type": "images",
+        "src": "/images/central_tendency.png",
+        "alt": "Comparison of mean, median, and mode in a dataset",
+        "caption": "Mean, median, and mode represent different ways of calculating the center of a data set."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Consider the data set: 2, 3, 5, 7, 8.\n- **Mean:** \\( \\frac{2 + 3 + 5 + 7 + 8}{5} = 5 \\)\n- **Median:** 5 (middle value)\n- **Mode:** No mode (no repeated values)"
+      },
+      {
+        "type": "text",
+        "value": "These measures are foundational in summarizing and interpreting data. Choosing the right measure depends on the shape and spread of the data."
+      }
+    ]
+  },
+    "60": {
+    "title": "Quartiles, Deciles, and Percentiles",
+    "lessonID": "60",
+    "content": [
+      {
+        "type": "text",
+        "value": "Quartiles, deciles, and percentiles divide a data set into equal parts, helping us understand the distribution and spread of data."
+      },
+      {
+        "type": "text",
+        "value": "**Quartiles:**\n- The data set is divided into four equal parts.\n- **Q1 (First Quartile):** The median of the lower half of the data.\n- **Q2 (Second Quartile):** The median of the entire data set (also known as the median).\n- **Q3 (Third Quartile):** The median of the upper half of the data."
+      },
+      {
+        "type": "text",
+        "value": "**Deciles:**\n- The data set is divided into ten equal parts.\n- Each decile represents 10% of the data."
+      },
+      {
+        "type": "text",
+        "value": "**Percentiles:**\n- The data set is divided into one hundred equal parts.\n- **P50** is the median (50th percentile), **P25** is the first quartile (25th percentile), and so on."
+      },
+      {
+        "type": "images",
+        "src": "/images/quartiles_percentiles.png",
+        "alt": "Diagram showing quartiles, deciles, and percentiles",
+        "caption": "Quartiles, deciles, and percentiles help to summarize data by dividing it into segments."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Given the data set: 3, 5, 7, 8, 9, 10, 11, 15, 18, 20\n- **Q1 (25th percentile):** 7\n- **Q2 (50th percentile):** 9 (median)\n- **Q3 (75th percentile):** 15"
+      },
+      {
+        "type": "text",
+        "value": "Quartiles, deciles, and percentiles are particularly useful for understanding the spread and relative position of data points in large data sets."
+      }
+    ]
+  },
+    "61": {
+    "title": "Range and Interquartile Range",
+    "lessonID": "61",
+    "content": [
+      {
+        "type": "text",
+        "value": "The range and interquartile range (IQR) are two measures used to describe the spread of data. Both give insight into how dispersed the data is."
+      },
+      {
+        "type": "text",
+        "value": "**Range:**\n- The range is the difference between the maximum and minimum values in the data set.\n\\[ \text{Range} = \text{Maximum} - \text{Minimum} \\]"
+      },
+      {
+        "type": "text",
+        "value": "The range gives a rough idea of the spread of data but is sensitive to extreme values (outliers)."
+      },
+      {
+        "type": "text",
+        "value": "**Interquartile Range (IQR):**\n- The interquartile range is the range between the first quartile (Q1) and the third quartile (Q3), which contains the middle 50% of the data.\n\\[ \text{IQR} = Q3 - Q1 \\]"
+      },
+      {
+        "type": "images",
+        "src": "/images/iqr_range.png",
+        "alt": "Range and interquartile range visualization",
+        "caption": "The range spans the entire dataset, while the IQR focuses on the middle 50%."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Given the data set: 4, 7, 8, 10, 12, 15, 19, 21, 25, 30\n- **Range:** \\( 30 - 4 = 26 \\)\n- **IQR:** Q1 = 8, Q3 = 21, \\( IQR = 21 - 8 = 13 \\)"
+      },
+      {
+        "type": "text",
+        "value": "The IQR is useful for identifying outliers and understanding the spread of the middle portion of the data."
+      }
+    ]
+  },
+    "62": {
+    "title": "Variance and Standard Deviation",
+    "lessonID": "62",
+    "content": [
+      {
+        "type": "text",
+        "value": "Variance and standard deviation are two statistical measures used to quantify the spread or dispersion of data points in a data set."
+      },
+      {
+        "type": "text",
+        "value": "**Variance:**\n- Variance measures how far the data points are from the mean, and it is calculated as the average of the squared differences from the mean.\n\\[ \text{Variance} = \\frac{\\sum (x_i - \\mu)^2}{n} \\]\nWhere \\( x_i \\) represents each data point, and \\( \\mu \\) is the mean."
+      },
+      {
+        "type": "text",
+        "value": "**Standard Deviation:**\n- Standard deviation is the square root of the variance and provides a measure of spread in the same units as the data.\n\\[ \text{Standard Deviation} = \\sqrt{\text{Variance}} \\]"
+      },
+      {
+        "type": "images",
+        "src": "/images/variance_std_dev.png",
+        "alt": "Variance and standard deviation comparison",
+        "caption": "While variance uses squared units, standard deviation returns the spread in the original data units."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Given the data set: 4, 8, 6, 10, 12\n- Mean: \\( \\mu = \\frac{4 + 8 + 6 + 10 + 12}{5} = 8 \\)\n- Variance: \\( \\frac{(4-8)^2 + (8-8)^2 + (6-8)^2 + (10-8)^2 + (12-8)^2}{5} = 8 \\)\n- Standard Deviation: \\( \\sqrt{8} \\approx 2.83 \\)"
+      },
+      {
+        "type": "text",
+        "value": "Variance and standard deviation are widely used in statistics, especially in finance and science, to measure risk, volatility, and dispersion in data sets."
+      }
+    ]
+  },
+    "63": {
+    "title": "Shape and Modality of Data Sets",
+    "lessonID": "63",
+    "content": [
+      {
+        "type": "text",
+        "value": "The shape and modality of a data set provide important insights into its distribution and pattern. These concepts help identify how data is spread out and how many peaks (modes) it has."
+      },
+      {
+        "type": "text",
+        "value": "**Shape of a Distribution:**\n- **Symmetrical Distribution:** Data is evenly distributed around the center, creating a bell-shaped curve (e.g., normal distribution).\n- **Skewed Distribution:** Data is not evenly distributed. If the tail is on the right, it is positively skewed (right-skewed). If the tail is on the left, it is negatively skewed (left-skewed)."
+      },
+      {
+        "type": "images",
+        "src": "/images/distribution_shape.png",
+        "alt": "Symmetrical, skewed, and bimodal distributions",
+        "caption": "Skewed distributions have a longer tail on one side, while symmetrical distributions are evenly spread."
+      },
+      {
+        "type": "text",
+        "value": "**Modality of a Data Set:**\n- **Unimodal:** One peak or mode.\n- **Bimodal:** Two peaks or modes.\n- **Multimodal:** More than two peaks.\n- **Uniform:** No peaks, all values are equally frequent."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** The data set: 1, 2, 2, 3, 4, 5, 5, 6 has two modes (2 and 5), so it is bimodal."
+      },
+      {
+        "type": "text",
+        "value": "The shape and modality of the data help in choosing appropriate statistical methods and understanding the underlying patterns in the data."
+      }
+    ]
+  },
+    "64": {
+    "title": "Analysing Data Sets",
+    "lessonID": "64",
+    "content": [
+      {
+        "type": "text",
+        "value": "Analysing data sets involves summarising and interpreting the data in a way that helps uncover trends, patterns, and relationships."
+      },
+      {
+        "type": "text",
+        "value": "**Steps in Data Analysis:**\n1. **Organize and Clean Data:** Ensure that data is sorted, missing values are handled, and outliers are identified.\n2. **Summarize Data:** Use measures of central tendency (mean, median, mode) and measures of spread (range, variance, standard deviation) to summarize the data.\n3. **Visualize Data:** Use graphs like histograms, box plots, and scatter plots to visualize the distribution and relationships.\n4. **Interpret Data:** Make inferences and identify trends or patterns."
+      },
+      {
+        "type": "images",
+        "src": "/images/data_analysis_steps.png",
+        "alt": "Steps in data analysis process",
+        "caption": "Data analysis involves multiple stages: organization, summarization, visualization, and interpretation."
+      },
+      {
+        "type": "text",
+        "value": "**Example:** A company wants to analyze customer satisfaction. Data is collected from surveys, showing ratings for various factors such as product quality and customer service. The steps would include organizing the ratings, calculating the mean satisfaction, creating a box plot, and identifying if any factors correlate with customer satisfaction."
+      },
+      {
+        "type": "text",
+        "value": "Data analysis is fundamental in making decisions based on data, whether it's for business, research, or other fields. It helps identify key trends and relationships."
+      }
+    ]
+  },
+    "65": {
+    "title": "Topic Test - Statistical Analysis",
+    "lessonID": "65",
+    "content": [
+      {
+        "type": "text",
+        "value": "This lesson serves as a summary and review of the key concepts and formulas from the Statistical Analysis topic. Use this to test your understanding of the material covered in previous lessons."
+      },
+      {
+        "type": "text",
+        "value": "**Types of Data:**\n- **Qualitative Data:** Categories or labels (nominal, ordinal)\n- **Quantitative Data:** Numerical values (discrete, continuous)"
+      },
+      {
+        "type": "images",
+        "src": "/images/types_of_data_summary.png",
+        "alt": "Summary of qualitative and quantitative data types",
+        "caption": "Understand the difference between categorical and numerical data for accurate analysis."
+      },
+      {
+        "type": "text",
+        "value": "**Measures of Central Tendency:**\n- **Mean:** Average of all data points\n- **Median:** Middle value in ordered data\n- **Mode:** Most frequent value"
+      },
+      {
+        "type": "images",
+        "src": "/images/central_tendency_summary.png",
+        "alt": "Mean, median, and mode comparison",
+        "caption": "Mean, median, and mode give different perspectives on the central location of data."
+      },
+      {
+        "type": "text",
+        "value": "**Measures of Spread:**\n- **Range:** Difference between the maximum and minimum values\n- **Interquartile Range (IQR):** Range between Q1 and Q3\n- **Variance and Standard Deviation:** Measure how spread out the data is"
+      },
+      {
+        "type": "images",
+        "src": "/images/spread_measures_summary.png",
+        "alt": "Range, IQR, variance, and standard deviation comparison",
+        "caption": "These measures help understand the dispersion or variability in data."
+      },
+      {
+        "type": "text",
+        "value": "**Shape and Modality of Data Sets:**\n- **Symmetrical:** Data is evenly distributed\n- **Skewed:** Data is unevenly distributed\n- **Unimodal, Bimodal, Multimodal:** Refers to the number of peaks in the data distribution"
+      },
+      {
+        "type": "images",
+        "src": "/images/distribution_shapes_summary.png",
+        "alt": "Skewed and symmetric data distributions",
+        "caption": "Recognizing the shape of data helps choose the right statistical methods."
+      },
+      {
+        "type": "text",
+        "value": "✅ You’ve now reviewed all the key concepts in statistical analysis. Make sure you understand how to apply these methods to real-world data problems and practice interpreting different types of data."
+      }
+    ]
+  },
+    "66": {
+    "title": "Bivariate Data",
+    "lessonID": "66",
+    "content": [
+      {
+        "type": "text",
+        "value": "Bivariate data consists of pairs of values, where each data point has two variables. This data type helps identify relationships between two variables and is often represented in scatter plots."
+      },
+      {
+        "type": "text",
+        "value": "**Example of Bivariate Data:**\n- Height (in cm) and weight (in kg) of individuals.\n- Age (in years) and income (in dollars) of people."
+      },
+      {
+        "type": "images",
+        "src": "/images/bivariate_data_scatter_plot.png",
+        "alt": "Scatter plot showing bivariate data",
+        "caption": "A scatter plot is a common way to visualize bivariate data, where one variable is plotted on the x-axis and the other on the y-axis."
+      },
+      {
+        "type": "text",
+        "value": "In bivariate analysis, we're interested in determining if a relationship exists between the two variables, and if so, what type of relationship it is (e.g., positive, negative, or no correlation)."
+      },
+      {
+        "type": "example",
+        "value": "**Example Data Set:**\n- Data: (2, 4), (3, 6), (4, 8), (5, 10)\n- X variable: Age\n- Y variable: Height"
+      }
+    ]
+  },
+    "67": {
+    "title": "Correlation",
+    "lessonID": "67",
+    "content": [
+      {
+        "type": "text",
+        "value": "Correlation measures the strength and direction of a linear relationship between two variables. It is represented by the correlation coefficient, denoted \\( r \\)."
+      },
+      {
+        "type": "text",
+        "value": "**Correlation Coefficient (\\( r \\))**\n- \\( r = 1 \\): Perfect positive correlation (as one variable increases, the other also increases)\n- \\( r = -1 \\): Perfect negative correlation (as one variable increases, the other decreases)\n- \\( r = 0 \\): No correlation (no linear relationship)"
+      },
+      {
+        "type": "images",
+        "src": "/images/correlation_coefficient.png",
+        "alt": "Correlation coefficient and its values",
+        "caption": "The correlation coefficient \\( r \\) ranges from -1 to 1, indicating the strength and direction of the relationship between two variables."
+      },
+      {
+        "type": "text",
+        "value": "**Example:**\n- Data: (2, 4), (3, 6), (4, 8), (5, 10)\n- Calculate the correlation coefficient between Age and Height."
+      },
+      {
+        "type": "text",
+        "value": "In practice, correlation can be calculated using statistical software or a formula, but interpreting the value is essential in understanding how two variables are related."
+      }
+    ]
+  },
+    "68": {
+    "title": "Line of Best Fit",
+    "lessonID": "68",
+    "content": [
+      {
+        "type": "text",
+        "value": "The line of best fit (also known as the regression line) is a straight line that best represents the data in a scatter plot. It minimizes the distance between the line and each data point, helping to show the trend or relationship between the two variables."
+      },
+      {
+        "type": "text",
+        "value": "**Equation of the Line of Best Fit:**\nThe line of best fit is typically written as:\n\\[ y = mx + b \\]\nWhere:\n- \\( m \\) is the slope (rate of change)\n- \\( b \\) is the y-intercept (value of \\( y \\) when \\( x = 0 \\))"
+      },
+      {
+        "type": "images",
+        "src": "/images/line_of_best_fit.png",
+        "alt": "Line of best fit on scatter plot",
+        "caption": "The line of best fit is drawn to minimize the squared differences between the data points and the line."
+      },
+      {
+        "type": "text",
+        "value": "The line of best fit can be calculated using the method of least squares, which ensures that the total squared differences between the data points and the line are minimized."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** For the data set: (1, 2), (2, 4), (3, 5), (4, 7), the line of best fit can be found using statistical methods (e.g., least squares method)."
+      }
+    ]
+  },
+    "69": {
+    "title": "Least-Squares Regression Line",
+    "lessonID": "69",
+    "content": [
+      {
+        "type": "text",
+        "value": "The least-squares regression line is the line that minimizes the sum of the squared differences between the observed values and the predicted values from the line."
+      },
+      {
+        "type": "text",
+        "value": "To find the equation of the regression line, we use the following formulas:\n- Slope \\( m = \\frac{n\\sum{x_iy_i} - \\sum{x_i}\\sum{y_i}}{n\\sum{x_i^2} - (\\sum{x_i})^2} \\)\n- Intercept \\( b = \\frac{\\sum{y_i} - m\\sum{x_i}}{n} \\)"
+      },
+      {
+        "type": "text",
+        "value": "The slope \\( m \\) represents the rate of change of \\( y \\) with respect to \\( x \\), and the intercept \\( b \\) is the value of \\( y \\) when \\( x = 0 \\)."
+      },
+      {
+        "type": "images",
+        "src": "/images/least_squares_regression.png",
+        "alt": "Least-squares regression line",
+        "caption": "The least-squares regression line is the best fit line that minimizes the squared differences between the data points and the line."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Using the data points (1, 2), (2, 4), (3, 5), (4, 7), we calculate the slope and intercept using the least-squares method to obtain the regression line."
+      },
+      {
+        "type": "text",
+        "value": "The least-squares regression line is widely used for making predictions based on historical data, as it provides the best estimate of the relationship between the two variables."
+      }
+    ]
+  },
+    "70": {
+    "title": "Topic Test - Correlation and Regression",
+    "lessonID": "70",
+    "content": [
+      {
+        "type": "text",
+        "value": "This lesson reviews the key concepts from the Correlation and Regression subtopic. Use this summary to test your understanding of the material covered in previous lessons."
+      },
+      {
+        "type": "text",
+        "value": "**Bivariate Data:**\n- Bivariate data consists of two variables measured on the same data points.\n- Commonly displayed in scatter plots to identify relationships between the variables."
+      },
+      {
+        "type": "images",
+        "src": "/images/bivariate_data_summary.png",
+        "alt": "Bivariate data scatter plot example",
+        "caption": "Scatter plots are useful for visualizing the relationship between two variables."
+      },
+      {
+        "type": "text",
+        "value": "**Correlation:**\n- The correlation coefficient \\( r \\) measures the strength and direction of a linear relationship between two variables.\n- \\( r = 1 \\): Perfect positive correlation, \\( r = -1 \\): Perfect negative correlation, \\( r = 0 \\): No correlation."
+      },
+      {
+        "type": "images",
+        "src": "/images/correlation_summary.png",
+        "alt": "Correlation coefficient summary",
+        "caption": "The correlation coefficient \\( r \\) indicates the direction and strength of the relationship between two variables."
+      },
+      {
+        "type": "text",
+        "value": "**Line of Best Fit:**\n- The regression line that best fits the data, minimizing the squared differences between the observed values and predicted values."
+      },
+      {
+        "type": "images",
+        "src": "/images/line_of_best_fit_summary.png",
+        "alt": "Line of best fit in a scatter plot",
+        "caption": "The line of best fit is drawn to best represent the relationship between the variables."
+      },
+      {
+        "type": "text",
+        "value": "**Least-Squares Regression Line:**\n- The regression line is calculated using the least-squares method, which minimizes the sum of the squared differences between the observed values and predicted values."
+      },
+      {
+        "type": "images",
+        "src": "/images/least_squares_summary.png",
+        "alt": "Least-squares regression line example",
+        "caption": "The least-squares method ensures the best fit line by minimizing errors in prediction."
+      },
+      {
+        "type": "text",
+        "value": "✅ Review each concept, practice calculating correlation coefficients, regression lines, and interpreting scatter plots to ensure a solid understanding of Correlation and Regression."
+      }
+    ]
+  },
+    "71": {
+    "title": "The Normal Distribution",
+    "lessonID": "71",
+    "content": [
+      {
+        "type": "text",
+        "value": "The normal distribution is a continuous probability distribution that is symmetric around the mean. It is often used to model natural phenomena such as heights, weights, and test scores."
+      },
+      {
+        "type": "text",
+        "value": "**Properties of the Normal Distribution:**\n- Symmetrical about the mean, with a bell-shaped curve.\n- The mean, median, and mode are all equal.\n- About 68% of data lies within one standard deviation of the mean, 95% within two standard deviations, and 99.7% within three standard deviations."
+      },
+      {
+        "type": "images",
+        "src": "/images/normal_distribution_curve.png",
+        "alt": "Normal distribution curve",
+        "caption": "The normal distribution curve is symmetric and bell-shaped, with the majority of data clustered around the mean."
+      },
+      {
+        "type": "text",
+        "value": "**The Standard Normal Distribution:**\n- A special case of the normal distribution with a mean of 0 and a standard deviation of 1.\n- Denoted as \\( Z \\)-score."
+      },
+      {
+        "type": "text",
+        "value": "**Z-score:**\n- The Z-score measures how many standard deviations a data point is from the mean.\n\\[ Z = \\frac{X - \\mu}{\\sigma} \\]\nWhere \\( X \\) is the data point, \\( \\mu \\) is the mean, and \\( \\sigma \\) is the standard deviation."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** A test has a mean score of 80 and a standard deviation of 10. Find the Z-score for a score of 90.\n\\[ Z = \\frac{90 - 80}{10} = 1 \\]"
+      },
+      {
+        "type": "text",
+        "value": "The normal distribution is widely used in statistics for hypothesis testing, confidence intervals, and in areas such as finance and health science."
+      }
+    ]
+  },
+    "72": {
+    "title": "Empirical Rule",
+    "lessonID": "72",
+    "content": [
+      {
+        "type": "text",
+        "value": "The empirical rule, also known as the 68-95-99.7 rule, applies to data sets that follow a normal distribution. It provides an estimate of the proportion of data within certain standard deviations from the mean."
+      },
+      {
+        "type": "text",
+        "value": "**Empirical Rule Breakdown:**\n- 68% of the data lies within one standard deviation of the mean.\n- 95% lies within two standard deviations.\n- 99.7% lies within three standard deviations."
+      },
+      {
+        "type": "images",
+        "src": "/images/empirical_rule.png",
+        "alt": "Empirical rule diagram",
+        "caption": "The empirical rule divides the normal distribution into segments based on standard deviations."
+      },
+      {
+        "type": "text",
+        "value": "This rule helps estimate the probability of data falling within certain ranges in a normal distribution, making it useful for many practical applications in statistics and data analysis."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** In a normally distributed dataset with a mean of 50 and a standard deviation of 5, about 68% of the data will lie between 45 and 55."
+      },
+      {
+        "type": "text",
+        "value": "The empirical rule is particularly helpful for quickly assessing the spread of data and making predictions about the likelihood of certain outcomes."
+      }
+    ]
+  },
+    "73": {
+    "title": "Z-scores",
+    "lessonID": "73",
+    "content": [
+      {
+        "type": "text",
+        "value": "A Z-score represents the number of standard deviations a data point is from the mean. It is a way of standardizing a value to compare it across different distributions."
+      },
+      {
+        "type": "text",
+        "value": "**Z-score Formula:**\n\\[ Z = \\frac{X - \\mu}{\\sigma} \\]\nWhere:\n- \\( X \\) is the data point\n- \\( \\mu \\) is the mean of the distribution\n- \\( \\sigma \\) is the standard deviation"
+      },
+      {
+        "type": "text",
+        "value": "A Z-score helps determine how far a data point is from the mean and whether it is unusually high or low compared to the rest of the data."
+      },
+      {
+        "type": "images",
+        "src": "/images/z_score.png",
+        "alt": "Z-score illustration",
+        "caption": "A Z-score tells you how many standard deviations a data point is from the mean."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** In a class of 30 students, the mean score on a test is 75 with a standard deviation of 10. What is the Z-score for a student who scored 85?\n\\[ Z = \\frac{85 - 75}{10} = 1 \\]\nThis student is one standard deviation above the mean."
+      },
+      {
+        "type": "text",
+        "value": "Z-scores are often used to compare scores across different distributions or to assess the relative standing of a data point within a distribution."
+      }
+    ]
+  },
+    "74": {
+    "title": "Applications of the Normal Distribution",
+    "lessonID": "74",
+    "content": [
+      {
+        "type": "text",
+        "value": "The normal distribution is one of the most widely used probability distributions. It is applied in various fields to model real-world phenomena, such as human heights, test scores, and errors in measurement."
+      },
+      {
+        "type": "text",
+        "value": "**Applications in Statistics:**\n- **Hypothesis testing:** The normal distribution is used in many statistical tests to determine whether observed data significantly differs from the expected data.\n- **Confidence intervals:** The normal distribution helps calculate the range within which we expect a population parameter to lie, with a certain level of confidence."
+      },
+      {
+        "type": "images",
+        "src": "/images/normal_distribution_applications.png",
+        "alt": "Applications of normal distribution in statistics",
+        "caption": "The normal distribution is used in hypothesis testing, confidence intervals, and probability calculations."
+      },
+      {
+        "type": "text",
+        "value": "**Applications in Business and Finance:**\n- **Risk analysis:** The normal distribution is used to model stock returns and estimate the risk of financial investments.\n- **Quality control:** In manufacturing, the normal distribution models product quality and detects defects."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** In a factory producing light bulbs, the lifetime of bulbs follows a normal distribution with a mean of 1,000 hours and a standard deviation of 100 hours. If we want to find the percentage of bulbs that last between 900 and 1,100 hours, we can use the Z-score and the normal distribution table."
+      },
+      {
+        "type": "text",
+        "value": "The versatility of the normal distribution makes it essential in statistical analysis, forecasting, and decision-making in various industries."
+      }
+    ]
+  },
+    "75": {
+    "title": "Topic Test - Probability Distributions",
+    "lessonID": "75",
+    "content": [
+      {
+        "type": "text",
+        "value": "This lesson serves as a summary and review of the key concepts from the Probability Distributions subtopic. Use this test to gauge your understanding of the material covered in previous lessons."
+      },
+      {
+        "type": "text",
+        "value": "**Normal Distribution:**\n- Symmetric, bell-shaped curve.\n- Mean = Median = Mode.\n- 68% of data lies within 1 standard deviation of the mean, 95% within 2, and 99.7% within 3 standard deviations."
+      },
+      {
+        "type": "images",
+        "src": "/images/normal_distribution_summary.png",
+        "alt": "Normal distribution curve summary",
+        "caption": "The normal distribution is widely used to model continuous data in real-world situations."
+      },
+      {
+        "type": "text",
+        "value": "**Z-scores:**\n- Z-score measures how many standard deviations a data point is from the mean.\n- Z-score formula: \\( Z = \\frac{X - \\mu}{\\sigma} \\)"
+      },
+      {
+        "type": "images",
+        "src": "/images/z_score_summary.png",
+        "alt": "Z-score summary",
+        "caption": "Z-scores help standardize values and compare data from different distributions."
+      },
+      {
+        "type": "text",
+        "value": "**Empirical Rule (68-95-99.7 Rule):**\n- In a normal distribution:\n  - 68% of data lies within one standard deviation from the mean.\n  - 95% lies within two standard deviations.\n  - 99.7% lies within three standard deviations."
+      },
+      {
+        "type": "text",
+        "value": "**Applications of the Normal Distribution:**\n- **Hypothesis Testing**\n- **Confidence Intervals**\n- **Risk Analysis** (in finance)\n- **Quality Control** (in manufacturing)"
+      },
+      {
+        "type": "text",
+        "value": "**Practice Questions:**\n1. Given a dataset with a mean of 50 and a standard deviation of 5, what is the Z-score for a data point of 60?\n2. What percentage of data lies between -1 and +1 Z-scores in a normal distribution?\n3. If the normal distribution has a mean of 30 and a standard deviation of 4, find the percentage of data between 22 and 38."
+      },
+      {
+        "type": "text",
+        "value": "✅ Review each concept and practice the calculations to ensure a solid understanding of probability distributions, normal distribution, and Z-scores. Good luck!"
+      }
+    ]
+  }}

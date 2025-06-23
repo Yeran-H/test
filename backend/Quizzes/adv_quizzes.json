@@ -1,0 +1,1254 @@
+{
+  "8": {
+    "title": "Topic Test - Transformations of Functions",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "What does the transformation \\( y = f(x) + d \\) do to the graph of \\( f(x) \\)?",
+        "options": [
+          "Shifts it vertically by d units",
+          "Shifts it horizontally by d units",
+          "Reflects it over the x-axis",
+          "Stretches it vertically by d times"
+        ],
+        "answer": "Shifts it vertically by d units",
+        "explanation": "Adding d outside the function moves the graph up (if d > 0) or down (if d < 0)."
+      },
+      {
+        "id": "q2",
+        "question": "How does the transformation \\( y = f(x + c) \\) affect the graph?",
+        "options": [
+          "Shifts it horizontally by -c units",
+          "Shifts it vertically by c units",
+          "Stretches it horizontally by c times",
+          "Reflects it over the y-axis"
+        ],
+        "answer": "Shifts it horizontally by -c units",
+        "explanation": "Inside the function, adding c shifts the graph left by c units (opposite sign)."
+      },
+      {
+        "id": "q3",
+        "question": "What effect does \\( y = a f(x) \\) have on the graph if \\( |a| > 1 \\)?",
+        "options": [
+          "Vertically stretches the graph",
+          "Vertically compresses the graph",
+          "Horizontally stretches the graph",
+          "Horizontally compresses the graph"
+        ],
+        "answer": "Vertically stretches the graph",
+        "explanation": "Multiplying outside by a with |a| > 1 stretches the graph vertically."
+      },
+      {
+        "id": "q4",
+        "question": "What happens to the graph of \\( y = f(bx) \\) when \\( 0 < |b| < 1 \\)?",
+        "options": [
+          "Horizontally stretches the graph",
+          "Horizontally compresses the graph",
+          "Vertically stretches the graph",
+          "Vertically compresses the graph"
+        ],
+        "answer": "Horizontally stretches the graph",
+        "explanation": "Multiplying the input x by b with 0 < |b| < 1 stretches the graph horizontally."
+      },
+      {
+        "id": "q5",
+        "question": "What transformation does \\( y = -f(x) \\) represent?",
+        "options": [
+          "Reflection over the x-axis",
+          "Reflection over the y-axis",
+          "Vertical stretch",
+          "Horizontal shift"
+        ],
+        "answer": "Reflection over the x-axis",
+        "explanation": "The negative outside the function flips the graph vertically."
+      },
+      {
+        "id": "q6",
+        "question": "The graph of \\( y = f(-x) \\) is a reflection over which axis?",
+        "options": [
+          "y-axis",
+          "x-axis",
+          "Origin",
+          "Line y = x"
+        ],
+        "answer": "y-axis",
+        "explanation": "Replacing x by -x reflects the graph over the y-axis."
+      },
+      {
+        "id": "q7",
+        "question": "In the general transformation \\( y = a f(bx + c) + d \\), which transformations do you apply first?",
+        "options": [
+          "Horizontal (inside function), then vertical (outside)",
+          "Vertical (outside), then horizontal (inside)",
+          "Reflections first, then translations",
+          "Dilations first, then reflections"
+        ],
+        "answer": "Horizontal (inside function), then vertical (outside)",
+        "explanation": "Transformations inside the function (horizontal) are applied before outside (vertical)."
+      },
+      {
+        "id": "q8",
+        "question": "How would you solve the equation \\( f(x) = g(x) \\) graphically?",
+        "options": [
+          "Find the x-values where the graphs of f and g intersect",
+          "Find where f(x) is above g(x)",
+          "Find where f(x) is below g(x)",
+          "Calculate the derivative of f and g"
+        ],
+        "answer": "Find the x-values where the graphs of f and g intersect",
+        "explanation": "Intersections correspond to points where f(x) = g(x)."
+      },
+      {
+        "id": "q9",
+        "question": "What does the inequality \\( f(x) > g(x) \\) represent on a graph?",
+        "options": [
+          "The region where the graph of f is above g",
+          "The region where the graph of f is below g",
+          "Points where the graphs intersect",
+          "Where the graphs have the same slope"
+        ],
+        "answer": "The region where the graph of f is above g",
+        "explanation": "Inequalities describe areas where one function is greater than the other."
+      },
+      {
+        "id": "q10",
+        "question": "Which of the following is true about vertical and horizontal dilations?",
+        "options": [
+          "Vertical dilation by a scales y-values; horizontal dilation by b scales x-values inversely",
+          "Both vertical and horizontal dilations stretch the graph in the same way",
+          "Horizontal dilation by b scales y-values; vertical dilation by a scales x-values",
+          "Dilations do not change the graph shape"
+        ],
+        "answer": "Vertical dilation by a scales y-values; horizontal dilation by b scales x-values inversely",
+        "explanation": "Vertical dilation multiplies y-values by a; horizontal dilation compresses/stretch inversely by b."
+      }
+    ]
+  },
+  "12": {
+    "title": "Topic Test - Trigonometric Functions",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "What is the amplitude of the function \\( y = a \\sin(bx + c) + d \\)?",
+        "options": [
+          "The value of \\( |a| \\)",
+          "The value of \\( |b| \\)",
+          "The vertical shift \\( d \\)",
+          "The phase shift \\( -\\frac{c}{b} \\)"
+        ],
+        "answer": "The value of \\( |a| \\)",
+        "explanation": "Amplitude measures the peak height from the midline, given by the absolute value of \\( a \\)."
+      },
+      {
+        "id": "q2",
+        "question": "What is the formula for the period of the sine or cosine function \\( y = a \\sin(bx + c) + d \\)?",
+        "options": [
+          "\\( \\frac{2\\pi}{|b|} \\)",
+          "\\( 2\\pi |b| \\)",
+          "\\( \\frac{\\pi}{|b|} \\)",
+          "\\( \\pi |b| \\)"
+        ],
+        "answer": "\\( \\frac{2\\pi}{|b|} \\)",
+        "explanation": "Period is the length of one complete cycle and is calculated as \\( \\frac{2\\pi}{|b|} \\)."
+      },
+      {
+        "id": "q3",
+        "question": "How do you calculate the phase shift of \\( y = a \\sin(bx + c) + d \\)?",
+        "options": [
+          "\\( -\\frac{c}{b} \\)",
+          "\\( \\frac{c}{b} \\)",
+          "\\( -cb \\)",
+          "\\( \\frac{b}{c} \\)"
+        ],
+        "answer": "\\( -\\frac{c}{b} \\)",
+        "explanation": "Phase shift is the horizontal shift of the graph and is found by \\( -\\frac{c}{b} \\)."
+      },
+      {
+        "id": "q4",
+        "question": "What is the period of the tangent function \\( y = a \\tan(bx + c) + d \\)?",
+        "options": [
+          "\\( \\frac{\\pi}{|b|} \\)",
+          "\\( \\frac{2\\pi}{|b|} \\)",
+          "\\( \\pi |b| \\)",
+          "\\( 2\\pi |b| \\)"
+        ],
+        "answer": "\\( \\frac{\\pi}{|b|} \\)",
+        "explanation": "Tangent has period \\( \\frac{\\pi}{|b|} \\), half the sine/cosine period."
+      },
+      {
+        "id": "q5",
+        "question": "Where do asymptotes occur for \\( y = a \\tan(bx + c) + d \\)?",
+        "options": [
+          "Where \\( \\cos(bx + c) = 0 \\)",
+          "Where \\( \\sin(bx + c) = 0 \\)",
+          "Where \\( \\tan(bx + c) = 0 \\)",
+          "Where \\( \\cot(bx + c) = 0 \\)"
+        ],
+        "answer": "Where \\( \\cos(bx + c) = 0 \\)",
+        "explanation": "Asymptotes of tangent occur where cosine is zero, causing the function to tend to infinity."
+      },
+      {
+        "id": "q6",
+        "question": "What is the correct order to apply transformations in \\( y = a \\sin(bx + c) + d \\)?",
+        "options": [
+          "Simplify inside, phase shift, vertical dilation/reflection, vertical shift",
+          "Vertical shift, vertical dilation/reflection, phase shift, simplify inside",
+          "Phase shift, simplify inside, vertical shift, vertical dilation/reflection",
+          "Vertical dilation/reflection, vertical shift, simplify inside, phase shift"
+        ],
+        "answer": "Simplify inside, phase shift, vertical dilation/reflection, vertical shift",
+        "explanation": "Transformations inside the function are handled first; then outside vertical changes."
+      },
+      {
+        "id": "q7",
+        "question": "How can you find all solutions to a trigonometric equation within a given domain?",
+        "options": [
+          "Use inverse functions for principal solutions and symmetry/unit circle for others",
+          "Only use inverse functions once",
+          "Use algebraic manipulation only",
+          "Use graphical methods only"
+        ],
+        "answer": "Use inverse functions for principal solutions and symmetry/unit circle for others",
+        "explanation": "Inverse trig functions give principal solutions; symmetry and periodicity find all others."
+      },
+      {
+        "id": "q8",
+        "question": "What feature should you always label when sketching transformed sine or cosine graphs?",
+        "options": [
+          "Amplitude, phase shift, and period",
+          "Only amplitude",
+          "Only period",
+          "Only vertical shift"
+        ],
+        "answer": "Amplitude, phase shift, and period",
+        "explanation": "These features define the shape and position of the graph."
+      },
+      {
+        "id": "q9",
+        "question": "What is the vertical shift in \\( y = a \\sin(bx + c) + d \\)?",
+        "options": [
+          "d",
+          "a",
+          "b",
+          "c"
+        ],
+        "answer": "d",
+        "explanation": "The constant d outside the function moves the graph up or down."
+      },
+      {
+        "id": "q10",
+        "question": "Which of the following correctly describes the tangent graph's transformation by parameter a in \\( y = a \\tan(bx + c) + d \\)?",
+        "options": [
+          "Vertical stretch or compression affecting steepness",
+          "Horizontal shift",
+          "Reflection over y-axis",
+          "Period change"
+        ],
+        "answer": "Vertical stretch or compression affecting steepness",
+        "explanation": "Parameter a vertically stretches or compresses the tangent graph, changing its steepness."
+      }
+    ]
+  },
+  "21": {
+    "title": "Topic Test - Differentiation",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "What is the derivative of \\( x^n \\)?",
+        "options": [
+          "\\( nx^{n-1} \\)",
+          "\\( x^{n+1} \\)",
+          "\\( n x^n \\)",
+          "\\( \\frac{1}{x^n} \\)"
+        ],
+        "answer": "\\( nx^{n-1} \\)",
+        "explanation": "The power rule states \\( \\frac{d}{dx} (x^n) = nx^{n-1} \\)."
+      },
+      {
+        "id": "q2",
+        "question": "What is the derivative of \\( e^x \\)?",
+        "options": [
+          "\\( e^x \\)",
+          "\\( xe^{x-1} \\)",
+          "\\( e^{x-1} \\)",
+          "\\( \\ln x \\)"
+        ],
+        "answer": "\\( e^x \\)",
+        "explanation": "The derivative of the exponential function \\( e^x \\) is itself."
+      },
+      {
+        "id": "q3",
+        "question": "What is the derivative of \\( \\ln x \\)?",
+        "options": [
+          "\\( \\frac{1}{x} \\)",
+          "\\( \\ln x \\)",
+          "\\( x \\)",
+          "\\( -\\frac{1}{x^2} \\)"
+        ],
+        "answer": "\\( \\frac{1}{x} \\)",
+        "explanation": "The derivative of natural logarithm is \\( \\frac{1}{x} \\)."
+      },
+      {
+        "id": "q4",
+        "question": "What is the derivative of \\( \\sin x \\)?",
+        "options": [
+          "\\( \\cos x \\)",
+          "\\( -\\sin x \\)",
+          "\\( \\tan x \\)",
+          "\\( \\sec^2 x \\)"
+        ],
+        "answer": "\\( \\cos x \\)",
+        "explanation": "The derivative of sine is cosine."
+      },
+      {
+        "id": "q5",
+        "question": "What is the derivative of \\( \\cos x \\)?",
+        "options": [
+          "\\( -\\sin x \\)",
+          "\\( \\cos x \\)",
+          "\\( \\sin x \\)",
+          "\\( \\tan x \\)"
+        ],
+        "answer": "\\( -\\sin x \\)",
+        "explanation": "The derivative of cosine is negative sine."
+      },
+      {
+        "id": "q6",
+        "question": "What is the derivative of \\( \\tan x \\)?",
+        "options": [
+          "\\( \\sec^2 x \\)",
+          "\\( \\cos^2 x \\)",
+          "\\( \\sin^2 x \\)",
+          "\\( \\cot x \\)"
+        ],
+        "answer": "\\( \\sec^2 x \\)",
+        "explanation": "The derivative of tangent is secant squared."
+      },
+      {
+        "id": "q7",
+        "question": "If \\( f''(x) > 0 \\), what can be said about the graph of \\( f(x) \\)?",
+        "options": [
+          "It is concave up (shaped like a cup)",
+          "It is concave down (shaped like a cap)",
+          "It has a point of inflection",
+          "It is decreasing"
+        ],
+        "answer": "It is concave up (shaped like a cup)",
+        "explanation": "Positive second derivative means the graph bends upward."
+      },
+      {
+        "id": "q8",
+        "question": "What does \\( f''(x) = 0 \\) usually indicate?",
+        "options": [
+          "Possible point of inflection",
+          "Maximum point",
+          "Minimum point",
+          "Stationary point"
+        ],
+        "answer": "Possible point of inflection",
+        "explanation": "Zero second derivative can mean the concavity changes."
+      },
+      {
+        "id": "q9",
+        "question": "If \\( f'(x) > 0 \\), what does the graph of \\( f(x) \\) do?",
+        "options": [
+          "Increasing",
+          "Decreasing",
+          "Stationary",
+          "Concave down"
+        ],
+        "answer": "Increasing",
+        "explanation": "Positive first derivative means the function is increasing."
+      },
+      {
+        "id": "q10",
+        "question": "What does a stationary point on the graph of \\( f(x) \\) correspond to on the graph of \\( f'(x) \\)?",
+        "options": [
+          "\\( f'(x) = 0 \\)",
+          "\\( f'(x) > 0 \\)",
+          "\\( f'(x) < 0 \\)",
+          "No specific relation"
+        ],
+        "answer": "\\( f'(x) = 0 \\)",
+        "explanation": "Stationary points occur where the derivative equals zero."
+      }
+    ]
+  },
+  "31": {
+    "title": "Topic Test - Applications of Differentiation",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "If \\( f'(x) > 0 \\), what is true about the function \\( f(x) \\)?",
+        "options": [
+          "It is increasing",
+          "It is decreasing",
+          "It has a maximum point",
+          "It is concave down"
+        ],
+        "answer": "It is increasing",
+        "explanation": "A positive derivative means the function is rising."
+      },
+      {
+        "id": "q2",
+        "question": "What does \\( f'(x) = 0 \\) indicate?",
+        "options": [
+          "Possible stationary point",
+          "Function is increasing",
+          "Function is decreasing",
+          "Function is concave up"
+        ],
+        "answer": "Possible stationary point",
+        "explanation": "Derivative zero means a horizontal tangent, which may be max, min, or inflection."
+      },
+      {
+        "id": "q3",
+        "question": "How can the second derivative \\( f''(x) \\) be used at a stationary point?",
+        "options": [
+          "To classify it as max, min, or point of inflection",
+          "To find the function's intercept",
+          "To solve for zeros of the function",
+          "To calculate the slope"
+        ],
+        "answer": "To classify it as max, min, or point of inflection",
+        "explanation": "Second derivative test helps determine the nature of stationary points."
+      },
+      {
+        "id": "q4",
+        "question": "Which of the following describes a function with \\( f''(x) < 0 \\)?",
+        "options": [
+          "Concave down (curves like a cap)",
+          "Concave up (curves like a cup)",
+          "Stationary point",
+          "Increasing function"
+        ],
+        "answer": "Concave down (curves like a cap)",
+        "explanation": "Negative second derivative indicates the graph bends downward."
+      },
+      {
+        "id": "q5",
+        "question": "In optimisation problems, what is the first step?",
+        "options": [
+          "Express the quantity to optimise as a function",
+          "Find the second derivative",
+          "Calculate the derivative and set to zero",
+          "Draw the graph"
+        ],
+        "answer": "Express the quantity to optimise as a function",
+        "explanation": "You must first write the quantity in terms of one or more variables."
+      },
+      {
+        "id": "q6",
+        "question": "After differentiating in an optimisation problem, what should you do next?",
+        "options": [
+          "Solve \\( f'(x) = 0 \\) to find critical points",
+          "Integrate the function",
+          "Find the derivative again",
+          "Draw the function's graph"
+        ],
+        "answer": "Solve \\( f'(x) = 0 \\) to find critical points",
+        "explanation": "Setting the derivative to zero finds points where maxima or minima can occur."
+      },
+      {
+        "id": "q7",
+        "question": "Why is it important to consider endpoints in optimisation problems?",
+        "options": [
+          "Maxima or minima may occur at endpoints",
+          "Endpoints show where derivative is zero",
+          "Endpoints define concavity",
+          "Endpoints indicate function continuity"
+        ],
+        "answer": "Maxima or minima may occur at endpoints",
+        "explanation": "Sometimes the optimal value lies at the boundary of the domain."
+      },
+      {
+        "id": "q8",
+        "question": "What does a point of inflection mean on the graph of \\( f(x) \\)?",
+        "options": [
+          "The concavity changes from up to down or down to up",
+          "The function reaches its maximum value",
+          "The derivative is always positive",
+          "The function is discontinuous"
+        ],
+        "answer": "The concavity changes from up to down or down to up",
+        "explanation": "An inflection point marks where the curvature changes."
+      },
+      {
+        "id": "q9",
+        "question": "What is true about a function where \\( f'(x) < 0 \\)?",
+        "options": [
+          "The function is decreasing",
+          "The function is increasing",
+          "The function is concave up",
+          "The function is concave down"
+        ],
+        "answer": "The function is decreasing",
+        "explanation": "Negative first derivative means the function is falling."
+      },
+      {
+        "id": "q10",
+        "question": "Which is NOT typically considered when sketching a curve using differentiation?",
+        "options": [
+          "Random points not related to the function",
+          "Stationary points",
+          "Intercepts",
+          "Asymptotic behaviour"
+        ],
+        "answer": "Random points not related to the function",
+        "explanation": "Only points related to the function's behaviour are used for sketching."
+      }
+    ]
+  },
+    "43": {
+    "title": "Topic Test - Integration",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "What is the indefinite integral of \\( x^3 \\)?",
+        "options": [
+          "\\( \\frac{x^4}{4} + C \\)",
+          "\\( 3x^2 + C \\)",
+          "\\( \\frac{x^2}{2} + C \\)",
+          "\\( \\ln|x| + C \\)"
+        ],
+        "answer": "\\( \\frac{x^4}{4} + C \\)",
+        "explanation": "Use the power rule: increase exponent by 1 and divide by new exponent."
+      },
+      {
+        "id": "q2",
+        "question": "Evaluate the definite integral \\( \\int_0^1 e^x \\, dx \\).",
+        "options": [
+          "e - 1",
+          "1 - e",
+          "0",
+          "e"
+        ],
+        "answer": "e - 1",
+        "explanation": "Integral of \\( e^x \\) is \\( e^x \\). Substitute limits: \\( e^1 - e^0 = e - 1 \\)."
+      },
+      {
+        "id": "q3",
+        "question": "What is the indefinite integral of \\( \\frac{1}{x} \\)?",
+        "options": [
+          "\\( \\ln|x| + C \\)",
+          "\\( \\frac{1}{x^2} + C \\)",
+          "\\( e^x + C \\)",
+          "\\( -\\cos x + C \\)"
+        ],
+        "answer": "\\( \\ln|x| + C \\)",
+        "explanation": "Integral of \\( 1/x \\) is the natural logarithm of the absolute value of \\( x \\)."
+      },
+      {
+        "id": "q4",
+        "question": "The trapezoidal rule is used to:",
+        "options": [
+          "Estimate the area under a curve",
+          "Find exact areas under simple curves",
+          "Calculate derivatives",
+          "Solve differential equations"
+        ],
+        "answer": "Estimate the area under a curve",
+        "explanation": "The trapezoidal rule approximates area when exact integration is difficult."
+      },
+      {
+        "id": "q5",
+        "question": "For \\( \\int_0^2 (3x) \\, dx \\), what is the exact area under the curve?",
+        "options": [
+          "6",
+          "3",
+          "4",
+          "12"
+        ],
+        "answer": "6",
+        "explanation": "Integrate: \\( \\frac{3x^2}{2} \\) from 0 to 2 gives \\( \\frac{3 \\times 4}{2} = 6 \\)."
+      },
+      {
+        "id": "q6",
+        "question": "When finding the area between curves \\( f(x) \\) and \\( g(x) \\), the integral is:",
+        "options": [
+          "\\( \\int_a^b |f(x) - g(x)| \\, dx \\)",
+          "\\( \\int_a^b (f(x) + g(x)) \\, dx \\)",
+          "\\( \\int_a^b f(x) \\, dx - \\int_a^b g(x) \\, dx \\) only if \\( f(x) > g(x) \\)",
+          "None of the above"
+        ],
+        "answer": "\\( \\int_a^b |f(x) - g(x)| \\, dx \\)",
+        "explanation": "Area between curves is the integral of the absolute difference between them."
+      },
+      {
+        "id": "q7",
+        "question": "Which of these is the correct indefinite integral of \\( \\sin x \\)?",
+        "options": [
+          "\\( -\\cos x + C \\)",
+          "\\( \\cos x + C \\)",
+          "\\( \\sin x + C \\)",
+          "\\( -\\sin x + C \\)"
+        ],
+        "answer": "\\( -\\cos x + C \\)",
+        "explanation": "Integral of \\( \\sin x \\) is \\( -\\cos x + C \\)."
+      },
+      {
+        "id": "q8",
+        "question": "What does a definite integral represent geometrically?",
+        "options": [
+          "Signed area under the curve between two points",
+          "Slope of the curve at a point",
+          "Height of the curve at a point",
+          "Average value of the function"
+        ],
+        "answer": "Signed area under the curve between two points",
+        "explanation": "The definite integral calculates net area considering above and below x-axis."
+      },
+      {
+        "id": "q9",
+        "question": "In the trapezoidal rule formula, what does \\( h \\) represent?",
+        "options": [
+          "The width of each subinterval",
+          "The height of trapezoids",
+          "The total area",
+          "The number of trapezoids"
+        ],
+        "answer": "The width of each subinterval",
+        "explanation": "\\( h \\) is the step size or width of each trapezoid base."
+      },
+      {
+        "id": "q10",
+        "question": "If the function dips below the x-axis between \\( a \\) and \\( b \\), the definite integral:",
+        "options": [
+          "Subtracts that area from the total",
+          "Adds that area to the total",
+          "Ignores that area",
+          "Doubles that area"
+        ],
+        "answer": "Subtracts that area from the total",
+        "explanation": "Areas below the x-axis contribute negatively to the integral."
+      }
+    ]
+  },
+  "50": {
+    "title": "Topic Test - Series and Sequences",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "What is the general term formula for an arithmetic sequence?",
+        "options": [
+          "\\( a_n = a_1 + (n - 1)d \\)",
+          "\\( a_n = a_1 r^{n-1} \\)",
+          "\\( S_n = \\frac{n}{2}(2a_1 + (n - 1)d) \\)",
+          "\\( S_n = a_1 \\cdot \\frac{1 - r^n}{1 - r} \\)"
+        ],
+        "answer": "\\( a_n = a_1 + (n - 1)d \\)",
+        "explanation": "The arithmetic sequence term is the first term plus (n - 1) times the common difference."
+      },
+      {
+        "id": "q2",
+        "question": "What is the sum of the first \\( n \\) terms of an arithmetic series?",
+        "options": [
+          "\\( S_n = \\frac{n}{2}(2a_1 + (n - 1)d) \\)",
+          "\\( S_n = a_1 r^{n-1} \\)",
+          "\\( S_n = a_1 \\cdot \\frac{1 - r^n}{1 - r} \\)",
+          "\\( a_n = a_1 + (n - 1)d \\)"
+        ],
+        "answer": "\\( S_n = \\frac{n}{2}(2a_1 + (n - 1)d) \\)",
+        "explanation": "This formula gives the sum of the first n terms of an arithmetic series."
+      },
+      {
+        "id": "q3",
+        "question": "What is the common ratio \\( r \\) in the geometric sequence: 2, 6, 18, 54, ...?",
+        "options": [
+          "3",
+          "2",
+          "6",
+          "18"
+        ],
+        "answer": "3",
+        "explanation": "Each term is multiplied by 3 to get the next term."
+      },
+      {
+        "id": "q4",
+        "question": "What is the general term of a geometric sequence?",
+        "options": [
+          "\\( a_n = a_1 r^{n-1} \\)",
+          "\\( a_n = a_1 + (n - 1)d \\)",
+          "\\( S_n = \\frac{n}{2}(2a_1 + (n - 1)d) \\)",
+          "\\( S = \\frac{a_1}{1 - r} \\)"
+        ],
+        "answer": "\\( a_n = a_1 r^{n-1} \\)",
+        "explanation": "Each term is the first term multiplied by the common ratio raised to the (n-1) power."
+      },
+      {
+        "id": "q5",
+        "question": "What is the sum of the first 4 terms of the geometric series: 5, 10, 20, 40, ...?",
+        "options": [
+          "75",
+          "155",
+          "35",
+          "80"
+        ],
+        "answer": "75",
+        "explanation": "Sum \\( S_4 = 5 \\times \\frac{1 - 2^4}{1 - 2} = 5 \\times 15 = 75 \\)."
+      },
+      {
+        "id": "q6",
+        "question": "The infinite sum of a geometric series converges if:",
+        "options": [
+          "\\( |r| < 1 \\)",
+          "\\( r > 1 \\)",
+          "\\( r = 1 \\)",
+          "\\( r < -1 \\)"
+        ],
+        "answer": "\\( |r| < 1 \\)",
+        "explanation": "The infinite sum converges only when the absolute value of r is less than 1."
+      },
+      {
+        "id": "q7",
+        "question": "Find the 6th term \\( a_6 \\) of the arithmetic sequence where \\( a_1 = 4 \\) and \\( d = 3 \\).",
+        "options": [
+          "19",
+          "22",
+          "16",
+          "21"
+        ],
+        "answer": "19",
+        "explanation": "\\( a_6 = 4 + (6 - 1) \\times 3 = 4 + 15 = 19 \\)."
+      },
+      {
+        "id": "q8",
+        "question": "What is the formula for the sum of an infinite geometric series with first term \\( a_1 \\) and ratio \\( r \\)?",
+        "options": [
+          "\\( S = \\frac{a_1}{1 - r} \\)",
+          "\\( S_n = \\frac{n}{2}(2a_1 + (n - 1)d) \\)",
+          "\\( a_n = a_1 r^{n-1} \\)",
+          "\\( S = a_1 + a_2 + \\cdots + a_n \\)"
+        ],
+        "answer": "\\( S = \\frac{a_1}{1 - r} \\)",
+        "explanation": "This formula calculates the sum of an infinite geometric series when \\( |r| < 1 \\)."
+      },
+      {
+        "id": "q9",
+        "question": "If the first term of a geometric sequence is 8 and the ratio is \\( \\frac{1}{2} \\), what is the 4th term?",
+        "options": [
+          "1",
+          "2",
+          "4",
+          "8"
+        ],
+        "answer": "1",
+        "explanation": "\\( a_4 = 8 \\times \\left( \\frac{1}{2} \\right)^3 = 8 \\times \\frac{1}{8} = 1 \\)."
+      },
+      {
+        "id": "q10",
+        "question": "An arithmetic sequence has terms 7, 10, 13, ... What is the sum of the first 10 terms?",
+        "options": [
+          "205",
+          "235",
+          "200",
+          "145"
+        ],
+        "answer": "205",
+        "explanation": "Sum \\( S_{10} = \\frac{10}{2}(2 \\times 7 + (10 - 1) \\times 3) = 5(14 + 27) = 5 \\times 41 = 205 \\)."
+      }
+    ]
+  },
+    "56": {
+    "title": "Topic Test - Financial Modelling",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "What is the formula for the nth term of an arithmetic sequence?",
+        "options": [
+          "\\( a_n = a_1 + (n - 1)d \\)",
+          "\\( a_n = a_1 r^{n-1} \\)",
+          "\\( S_n = \\frac{n}{2}(2a_1 + (n-1)d) \\)",
+          "\\( FV = P \\cdot \\frac{(1 + r)^n - 1}{r} \\)"
+        ],
+        "answer": "\\( a_n = a_1 + (n - 1)d \\)",
+        "explanation": "The nth term of an arithmetic sequence increases by a constant difference d from the first term."
+      },
+      {
+        "id": "q2",
+        "question": "Which formula calculates the sum of the first n terms of an arithmetic series?",
+        "options": [
+          "\\( S_n = \\frac{n}{2}(2a_1 + (n-1)d) \\)",
+          "\\( S_n = a_1 \\cdot \\frac{1 - r^n}{1 - r} \\)",
+          "\\( PV = P \\cdot \\frac{1 - (1 + r)^{-n}}{r} \\)",
+          "\\( A = A_0 (1 + r)^t \\)"
+        ],
+        "answer": "\\( S_n = \\frac{n}{2}(2a_1 + (n-1)d) \\)",
+        "explanation": "This formula sums the first n terms of an arithmetic sequence."
+      },
+      {
+        "id": "q3",
+        "question": "What is the general term formula for a geometric sequence?",
+        "options": [
+          "\\( a_n = a_1 r^{n-1} \\)",
+          "\\( a_n = a_1 + (n - 1)d \\)",
+          "\\( S_n = \\frac{n}{2}(2a_1 + (n-1)d) \\)",
+          "\\( FV = P \\cdot \\frac{(1 + r)^n - 1}{r} \\)"
+        ],
+        "answer": "\\( a_n = a_1 r^{n-1} \\)",
+        "explanation": "Each term is the first term multiplied by the common ratio to the power (n-1)."
+      },
+      {
+        "id": "q4",
+        "question": "Which formula gives the finite sum of the first n terms of a geometric series?",
+        "options": [
+          "\\( S_n = a_1 \\cdot \\frac{1 - r^n}{1 - r} \\)",
+          "\\( S_n = \\frac{n}{2}(2a_1 + (n-1)d) \\)",
+          "\\( PV = P \\cdot \\frac{1 - (1 + r)^{-n}}{r} \\)",
+          "\\( A = A_0 (1 + r)^t \\)"
+        ],
+        "answer": "\\( S_n = a_1 \\cdot \\frac{1 - r^n}{1 - r} \\)",
+        "explanation": "This formula sums the first n terms of a geometric series when \\( r \\neq 1 \\)."
+      },
+      {
+        "id": "q5",
+        "question": "What is the formula for the future value of an annuity?",
+        "options": [
+          "\\( FV = P \\cdot \\frac{(1 + r)^n - 1}{r} \\)",
+          "\\( PV = P \\cdot \\frac{1 - (1 + r)^{-n}}{r} \\)",
+          "\\( S_n = a_1 \\cdot \\frac{1 - r^n}{1 - r} \\)",
+          "\\( A = A_0 (1 + r)^t \\)"
+        ],
+        "answer": "\\( FV = P \\cdot \\frac{(1 + r)^n - 1}{r} \\)",
+        "explanation": "This formula calculates the accumulated value after n payments, compounding at rate r."
+      },
+      {
+        "id": "q6",
+        "question": "How do you calculate the present value of an annuity?",
+        "options": [
+          "\\( PV = P \\cdot \\frac{1 - (1 + r)^{-n}}{r} \\)",
+          "\\( FV = P \\cdot \\frac{(1 + r)^n - 1}{r} \\)",
+          "\\( S_n = a_1 \\cdot \\frac{1 - r^n}{1 - r} \\)",
+          "\\( A = A_0 (1 + r)^t \\)"
+        ],
+        "answer": "\\( PV = P \\cdot \\frac{1 - (1 + r)^{-n}}{r} \\)",
+        "explanation": "This formula discounts future payments to their present value using the interest rate r."
+      },
+      {
+        "id": "q7",
+        "question": "What model represents exponential growth or decay?",
+        "options": [
+          "\\( A = A_0 (1 + r)^t \\)",
+          "\\( S_n = \\frac{n}{2}(2a_1 + (n-1)d) \\)",
+          "\\( FV = P \\cdot \\frac{(1 + r)^n - 1}{r} \\)",
+          "\\( PV = P \\cdot \\frac{1 - (1 + r)^{-n}}{r} \\)"
+        ],
+        "answer": "\\( A = A_0 (1 + r)^t \\)",
+        "explanation": "This formula models amounts that change exponentially over time with rate r."
+      },
+      {
+        "id": "q8",
+        "question": "Which sequence model would you use to describe fixed regular deposits?",
+        "options": [
+          "Arithmetic sequence",
+          "Geometric sequence",
+          "Exponential decay",
+          "Annuity"
+        ],
+        "answer": "Arithmetic sequence",
+        "explanation": "Fixed regular deposits increase by a constant amount, modeled well by arithmetic sequences."
+      },
+      {
+        "id": "q9",
+        "question": "Which financial model is best for compound interest calculations?",
+        "options": [
+          "Geometric sequence",
+          "Arithmetic sequence",
+          "Annuity",
+          "Exponential decay"
+        ],
+        "answer": "Geometric sequence",
+        "explanation": "Compound interest grows by a fixed ratio, matching geometric sequences."
+      },
+      {
+        "id": "q10",
+        "question": "In annuity calculations, what does \\( P \\) usually represent?",
+        "options": [
+          "The payment amount each period",
+          "The interest rate",
+          "The total accumulated amount",
+          "The number of payments"
+        ],
+        "answer": "The payment amount each period",
+        "explanation": "P is the regular payment made in each period of the annuity."
+      }
+    ]
+  },
+    "65": {
+    "title": "Topic Test - Statistical Analysis",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "Which of the following is an example of qualitative data?",
+        "options": [
+          "The colour of cars in a parking lot",
+          "The number of cars in a parking lot",
+          "The speed of each car",
+          "The height of drivers"
+        ],
+        "answer": "The colour of cars in a parking lot",
+        "explanation": "Qualitative data represents categories or labels, such as colours."
+      },
+      {
+        "id": "q2",
+        "question": "Which of these is a measure of central tendency?",
+        "options": [
+          "Mean",
+          "Range",
+          "Variance",
+          "Interquartile Range"
+        ],
+        "answer": "Mean",
+        "explanation": "The mean is a measure of central tendency, representing the average."
+      },
+      {
+        "id": "q3",
+        "question": "The interquartile range (IQR) is defined as:",
+        "options": [
+          "The difference between the first quartile (Q1) and the third quartile (Q3)",
+          "The average value of the dataset",
+          "The difference between the maximum and minimum values",
+          "The square root of variance"
+        ],
+        "answer": "The difference between the first quartile (Q1) and the third quartile (Q3)",
+        "explanation": "IQR measures the middle 50% spread of the data."
+      },
+      {
+        "id": "q4",
+        "question": "If data is skewed to the right, it means:",
+        "options": [
+          "The tail on the right side is longer or fatter",
+          "The data is symmetrical",
+          "The tail on the left side is longer or fatter",
+          "The data has two peaks"
+        ],
+        "answer": "The tail on the right side is longer or fatter",
+        "explanation": "Right skew means the data has a longer tail on the right."
+      },
+      {
+        "id": "q5",
+        "question": "Which measure indicates how spread out data values are from the mean?",
+        "options": [
+          "Standard deviation",
+          "Mode",
+          "Median",
+          "Mean"
+        ],
+        "answer": "Standard deviation",
+        "explanation": "Standard deviation measures the dispersion around the mean."
+      },
+      {
+        "id": "q6",
+        "question": "What does the modality of a data set describe?",
+        "options": [
+          "The number of peaks in the data distribution",
+          "The range of the data",
+          "The skewness of the data",
+          "The average value of the data"
+        ],
+        "answer": "The number of peaks in the data distribution",
+        "explanation": "Modality refers to whether the data is unimodal, bimodal, or multimodal."
+      },
+      {
+        "id": "q7",
+        "question": "Which of the following is a quantitative continuous data example?",
+        "options": [
+          "Height of students",
+          "Types of fruit in a basket",
+          "Number of students in a class",
+          "Blood type"
+        ],
+        "answer": "Height of students",
+        "explanation": "Height is numerical and can take any value in a range, so it's continuous."
+      },
+      {
+        "id": "q8",
+        "question": "Which measure would you use to find the most frequently occurring value in a dataset?",
+        "options": [
+          "Mode",
+          "Mean",
+          "Median",
+          "Variance"
+        ],
+        "answer": "Mode",
+        "explanation": "Mode represents the value that occurs most frequently."
+      },
+      {
+        "id": "q9",
+        "question": "If the variance of a dataset is very small, what can you infer about the data?",
+        "options": [
+          "The data points are close to the mean",
+          "The data is highly spread out",
+          "The data is skewed",
+          "There are multiple peaks"
+        ],
+        "answer": "The data points are close to the mean",
+        "explanation": "Small variance means less spread around the mean."
+      },
+      {
+        "id": "q10",
+        "question": "Which type of data can be further divided into nominal and ordinal?",
+        "options": [
+          "Qualitative data",
+          "Quantitative data",
+          "Continuous data",
+          "Discrete data"
+        ],
+        "answer": "Qualitative data",
+        "explanation": "Qualitative data is categorical and includes nominal (no order) and ordinal (ordered) types."
+      }
+    ]
+  },
+    "70": {
+    "title": "Topic Test - Correlation and Regression",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "What does bivariate data consist of?",
+        "options": [
+          "Two variables measured on the same data points",
+          "One variable measured over time",
+          "Categorical data only",
+          "Data with no relationship between variables"
+        ],
+        "answer": "Two variables measured on the same data points",
+        "explanation": "Bivariate data includes pairs of values for two variables measured on the same units."
+      },
+      {
+        "id": "q2",
+        "question": "What type of graph is commonly used to display bivariate data?",
+        "options": [
+          "Scatter plot",
+          "Histogram",
+          "Pie chart",
+          "Box plot"
+        ],
+        "answer": "Scatter plot",
+        "explanation": "Scatter plots show the relationship between two numerical variables."
+      },
+      {
+        "id": "q3",
+        "question": "What does a correlation coefficient \\( r = -1 \\) indicate?",
+        "options": [
+          "Perfect negative correlation",
+          "No correlation",
+          "Perfect positive correlation",
+          "Weak correlation"
+        ],
+        "answer": "Perfect negative correlation",
+        "explanation": "An \\( r \\) value of -1 means the variables have a perfect negative linear relationship."
+      },
+      {
+        "id": "q4",
+        "question": "If the correlation coefficient \\( r = 0 \\), what does this mean about the relationship?",
+        "options": [
+          "No linear correlation",
+          "Perfect positive correlation",
+          "Perfect negative correlation",
+          "Strong non-linear correlation"
+        ],
+        "answer": "No linear correlation",
+        "explanation": "An \\( r = 0 \\) means no linear relationship, though there could still be a non-linear relationship."
+      },
+      {
+        "id": "q5",
+        "question": "What is the 'line of best fit'?",
+        "options": [
+          "A regression line that minimizes the squared differences between observed and predicted values",
+          "A line that passes through all data points",
+          "The vertical line that separates data",
+          "A horizontal line at the mean of y-values"
+        ],
+        "answer": "A regression line that minimizes the squared differences between observed and predicted values",
+        "explanation": "The line of best fit is chosen to minimize the sum of squared residuals."
+      },
+      {
+        "id": "q6",
+        "question": "Which method is used to calculate the regression line?",
+        "options": [
+          "Least-squares method",
+          "Maximum likelihood",
+          "Method of moments",
+          "Bayesian inference"
+        ],
+        "answer": "Least-squares method",
+        "explanation": "The least-squares method minimizes the sum of squared differences between observed and predicted y-values."
+      },
+      {
+        "id": "q7",
+        "question": "What does a strong positive correlation coefficient mean about the scatter plot?",
+        "options": [
+          "Points cluster closely around an upward sloping line",
+          "Points are widely scattered with no pattern",
+          "Points cluster closely around a downward sloping line",
+          "Points are clustered randomly"
+        ],
+        "answer": "Points cluster closely around an upward sloping line",
+        "explanation": "A strong positive correlation indicates a linear trend going upward."
+      },
+      {
+        "id": "q8",
+        "question": "Which of the following values of \\( r \\) shows the weakest linear relationship?",
+        "options": [
+          "0.1",
+          "0.9",
+          "-0.85",
+          "0.7"
+        ],
+        "answer": "0.1",
+        "explanation": "Values of \\( r \\) close to 0 indicate a weak or no linear relationship."
+      },
+      {
+        "id": "q9",
+        "question": "What is minimized in the least-squares regression method?",
+        "options": [
+          "The sum of squared vertical distances from data points to the regression line",
+          "The total number of data points",
+          "The correlation coefficient",
+          "The distance between the mean of x and mean of y"
+        ],
+        "answer": "The sum of squared vertical distances from data points to the regression line",
+        "explanation": "This sum is minimized to find the best fitting regression line."
+      },
+      {
+        "id": "q10",
+        "question": "What can a regression line be used for?",
+        "options": [
+          "Predicting values of the dependent variable based on the independent variable",
+          "Calculating the median of data",
+          "Finding the mode of a dataset",
+          "Determining the variance"
+        ],
+        "answer": "Predicting values of the dependent variable based on the independent variable",
+        "explanation": "Regression lines model the relationship and allow prediction of one variable from another."
+      }
+    ]
+  },
+    "75": {
+    "title": "Topic Test - Probability Distributions",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "What shape does the normal distribution curve have?",
+        "options": [
+          "Symmetric bell-shaped curve",
+          "Skewed right curve",
+          "Uniform rectangle",
+          "Bimodal peaks"
+        ],
+        "answer": "Symmetric bell-shaped curve",
+        "explanation": "The normal distribution is symmetric and bell-shaped."
+      },
+      {
+        "id": "q2",
+        "question": "In a normal distribution, the mean, median, and mode are:",
+        "options": [
+          "All equal",
+          "All different",
+          "Mean greater than median",
+          "Median less than mode"
+        ],
+        "answer": "All equal",
+        "explanation": "The normal distribution is symmetric so mean = median = mode."
+      },
+      {
+        "id": "q3",
+        "question": "Approximately what percentage of data lies within 2 standard deviations from the mean in a normal distribution?",
+        "options": [
+          "95%",
+          "68%",
+          "99.7%",
+          "50%"
+        ],
+        "answer": "95%",
+        "explanation": "The empirical rule states 95% lies within 2 standard deviations."
+      },
+      {
+        "id": "q4",
+        "question": "What does a Z-score represent?",
+        "options": [
+          "Number of standard deviations a data point is from the mean",
+          "The raw data value",
+          "The mean of the data",
+          "The range of data"
+        ],
+        "answer": "Number of standard deviations a data point is from the mean",
+        "explanation": "Z-scores standardize data relative to the mean and standard deviation."
+      },
+      {
+        "id": "q5",
+        "question": "Calculate the Z-score for a data point of 60 when the mean is 50 and standard deviation is 5.",
+        "options": [
+          "2",
+          "1",
+          "-2",
+          "0.5"
+        ],
+        "answer": "2",
+        "explanation": "Z = (60 - 50) / 5 = 2"
+      },
+      {
+        "id": "q6",
+        "question": "Using the empirical rule, what percentage of data lies within 1 standard deviation of the mean?",
+        "options": [
+          "68%",
+          "50%",
+          "95%",
+          "99.7%"
+        ],
+        "answer": "68%",
+        "explanation": "About 68% of data lies within 1 standard deviation in a normal distribution."
+      },
+      {
+        "id": "q7",
+        "question": "If the mean is 30 and the standard deviation is 4, what percentage of data lies between 22 and 38?",
+        "options": [
+          "Approximately 95%",
+          "Approximately 68%",
+          "Approximately 99.7%",
+          "Approximately 50%"
+        ],
+        "answer": "Approximately 95%",
+        "explanation": "22 and 38 are 2 standard deviations below and above the mean respectively, covering 95%."
+      },
+      {
+        "id": "q8",
+        "question": "Which of the following is NOT an application of the normal distribution?",
+        "options": [
+          "Quality control",
+          "Hypothesis testing",
+          "Predicting weather patterns",
+          "Confidence intervals"
+        ],
+        "answer": "Predicting weather patterns",
+        "explanation": "Normal distribution is not typically used for weather prediction."
+      },
+      {
+        "id": "q9",
+        "question": "What formula is used to calculate a Z-score?",
+        "options": [
+          "\\( Z = \\frac{X - \\mu}{\\sigma} \\)",
+          "\\( Z = \\frac{\\mu - X}{\\sigma} \\)",
+          "\\( Z = X \\times \\sigma \\)",
+          "\\( Z = X + \\mu \\)"
+        ],
+        "answer": "\\( Z = \\frac{X - \\mu}{\\sigma} \\)",
+        "explanation": "Z-score standardizes data by subtracting the mean and dividing by standard deviation."
+      },
+      {
+        "id": "q10",
+        "question": "Which percentage correctly corresponds to data within 3 standard deviations from the mean?",
+        "options": [
+          "99.7%",
+          "95%",
+          "68%",
+          "90%"
+        ],
+        "answer": "99.7%",
+        "explanation": "The empirical rule states 99.7% of data lies within 3 standard deviations."
+      }
+    ]
+  }
+}
+
+

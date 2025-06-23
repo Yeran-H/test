@@ -1,0 +1,44 @@
+.subject-page {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 25px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.subject-page h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.subject-page p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: center;
+  white-space: pre-line;
+}
+
+.subject-page h2 {
+  margin-top: 25px;
+  font-size: 1.6rem;
+  color: #34495e;
+  border-bottom: 2px solid #b92929;
+  padding-bottom: 10px;
+}
+
+.subject-page ul {
+  margin-top: 10px;
+  padding-left: 20px;
+  list-style-type: disc;
+  color: #2c3e50;
+}
+
+.subject-page ul li {
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+}

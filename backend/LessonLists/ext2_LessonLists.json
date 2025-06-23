@@ -1,0 +1,155 @@
+{
+  "ext2": [
+    {
+      "topic": "Proof",
+      "subtopics": [
+        {
+          "subtopic": "The Nature of Proof",
+          "lessons": [
+            { "title": "The language of proof", "lessonID": "1" },
+            { "title": "Number proofs", "lessonID": "2" },
+            { "title": "Proof by contraposition and by contradiction", "lessonID": "3" },
+            { "title": "Algebraic inequalities", "lessonID": "4" },
+            { "title": "Inequalities in geometry and calculus", "lessonID": "5" },
+            { "title": "Topic Test", "lessonID": "6" }
+          ]
+        },
+        {
+          "subtopic": "Further Proof by Mathematical Induction",
+          "lessons": [
+            { "title": "Induction", "lessonID": "7" },
+            { "title": "Topic Test", "lessonID": "8" }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Vectors",
+      "subtopics": [
+        {
+          "subtopic": "Introduction to three-dimensional vectors",
+          "lessons": [
+            { "title": "Coordinates in three dimensions", "lessonID": "9" },
+            { "title": "Vectors in three dimensions", "lessonID": "10" },
+            { "title": "Topic Test", "lessonID": "11" }
+          ]
+        },
+        {
+          "subtopic": "Further operations with three-dimensional vectors",
+          "lessons": [
+            { "title": "The dot product", "lessonID": "12" },
+            { "title": "Applications of the dot product", "lessonID": "13" },
+            { "title": "Vector proofs in geometry", "lessonID": "14" },
+            { "title": "Topic Test", "lessonID": "15" }
+          ]
+        },
+        {
+          "subtopic": "Vectors and vector equations of lines",
+          "lessons": [
+            { "title": "The vector equation of a line", "lessonID": "16" },
+            { "title": "Vector equations of circles, spheres and planes", "lessonID": "17" },
+            { "title": "Topic Test", "lessonID": "18" }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Complex Numbers",
+      "subtopics": [
+        {
+          "subtopic": "Arithmetic of complex numbers",
+          "lessons": [
+            { "title": "The arithmetic of complex numbers", "lessonID": "19" },
+            { "title": "Quadratic equations", "lessonID": "20" },
+            { "title": "Polynomials and complex numbers", "lessonID": "21" },
+            { "title": "Topic Test", "lessonID": "22" }
+          ]
+        },
+        {
+          "subtopic": "Geometric representation of a complex number",
+          "lessons": [
+            { "title": "The Argand diagram", "lessonID": "23" },
+            { "title": "Modulus-argument form", "lessonID": "24" },
+            { "title": "Curves and regions in the Argand diagram", "lessonID": "25" },
+            { "title": "Topic Test", "lessonID": "26" }
+          ]
+        },
+        {
+          "subtopic": "Other representations of complex numbers",
+          "lessons": [
+            { "title": "Vectors and the complex plane", "lessonID": "27" },
+            { "title": "De Moivre's theorem and powers", "lessonID": "28" },
+            { "title": "Trigonometric identities", "lessonID": "29" },
+            { "title": "Roots of complex numbers", "lessonID": "30" },
+            { "title": "Exponential form: Euler's formula", "lessonID": "31" },
+            { "title": "Applications of exponential form", "lessonID": "32" },
+            { "title": "Topic Test", "lessonID": "33" }
+          ]
+        },
+        {
+          "subtopic": "Solving equations with complex numbers",
+          "lessons": [
+            { "title": "Polynomials and complex numbers", "lessonID": "34" },
+            { "title": "Topic Test", "lessonID": "35" }
+          ]
+        },
+        {
+          "subtopic": "Geometrical implications of complex numbers",
+          "lessons": [
+            { "title": "Curves and regions in the Argand diagram", "lessonID": "36" },
+            { "title": "Applications of exponential form", "lessonID": "37" },
+            { "title": "Topic Test", "lessonID": "38" }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Calculus",
+      "subtopics": [
+        {
+          "subtopic": "Further Integration",
+          "lessons": [
+            { "title": "The standard integrals", "lessonID": "39" },
+            { "title": "Algebraic manipulation", "lessonID": "40" },
+            { "title": "Substitution", "lessonID": "41" },
+            { "title": "Partial fractions", "lessonID": "42" },
+            { "title": "Denominators with quadratics", "lessonID": "43" },
+            { "title": "Integration by parts", "lessonID": "44" },
+            { "title": "Trigonometric integrals", "lessonID": "45" },
+            { "title": "Reduction formulae", "lessonID": "46" },
+            { "title": "Miscellaneous integrals", "lessonID": "47" },
+            { "title": "Topic Test", "lessonID": "48" }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Mechanics",
+      "subtopics": [
+        {
+          "subtopic": "Simple harmonic motion",
+          "lessons": [
+            { "title": "Simple harmonic motion and time", "lessonID": "49" },
+            { "title": "Simple harmonic motion and displacement", "lessonID": "50" },
+            { "title": "Topic Test", "lessonID": "51" }
+          ]
+        },
+        {
+          "subtopic": "Modelling motion without resistance",
+          "lessons": [
+            { "title": "Forces and acceleration", "lessonID": "52" },
+            { "title": "Topic Test", "lessonID": "53" }
+          ]
+        },
+        {
+          "subtopic": "Resisted motion",
+          "lessons": [
+            { "title": "Horizontal resisted motion", "lessonID": "54" },
+            { "title": "Vertical resisted motion", "lessonID": "55" },
+            { "title": "Topic Test", "lessonID": "56" }
+          ]
+        }
+      ]
+    }
+  ]
+}

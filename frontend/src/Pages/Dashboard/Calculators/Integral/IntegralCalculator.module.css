@@ -1,0 +1,112 @@
+.calculator {
+  max-width: 600px;
+  margin: 3rem auto;
+  padding: 2rem 2.5rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #b91c1c; /* strong red */
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.expressionInput,
+.modeSelect {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  font-size: 1.1rem;
+  margin-bottom: 1.25rem;
+  border: 2px solid #f87171; /* light red */
+  border-radius: 10px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  box-sizing: border-box;
+}
+
+.expressionInput:focus,
+.modeSelect:focus {
+  outline: none;
+  border-color: #b91c1c; /* dark red */
+  box-shadow: 0 0 8px #b91c1caa;
+}
+
+.button {
+  width: 100%;
+  padding: 0.9rem 0;
+  background: linear-gradient(45deg, #e74c3c, #c0392b);
+  color: white;
+  font-weight: 700;
+  font-size: 1.25rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease, box-shadow 0.3s ease,
+    transform 0.15s ease;
+  user-select: none;
+  box-shadow: 0 5px 15px rgba(231, 76, 60, 0.5);
+}
+
+.button:hover:not(:disabled) {
+  background: linear-gradient(45deg, #c0392b, #e74c3c);
+  box-shadow: 0 7px 20px rgba(192, 57, 43, 0.7);
+  transform: scale(1.05);
+}
+
+.button:active:not(:disabled) {
+  transform: scale(0.95);
+  box-shadow: 0 3px 10px rgba(192, 57, 43, 0.8);
+}
+
+.button:disabled {
+  background-color: #a93226;
+  cursor: not-allowed;
+  box-shadow: none;
+  opacity: 0.6;
+}
+
+.message {
+  margin-top: 1.5rem;
+  font-size: 1.15rem;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  word-break: break-word;
+  user-select: text;
+}
+
+.error {
+  background-color: #fee2e2;
+  border: 1.5px solid #f87171;
+  color: #b91c1c;
+}
+
+.result {
+  background-color: #fcdede;
+  border: 1.5px solid #e74c3c;
+  color: #7f1d1d;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 8px;
+  overflow-x: auto; /* KEY FIX */
+  max-width: 100%;
+  white-space: nowrap; /* prevents wrapping */
+  font-size: 1.2rem;
+}
+
+.mathjaxWrapper {
+  margin-top: 0.5rem;
+  font-size: 1.3rem;
+  color: #7f1d1d;
+}
+
+.note {
+  font-size: 0.85rem;
+  color: #888; /* faint gray */
+  margin-top: 5px;
+  margin-bottom: 15px;
+}

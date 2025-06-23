@@ -1,0 +1,2047 @@
+{
+  "1": {
+    "title": "The language of proof",
+    "lessonID": "1",
+    "content": [
+      {
+        "type": "text",
+        "value": "Mathematical proof is a logical argument demonstrating the truth of a given statement using accepted definitions, theorems, and axioms. In this lesson, we explore the essential language and structure used in formal mathematical reasoning."
+      },
+      {
+        "type": "text",
+        "value": "**Key Terminology:**\n- **Theorem:** A mathematical statement that has been proven to be true.\n- **Lemma:** A helper result used to prove a larger theorem.\n- **Corollary:** A result that follows directly from a theorem.\n- **Axiom/Postulate:** A statement accepted as true without proof.\n- **Proof:** A logical sequence of statements showing that a theorem is true."
+      },
+      {
+        "type": "text",
+        "value": "**Structure of a Proof:**\nA proof typically follows a logical sequence:\n1. **Given** (known assumptions or hypotheses)\n2. **To prove** (what we want to show)\n3. **Argument** (logical steps using algebra, geometry, or calculus)\n4. **Conclusion** (a summary showing the proof is complete)"
+      },
+      {
+        "type": "images",
+        "src": "/images/proof_structure_diagram.png",
+        "alt": "Diagram showing structure of a proof",
+        "caption": "A proof begins with assumptions and ends with the conclusion, supported by logical reasoning."
+      },
+      {
+        "type": "text",
+        "value": "**Types of Statements in Proof:**\n- **Universal:** “For all \\( x \\in \\mathbb{R} \\), ...”\n- **Existential:** “There exists a value \\( x \\in \\mathbb{Z} \\) such that ...”\n- **Conditional:** “If \\( P \\), then \\( Q \\)”"
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Prove: If \\( x \\) is even, then \\( x^2 \\) is even.\n\n**Given:** \\( x = 2k \\), for some integer \\( k \\)\n\\[ x^2 = (2k)^2 = 4k^2 = 2(2k^2) \\Rightarrow x^2 \\text{ is even} \\]\n**Conclusion:** The square of an even number is even."
+      },
+      {
+        "type": "text",
+        "value": "**Notation Tips:**\n- \\( \\therefore \\): Therefore\n- \\( \\because \\): Because\n- \\( \\Rightarrow \\): Implies\n- \\( \\iff \\): If and only if\n- \\( \\forall \\): For all\n- \\( \\exists \\): There exists"
+      },
+      {
+        "type": "text",
+        "value": "Understanding and using the correct notation and logical flow is essential to writing clear and correct mathematical proofs."
+      }
+    ]
+  },
+  "2": {
+    "title": "Number proofs",
+    "lessonID": "2",
+    "content": [
+      {
+        "type": "text",
+        "value": "Number proofs involve showing that certain numerical statements are always true. These often use properties of integers, divisibility, parity (odd/even), and algebraic identities."
+      },
+      {
+        "type": "text",
+        "value": "**Key Number Properties Used in Proofs:**\n- An even number can be written as \\( 2k \\)\n- An odd number can be written as \\( 2k + 1 \\)\n- A number divisible by \\( n \\) can be written as \\( nk \\), for some integer \\( k \\)"
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Prove that the sum of two odd integers is even.\n\nLet \\( a = 2m + 1 \\), \\( b = 2n + 1 \\), where \\( m, n \\in \\mathbb{Z} \\)\n\\[ a + b = (2m + 1) + (2n + 1) = 2m + 2n + 2 = 2(m + n + 1) \\]\n\\( \\Rightarrow a + b \\) is even."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Prove that if \\( a \\) is divisible by 3, then \\( a^2 \\) is divisible by 3.\n\nLet \\( a = 3k \\)\n\\[ a^2 = (3k)^2 = 9k^2 = 3(3k^2) \\Rightarrow a^2 \\text{ is divisible by 3} \\]"
+      },
+      {
+        "type": "images",
+        "src": "/images/number_proof_diagram.png",
+        "alt": "Visual example of even + even = even",
+        "caption": "A visual model can support algebraic reasoning in number proofs."
+      },
+      {
+        "type": "text",
+        "value": "Number proofs are a foundation for more complex reasoning in algebra and discrete mathematics. Always define your variable using integer forms and clearly state each logical step."
+      }
+    ]
+  },
+    "3": {
+    "title": "Proof by contraposition and by contradiction",
+    "lessonID": "3",
+    "content": [
+      {
+        "type": "text",
+        "value": "**Proof by Contraposition** and **Proof by Contradiction** are two powerful logical techniques used when direct proof is not straightforward."
+      },
+      {
+        "type": "text",
+        "value": "**Contrapositive of a Statement:**\nIf the original statement is:\n\\[ \\text{If } P \\Rightarrow Q \\]\nThen the contrapositive is:\n\\[ \\text{If } \\neg Q \\Rightarrow \\neg P \\]\nA statement and its contrapositive are logically equivalent."
+      },
+      {
+        "type": "example",
+        "value": "**Contraposition Example:** Prove: If \\( n^2 \\) is even, then \\( n \\) is even.\n\nContrapositive: If \\( n \\) is odd, then \\( n^2 \\) is odd.\nLet \\( n = 2k + 1 \\):\n\\[ n^2 = (2k + 1)^2 = 4k^2 + 4k + 1 = 2(2k^2 + 2k) + 1 \\Rightarrow \\text{odd} \\]"
+      },
+      {
+        "type": "text",
+        "value": "**Proof by Contradiction:**\nIn this method, assume the opposite of what you want to prove, and show this leads to a logical contradiction."
+      },
+      {
+        "type": "example",
+        "value": "**Contradiction Example:** Prove: \\( \\sqrt{2} \\notin \\mathbb{Q} \\)\n\nAssume \\( \\sqrt{2} = \\frac{a}{b} \\), where \\( a, b \\in \\mathbb{Z} \\) have no common factors.\n\\[ \\Rightarrow 2 = \\frac{a^2}{b^2} \\Rightarrow a^2 = 2b^2 \\Rightarrow a \\text{ is even} \\Rightarrow a = 2k \\]\n\\[ \\Rightarrow a^2 = 4k^2 = 2b^2 \\Rightarrow b^2 = 2k^2 \\Rightarrow b \\text{ is even} \\]\nContradiction: \\( a \\) and \\( b \\) are both even \\( \\Rightarrow \\) not in lowest terms."
+      },
+      {
+        "type": "images",
+        "src": "/images/contradiction_diagram.png",
+        "alt": "Logical contradiction flow chart",
+        "caption": "Contradiction leads to an impossible or false conclusion, proving the original statement."
+      },
+      {
+        "type": "text",
+        "value": "Choose contrapositive or contradiction techniques when a direct approach is too complex or awkward."
+      }
+    ]
+  },
+    "4": {
+    "title": "Algebraic inequalities",
+    "lessonID": "4",
+    "content": [
+      {
+        "type": "text",
+        "value": "Algebraic inequalities involve proving that an algebraic expression is always greater than or less than another, often for all real numbers or all positive values. These proofs typically use known inequalities such as the AM-GM inequality, completing the square, or algebraic manipulation."
+      },
+      {
+        "type": "text",
+        "value": "**Useful Inequalities:**\n- **AM-GM Inequality:** For non-negative real numbers \\( a, b \\):\n\\[ \\frac{a + b}{2} \\geq \\sqrt{ab} \\]\nEquality holds if and only if \\( a = b \\).\n- **Square is non-negative:**\n\\( (x - y)^2 \\geq 0 \\Rightarrow x^2 - 2xy + y^2 \\geq 0 \\)"
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Prove that for all real numbers \\( x \\), \\( x^2 + 4x + 5 \\geq 1 \\).\n\nComplete the square:\n\\[ x^2 + 4x + 5 = (x + 2)^2 + 1 \\geq 1 \\]"
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Prove \\( a^2 + b^2 \\geq 2ab \\) for all real \\( a, b \\).\nThis follows from:\n\\[ (a - b)^2 \\geq 0 \\Rightarrow a^2 - 2ab + b^2 \\geq 0 \\Rightarrow a^2 + b^2 \\geq 2ab \\]"
+      },
+      {
+        "type": "images",
+        "src": "/images/inequality_parabola.png",
+        "alt": "Graph of a parabola showing the minimum value",
+        "caption": "Completing the square shows the minimum value of a quadratic."
+      },
+      {
+        "type": "text",
+        "value": "These algebraic methods help prove inequalities that arise in optimization, bounds, and real-world problem solving. Always start by identifying a known inequality or rearranging the expression."
+      }
+    ]
+  },
+    "5": {
+    "title": "Inequalities in geometry and calculus",
+    "lessonID": "5",
+    "content": [
+      {
+        "type": "text",
+        "value": "Inequalities often appear in geometry and calculus, where they can be proven using properties of functions, differentiation, and geometric principles such as the triangle inequality."
+      },
+      {
+        "type": "text",
+        "value": "**The Triangle Inequality:**\nFor any triangle with sides \\( a, b, c \\):\n\\[ a + b > c, \\quad b + c > a, \\quad a + c > b \\]"
+      },
+      {
+        "type": "text",
+        "value": "**Using Calculus to Prove Inequalities:**\nTo prove an inequality such as \\( f(x) \\geq 0 \\), consider:\n1. Differentiate \\( f(x) \\)\n2. Find critical points and sketch or analyse the sign of \\( f'(x) \\)\n3. Determine the minimum or maximum value"
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Prove that \\( x^4 + 4 \\geq 4x \\) for all real \\( x \\).\nLet \\( f(x) = x^4 - 4x + 4 \\)\nDifferentiate:\n\\( f'(x) = 4x^3 - 4 \\)\nSolve \\( f'(x) = 0 \\Rightarrow x = 1 \\)\nMinimum value at \\( x = 1 \\):\n\\( f(1) = 1 - 4 + 4 = 1 \\Rightarrow f(x) \\geq 1 \\)"
+      },
+      {
+        "type": "images",
+        "src": "/images/graph_inequality_calc.png",
+        "alt": "Graph showing minimum value of a function",
+        "caption": "Calculus shows where a function is increasing or decreasing, helping establish bounds."
+      },
+      {
+        "type": "text",
+        "value": "By applying geometric intuition and calculus methods, we can prove stronger inequalities that describe how quantities compare or evolve over intervals."
+      }
+    ]
+  },
+    "6": {
+    "title": "Topic Test - The Nature of Proof",
+    "lessonID": "6",
+    "content": [
+      {
+        "type": "text",
+        "value": "This lesson summarises all techniques in the subtopic 'The Nature of Proof'. Ensure you can use definitions, logic notation, and algebraic reasoning to prove results clearly and rigorously."
+      },
+      {
+        "type": "text",
+        "value": "**Key Concepts to Review:**\n- The structure of a mathematical proof (Given, To Prove, Argument, Conclusion)\n- Proof types: direct, contrapositive, contradiction\n- Number forms (even, odd, divisible)\n- Algebraic inequalities (completing the square, AM-GM)\n- Inequalities in calculus and geometry"
+      },
+      {
+        "type": "images",
+        "src": "/images/proof_summary_map.png",
+        "alt": "Diagram showing flow of proof logic",
+        "caption": "Visualising proof types helps choose the most efficient method."
+      },
+      {
+        "type": "text",
+        "value": "**Practice Examples:**"
+      },
+      {
+        "type": "text",
+        "value": "**1.** Prove that the sum of any two odd integers is even."
+      },
+      {
+        "type": "text",
+        "value": "**2.** Use contradiction to prove that \\( \\sqrt{5} \\notin \\mathbb{Q} \\)."
+      },
+      {
+        "type": "text",
+        "value": "**3.** Show that \\( x^2 + 4x + 5 \\geq 1 \\) for all real \\( x \\)."
+      },
+      {
+        "type": "text",
+        "value": "**4.** Prove the triangle inequality: \\( a + b > c \\) in a triangle."
+      },
+      {
+        "type": "text",
+        "value": "✅ Make sure to justify every line logically and write clear conclusions."
+      }
+    ]
+  },
+    "7": {
+    "title": "Induction",
+    "lessonID": "7",
+    "content": [
+      {
+        "type": "text",
+        "value": "Mathematical induction is a method used to prove a statement is true for all natural numbers. It’s a foundational proof technique in Extension 2 Mathematics."
+      },
+      {
+        "type": "text",
+        "value": "**Steps in an Induction Proof:**\n1. **Base Case:** Show the statement holds for \\( n = 1 \\) (or starting value).\n2. **Inductive Hypothesis:** Assume it holds for \\( n = k \\).\n3. **Inductive Step:** Prove it holds for \\( n = k + 1 \\).\n4. **Conclusion:** Therefore, it is true for all \\( n \\geq 1 \\)."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Prove that:\n\\[ 1 + 2 + 3 + \\dots + n = \\frac{n(n+1)}{2} \\]\n- Base Case: \\( n = 1 \\Rightarrow \\text{LHS} = 1, \\text{RHS} = \\frac{1(2)}{2} = 1 \\)\n- Inductive Hypothesis: Assume true for \\( n = k \\)\n\\[ 1 + 2 + \\dots + k = \\frac{k(k+1)}{2} \\]\n- Inductive Step: Add \\( k+1 \\):\n\\[ \\frac{k(k+1)}{2} + (k+1) = \\frac{(k+1)(k+2)}{2} \\]\n✅ Proved for \\( n = k+1 \\)"
+      },
+      {
+        "type": "images",
+        "src": "/images/induction_domino.png",
+        "alt": "Induction domino visual",
+        "caption": "Induction works like dominoes — once one falls, they all follow."
+      },
+      {
+        "type": "text",
+        "value": "Induction is essential for proving identities, divisibility, inequalities, and recursive relationships. Always write each step clearly."
+      }
+    ]
+  },
+    "8": {
+    "title": "Topic Test - Further Proof by Mathematical Induction",
+    "lessonID": "8",
+    "content": [
+      {
+        "type": "text",
+        "value": "This topic test reviews the technique of mathematical induction and its applications to summations, divisibility proofs, and more abstract expressions involving natural numbers."
+      },
+      {
+        "type": "text",
+        "value": "**Key Concepts to Review:**\n- Structure of an induction proof: base case, hypothesis, inductive step\n- Using algebra to manipulate \\( P(k) \\) into \\( P(k+1) \\)\n- Common types of problems: sums, powers, divisibility, inequalities"
+      },
+      {
+        "type": "images",
+        "src": "/images/induction_steps_diagram.png",
+        "alt": "Visual showing base case and inductive step",
+        "caption": "Proving \\( P(k) \\Rightarrow P(k+1) \\) establishes the pattern for all \\( n \\geq 1 \\)."
+      },
+      {
+        "type": "text",
+        "value": "**Practice Problems:**"
+      },
+      {
+        "type": "text",
+        "value": "**1.** Prove by induction that:\n\\[ 1^2 + 2^2 + 3^2 + \\dots + n^2 = \\frac{n(n+1)(2n+1)}{6} \\]"
+      },
+      {
+        "type": "text",
+        "value": "**2.** Show that for all \\( n \\in \\mathbb{N} \\), \\( 5^n - 1 \\) is divisible by 4."
+      },
+      {
+        "type": "text",
+        "value": "**3.** Prove by induction that:\n\\[ 2^n > n^2 \\text{ for all } n \\geq 5 \\]"
+      },
+      {
+        "type": "text",
+        "value": "✅ Be sure to show a complete and clearly written base case, inductive hypothesis, and inductive step. Watch for algebra errors when simplifying expressions."
+      }
+    ]
+  },
+    "9": {
+    "title": "Coordinates in three dimensions",
+    "lessonID": "9",
+    "content": [
+      {
+        "type": "text",
+        "value": "In three-dimensional space, points are represented by ordered triples \\( (x, y, z) \\). This extension from two dimensions introduces depth (the \\( z \\)-axis) and allows us to describe position in 3D space."
+      },
+      {
+        "type": "text",
+        "value": "**The Axes in 3D Space:**\n- The \\( x \\)-axis points forward/backward\n- The \\( y \\)-axis points left/right\n- The \\( z \\)-axis points up/down\nThese three axes are perpendicular to each other and intersect at the origin \\( (0, 0, 0) \\)."
+      },
+      {
+        "type": "images",
+        "src": "/images/3d_axes_origin.png",
+        "alt": "Three-dimensional Cartesian coordinate system",
+        "caption": "The origin in 3D space is where the \\( x \\), \\( y \\), and \\( z \\)-axes meet."
+      },
+      {
+        "type": "text",
+        "value": "**Distance Between Two Points:**\nGiven points \\( A(x_1, y_1, z_1) \\) and \\( B(x_2, y_2, z_2) \\), the distance between them is:\n\\[ AB = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2 + (z_2 - z_1)^2} \\]"
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Find the distance between \\( A(1, 2, 3) \\) and \\( B(4, 6, 9) \\).\n\\[ AB = \\sqrt{(4 - 1)^2 + (6 - 2)^2 + (9 - 3)^2} = \\sqrt{9 + 16 + 36} = \\sqrt{61} \\]"
+      },
+      {
+        "type": "text",
+        "value": "**Midpoint Formula in 3D:**\nThe midpoint \\( M \\) between two points is:\n\\[ M = \\left( \\frac{x_1 + x_2}{2}, \\frac{y_1 + y_2}{2}, \\frac{z_1 + z_2}{2} \\right) \\]"
+      },
+      {
+        "type": "text",
+        "value": "Understanding 3D coordinates is essential for vector operations, equations of lines and planes, and applications in physics and geometry."
+      }
+    ]
+  },
+    "10": {
+    "title": "Vectors in three dimensions",
+    "lessonID": "10",
+    "content": [
+      {
+        "type": "text",
+        "value": "A vector in three-dimensional space is defined by its direction and magnitude. It can be represented in component form using three values along the \\( x \\)-, \\( y \\)-, and \\( z \\)-axes."
+      },
+      {
+        "type": "text",
+        "value": "**Vector Notation in 3D:**\nA vector from point \\( A(x_1, y_1, z_1) \\) to \\( B(x_2, y_2, z_2) \\) is:\n\\[ \\vec{AB} = \\begin{pmatrix} x_2 - x_1 \\\\ y_2 - y_1 \\\\ z_2 - z_1 \\end{pmatrix} \\]"
+      },
+      {
+        "type": "text",
+        "value": "**Magnitude of a 3D Vector:**\nFor vector \\( \\vec{v} = \\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix} \\), the magnitude is:\n\\[ |\\vec{v}| = \\sqrt{x^2 + y^2 + z^2} \\]"
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Find the magnitude of \\( \\vec{v} = \\begin{pmatrix} 3 \\\\ -2 \\\\ 6 \\end{pmatrix} \\)\n\\[ |\\vec{v}| = \\sqrt{3^2 + (-2)^2 + 6^2} = \\sqrt{9 + 4 + 36} = \\sqrt{49} = 7 \\]"
+      },
+      {
+        "type": "text",
+        "value": "**Zero Vector and Position Vectors:**\n- The **zero vector** in 3D: \\( \\vec{0} = \\begin{pmatrix} 0 \\\\ 0 \\\\ 0 \\end{pmatrix} \\)\n- A **position vector** describes the location of a point relative to the origin."
+      },
+      {
+        "type": "images",
+        "src": "/images/vector_in_3d.png",
+        "alt": "Vector in 3D space from origin to point",
+        "caption": "A position vector from the origin to point \\( P(x, y, z) \\) lies in 3D space."
+      },
+      {
+        "type": "text",
+        "value": "3D vectors are used to describe lines, motion, and geometric relationships in space. Operations like addition, scalar multiplication, and dot products extend naturally from 2D."
+      }
+    ]
+  },
+    "11": {
+    "title": "Topic Test - Introduction to Three-Dimensional Vectors",
+    "lessonID": "11",
+    "content": [
+      {
+        "type": "text",
+        "value": "This topic test reviews coordinate geometry and vector basics in 3D. Ensure you're confident with component form, vector operations, and the geometry of space."
+      },
+      {
+        "type": "text",
+        "value": "**Key Concepts to Review:**\n- Points in 3D: \\( (x, y, z) \\)\n- Distance and midpoint formulas in space\n- Vector representation: \\( \\vec{v} = \\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix} \\)\n- Magnitude and direction of vectors\n- Position vectors and the zero vector"
+      },
+      {
+        "type": "images",
+        "src": "/images/topic_test_3d_vectors.png",
+        "alt": "3D space with vectors and points labeled",
+        "caption": "Understanding the layout of 3D space is critical for solving vector problems."
+      },
+      {
+        "type": "text",
+        "value": "**Practice Questions:**"
+      },
+      {
+        "type": "text",
+        "value": "**1.** Find the distance between points \\( A(2, -1, 3) \\) and \\( B(5, 3, -1) \\)."
+      },
+      {
+        "type": "text",
+        "value": "**2.** Given \\( \\vec{v} = \\begin{pmatrix} -2 \\\\ 4 \\\\ 1 \\end{pmatrix} \\), find \\( |\\vec{v}| \\)."
+      },
+      {
+        "type": "text",
+        "value": "**3.** Write the vector \\( \\vec{AB} \\) in component form for \\( A(1, 2, 0) \\) and \\( B(3, -1, 5) \\)."
+      },
+      {
+        "type": "text",
+        "value": "✅ Remember to clearly write vector operations and justify calculations with full steps."
+      }
+    ]
+  },
+    "12": {
+    "title": "The dot product",
+    "lessonID": "12",
+    "content": [
+      {
+        "type": "text",
+        "value": "The **dot product** (also called the scalar product) is an operation that takes two vectors and returns a scalar. It is used to calculate angles between vectors and determine orthogonality."
+      },
+      {
+        "type": "text",
+        "value": "**Dot Product Formula (Component Form):**\nFor vectors \\( \\vec{a} = \\begin{pmatrix} a_1 \\\\ a_2 \\\\ a_3 \\end{pmatrix} \\) and \\( \\vec{b} = \\begin{pmatrix} b_1 \\\\ b_2 \\\\ b_3 \\end{pmatrix} \\), the dot product is:\n\\[ \\vec{a} \\cdot \\vec{b} = a_1b_1 + a_2b_2 + a_3b_3 \\]"
+      },
+      {
+        "type": "text",
+        "value": "**Dot Product and Angle Between Vectors:**\n\\[ \\vec{a} \\cdot \\vec{b} = |\\vec{a}|\\,|\\vec{b}| \\cos\\theta \\]\nwhere \\( \\theta \\) is the angle between the vectors."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Let \\( \\vec{a} = \\begin{pmatrix} 1 \\\\ 2 \\\\ 3 \\end{pmatrix}, \\vec{b} = \\begin{pmatrix} 4 \\\\ 5 \\\\ 6 \\end{pmatrix} \\). Find \\( \\vec{a} \\cdot \\vec{b} \\).\n\\[ \\vec{a} \\cdot \\vec{b} = 1 \\cdot 4 + 2 \\cdot 5 + 3 \\cdot 6 = 4 + 10 + 18 = 32 \\]"
+      },
+      {
+        "type": "text",
+        "value": "**Orthogonality:**\nTwo vectors are perpendicular if and only if their dot product is 0."
+      },
+      {
+        "type": "images",
+        "src": "/images/3d_dot_product.png",
+        "alt": "Vectors with angle between them",
+        "caption": "The dot product relates to the angle between two vectors in space."
+      },
+      {
+        "type": "text",
+        "value": "The dot product is fundamental in physics and geometry. It also allows projection of one vector onto another."
+      }
+    ]
+  },
+    "13": {
+    "title": "Applications of the dot product",
+    "lessonID": "13",
+    "content": [
+      {
+        "type": "text",
+        "value": "The dot product is used to calculate angles between vectors, determine perpendicularity, and compute scalar projections. These applications are critical in geometry, physics, and engineering."
+      },
+      {
+        "type": "text",
+        "value": "**1. Angle Between Two Vectors:**\n\\[ \\cos\\theta = \\frac{\\vec{a} \\cdot \\vec{b}}{|\\vec{a}| |\\vec{b}|} \\]"
+      },
+      {
+        "type": "text",
+        "value": "**2. Checking Perpendicularity:**\nIf \\( \\vec{a} \\cdot \\vec{b} = 0 \\), then \\( \\vec{a} \\perp \\vec{b} \\)."
+      },
+      {
+        "type": "text",
+        "value": "**3. Scalar Projection of \\( \\vec{a} \\) on \\( \\vec{b} \\):**\n\\[ \\text{proj}_{\\vec{b}}\\vec{a} = \\frac{\\vec{a} \\cdot \\vec{b}}{|\\vec{b}|} \\]"
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Let \\( \\vec{a} = \\begin{pmatrix} 2 \\\\ 1 \\\\ -1 \\end{pmatrix} \\), \\( \\vec{b} = \\begin{pmatrix} 1 \\\\ 3 \\\\ 2 \\end{pmatrix} \\).\nFind the angle between them.\n\\[ \\vec{a} \\cdot \\vec{b} = 2 \\cdot 1 + 1 \\cdot 3 + (-1) \\cdot 2 = 3 \\]\n\\[ |\\vec{a}| = \\sqrt{2^2 + 1^2 + (-1)^2} = \\sqrt{6}, \\quad |\\vec{b}| = \\sqrt{14} \\]\n\\[ \\cos\\theta = \\frac{3}{\\sqrt{6} \\cdot \\sqrt{14}} \\]"
+      },
+      {
+        "type": "images",
+        "src": "/images/dot_product_applications.png",
+        "alt": "Vector projection diagram",
+        "caption": "The scalar projection of one vector onto another shows how much of one vector lies in the direction of the other."
+      },
+      {
+        "type": "text",
+        "value": "These applications of the dot product are essential in solving geometric and physical problems involving force, direction, and motion."
+      }
+    ]
+  },
+    "14": {
+    "title": "Vector proofs in geometry",
+    "lessonID": "14",
+    "content": [
+      {
+        "type": "text",
+        "value": "Vectors are powerful tools for proving geometric results. We can use them to show relationships such as collinearity, parallelism, perpendicularity, and equality of lengths or areas."
+      },
+      {
+        "type": "text",
+        "value": "**1. Collinearity:**\nThree points \\( A, B, C \\) are collinear if \\( \\vec{AB} \\) and \\( \\vec{AC} \\) are scalar multiples of each other."
+      },
+      {
+        "type": "text",
+        "value": "**2. Parallel Vectors:**\nVectors \\( \\vec{u} \\) and \\( \\vec{v} \\) are parallel if:\n\\[ \\vec{u} = k \\vec{v} \\text{ for some scalar } k \\]"
+      },
+      {
+        "type": "text",
+        "value": "**3. Perpendicular Vectors:**\nVectors are perpendicular if their dot product is zero:\n\\[ \\vec{u} \\cdot \\vec{v} = 0 \\]"
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Prove that triangle \\( ABC \\) is right-angled at \\( B \\), given:\n\\( A(1,2,1), B(3,0,1), C(5,2,1) \\).\n\\[ \\vec{BA} = \\begin{pmatrix} -2 \\\\ 2 \\\\ 0 \\end{pmatrix}, \\quad \\vec{BC} = \\begin{pmatrix} 2 \\\\ 2 \\\\ 0 \\end{pmatrix} \\]\n\\[ \\vec{BA} \\cdot \\vec{BC} = -4 + 4 + 0 = 0 \\Rightarrow \\text{perpendicular} \\]"
+      },
+      {
+        "type": "text",
+        "value": "**4. Proving Midpoints and Diagonals:**\nUse position vectors and midpoint formulas to show diagonals bisect each other in quadrilaterals."
+      },
+      {
+        "type": "images",
+        "src": "/images/vector_geometry_proof.png",
+        "alt": "Vector triangle showing dot product",
+        "caption": "Vector operations can confirm geometric properties algebraically."
+      },
+      {
+        "type": "text",
+        "value": "Vector geometry offers precise and flexible tools to prove classical geometric results without relying on traditional Euclidean constructions."
+      }
+    ]
+  },
+    "15": {
+    "title": "Topic Test - Further Operations with Three-Dimensional Vectors",
+    "lessonID": "15",
+    "content": [
+      {
+        "type": "text",
+        "value": "This topic test covers all key operations with three-dimensional vectors, including the dot product and its applications, vector geometry proofs, and scalar projections."
+      },
+      {
+        "type": "text",
+        "value": "**Key Concepts to Review:**\n- Dot product formula in 3D\n- Angle between vectors\n- Scalar projection: \\( \\text{proj}_{\\vec{b}}\\vec{a} = \\frac{\\vec{a} \\cdot \\vec{b}}{|\\vec{b}|} \\)\n- Collinearity and perpendicularity using vector methods\n- Proofs involving midpoints, diagonals, and triangle properties"
+      },
+      {
+        "type": "images",
+        "src": "/images/vector_geometry_summary.png",
+        "alt": "Summary chart of vector operations in space",
+        "caption": "Visualising vector directions helps support geometric reasoning."
+      },
+      {
+        "type": "text",
+        "value": "**Practice Questions:**"
+      },
+      {
+        "type": "text",
+        "value": "**1.** Find the angle between \\( \\vec{a} = \\begin{pmatrix} 2 \\\\ -1 \\\\ 2 \\end{pmatrix} \\) and \\( \\vec{b} = \\begin{pmatrix} 1 \\\\ 2 \\\\ 2 \\end{pmatrix} \\)."
+      },
+      {
+        "type": "text",
+        "value": "**2.** Show that \\( \\vec{u} = \\begin{pmatrix} 1 \\\\ 2 \\\\ 3 \\end{pmatrix} \\) and \\( \\vec{v} = \\begin{pmatrix} 2 \\\\ 4 \\\\ 6 \\end{pmatrix} \\) are parallel."
+      },
+      {
+        "type": "text",
+        "value": "**3.** Prove that triangle with vertices \\( A(0,0,0), B(1,2,1), C(2,4,2) \\) is right-angled at \\( A \\)."
+      },
+      {
+        "type": "text",
+        "value": "✅ Justify each conclusion using correct vector operations and clearly written steps. Always simplify final answers where possible."
+      }
+    ]
+  },
+    "16": {
+    "title": "The vector equation of a line",
+    "lessonID": "16",
+    "content": [
+      {
+        "type": "text",
+        "value": "In three-dimensional space, the vector equation of a line describes a set of points that lie along a line, defined using a point and a direction vector."
+      },
+      {
+        "type": "text",
+        "value": "**Vector Equation of a Line:**\nIf a line passes through point \\( A \\) with position vector \\( \\vec{a} \\), and is parallel to direction vector \\( \\vec{d} \\), then its equation is:\n\\[ \\vec{r} = \\vec{a} + \\lambda \\vec{d} \\quad (\\lambda \\in \\mathbb{R}) \\]"
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Find the vector equation of the line passing through \\( A(1, 2, 3) \\) and parallel to vector \\( \\vec{d} = \\begin{pmatrix} 4 \\\\ -1 \\\\ 2 \\end{pmatrix} \\).\n\n\\( \\vec{a} = \\begin{pmatrix} 1 \\\\ 2 \\\\ 3 \\end{pmatrix} \\)\n\\[ \\vec{r} = \\begin{pmatrix} 1 \\\\ 2 \\\\ 3 \\end{pmatrix} + \\lambda \\begin{pmatrix} 4 \\\\ -1 \\\\ 2 \\end{pmatrix} \\]"
+      },
+      {
+        "type": "text",
+        "value": "**Parametric Equations of a Line:**\nFrom the vector equation \\( \\vec{r} = \\vec{a} + \\lambda \\vec{d} \\), we can write:\n\\[ x = x_0 + \\lambda d_1, \\quad y = y_0 + \\lambda d_2, \\quad z = z_0 + \\lambda d_3 \\]"
+      },
+      {
+        "type": "images",
+        "src": "/images/vector_line_equation.png",
+        "alt": "Vector equation of a line diagram",
+        "caption": "The line is formed by all vectors obtained by scaling and adding \\( \\vec{d} \\) to \\( \\vec{a} \\)."
+      },
+      {
+        "type": "text",
+        "value": "This form is useful for solving geometric problems involving intersections, projections, and shortest distances in 3D space."
+      }
+    ]
+  },
+    "17": {
+    "title": "Vector equations of circles, spheres and planes",
+    "lessonID": "17",
+    "content": [
+      {
+        "type": "text",
+        "value": "Vectors can be used to define geometric objects such as circles, spheres and planes in space. These equations are derived from vector relationships and geometric definitions."
+      },
+      {
+        "type": "text",
+        "value": "**1. Sphere Equation:**\nA sphere with centre \\( \\vec{c} \\) and radius \\( r \\) is:\n\\[ |\\vec{r} - \\vec{c}| = r \\]\nThis can also be expanded to the scalar form:\n\\[ (x - x_0)^2 + (y - y_0)^2 + (z - z_0)^2 = r^2 \\]"
+      },
+      {
+        "type": "text",
+        "value": "**2. Plane Equation:**\nA plane can be defined by a point \\( \\vec{a} \\) and a normal vector \\( \\vec{n} \\):\n\\[ (\\vec{r} - \\vec{a}) \\cdot \\vec{n} = 0 \\]"
+      },
+      {
+        "type": "text",
+        "value": "**3. Circles in 3D:**\nA circle can be defined as the intersection of a sphere and a plane, or by a parametric equation involving sine and cosine vectors."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Find the equation of a plane passing through \\( A(1, 0, 2) \\) with normal vector \\( \\vec{n} = \\begin{pmatrix} 2 \\\\ -1 \\\\ 3 \\end{pmatrix} \\).\nLet \\( \\vec{r} = \\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix} \\), \\( \\vec{a} = \\begin{pmatrix} 1 \\\\ 0 \\\\ 2 \\end{pmatrix} \\)\n\\[ (\\vec{r} - \\vec{a}) \\cdot \\vec{n} = 0 \\Rightarrow \\begin{pmatrix} x - 1 \\\\ y \\\\ z - 2 \\end{pmatrix} \\cdot \\begin{pmatrix} 2 \\\\ -1 \\\\ 3 \\end{pmatrix} = 0 \\]\n\\[ 2(x - 1) - y + 3(z - 2) = 0 \\Rightarrow 2x - y + 3z = 8 \\]"
+      },
+      {
+        "type": "images",
+        "src": "/images/vector_sphere_plane.png",
+        "alt": "Diagram showing a sphere and a plane",
+        "caption": "A plane can intersect a sphere to form a circle in space."
+      },
+      {
+        "type": "text",
+        "value": "These vector equations provide powerful tools for solving geometric problems in three-dimensional space."
+      }
+    ]
+  },
+    "18": {
+    "title": "Topic Test - Vectors and Vector Equations of Lines",
+    "lessonID": "18",
+    "content": [
+      {
+        "type": "text",
+        "value": "This topic test reviews the use of vectors to describe lines, planes, and spheres in 3D space. Make sure you understand how to write vector equations and solve geometric problems using them."
+      },
+      {
+        "type": "text",
+        "value": "**Key Concepts to Review:**\n- Vector equation of a line: \\( \\vec{r} = \\vec{a} + \\lambda \\vec{d} \\)\n- Parametric form of a line\n- Vector equation of a plane: \\( (\\vec{r} - \\vec{a}) \\cdot \\vec{n} = 0 \\)\n- Scalar equation of a plane\n- Equation of a sphere: \\( |\\vec{r} - \\vec{c}| = r \\)"
+      },
+      {
+        "type": "images",
+        "src": "/images/vector_equation_summary.png",
+        "alt": "Summary of line, plane, and sphere equations",
+        "caption": "Use the correct vector forms for each geometric object when solving problems."
+      },
+      {
+        "type": "text",
+        "value": "**Practice Questions:**"
+      },
+      {
+        "type": "text",
+        "value": "**1.** Write the vector and parametric equations of the line passing through \\( (1, 2, 3) \\) and parallel to \\( \\vec{d} = \\begin{pmatrix} 2 \\\\ -1 \\\\ 4 \\end{pmatrix} \\)."
+      },
+      {
+        "type": "text",
+        "value": "**2.** Find the scalar equation of the plane through \\( (2, 0, 1) \\) with normal vector \\( \\vec{n} = \\begin{pmatrix} 1 \\\\ 3 \\\\ -2 \\end{pmatrix} \\)."
+      },
+      {
+        "type": "text",
+        "value": "**3.** Determine the centre and radius of the sphere:\n\\( x^2 + y^2 + z^2 - 4x + 6y - 8z = 9 \\)"
+      },
+      {
+        "type": "text",
+        "value": "✅ Use vector notation and clearly justify all steps with working. Graphical sketches can support your solutions."
+      }
+    ]
+  },
+    "19": {
+    "title": "The arithmetic of complex numbers",
+    "lessonID": "19",
+    "content": [
+      {
+        "type": "text",
+        "value": "Complex numbers are numbers of the form \\( z = a + bi \\), where \\( a, b \\in \\mathbb{R} \\), and \\( i \\) is the imaginary unit satisfying \\( i^2 = -1 \\). They can be added, subtracted, multiplied, and divided using algebraic rules."
+      },
+      {
+        "type": "text",
+        "value": "**Addition and Subtraction:**\n\\[ (a + bi) \\pm (c + di) = (a \\pm c) + (b \\pm d)i \\]"
+      },
+      {
+        "type": "text",
+        "value": "**Multiplication:**\n\\[ (a + bi)(c + di) = ac + adi + bci + bdi^2 = (ac - bd) + (ad + bc)i \\]"
+      },
+      {
+        "type": "text",
+        "value": "**Complex Conjugate:**\nThe conjugate of \\( z = a + bi \\) is \\( \\bar{z} = a - bi \\)\n\\[ z \\cdot \\bar{z} = a^2 + b^2 \\Rightarrow |z| = \\sqrt{a^2 + b^2} \\]"
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Simplify:\n\\( \\frac{3 + 4i}{1 - 2i} \\)\nMultiply top and bottom by the conjugate of the denominator:\n\\[ = \\frac{(3 + 4i)(1 + 2i)}{(1 - 2i)(1 + 2i)} = \\frac{3 + 6i + 4i + 8i^2}{1 + 4} = \\frac{-5 + 10i}{5} = -1 + 2i \\]"
+      },
+      {
+        "type": "images",
+        "src": "/images/complex_arithmetic.png",
+        "alt": "Diagram showing complex arithmetic on the Argand diagram",
+        "caption": "Addition and multiplication of complex numbers correspond to geometric operations."
+      },
+      {
+        "type": "text",
+        "value": "Mastering complex arithmetic is the foundation for later work with roots, mod-arg form, and transformations in the complex plane."
+      }
+    ]
+  },
+    "20": {
+    "title": "Quadratic equations",
+    "lessonID": "20",
+    "content": [
+      {
+        "type": "text",
+        "value": "Quadratic equations of the form \\( ax^2 + bx + c = 0 \\) may have real or complex solutions. When the discriminant is negative, the solutions are non-real complex numbers."
+      },
+      {
+        "type": "text",
+        "value": "**Quadratic Formula:**\n\\[ x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a} \\]\nIf \\( b^2 - 4ac < 0 \\), the square root involves \\( i \\), and the roots are complex conjugates."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Solve \\( x^2 + 4x + 13 = 0 \\).\n\\[ x = \\frac{-4 \\pm \\sqrt{16 - 52}}{2} = \\frac{-4 \\pm \\sqrt{-36}}{2} = \\frac{-4 \\pm 6i}{2} = -2 \\pm 3i \\]"
+      },
+      {
+        "type": "text",
+        "value": "**Properties of Roots:**\n- If coefficients are real, complex roots always occur in conjugate pairs.\n- The sum of the roots is \\( -\\frac{b}{a} \\)\n- The product of the roots is \\( \\frac{c}{a} \\)"
+      },
+      {
+        "type": "images",
+        "src": "/images/quadratic_complex.png",
+        "alt": "Graph of a quadratic with no real roots",
+        "caption": "A quadratic with no x-intercepts corresponds to complex roots."
+      },
+      {
+        "type": "text",
+        "value": "Solving quadratics with complex roots is essential in understanding the full set of solutions for polynomial equations."
+      }
+    ]
+  },
+    "21": {
+    "title": "Polynomials and complex numbers",
+    "lessonID": "21",
+    "content": [
+      {
+        "type": "text",
+        "value": "The Fundamental Theorem of Algebra states that every non-zero polynomial of degree \\( n \\) has exactly \\( n \\) complex roots (counting multiplicities). This includes real and non-real roots."
+      },
+      {
+        "type": "text",
+        "value": "**Key Properties:**\n- Complex roots of polynomials with real coefficients occur in conjugate pairs.\n- A polynomial of degree \\( n \\) can be factorised into \\( n \\) linear or irreducible quadratic factors over \\( \\mathbb{C} \\)."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Given \\( f(x) = x^3 - 2x^2 + 4x - 8 \\), and one root is \\( 2i \\), find the other roots.\n\\( \\Rightarrow -2i \\) must also be a root.\nForm quadratic: \\( (x - 2i)(x + 2i) = x^2 + 4 \\)\nDivide \\( f(x) \\) by \\( x^2 + 4 \\):\n\\[ \\frac{x^3 - 2x^2 + 4x - 8}{x^2 + 4} = x - 2 \\]\nSo:\n\\[ f(x) = (x - 2)(x^2 + 4) \\]"
+      },
+      {
+        "type": "text",
+        "value": "**Factor Theorem:** If \\( f(a) = 0 \\), then \\( x - a \\) is a factor of \\( f(x) \\)."
+      },
+      {
+        "type": "images",
+        "src": "/images/polynomial_complex_roots.png",
+        "alt": "Complex roots plotted on Argand plane",
+        "caption": "A cubic polynomial with one real and two complex conjugate roots."
+      },
+      {
+        "type": "text",
+        "value": "Recognising and using complex roots of polynomials helps in complete factorisation and deeper analysis of functions."
+      }
+    ]
+  },
+    "22": {
+    "title": "Topic Test - Arithmetic of Complex Numbers",
+    "lessonID": "22",
+    "content": [
+      {
+        "type": "text",
+        "value": "This topic test covers all aspects of the arithmetic of complex numbers, including solving quadratics with complex roots, performing operations with complex numbers, and factorising polynomials using complex roots."
+      },
+      {
+        "type": "text",
+        "value": "**Key Concepts to Review:**\n- Complex number form: \\( z = a + bi \\)\n- Conjugate: \\( \\bar{z} = a - bi \\)\n- Modulus: \\( |z| = \\sqrt{a^2 + b^2} \\)\n- Multiplication and division with conjugates\n- Quadratics with complex roots\n- Fundamental Theorem of Algebra\n- Conjugate root theorem for polynomials with real coefficients"
+      },
+      {
+        "type": "images",
+        "src": "/images/complex_arithmetic_summary.png",
+        "alt": "Summary of complex arithmetic rules",
+        "caption": "Real and imaginary parts are manipulated separately in complex arithmetic."
+      },
+      {
+        "type": "text",
+        "value": "**Practice Questions:**"
+      },
+      {
+        "type": "text",
+        "value": "**1.** Simplify: \\( \\frac{1 + 3i}{2 - i} \\)"
+      },
+      {
+        "type": "text",
+        "value": "**2.** Solve \\( x^2 + 2x + 5 = 0 \\) and sketch the solution on the Argand diagram."
+      },
+      {
+        "type": "text",
+        "value": "**3.** Given \\( f(x) = x^3 - 2x^2 + 4x - 8 \\), and that one root is \\( 2i \\), fully factorise \\( f(x) \\)."
+      },
+      {
+        "type": "text",
+        "value": "✅ When working with conjugates, always rationalise denominators. Use full factorisation steps when solving polynomials."
+      }
+    ]
+  },
+    "23": {
+    "title": "The Argand diagram",
+    "lessonID": "23",
+    "content": [
+      {
+        "type": "text",
+        "value": "The Argand diagram is a geometric representation of complex numbers as points or vectors in a plane. The real part is plotted on the horizontal axis, and the imaginary part on the vertical axis."
+      },
+      {
+        "type": "text",
+        "value": "**Plotting Complex Numbers:**\n\\( z = a + bi \\) is plotted at the point \\( (a, b) \\) in the complex plane."
+      },
+      {
+        "type": "text",
+        "value": "**Modulus and Argument:**\n- \\( |z| = \\sqrt{a^2 + b^2} \\): distance from the origin\n- \\( \\arg(z) \\): angle (in radians) made with the positive real axis\n\\[ \\arg(z) = \\tan^{-1}\\left(\\frac{b}{a}\\right) \\text{ (adjusted for quadrant)} \\]"
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Plot \\( z = -1 + i \\) on the Argand diagram.\n- Real part: \\( -1 \\)\n- Imaginary part: \\( 1 \\)\n- \\( |z| = \\sqrt{2}, \\quad \\arg(z) = \\frac{3\\pi}{4} \\)"
+      },
+      {
+        "type": "images",
+        "src": "/images/argand_plot_example.png",
+        "alt": "Point plotted on Argand diagram",
+        "caption": "Complex number \\( z = -1 + i \\) lies in the second quadrant."
+      },
+      {
+        "type": "text",
+        "value": "The Argand diagram helps visualise operations on complex numbers, such as addition (vector sum), multiplication (rotation and scaling), and conjugation (reflection over the real axis)."
+      }
+    ]
+  },
+    "24": {
+    "title": "Modulus-argument form",
+    "lessonID": "24",
+    "content": [
+      {
+        "type": "text",
+        "value": "The modulus-argument (mod-arg) form expresses a complex number in polar coordinates using its magnitude and angle. This form is useful for multiplication, division, and powers/roots of complex numbers."
+      },
+      {
+        "type": "text",
+        "value": "**Modulus-Argument Form:**\nIf \\( z = a + bi \\), then:\n\\[ z = r(\\cos\\theta + i\\sin\\theta) \\quad \\text{where } r = |z| = \\sqrt{a^2 + b^2}, \\quad \\theta = \\arg(z) \\]"
+      },
+      {
+        "type": "text",
+        "value": "**Conversion Steps:**\n1. Calculate \\( r = |z| \\)\n2. Find \\( \\theta = \\tan^{-1}(\\frac{b}{a}) \\) and adjust for quadrant\n3. Write in form \\( r(\\cos\\theta + i\\sin\\theta) \\)"
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Express \\( z = 1 - i \\) in mod-arg form.\n\\[ r = \\sqrt{1^2 + (-1)^2} = \\sqrt{2} \\]\n\\[ \\theta = \\tan^{-1}\\left(\\frac{-1}{1}\\right) = -\\frac{\\pi}{4} \\]\n\\[ \\Rightarrow z = \\sqrt{2}(\\cos(-\\frac{\\pi}{4}) + i\\sin(-\\frac{\\pi}{4})) \\]"
+      },
+      {
+        "type": "images",
+        "src": "/images/mod_arg_form.png",
+        "alt": "Vector showing modulus and argument",
+        "caption": "A complex number \\( z = a + bi \\) can be described by its distance from the origin and angle from the real axis."
+      },
+      {
+        "type": "text",
+        "value": "The mod-arg form is a stepping stone to exponential and trigonometric representations of complex numbers and essential for using De Moivre’s theorem."
+      }
+    ]
+  },
+    "25": {
+    "title": "Curves and regions in the Argand diagram",
+    "lessonID": "25",
+    "content": [
+      {
+        "type": "text",
+        "value": "Complex inequalities and equations can define sets of complex numbers that form geometric shapes or regions in the Argand diagram. Understanding these helps interpret modulus and argument constraints geometrically."
+      },
+      {
+        "type": "text",
+        "value": "**Common Geometric Sets:**\n- \\( |z - a| = r \\): circle centred at \\( a \\) with radius \\( r \\)\n- \\( |z| < r \\): interior of a circle centred at origin\n- \\( \\arg(z) = \\theta \\): ray from origin at angle \\( \\theta \\)\n- \\( \\arg(z - a) = \\alpha \\): ray from point \\( a \\) at angle \\( \\alpha \\)"
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Sketch the set \\( |z - 1 + 2i| = 3 \\)\n- This is a circle with centre at \\( (1, -2) \\), radius 3."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Describe the region defined by \\( |z| \\leq 2 \\) and \\( \\arg(z) \\in \\left[0, \\frac{\\pi}{3}\\right] \\).\n- This is a sector of a circle (radius 2) bounded by angles 0 and \\( \\frac{\\pi}{3} \\)."
+      },
+      {
+        "type": "images",
+        "src": "/images/argand_regions.png",
+        "alt": "Argand diagram with shaded regions",
+        "caption": "Modulus defines distance, and argument defines angle, creating geometric regions in the complex plane."
+      },
+      {
+        "type": "text",
+        "value": "Inequalities involving modulus and argument describe disks, sectors, rays, and half-planes. Visualising them supports geometric understanding of complex number conditions."
+      }
+    ]
+  },
+   "26": {
+    "title": "Topic Test - Geometric Representation of a Complex Number",
+    "lessonID": "26",
+    "content": [
+      {
+        "type": "text",
+        "value": "This topic test covers the Argand diagram, modulus-argument form, and interpreting geometric loci of complex numbers. Be able to convert forms, plot points, and describe or sketch sets on the complex plane."
+      },
+      {
+        "type": "text",
+        "value": "**Key Concepts to Review:**\n- Argand diagram representation: \\( z = a + bi \\Rightarrow (a, b) \\)\n- Modulus: \\( |z| = \\sqrt{a^2 + b^2} \\)\n- Argument: \\( \\arg(z) = \\tan^{-1}\\left(\\frac{b}{a}\\right) \\), quadrant adjustments\n- Mod-arg form: \\( z = r(\\cos\\theta + i\\sin\\theta) \\)\n- Equations and inequalities defining curves and regions in the Argand diagram"
+      },
+      {
+        "type": "images",
+        "src": "/images/argand_topic_test.png",
+        "alt": "Multiple complex regions on Argand diagram",
+        "caption": "Complex numbers can describe circular, radial, and angular regions in the complex plane."
+      },
+      {
+        "type": "text",
+        "value": "**Practice Questions:**"
+      },
+      {
+        "type": "text",
+        "value": "**1.** Plot the complex number \\( z = -2 + 2i \\), and state its modulus and argument."
+      },
+      {
+        "type": "text",
+        "value": "**2.** Express \\( z = -1 - i \\) in modulus-argument form."
+      },
+      {
+        "type": "text",
+        "value": "**3.** Describe the region \\( |z - (2 - i)| \\leq 4 \\)."
+      },
+      {
+        "type": "text",
+        "value": "✅ Be clear in your reasoning and always sketch geometric sets with labels, angles, and radii where applicable."
+      }
+    ]
+  },
+    "27": {
+    "title": "Vectors and the complex plane",
+    "lessonID": "27",
+    "content": [
+      {
+        "type": "text",
+        "value": "Complex numbers can be interpreted as vectors from the origin to a point \\( (a, b) \\) in the Argand diagram. This allows us to apply vector operations such as addition, subtraction, and scalar multiplication."
+      },
+      {
+        "type": "text",
+        "value": "**Complex Addition and Subtraction as Vectors:**\n- \\( z_1 + z_2 \\): vector addition\n- \\( z_1 - z_2 \\): vector from \\( z_2 \\) to \\( z_1 \\)"
+      },
+      {
+        "type": "text",
+        "value": "**Multiplication by a Real Scalar:**\n- Scales the length of the vector, preserving its direction.\n- \\( kz = k(a + bi) \\): scales both components."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Let \\( z_1 = 1 + 2i \\), \\( z_2 = 3 - i \\).\n- \\( z_1 + z_2 = (1 + 3) + (2 - 1)i = 4 + i \\)\n- This is the diagonal of the parallelogram formed by \\( z_1 \\) and \\( z_2 \\)."
+      },
+      {
+        "type": "images",
+        "src": "/images/complex_vector_addition.png",
+        "alt": "Vector addition of complex numbers",
+        "caption": "Complex addition corresponds to vector addition (tip-to-tail method)."
+      },
+      {
+        "type": "text",
+        "value": "This vector perspective is foundational for transformations, rotations, and representing multiplication as geometric actions in the complex plane."
+      }
+    ]
+  },
+    "28": {
+    "title": "De Moivre's theorem and powers",
+    "lessonID": "28",
+    "content": [
+      {
+        "type": "text",
+        "value": "De Moivre’s Theorem provides a powerful method for calculating powers of complex numbers expressed in modulus-argument form."
+      },
+      {
+        "type": "text",
+        "value": "**De Moivre’s Theorem:**\nIf \\( z = r(\\cos\\theta + i\\sin\\theta) \\), then:\n\\[ z^n = r^n(\\cos(n\\theta) + i\\sin(n\\theta)) \\quad \\text{for } n \\in \\mathbb{Z} \\]"
+      },
+      {
+        "type": "text",
+        "value": "**This applies to:**\n- Finding powers of complex numbers\n- Deriving trigonometric identities\n- Solving equations like \\( z^n = 1 \\) (roots of unity)"
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Find \\( (1 + i)^4 \\) using De Moivre's Theorem.\nConvert to polar form:\n\\( r = \\sqrt{2}, \\theta = \\frac{\\pi}{4} \\)\n\\[ (1 + i)^4 = (\\sqrt{2})^4 \\cdot (\\cos(4 \\cdot \\frac{\\pi}{4}) + i\\sin(4 \\cdot \\frac{\\pi}{4})) = 4(\\cos\\pi + i\\sin\\pi) = 4(-1 + 0i) = -4 \\]"
+      },
+      {
+        "type": "images",
+        "src": "/images/de_moivre_circle.png",
+        "alt": "Points on unit circle showing powers",
+        "caption": "De Moivre's theorem rotates and scales complex numbers around the origin."
+      },
+      {
+        "type": "text",
+        "value": "De Moivre’s Theorem also enables derivation of multiple angle formulas such as \\( \\cos(n\\theta) \\) and \\( \\sin(n\\theta) \\) in terms of \\( \\cos\\theta \\) and \\( \\sin\\theta \\)."
+      }
+    ]
+  },
+    "29": {
+    "title": "Trigonometric identities",
+    "lessonID": "29",
+    "content": [
+      {
+        "type": "text",
+        "value": "Using De Moivre’s Theorem, we can derive trigonometric identities by expanding \\( (\\cos\\theta + i\\sin\\theta)^n \\) and equating real and imaginary parts."
+      },
+      {
+        "type": "text",
+        "value": "**Basic Identities Derived from Powers:**\n\\[ \\cos(2\\theta) = \\cos^2\\theta - \\sin^2\\theta \\]\n\\[ \\sin(2\\theta) = 2\\sin\\theta\\cos\\theta \\]"
+      },
+      {
+        "type": "text",
+        "value": "**Using De Moivre to Derive Identities:**\nExpand \\( (\\cos\\theta + i\\sin\\theta)^3 \\):\n\\[ = \\cos^3\\theta + 3i\\cos^2\\theta\\sin\\theta - 3\\cos\\theta\\sin^2\\theta - i\\sin^3\\theta \\]\n\\[ = (\\cos^3\\theta - 3\\cos\\theta\\sin^2\\theta) + i(3\\cos^2\\theta\\sin\\theta - \\sin^3\\theta) \\]\nTherefore:\n\\[ \\cos(3\\theta) = \\cos^3\\theta - 3\\cos\\theta\\sin^2\\theta \\]\n\\[ \\sin(3\\theta) = 3\\cos^2\\theta\\sin\\theta - \\sin^3\\theta \\]"
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Use De Moivre’s Theorem to find \\( \\cos(4\\theta) \\) in terms of \\( \\cos\\theta \\).\nStart with \\( (\\cos\\theta + i\\sin\\theta)^4 \\), expand using binomial theorem, and extract real part."
+      },
+      {
+        "type": "images",
+        "src": "/images/trig_identity_circle.png",
+        "alt": "Unit circle with trigonometric rotation",
+        "caption": "Trigonometric identities can be visualised as rotations on the unit circle."
+      },
+      {
+        "type": "text",
+        "value": "De Moivre’s Theorem bridges complex numbers and trigonometry, providing elegant proofs of identities and formulas for multiple angles."
+      }
+    ]
+  },
+    "30": {
+    "title": "Roots of complex numbers",
+    "lessonID": "30",
+    "content": [
+      {
+        "type": "text",
+        "value": "To find the \\( n \\)th roots of a complex number, we use the modulus-argument form and apply De Moivre’s Theorem in reverse."
+      },
+      {
+        "type": "text",
+        "value": "**General Formula for Roots:**\nLet \\( z = r(\\cos\\theta + i\\sin\\theta) \\). Then the \\( n \\) distinct \\( n \\)th roots of \\( z \\) are:\n\\[ z_k = r^{1/n}\\left(\\cos\\left(\\frac{\\theta + 2k\\pi}{n}\\right) + i\\sin\\left(\\frac{\\theta + 2k\\pi}{n}\\right)\\right), \\quad k = 0, 1, 2, ..., n-1 \\]"
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Find the cube roots of \\( 8(\\cos120^\\circ + i\\sin120^\\circ) \\).\n\\( r = 8, \\theta = 120^\\circ \\Rightarrow r^{1/3} = 2 \\)\nThe roots are:\n\\[ z_k = 2\\left(\\cos\\left(\\frac{120^\\circ + 360^\\circ k}{3}\\right) + i\\sin\\left(\\frac{120^\\circ + 360^\\circ k}{3}\\right)\\right) \\text{ for } k = 0, 1, 2 \\]"
+      },
+      {
+        "type": "text",
+        "value": "**Graphical Representation:**\nThe \\( n \\)th roots of a complex number form the vertices of a regular \\( n \\)-gon on the Argand diagram, evenly spaced around a circle."
+      },
+      {
+        "type": "images",
+        "src": "/images/roots_of_unity.png",
+        "alt": "Cube roots of complex number forming triangle",
+        "caption": "The three cube roots of a complex number form an equilateral triangle on the Argand diagram."
+      },
+      {
+        "type": "text",
+        "value": "Understanding roots of complex numbers is essential for solving polynomial equations and visualising symmetry in the complex plane."
+      }
+    ]
+  },
+    "31": {
+    "title": "Exponential form: Euler's formula",
+    "lessonID": "31",
+    "content": [
+      {
+        "type": "text",
+        "value": "Euler's formula relates complex exponentials to trigonometric functions, providing a compact and powerful way to represent complex numbers."
+      },
+      {
+        "type": "text",
+        "value": "**Euler’s Formula:**\n\\[ e^{i\\theta} = \\cos\\theta + i\\sin\\theta \\]\nThus, any complex number \\( z = r(\\cos\\theta + i\\sin\\theta) \\) can be written as:\n\\[ z = re^{i\\theta} \\]"
+      },
+      {
+        "type": "text",
+        "value": "**Using Exponential Form:**\n- Multiplication:\n\\[ z_1 z_2 = r_1 r_2 e^{i(\\theta_1 + \\theta_2)} \\]\n- Division:\n\\[ \\frac{z_1}{z_2} = \\frac{r_1}{r_2} e^{i(\\theta_1 - \\theta_2)} \\]\n- Powers:\n\\[ z^n = r^n e^{in\\theta} \\]\n- Roots:\n\\[ \\sqrt[n]{z} = r^{1/n} e^{i(\\frac{\\theta + 2k\\pi}{n})} \\text{ for } k = 0, ..., n - 1 \\]"
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Express \\( z = 2(\\cos\\frac{\\pi}{3} + i\\sin\\frac{\\pi}{3}) \\) in exponential form:\n\\[ z = 2e^{i\\pi/3} \\]"
+      },
+      {
+        "type": "images",
+        "src": "/images/eulers_formula_circle.png",
+        "alt": "Euler's formula on unit circle",
+        "caption": "Euler's formula connects circular motion to exponential growth in the complex plane."
+      },
+      {
+        "type": "text",
+        "value": "Euler’s form is essential for simplifying multiplication, powers, and roots of complex numbers. It also appears in many areas of physics, engineering, and signal processing."
+      }
+    ]
+  },
+    "32": {
+    "title": "Applications of exponential form",
+    "lessonID": "32",
+    "content": [
+      {
+        "type": "text",
+        "value": "The exponential form \\( z = re^{i\\theta} \\) simplifies operations like multiplication, division, powers, and roots of complex numbers. It also has applications in transformations and solving equations."
+      },
+      {
+        "type": "text",
+        "value": "**1. Multiplication and Division:**\nMultiplying complex numbers:\n\\[ z_1 z_2 = r_1 r_2 e^{i(\\theta_1 + \\theta_2)} \\]\nDividing:\n\\[ \\frac{z_1}{z_2} = \\frac{r_1}{r_2} e^{i(\\theta_1 - \\theta_2)} \\]"
+      },
+      {
+        "type": "text",
+        "value": "**2. Powers and Roots:**\nEasily compute powers:\n\\[ z^n = r^n e^{in\\theta} \\]\nAnd roots:\n\\[ z_k = r^{1/n} e^{i(\\frac{\\theta + 2k\\pi}{n})}, \\quad k = 0, ..., n-1 \\]"
+      },
+      {
+        "type": "text",
+        "value": "**3. Rotations and Scaling:**\nMultiplying by \\( e^{i\\phi} \\) rotates a complex number by angle \\( \\phi \\) about the origin.\n\\[ z \\to ze^{i\\phi} \\] rotates \\( z \\) by \\( \\phi \\) radians."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Rotate \\( z = 3e^{i\\frac{\\pi}{6}} \\) by \\( \\frac{\\pi}{4} \\):\n\\[ z' = 3e^{i(\\frac{\\pi}{6} + \\frac{\\pi}{4})} = 3e^{i\\frac{5\\pi}{12}} \\]"
+      },
+      {
+        "type": "images",
+        "src": "/images/complex_rotation.png",
+        "alt": "Rotation of a complex number",
+        "caption": "Multiplying by \\( e^{i\\phi} \\) rotates vectors counterclockwise by angle \\( \\phi \\)."
+      },
+      {
+        "type": "text",
+        "value": "The exponential form is widely used in modelling waves, alternating current, and signal analysis due to its elegant handling of phase and magnitude."
+      }
+    ]
+  },
+    "33": {
+    "title": "Topic Test - Other Representations of Complex Numbers",
+    "lessonID": "33",
+    "content": [
+      {
+        "type": "text",
+        "value": "This topic test covers modulus-argument form, exponential form, and applications such as powers, roots, rotations, and transformations in the complex plane."
+      },
+      {
+        "type": "text",
+        "value": "**Key Concepts to Review:**\n- Mod-arg form: \\( z = r(\\cos\\theta + i\\sin\\theta) \\)\n- Euler’s form: \\( z = re^{i\\theta} \\)\n- De Moivre’s theorem: \\( z^n = r^n e^{in\\theta} \\)\n- Finding \\( n \\)th roots using exponential form\n- Rotations: \\( z \\to ze^{i\\phi} \\)\n- Plotting roots on the unit circle"
+      },
+      {
+        "type": "images",
+        "src": "/images/topic_test_complex_exponential.png",
+        "alt": "Complex roots and exponential form",
+        "caption": "Roots of unity and transformations using exponential form."
+      },
+      {
+        "type": "text",
+        "value": "**Practice Questions:**"
+      },
+      {
+        "type": "text",
+        "value": "**1.** Express \\( z = -2 + 2i \\) in modulus-argument and exponential form."
+      },
+      {
+        "type": "text",
+        "value": "**2.** Find all 4th roots of \\( 16e^{i\\pi} \\)."
+      },
+      {
+        "type": "text",
+        "value": "**3.** Rotate \\( z = 3e^{i\\pi/6} \\) by \\( \\pi/2 \\) radians and express the result in rectangular form."
+      },
+      {
+        "type": "text",
+        "value": "✅ Mastering these forms will allow you to manipulate complex numbers with ease in geometric, algebraic, and modelling contexts."
+      }
+    ]
+  },
+    "34": {
+    "title": "Polynomials and complex numbers",
+    "lessonID": "34",
+    "content": [
+      {
+        "type": "text",
+        "value": "Complex numbers are essential in solving polynomial equations. The Fundamental Theorem of Algebra states that every polynomial equation of degree \\( n \\) has \\( n \\) roots (counting multiplicities), which may be complex."
+      },
+      {
+        "type": "text",
+        "value": "**Key Ideas:**\n- Polynomials with real coefficients have complex roots that occur in conjugate pairs.\n- Factorising polynomials over \\( \\mathbb{C} \\) involves identifying complex roots and using them to construct factors."
+      },
+      {
+        "type": "text",
+        "value": "**Using the Conjugate Root Theorem:**\nIf \\( a + bi \\) is a root of a real-coefficient polynomial, then \\( a - bi \\) is also a root.\n\\[ \\Rightarrow (x - (a + bi))(x - (a - bi)) = x^2 - 2ax + a^2 + b^2 \\]"
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Find a cubic polynomial with real coefficients given that one root is \\( 1 + i \\) and another is \\( 2 \\).\nSince \\( 1 + i \\) is a root, so is \\( 1 - i \\).\n\\[ f(x) = (x - 2)(x - (1 + i))(x - (1 - i)) \\]\n\\[ = (x - 2)(x^2 - 2x + 2) \\Rightarrow f(x) = x^3 - 4x^2 + 6x - 4 \\]"
+      },
+      {
+        "type": "images",
+        "src": "/images/complex_roots_polynomial.png",
+        "alt": "Complex roots and their conjugates",
+        "caption": "Complex roots of polynomials with real coefficients lie symmetrically about the real axis."
+      },
+      {
+        "type": "text",
+        "value": "Factoring polynomials using known complex roots allows full decomposition over the complex field, which is critical for solving equations and graph analysis."
+      }
+    ]
+  },
+    "35": {
+    "title": "Topic Test - Solving Equations with Complex Numbers",
+    "lessonID": "35",
+    "content": [
+      {
+        "type": "text",
+        "value": "This topic test assesses your ability to work with polynomial equations involving complex roots, use conjugate pairs, and construct polynomials from complex solutions."
+      },
+      {
+        "type": "text",
+        "value": "**Key Concepts to Review:**\n- Solving quadratics with complex roots\n- Fundamental Theorem of Algebra\n- Complex conjugate root theorem\n- Factorisation using complex roots\n- Constructing polynomials with given complex solutions"
+      },
+      {
+        "type": "images",
+        "src": "/images/topic_test_complex_polynomials.png",
+        "alt": "Polynomials and complex roots plotted",
+        "caption": "Real polynomials may have both real and complex roots."
+      },
+      {
+        "type": "text",
+        "value": "**Practice Questions:**"
+      },
+      {
+        "type": "text",
+        "value": "**1.** Solve \\( x^2 - 6x + 13 = 0 \\), and plot the roots on an Argand diagram."
+      },
+      {
+        "type": "text",
+        "value": "**2.** Find a cubic polynomial with real coefficients that has roots \\( 2i, -2i, 3 \\)."
+      },
+      {
+        "type": "text",
+        "value": "**3.** A polynomial has roots \\( 1 + \\sqrt{3}i \\) and \\( 2 \\). Write the polynomial in simplest expanded form."
+      },
+      {
+        "type": "text",
+        "value": "✅ Always state whether roots are real or complex, and confirm conjugate pairs where applicable."
+      }
+    ]
+  },
+   "36": {
+    "title": "Curves and regions in the Argand diagram",
+    "lessonID": "36",
+    "content": [
+      {
+        "type": "text",
+        "value": "In the complex plane, sets of numbers defined by conditions on their modulus and argument form curves and regions. Understanding how to describe and sketch these helps interpret inequalities and equations involving complex numbers geometrically."
+      },
+      {
+        "type": "text",
+        "value": "**1. Circles:**\n\\( |z - a| = r \\): A circle with centre at complex number \\( a \\) and radius \\( r \\)."
+      },
+      {
+        "type": "text",
+        "value": "**2. Disks (interior or exterior of a circle):**\n- \\( |z - a| < r \\): inside the circle\n- \\( |z - a| > r \\): outside the circle"
+      },
+      {
+        "type": "text",
+        "value": "**3. Rays and Half-Planes:**\n\\( \\arg(z - a) = \\theta \\): ray from point \\( a \\) at angle \\( \\theta \\)\n\\( \\arg(z - a) > \\theta \\): region above the ray"
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Describe the region defined by \\( |z - (1 + i)| \\leq 3 \\) and \\( \\arg(z - (1 + i)) \\in \\left[\\frac{\\pi}{4}, \\frac{\\pi}{2}\\right] \\).\n- This is a sector (wedge) of a circle centred at \\( 1 + i \\), radius 3, bounded by arguments from \\( 45^\\circ \\) to \\( 90^\\circ \\)."
+      },
+      {
+        "type": "images",
+        "src": "/images/argand_sector_example.png",
+        "alt": "Shaded region in Argand diagram",
+        "caption": "The region is bounded by radial lines and a circular arc."
+      },
+      {
+        "type": "text",
+        "value": "Describing sets in the Argand diagram involves translating modulus and argument conditions into familiar geometric objects: circles, sectors, rays, and half-planes."
+      }
+    ]
+  },
+    "37": {
+    "title": "Applications of exponential form",
+    "lessonID": "37",
+    "content": [
+      {
+        "type": "text",
+        "value": "Exponential form \\( z = re^{i\\theta} \\) is useful for solving equations, simplifying products and quotients, and modelling rotations and periodic motion."
+      },
+      {
+        "type": "text",
+        "value": "**1. Solving Complex Equations:**\nEquations like \\( z^n = w \\) are easiest solved by expressing \\( w \\) in exponential form:\n\\[ z = r^{1/n} e^{i(\\theta + 2k\\pi)/n}, \\quad k = 0, ..., n-1 \\]"
+      },
+      {
+        "type": "text",
+        "value": "**2. Modelling Rotation:**\nMultiplying a complex number by \\( e^{i\\phi} \\) rotates it counterclockwise by angle \\( \\phi \\)."
+      },
+      {
+        "type": "text",
+        "value": "**3. Roots of Unity:**\nThe \\( n \\)th roots of 1 are:\n\\[ z_k = e^{2k\\pi i/n}, \\quad k = 0, 1, ..., n - 1 \\]\nThese lie evenly on the unit circle and form regular polygons."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Find all cube roots of \\( 1 \\).\n\\[ z_k = e^{2k\\pi i/3} \\Rightarrow z_0 = 1, \\ z_1 = e^{2\\pi i/3}, \\ z_2 = e^{4\\pi i/3} \\]"
+      },
+      {
+        "type": "images",
+        "src": "/images/roots_of_unity_polygon.png",
+        "alt": "Cube roots of unity on the unit circle",
+        "caption": "Roots of unity form the vertices of a regular polygon on the unit circle."
+      },
+      {
+        "type": "text",
+        "value": "The exponential form is powerful for understanding rotations, oscillations, and symmetry in the complex plane."
+      }
+    ]
+  },
+    "38": {
+    "title": "Topic Test - Geometrical Implications of Complex Numbers",
+    "lessonID": "38",
+    "content": [
+      {
+        "type": "text",
+        "value": "This topic test assesses your understanding of geometric representations of complex numbers, including Argand diagrams, modulus and argument, exponential form, rotations, and loci such as circles and sectors."
+      },
+      {
+        "type": "text",
+        "value": "**Key Concepts to Review:**\n- Argand diagram: plotting \\( z = a + bi \\)\n- Modulus and argument\n- Regions defined by \\( |z - a| \\) and \\( \\arg(z - a) \\)\n- Exponential form: \\( z = re^{i\\theta} \\)\n- Complex roots of unity: \\( z^n = 1 \\)\n- Geometric transformations using \\( e^{i\\phi} \\)"
+      },
+      {
+        "type": "images",
+        "src": "/images/argand_geometry_summary.png",
+        "alt": "Summary of geometric loci in complex plane",
+        "caption": "Use modulus and argument to define sectors, rays, and circular regions in the complex plane."
+      },
+      {
+        "type": "text",
+        "value": "**Practice Questions:**"
+      },
+      {
+        "type": "text",
+        "value": "**1.** Sketch the region \\( |z - (1 - i)| \\leq 3 \\) and describe it geometrically."
+      },
+      {
+        "type": "text",
+        "value": "**2.** Find all cube roots of \\( 8e^{i\\pi} \\) and sketch them on an Argand diagram."
+      },
+      {
+        "type": "text",
+        "value": "**3.** Show that multiplication by \\( e^{i\\theta} \\) rotates a complex number through angle \\( \\theta \\)."
+      },
+      {
+        "type": "text",
+        "value": "**4.** A point \\( z \\) satisfies \\( \\arg(z - 1) = \\frac{\\pi}{4} \\). Sketch this locus and state what it represents."
+      },
+      {
+        "type": "text",
+        "value": "✅ Show your reasoning clearly, and support your answers with accurate sketches and annotations on the Argand diagram."
+      }
+    ]
+  },
+    "39": {
+    "title": "The standard integrals",
+    "lessonID": "39",
+    "content": [
+      {
+        "type": "text",
+        "value": "This lesson introduces a list of standard integrals that form the foundation for solving a wide variety of problems in calculus. These include algebraic, exponential, logarithmic, and trigonometric integrals."
+      },
+      {
+        "type": "text",
+        "value": "**Standard Integral Forms:**"
+      },
+      {
+        "type": "table",
+        "value": {
+          "headers": ["Function", "Integral"],
+          "rows": [
+            ["\\( x^n \\)", "\\( \\frac{x^{n+1}}{n+1} + C \\) \\quad (n \\neq -1)"],
+            ["\\( \\frac{1}{x} \\)", "\\( \\ln|x| + C \\)"],
+            ["\\( e^x \\)", "\\( e^x + C \\)"],
+            ["\\( a^x \\)", "\\( \\frac{a^x}{\\ln a} + C \\)"],
+            ["\\( \\sin x \\)", "\\( -\\cos x + C \\)"],
+            ["\\( \\cos x \\)", "\\( \\sin x + C \\)"],
+            ["\\( \\sec^2 x \\)", "\\( \\tan x + C \\)"],
+            ["\\( \\csc^2 x \\)", "\\( -\\cot x + C \\)"],
+            ["\\( \\sec x \\tan x \\)", "\\( \\sec x + C \\)"],
+            ["\\( \\csc x \\cot x \\)", "\\( -\\csc x + C \\)"]
+          ]
+        }
+      },
+      {
+        "type": "text",
+        "value": "These forms must be memorised, as they are the basis for solving more complex integrals using substitution, parts, or reduction techniques."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** Evaluate \\( \\int (2x^3 - \\sec^2 x + e^x)\\, dx \\)\nSplit the integral:\n\\[ \\frac{2x^4}{4} - \\tan x + e^x + C = \\frac{x^4}{2} - \\tan x + e^x + C \\]"
+      },
+      {
+        "type": "images",
+        "src": "/images/integral_rules_chart.png",
+        "alt": "Summary of standard integral forms",
+        "caption": "A visual reference of key antiderivatives used in calculus."
+      },
+      {
+        "type": "text",
+        "value": "Standard integrals allow rapid evaluation of many indefinite integrals, especially when combined with algebraic manipulation."
+      }
+    ]
+  },
+    "40": {
+    "title": "Algebraic manipulation",
+    "lessonID": "40",
+    "content": [
+      {
+        "type": "text",
+        "value": "Before applying standard integrals, it is often necessary to manipulate algebraic expressions into a suitable form. This includes expanding, factorising, simplifying, and dividing polynomials."
+      },
+      {
+        "type": "text",
+        "value": "**Common Techniques:**\n- Expand brackets\n- Divide terms\n- Simplify complex fractions\n- Use identities (e.g. \\( \\sin^2 x + \\cos^2 x = 1 \\))"
+      },
+      {
+        "type": "example",
+        "value": "**Example 1:** Evaluate \\( \\int \\frac{x^2 + 2x}{x} \\, dx \\)\nSimplify first:\n\\[ \\int (x + 2) \\, dx = \\frac{x^2}{2} + 2x + C \\]"
+      },
+      {
+        "type": "example",
+        "value": "**Example 2:** Evaluate \\( \\int (x^2 - 1)^2 \\, dx \\)\nExpand:\n\\[ \\int (x^4 - 2x^2 + 1) \\, dx = \\frac{x^5}{5} - \\frac{2x^3}{3} + x + C \\]"
+      },
+      {
+        "type": "images",
+        "src": "/images/integral_simplify_before.png",
+        "alt": "Algebraic simplification of integrand",
+        "caption": "Always simplify the integrand before attempting to integrate."
+      },
+      {
+        "type": "text",
+        "value": "Manipulation is essential in cases where the integrand doesn't initially match a standard form. The goal is to rewrite it using basic functions and powers."
+      }
+    ]
+  },
+    "41": {
+    "title": "Substitution",
+    "lessonID": "41",
+    "content": [
+      {
+        "type": "text",
+        "value": "Substitution is a method used to simplify an integral by changing the variable to reduce the expression to a standard form."
+      },
+      {
+        "type": "text",
+        "value": "**The Method:**\nLet \\( u = g(x) \\), then:\n\\[ \\int f(g(x))g'(x) \\, dx = \\int f(u) \\, du \\]"
+      },
+      {
+        "type": "text",
+        "value": "**Steps:**\n1. Identify inner function \\( u = g(x) \\)\n2. Compute \\( \\frac{du}{dx} \\), then substitute\n3. Change limits (for definite integrals)\n4. Integrate with respect to \\( u \\)\n5. Substitute back in terms of \\( x \\)"
+      },
+      {
+        "type": "example",
+        "value": "**Example 1:** \\( \\int x\\cos(x^2)\\, dx \\)\nLet \\( u = x^2 \\Rightarrow du = 2x\\, dx \\Rightarrow \\frac{1}{2}du = x\\, dx \\)\n\\[ = \\frac{1}{2}\\int \\cos(u)\\, du = \\frac{1}{2}\\sin(u) + C = \\frac{1}{2}\\sin(x^2) + C \\]"
+      },
+      {
+        "type": "example",
+        "value": "**Example 2:** \\( \\int \\frac{1}{x\\ln x} \\, dx \\)\nLet \\( u = \\ln x \\Rightarrow \\frac{du}{dx} = \\frac{1}{x} \\Rightarrow du = \\frac{1}{x}\\, dx \\)\n\\[ \\Rightarrow \\int \\frac{1}{u} \\, du = \\ln|u| + C = \\ln|\\ln x| + C \\]"
+      },
+      {
+        "type": "images",
+        "src": "/images/integration_by_substitution.png",
+        "alt": "Steps of substitution method",
+        "caption": "Substitution simplifies the integral into a standard form."
+      },
+      {
+        "type": "text",
+        "value": "Substitution is one of the most powerful techniques for integrating complex expressions, especially those involving chains of functions."
+      }
+    ]
+  },
+    "42": {
+    "title": "Partial fractions",
+    "lessonID": "42",
+    "content": [
+      {
+        "type": "text",
+        "value": "Partial fraction decomposition is used to express a rational function as a sum of simpler fractions, each of which can be integrated using standard techniques."
+      },
+      {
+        "type": "text",
+        "value": "**When to Use:**\nWhen integrating rational functions \\( \\frac{P(x)}{Q(x)} \\) where \\( \\deg(P) < \\deg(Q) \\), and \\( Q(x) \\) factors into linear and/or quadratic expressions."
+      },
+      {
+        "type": "text",
+        "value": "**Types of Decompositions:**\n- \\( \\frac{A}{x - a} \\) for linear factors\n- \\( \\frac{Ax + B}{x^2 + bx + c} \\) for irreducible quadratics\n- Repeated factors use higher powers"
+      },
+      {
+        "type": "example",
+        "value": "**Example 1:** \\( \\int \\frac{2x + 3}{x^2 - x - 2} \\, dx \\)\nFactor the denominator:\n\\( x^2 - x - 2 = (x - 2)(x + 1) \\)\nDecompose:\n\\( \\frac{2x + 3}{(x - 2)(x + 1)} = \\frac{A}{x - 2} + \\frac{B}{x + 1} \\)\nSolve for A and B:\n\\( A = 1, B = 1 \\Rightarrow \\int \\left(\\frac{1}{x - 2} + \\frac{1}{x + 1}\\right) dx = \\ln|x - 2| + \\ln|x + 1| + C \\)"
+      },
+      {
+        "type": "images",
+        "src": "/images/partial_fractions_method.png",
+        "alt": "Steps for partial fractions decomposition",
+        "caption": "Break complex fractions into simpler ones for easier integration."
+      },
+      {
+        "type": "text",
+        "value": "Partial fractions are especially useful when dealing with rational expressions that appear after algebraic manipulation or in applied problems like rates of change."
+      }
+    ]
+  },
+    "43": {
+    "title": "Denominators with quadratics",
+    "lessonID": "43",
+    "content": [
+      {
+        "type": "text",
+        "value": "When the denominator of a rational function is an irreducible quadratic (i.e. does not factor over the reals), the partial fraction decomposition uses a linear numerator."
+      },
+      {
+        "type": "text",
+        "value": "**Form:**\n\\[ \\frac{Ax + B}{x^2 + px + q} \\]\nThe resulting integral is usually split into two parts:\n- One involving \\( \\int \\frac{x}{x^2 + a^2} dx \\)\n- One involving \\( \\int \\frac{1}{x^2 + a^2} dx \\)"
+      },
+      {
+        "type": "example",
+        "value": "**Example:** \\( \\int \\frac{3x + 1}{x^2 + 4} \\, dx \\)\nSplit into:\n\\[ \\int \\frac{3x}{x^2 + 4} dx + \\int \\frac{1}{x^2 + 4} dx \\]\nLet \\( u = x^2 + 4 \\Rightarrow du = 2x dx \\):\n\\[ \\int \\frac{3x}{x^2 + 4} dx = \\frac{3}{2} \\ln(x^2 + 4) \\]\n\\[ \\int \\frac{1}{x^2 + 4} dx = \\frac{1}{2} \\tan^{-1}\\left(\\frac{x}{2}\\right) \\]\n\\[ \\Rightarrow \\frac{3}{2} \\ln(x^2 + 4) + \\frac{1}{2} \\tan^{-1}\\left(\\frac{x}{2}\\right) + C \\]"
+      },
+      {
+        "type": "text",
+        "value": "**Key Formula:**\n\\[ \\int \\frac{1}{x^2 + a^2} dx = \\frac{1}{a} \\tan^{-1}\\left(\\frac{x}{a}\\right) + C \\]"
+      },
+      {
+        "type": "images",
+        "src": "/images/integral_quadratic_denominator.png",
+        "alt": "Graph of arctangent from integral",
+        "caption": "Integration involving irreducible quadratics often results in inverse trigonometric functions."
+      },
+      {
+        "type": "text",
+        "value": "This technique is crucial when handling integrals involving quadratics that do not factor, especially in problems involving motion or area."
+      }
+    ]
+  },
+    "44": {
+    "title": "Integration by parts",
+    "lessonID": "44",
+    "content": [
+      {
+        "type": "text",
+        "value": "**Integration by parts** is based on the product rule for differentiation and is used when the integrand is a product of two functions that cannot be simplified through substitution."
+      },
+      {
+        "type": "text",
+        "value": "**Formula:**\n\\[ \\int u \\frac{dv}{dx} dx = uv - \\int v \\frac{du}{dx} dx \\]\nor more simply written as:\n\\[ \\int u\\, dv = uv - \\int v\\, du \\]"
+      },
+      {
+        "type": "text",
+        "value": "**Choosing \\( u \\) and \\( dv \\):**\nUse the LIATE rule to help choose \\( u \\):\n- **L**ogarithmic\n- **I**nverse trig\n- **A**lgebraic\n- **T**rig\n- **E**xponential"
+      },
+      {
+        "type": "example",
+        "value": "**Example:** \\( \\int x e^x dx \\)\nLet \\( u = x \\Rightarrow du = dx \\)\nLet \\( dv = e^x dx \\Rightarrow v = e^x \\)\nThen:\n\\[ \\int x e^x dx = x e^x - \\int e^x dx = x e^x - e^x + C \\]"
+      },
+      {
+        "type": "example",
+        "value": "**Example:** \\( \\int x \\ln x dx \\)\nLet \\( u = \\ln x \\Rightarrow du = \\frac{1}{x} dx \\)\nLet \\( dv = x dx \\Rightarrow v = \\frac{x^2}{2} \\)\nThen:\n\\[ \\int x \\ln x dx = \\frac{x^2}{2} \\ln x - \\int \\frac{x^2}{2} \\cdot \\frac{1}{x} dx = \\frac{x^2}{2} \\ln x - \\frac{1}{2} \\int x dx = \\frac{x^2}{2} \\ln x - \\frac{x^2}{4} + C \\]"
+      },
+      {
+        "type": "images",
+        "src": "/images/integration_by_parts_steps.png",
+        "alt": "Steps of integration by parts",
+        "caption": "Use integration by parts when the product rule in reverse is more effective than substitution."
+      },
+      {
+        "type": "text",
+        "value": "Integration by parts is especially helpful when one part of the product simplifies upon differentiation, and the other is easily integrable."
+      }
+    ]
+  },
+    "45": {
+    "title": "Trigonometric integrals",
+    "lessonID": "45",
+    "content": [
+      {
+        "type": "text",
+        "value": "Trigonometric integrals involve products or powers of sine, cosine, and other trig functions. Many of these require identities or substitution for simplification."
+      },
+      {
+        "type": "text",
+        "value": "**Common Strategies:**\n1. Use Pythagorean identities:\n\\[ \\sin^2 x = \\frac{1 - \\cos 2x}{2}, \\quad \\cos^2 x = \\frac{1 + \\cos 2x}{2} \\]\n2. For products like \\( \\sin x \\cos x \\), use:\n\\[ \\sin x \\cos x = \\frac{1}{2} \\sin 2x \\]\n3. For powers, reduce using identities or substitution"
+      },
+      {
+        "type": "example",
+        "value": "**Example 1:** \\( \\int \\sin^2 x dx \\)\nUse identity:\n\\[ \\sin^2 x = \\frac{1 - \\cos 2x}{2} \\Rightarrow \\int \\sin^2 x dx = \\int \\frac{1 - \\cos 2x}{2} dx = \\frac{x}{2} - \\frac{\\sin 2x}{4} + C \\]"
+      },
+      {
+        "type": "example",
+        "value": "**Example 2:** \\( \\int \\sin x \\cos x dx \\)\n\\[ = \\int \\frac{1}{2} \\sin 2x dx = -\\frac{1}{4} \\cos 2x + C \\]"
+      },
+      {
+        "type": "images",
+        "src": "/images/trig_integral_identities.png",
+        "alt": "Key trigonometric identities for integration",
+        "caption": "Using identities transforms difficult trigonometric integrals into standard forms."
+      },
+      {
+        "type": "text",
+        "value": "Mastering these identities and techniques is essential for integrating trig expressions, particularly in calculus applications involving waves and oscillations."
+      }
+    ]
+  },
+    "46": {
+    "title": "Reduction formulae",
+    "lessonID": "46",
+    "content": [
+      {
+        "type": "text",
+        "value": "Reduction formulae allow us to evaluate integrals involving powers of functions by relating them to integrals of lower powers. This method is useful for repeated or recursive integration."
+      },
+      {
+        "type": "text",
+        "value": "**Key Idea:**\nA reduction formula expresses an integral of \\( f^n(x) \\) in terms of \\( f^{n-1}(x) \\), \\( f^{n-2}(x) \\), etc.\n\nThese are often used for powers of trigonometric or logarithmic functions."
+      },
+      {
+        "type": "example",
+        "value": "**Example 1:** Derive a reduction formula for \\( \\int \\sin^n x \\, dx \\)\nIntegration by parts gives:\n\\[ \\int \\sin^n x \\, dx = -\\frac{1}{n} \\sin^{n-1}x \\cos x + \\frac{n-1}{n} \\int \\sin^{n-2} x \\, dx \\]"
+      },
+      {
+        "type": "example",
+        "value": "**Example 2:** Use the formula to evaluate \\( \\int \\sin^4 x \\, dx \\)\nApply recursively:\n\\[ \\int \\sin^4 x dx = \\frac{3}{4} \\int \\sin^2 x dx - \\frac{1}{4} \\sin^3 x \\cos x \\]\nThen use \\( \\int \\sin^2 x dx = \\frac{x}{2} - \\frac{\\sin 2x}{4} \\)"
+      },
+      {
+        "type": "text",
+        "value": "**Other useful forms:**\n- \\( \\int x^n e^x dx \\): reduction by parts\n- \\( \\int x^n \\ln x dx \\): use \\( u = \\ln x \\), \\( dv = x^n dx \\)"
+      },
+      {
+        "type": "images",
+        "src": "/images/reduction_formula_example.png",
+        "alt": "Worked reduction formula example",
+        "caption": "Reduction formulas reduce the complexity of high-power integrals step by step."
+      },
+      {
+        "type": "text",
+        "value": "These formulas are helpful in definite integrals or repeated integration steps, especially in exams where recursive steps are expected."
+      }
+    ]
+  },
+    "47": {
+    "title": "Miscellaneous integrals",
+    "lessonID": "47",
+    "content": [
+      {
+        "type": "text",
+        "value": "This lesson covers various integrals that do not fall neatly into one category. These may require multiple techniques or clever algebraic manipulation to evaluate."
+      },
+      {
+        "type": "text",
+        "value": "**Strategies Covered:**\n- Combining substitution and parts\n- Trigonometric identities\n- Rationalising the integrand\n- Completing the square\n- Recognising patterns or derivatives"
+      },
+      {
+        "type": "example",
+        "value": "**Example 1:** \\( \\int \\frac{x^2}{(x^2 + 1)^2} dx \\)\nLet \\( u = x \\), rewrite:\n\\[ \\int \\frac{x^2 + 1 - 1}{(x^2 + 1)^2} dx = \\int \\left( \\frac{1}{x^2 + 1} - \\frac{1}{(x^2 + 1)^2} \\right) dx \\]\n\\[ = \\tan^{-1}x - \\int \\frac{1}{(x^2 + 1)^2} dx \\]"
+      },
+      {
+        "type": "example",
+        "value": "**Example 2:** \\( \\int \\frac{dx}{x^4 + 1} \\)\nUse substitution or recognise that:\n\\[ x^4 + 1 = (x^2 + \\sqrt{2}x + 1)(x^2 - \\sqrt{2}x + 1) \\]\nThen decompose using partial fractions."
+      },
+      {
+        "type": "images",
+        "src": "/images/misc_integral_tricks.png",
+        "alt": "Tricks for unusual integrals",
+        "caption": "For unusual integrals, mix techniques or look for hidden patterns."
+      },
+      {
+        "type": "text",
+        "value": "Being flexible and drawing from a wide range of techniques is the key to solving unfamiliar or complex integrals."
+      }
+    ]
+  },
+    "48": {
+    "title": "Topic Test - Further Integration",
+    "lessonID": "48",
+    "content": [
+      {
+        "type": "text",
+        "value": "This topic test reviews the advanced integration techniques covered in this subtopic. Be ready to recognise when to use substitution, parts, partial fractions, and reduction formulas."
+      },
+      {
+        "type": "text",
+        "value": "**Key Skills to Master:**\n- Applying standard integrals fluently\n- Simplifying expressions algebraically before integration\n- Using substitution and changing limits for definite integrals\n- Decomposing rational functions with partial fractions\n- Integrating irreducible quadratics and using arctangent identities\n- Applying integration by parts, especially for \\( x^n e^x \\), \\( x^n \\ln x \\), etc.\n- Using reduction formulae for trigonometric powers"
+      },
+      {
+        "type": "images",
+        "src": "/images/topic_test_integration_methods.png",
+        "alt": "Summary of integration strategies",
+        "caption": "A good integration strategy begins with identifying the form of the integrand and choosing the best technique."
+      },
+      {
+        "type": "text",
+        "value": "**Practice Questions:**"
+      },
+      {
+        "type": "text",
+        "value": "**1.** Evaluate \\( \\int \\frac{x^2 + 3x + 2}{(x + 1)(x + 2)} dx \\) using partial fractions."
+      },
+      {
+        "type": "text",
+        "value": "**2.** Find \\( \\int x \\ln x \\, dx \\) using integration by parts."
+      },
+      {
+        "type": "text",
+        "value": "**3.** Evaluate \\( \\int \\sin^4 x \\, dx \\) using a reduction formula."
+      },
+      {
+        "type": "text",
+        "value": "**4.** Simplify and evaluate: \\( \\int \\frac{1}{x^2 + 2x + 5} dx \\)"
+      },
+      {
+        "type": "text",
+        "value": "**5.** Evaluate \\( \\int \\frac{x^3}{(x^2 + 1)^2} dx \\) using algebraic manipulation or substitution."
+      },
+      {
+        "type": "text",
+        "value": "✅ Try each problem without a calculator. Review each technique and check your answers by differentiating. Good luck!"
+      }
+    ]
+  },
+    "49": {
+    "title": "Simple harmonic motion and time",
+    "lessonID": "49",
+    "content": [
+      {
+        "type": "text",
+        "value": "**Simple Harmonic Motion (SHM)** occurs when an object experiences an acceleration proportional to its displacement from a fixed point and directed towards that point."
+      },
+      {
+        "type": "text",
+        "value": "**Defining Equation of SHM:**\n\\[ a = -\\omega^2 x \\]\nwhere:\n- \\( a \\) is acceleration,\n- \\( x \\) is displacement from the equilibrium position,\n- \\( \\omega \\) is angular frequency."
+      },
+      {
+        "type": "text",
+        "value": "**General Solution for Displacement:**\n\\[ x(t) = A\\cos(\\omega t) + B\\sin(\\omega t) \\]\nor equivalently:\n\\[ x(t) = R\\cos(\\omega t - \\alpha) \\]\nwhere \\( R \\) and \\( \\alpha \\) are constants depending on initial conditions."
+      },
+      {
+        "type": "text",
+        "value": "**Velocity and Acceleration in SHM:**\n- Velocity: \\( v(t) = x'(t) = -A\\omega\\sin(\\omega t) + B\\omega\\cos(\\omega t) \\)\n- Acceleration: \\( a(t) = x''(t) = -\\omega^2 x(t) \\)"
+      },
+      {
+        "type": "example",
+        "value": "**Example:** An object oscillates with SHM such that \\( x(0) = 3 \\), \\( x'(0) = 0 \\), and \\( \\omega = 2 \\).\nUsing \\( x(t) = A\\cos(2t) \\), since velocity is 0 at \\( t = 0 \\),\n\\[ x(t) = 3\\cos(2t) \\]"
+      },
+      {
+        "type": "images",
+        "src": "/images/shm_displacement_curve.png",
+        "alt": "Displacement curve in SHM",
+        "caption": "Displacement in SHM is a sinusoidal function of time."
+      },
+      {
+        "type": "text",
+        "value": "This model describes ideal oscillations and is foundational in understanding waves, pendulums, springs, and alternating current systems."
+      }
+    ]
+  },
+    "50": {
+    "title": "Simple harmonic motion and displacement",
+    "lessonID": "50",
+    "content": [
+      {
+        "type": "text",
+        "value": "This lesson explores how displacement, velocity, and acceleration vary with time in simple harmonic motion (SHM). The displacement is a periodic function and forms the basis for calculating other dynamic quantities."
+      },
+      {
+        "type": "text",
+        "value": "**Standard SHM Equations:**\nIf an object oscillates with amplitude \\( A \\) and angular frequency \\( \\omega \\), then:\n\\[ x(t) = A\\cos(\\omega t + \\phi) \\]\n\\[ v(t) = -A\\omega\\sin(\\omega t + \\phi) \\]\n\\[ a(t) = -A\\omega^2\\cos(\\omega t + \\phi) = -\\omega^2 x(t) \\]"
+      },
+      {
+        "type": "text",
+        "value": "**Physical Meaning:**\n- Displacement \\( x(t) \\): how far the object is from equilibrium\n- Velocity \\( v(t) \\): rate of change of displacement (zero at maximum displacement)\n- Acceleration \\( a(t) \\): always directed toward the centre, maximum at extremes"
+      },
+      {
+        "type": "text",
+        "value": "**Amplitude and Period:**\n- Amplitude \\( A \\): maximum displacement\n- Period \\( T = \\frac{2\\pi}{\\omega} \\): time for one full cycle"
+      },
+      {
+        "type": "example",
+        "value": "**Example:** A particle moves with \\( x(t) = 4\\cos(3t) \\).\n- Amplitude: \\( 4 \\)\n- Angular frequency: \\( \\omega = 3 \\)\n- Period: \\( \\frac{2\\pi}{3} \\)\n- Maximum speed: \\( v_{\\text{max}} = A\\omega = 12 \\)\n- Maximum acceleration: \\( a_{\\text{max}} = A\\omega^2 = 36 \\)"
+      },
+      {
+        "type": "images",
+        "src": "/images/shm_displacement_velocity.png",
+        "alt": "Graph of SHM displacement and velocity",
+        "caption": "Velocity is 90° out of phase with displacement; acceleration is 180° out of phase."
+      },
+      {
+        "type": "text",
+        "value": "Understanding the interplay between displacement, velocity, and acceleration in SHM is essential for modelling many oscillating systems in physics and engineering."
+      }
+    ]
+  },
+    "51": {
+    "title": "Topic Test - Simple Harmonic Motion",
+    "lessonID": "51",
+    "content": [
+      {
+        "type": "text",
+        "value": "This topic test reviews the concepts and equations of motion used to model simple harmonic motion (SHM), including displacement, velocity, acceleration, amplitude, and period."
+      },
+      {
+        "type": "text",
+        "value": "**Key Concepts to Review:**\n- SHM is defined by \\( a = -\\omega^2 x \\)\n- General displacement equation: \\( x(t) = A\\cos(\\omega t + \\phi) \\)\n- Velocity: \\( v(t) = -A\\omega\\sin(\\omega t + \\phi) \\)\n- Acceleration: \\( a(t) = -A\\omega^2\\cos(\\omega t + \\phi) \\)\n- Amplitude \\( A \\), period \\( T = \\frac{2\\pi}{\\omega} \\), frequency \\( f = \\frac{1}{T} \\)"
+      },
+      {
+        "type": "images",
+        "src": "/images/shm_summary_graph.png",
+        "alt": "Summary of SHM with displacement, velocity, and acceleration graphs",
+        "caption": "All quantities in SHM are sinusoidal and phase-shifted relative to each other."
+      },
+      {
+        "type": "text",
+        "value": "**Practice Questions:**"
+      },
+      {
+        "type": "text",
+        "value": "**1.** A particle moves according to \\( x(t) = 5\\cos(2t) \\). Find:\n- The period\n- The maximum speed\n- The acceleration at \\( t = \\frac{\\pi}{4} \\)"
+      },
+      {
+        "type": "text",
+        "value": "**2.** Given \\( x(t) = A\\sin(\\omega t) \\), derive expressions for velocity and acceleration, and describe their phase relationship with \\( x(t) \\)."
+      },
+      {
+        "type": "text",
+        "value": "**3.** A spring-mass system oscillates with \\( A = 3 \\), \\( \\omega = 4 \\). Write equations for \\( x(t) \\), \\( v(t) \\), and \\( a(t) \\) assuming \\( x(0) = 3 \\), \\( v(0) = 0 \\)."
+      },
+      {
+        "type": "text",
+        "value": "**4.** Sketch the graphs of \\( x(t) \\), \\( v(t) \\), and \\( a(t) \\) for one full cycle and indicate key features like maxima, zeros, and inflection points."
+      },
+      {
+        "type": "text",
+        "value": "✅ Review each formula and understand the physical meaning of each term. Use graphs to visualise how displacement, velocity, and acceleration behave over time."
+      }
+    ]
+  },
+    "52": {
+    "title": "Forces and acceleration",
+    "lessonID": "52",
+    "content": [
+      {
+        "type": "text",
+        "value": "This lesson introduces the modelling of motion using Newton’s Second Law in contexts where there is no resistance (i.e., ignoring air resistance or friction)."
+      },
+      {
+        "type": "text",
+        "value": "**Newton’s Second Law:**\n\\[ F = ma \\]\nWhere:\n- \\( F \\) is the net force acting on the object (in newtons)\n- \\( m \\) is the mass of the object (in kilograms)\n- \\( a \\) is the acceleration (in \\( \\text{ms}^{-2} \\))"
+      },
+      {
+        "type": "text",
+        "value": "**Common Forces in Problems:**\n- **Weight**: \\( W = mg \\), acting vertically downward\n- **Tension** in strings or ropes\n- **Normal reaction** force\n- **Applied forces** along horizontal or inclined paths"
+      },
+      {
+        "type": "text",
+        "value": "**Equations of Motion:**\nUse Newton’s second law component-wise:\n- Horizontal motion: \\( F_x = ma_x \\)\n- Vertical motion: \\( F_y = ma_y \\)\nIn many cases, SHM or constant acceleration formulas apply."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** A 2 kg block is pulled horizontally with a force of 10 N. Find its acceleration.\n\\[ F = ma \\Rightarrow 10 = 2a \\Rightarrow a = 5\\, \\text{ms}^{-2} \\]"
+      },
+      {
+        "type": "example",
+        "value": "**Example (inclined plane):** A 3 kg object slides down a smooth incline of angle \\( \\theta = 30^\\circ \\).\nOnly component of weight acts: \\( F = mg\\sin\\theta = 3 \\cdot 9.8 \\cdot \\sin(30^\\circ) = 14.7 \\)\nThen \\( a = \\frac{14.7}{3} = 4.9 \\text{ms}^{-2} \\)"
+      },
+      {
+        "type": "images",
+        "src": "/images/free_body_no_resistance.png",
+        "alt": "Free body diagram on an inclined plane",
+        "caption": "Only gravity acts in a smooth (frictionless) setup; resolve forces along incline."
+      },
+      {
+        "type": "text",
+        "value": "Modelling without resistance simplifies analysis and forms the basis for understanding motion before adding complications like friction or air drag."
+      }
+    ]
+  },
+    "53": {
+    "title": "Topic Test - Modelling Motion Without Resistance",
+    "lessonID": "53",
+    "content": [
+      {
+        "type": "text",
+        "value": "This topic test reviews the application of Newton's Second Law to motion in the absence of resistance. It includes modelling forces on horizontal paths, inclined planes, and vertical motion using \\( F = ma \\)."
+      },
+      {
+        "type": "text",
+        "value": "**Key Concepts to Review:**\n- Newton’s Second Law: \\( F = ma \\)\n- Weight: \\( W = mg \\)\n- Resolving forces into components (especially on inclined planes)\n- Using free-body diagrams to identify forces\n- Applying equations of motion to find acceleration and net force"
+      },
+      {
+        "type": "images",
+        "src": "/images/topic_test_no_resistance_fbd.png",
+        "alt": "Free-body diagram for inclined motion",
+        "caption": "Free-body diagrams are essential tools when analysing force systems in Mechanics."
+      },
+      {
+        "type": "text",
+        "value": "**Practice Questions:**"
+      },
+      {
+        "type": "text",
+        "value": "**1.** A 5 kg block is pulled horizontally with a force of 20 N. Find its acceleration, assuming no friction."
+      },
+      {
+        "type": "text",
+        "value": "**2.** A 4 kg object is on a frictionless slope inclined at \\( 60^\\circ \\). Find the component of the weight down the slope and calculate the resulting acceleration."
+      },
+      {
+        "type": "text",
+        "value": "**3.** Draw a labelled free-body diagram for a mass sliding vertically down under gravity with tension opposing its motion."
+      },
+      {
+        "type": "text",
+        "value": "**4.** A block of mass \\( m \\) is suspended by a string and pulled sideways to form a \\( 30^\\circ \\) angle with the vertical. Find the tension in the string using equilibrium conditions."
+      },
+      {
+        "type": "text",
+        "value": "✅ Focus on identifying forces clearly and applying Newton’s laws to one-dimensional motion scenarios. Diagrams are as important as calculations!"
+      }
+    ]
+  },
+    "54": {
+    "title": "Horizontal resisted motion",
+    "lessonID": "54",
+    "content": [
+      {
+        "type": "text",
+        "value": "In resisted motion, a resisting force (often proportional to velocity) opposes motion. This models air resistance, friction, or drag in real-world contexts."
+      },
+      {
+        "type": "text",
+        "value": "**Newton’s Second Law (with resistance):**\n\\[ F_{\\text{net}} = ma = -kv \\]\nWhere:\n- \\( m \\): mass\n- \\( v \\): velocity\n- \\( k \\): positive constant of proportionality\n- \\( -kv \\): resistance acting opposite to motion"
+      },
+      {
+        "type": "text",
+        "value": "**Differential Equation for Velocity:**\n\\[ ma = m\\frac{dv}{dt} = -kv \\Rightarrow \\frac{dv}{dt} = -\\frac{k}{m}v \\]"
+      },
+      {
+        "type": "text",
+        "value": "**Solution (separable differential equation):**\n\\[ \\frac{dv}{v} = -\\frac{k}{m}dt \\Rightarrow \\ln|v| = -\\frac{k}{m}t + C \\Rightarrow v = v_0 e^{-\\frac{k}{m}t} \\]"
+      },
+      {
+        "type": "text",
+        "value": "This shows exponential decay of velocity — as \\( t \\to \\infty \\), \\( v \\to 0 \\). The object slows down but never instantly stops."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** A 2 kg object experiences a resistive force \\( -4v \\). If \\( v(0) = 10 \\), find \\( v(t) \\).\n\\[ \\frac{dv}{dt} = -2v \\Rightarrow v = 10e^{-2t} \\]"
+      },
+      {
+        "type": "images",
+        "src": "/images/resisted_motion_horizontal_decay.png",
+        "alt": "Graph of velocity exponentially decaying",
+        "caption": "The resistive force causes velocity to decay exponentially over time."
+      },
+      {
+        "type": "text",
+        "value": "This model is used in physics and engineering to predict object behaviour under drag or viscous forces."
+      }
+    ]
+  },
+    "55": {
+    "title": "Vertical resisted motion",
+    "lessonID": "55",
+    "content": [
+      {
+        "type": "text",
+        "value": "When an object moves vertically through a medium like air or water, it experiences a resistive force that opposes its motion. This force is often proportional to its velocity and acts opposite to the direction of motion."
+      },
+      {
+        "type": "text",
+        "value": "**Forces Acting on a Falling Object:**\n- **Gravity:** \\( mg \\) (downward)\n- **Resistive force:** \\( -kv \\) (upward when falling)\n- Net force: \\( F = mg - kv \\)\nUsing Newton’s second law:\n\\[ m\\frac{dv}{dt} = mg - kv \\]"
+      },
+      {
+        "type": "text",
+        "value": "**Differential Equation:**\n\\[ \\frac{dv}{dt} + \\frac{k}{m}v = g \\]\nThis is a linear first-order differential equation."
+      },
+      {
+        "type": "text",
+        "value": "**General Solution:**\n\\[ v(t) = \\frac{mg}{k} + Ce^{-\\frac{k}{m}t} \\]\nWhere \\( \\frac{mg}{k} \\) is the **terminal velocity** — the maximum speed reached as \\( t \\to \\infty \\)."
+      },
+      {
+        "type": "example",
+        "value": "**Example:** A 5 kg object falls under gravity with a resistive force \\( -10v \\). Find \\( v(t) \\) if it starts from rest.\n\\[ m = 5, \\ k = 10, \\Rightarrow \\frac{k}{m} = 2, \\ \\frac{mg}{k} = 4.9 \\]\n\\[ v(t) = 4.9(1 - e^{-2t}) \\]"
+      },
+      {
+        "type": "text",
+        "value": "**Interpretation:**\n- As \\( t \\to \\infty \\), \\( v(t) \\to 4.9 \\) m/s\n- The object accelerates at first, then approaches terminal velocity as resistance balances gravity"
+      },
+      {
+        "type": "images",
+        "src": "/images/vertical_resisted_velocity.png",
+        "alt": "Graph showing vertical velocity approaching terminal speed",
+        "caption": "Resisted vertical motion approaches a terminal velocity as time increases."
+      },
+      {
+        "type": "text",
+        "value": "This model is widely used in skydiving, raindrop physics, and parachute motion — any vertical system involving drag."
+      }
+    ]
+  },
+    "56": {
+    "title": "Topic Test - Resisted Motion",
+    "lessonID": "56",
+    "content": [
+      {
+        "type": "text",
+        "value": "This topic test assesses your understanding of horizontal and vertical motion with resistance. It covers the formation and solution of first-order differential equations for velocity, and interpretation of exponential behaviour such as terminal velocity."
+      },
+      {
+        "type": "text",
+        "value": "**Key Concepts to Review:**\n- Newton’s Second Law: \\( F = ma \\), modified to include resistance\n- Resistive force: \\( -kv \\), where \\( k > 0 \\)\n- Solving \\( \\frac{dv}{dt} = -\\frac{k}{m}v \\) for horizontal motion\n- Solving \\( \\frac{dv}{dt} + \\frac{k}{m}v = g \\) for vertical motion\n- Understanding exponential decay in velocity\n- Calculating and interpreting terminal velocity"
+      },
+      {
+        "type": "images",
+        "src": "/images/topic_test_resisted_motion_graph.png",
+        "alt": "Graph showing horizontal and vertical resisted motion",
+        "caption": "Velocity decays toward zero in horizontal motion and toward terminal velocity in vertical motion."
+      },
+      {
+        "type": "text",
+        "value": "**Practice Questions:**"
+      },
+      {
+        "type": "text",
+        "value": "**1.** A 4 kg object experiences a resistive force \\( -8v \\). It is projected horizontally with \\( v_0 = 10 \\text{ m/s} \\). Find \\( v(t) \\) and state the velocity as \\( t \\to \\infty \\)."
+      },
+      {
+        "type": "text",
+        "value": "**2.** A body of mass 3 kg falls under gravity with air resistance \\( -6v \\). Find \\( v(t) \\) assuming it is released from rest."
+      },
+      {
+        "type": "text",
+        "value": "**3.** Derive the expression for terminal velocity in vertical resisted motion. What does it depend on?"
+      },
+      {
+        "type": "text",
+        "value": "**4.** A projectile moves upward with resistance proportional to velocity. Write the differential equation for \\( v(t) \\), and explain how the upward and downward phases differ."
+      },
+      {
+        "type": "text",
+        "value": "✅ Be sure you can derive, solve, and interpret velocity functions involving exponential decay. Sketching solutions helps verify your answers!"
+      }
+    ]
+  }}

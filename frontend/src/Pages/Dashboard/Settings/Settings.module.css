@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+}
+
+.settings-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+h1 {
+  color: #b30000;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.settings-card {
+  background-color: #fff;
+  border: 2px solid #b30000;
+  border-radius: 12px;
+  padding: 25px 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 10px rgba(179, 0, 0, 0.15);
+}
+
+.settings-card h2 {
+  color: #b30000;
+  margin-bottom: 20px;
+}
+
+.btn-login {
+  width: 100%;
+  padding: 12px;
+  background-color: #b30000;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn-login:hover {
+  background-color: #c73838;
+}
+
+.error-text {
+  color: #b30000;
+  font-size: 14px;
+  margin-top: -5px;
+  margin-bottom: 10px;
+}
+
+.delete-card {
+  border-color: #800000;
+  background-color: #fff0f0;
+}
+
+.warning-text {
+  color: #800000;
+  margin-bottom: 15px;
+}
+
+.btn-delete {
+  width: 100%;
+  padding: 12px;
+  background-color: #800000;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-delete:hover {
+  background-color: #a00000;
+}
+
+.textInput {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #b30000;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #b30000;
+  background-color: #fff;
+}
+
+.textInput:focus {
+  outline: none;
+  border-color: #ff0000;
+  background-color: #fff5f5;
+}

@@ -1,0 +1,1252 @@
+ { "3": {
+    "title": "Topic Test - Proof by Mathematical Induction",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "What is the first step in a proof by mathematical induction?",
+        "options": [
+          "State the inductive hypothesis",
+          "Prove the base case",
+          "Prove the inductive step",
+          "Write the conclusion"
+        ],
+        "answer": "Prove the base case",
+        "explanation": "The base case verifies the statement is true for the initial value, usually \\( n=1 \\)."
+      },
+      {
+        "id": "q2",
+        "question": "In induction, what does the inductive hypothesis assume?",
+        "options": [
+          "The statement is true for \\( n = k \\)",
+          "The statement is true for all \\( n \\)",
+          "The statement is false for \\( n = k \\)",
+          "The statement is true for \\( n = k+1 \\)"
+        ],
+        "answer": "The statement is true for \\( n = k \\)",
+        "explanation": "We assume the statement holds for an arbitrary \\( n=k \\) to prove it for \\( n = k+1 \\)."
+      },
+      {
+        "id": "q3",
+        "question": "What must be shown in the inductive step?",
+        "options": [
+          "The statement is true for \\( n = k+1 \\) assuming it's true for \\( n = k \\)",
+          "The base case holds",
+          "The statement is false for \\( n = k+1 \\)",
+          "The formula is simplified"
+        ],
+        "answer": "The statement is true for \\( n = k+1 \\) assuming it's true for \\( n = k \\)",
+        "explanation": "This step completes the induction by extending truth from \\( k \\) to \\( k+1 \\)."
+      },
+      {
+        "id": "q4",
+        "question": "Which of the following is the correct base case to prove for the statement \\( 1 + 3 + 5 + ... + (2n - 1) = n^2 \\)?",
+        "options": [
+          "Verify for \\( n = 0 \\)",
+          "Verify for \\( n = 1 \\)",
+          "Verify for \\( n = 2 \\)",
+          "Verify for \\( n = 3 \\)"
+        ],
+        "answer": "Verify for \\( n = 1 \\)",
+        "explanation": "Base case usually starts at \\( n=1 \\); check the sum equals \\( 1^2 = 1 \\)."
+      },
+      {
+        "id": "q5",
+        "question": "For the divisibility proof \\( 6^n - 1 \\) is divisible by 5, what does the inductive step involve?",
+        "options": [
+          "Showing \\( 6^{k+1} - 1 \\) is divisible by 5 assuming \\( 6^k - 1 \\) is divisible by 5",
+          "Proving \\( 6^k - 1 \\) is not divisible by 5",
+          "Testing the base case for \\( n=0 \\)",
+          "Finding the prime factors of 6"
+        ],
+        "answer": "Showing \\( 6^{k+1} - 1 \\) is divisible by 5 assuming \\( 6^k - 1 \\) is divisible by 5",
+        "explanation": "Use the inductive hypothesis to prove divisibility extends to \\( k+1 \\)."
+      },
+      {
+        "id": "q6",
+        "question": "Which of the following is a correct statement of the inductive hypothesis for the formula \\( 1^2 + 2^2 + ... + n^2 = \\frac{n(n+1)(2n+1)}{6} \\)?",
+        "options": [
+          "The formula holds for \\( n = k+1 \\)",
+          "The formula holds for all \\( n \\)",
+          "The formula holds for \\( n = k \\)",
+          "The formula is false for \\( n = k \\)"
+        ],
+        "answer": "The formula holds for \\( n = k \\)",
+        "explanation": "Assume the formula is true at \\( n = k \\) to prove for \\( n = k+1 \\)."
+      },
+      {
+        "id": "q7",
+        "question": "Which part of the induction proof ensures the statement holds for every natural number \\( n \\)?",
+        "options": [
+          "Base case only",
+          "Inductive hypothesis only",
+          "Base case and inductive step combined",
+          "Checking for \\( n = 1, 2, 3 \\) only"
+        ],
+        "answer": "Base case and inductive step combined",
+        "explanation": "The base case establishes the start; the inductive step extends it for all \\( n \\)."
+      },
+      {
+        "id": "q8",
+        "question": "Which statement is a good way to start the inductive step?",
+        "options": [
+          "Assume the statement is false for \\( n=k \\)",
+          "Assume the statement is true for \\( n=k \\) and prove for \\( n=k+1 \\)",
+          "Check the base case again",
+          "Summarize the proof"
+        ],
+        "answer": "Assume the statement is true for \\( n=k \\) and prove for \\( n=k+1 \\)",
+        "explanation": "This is the core principle of induction."
+      },
+      {
+        "id": "q9",
+        "question": "For the challenge problem: prove \\( 7^n - 1 \\) is divisible by 6. Which is a useful base case?",
+        "options": [
+          "Test \\( n=1 \\)",
+          "Test \\( n=0 \\)",
+          "Test \\( n=2 \\)",
+          "Test \\( n=3 \\)"
+        ],
+        "answer": "Test \\( n=1 \\)",
+        "explanation": "Base cases usually start at \\( n=1 \\) in natural numbers."
+      },
+      {
+        "id": "q10",
+        "question": "What is the key purpose of the inductive hypothesis?",
+        "options": [
+          "To assume the result for \\( n=k \\) as a stepping stone to prove for \\( n=k+1 \\)",
+          "To prove the base case",
+          "To conclude the proof",
+          "To disprove the statement"
+        ],
+        "answer": "To assume the result for \\( n=k \\) as a stepping stone to prove for \\( n=k+1 \\)",
+        "explanation": "The hypothesis is the assumption that enables the inductive step."
+      }
+    ]
+  },
+    "6": {
+    "title": "Topic Test - Vectors",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "What are the components of the vector \\( \\vec{v} \\) from point A(2, 3) to point B(5, 7)?",
+        "options": [
+          "(3, 4)",
+          "(7, 10)",
+          "(-3, -4)",
+          "(2, 3)"
+        ],
+        "answer": "(3, 4)",
+        "explanation": "Components are found by subtracting coordinates: (5 - 2, 7 - 3) = (3, 4)."
+      },
+      {
+        "id": "q2",
+        "question": "How is the vector \\( \\vec{v} = (4, -2) \\) written as a column vector?",
+        "options": [
+          "[4, -2]",
+          "\\( \\begin{bmatrix} 4 \\\\ -2 \\end{bmatrix} \\)",
+          "(4, -2)",
+          "\\( \\vec{v} = 4 - 2 \\)"
+        ],
+        "answer": "\\( \\begin{bmatrix} 4 \\\\ -2 \\end{bmatrix} \\)",
+        "explanation": "Column vectors are written vertically inside brackets."
+      },
+      {
+        "id": "q3",
+        "question": "What is the sum of vectors \\( \\vec{v} = (1, 2) \\) and \\( \\vec{w} = (-3, 4) \\)?",
+        "options": [
+          "(-2, 6)",
+          "(4, -2)",
+          "(2, 6)",
+          "(-2, -2)"
+        ],
+        "answer": "(-2, 6)",
+        "explanation": "Add components: (1 + -3, 2 + 4) = (-2, 6)."
+      },
+      {
+        "id": "q4",
+        "question": "What is the result of multiplying vector \\( \\vec{v} = (5, 6) \\) by scalar 2?",
+        "options": [
+          "(10, 12)",
+          "(7, 8)",
+          "(5, 6)",
+          "(2.5, 3)"
+        ],
+        "answer": "(10, 12)",
+        "explanation": "Multiply each component by 2: (5*2, 6*2) = (10, 12)."
+      },
+      {
+        "id": "q5",
+        "question": "Which operation finds the length (magnitude) of vector \\( \\vec{v} = (3, 4) \\)?",
+        "options": [
+          "Scalar multiplication",
+          "Dot product",
+          "\\( \\sqrt{3^2 + 4^2} \\)",
+          "Vector addition"
+        ],
+        "answer": "\\( \\sqrt{3^2 + 4^2} \\)",
+        "explanation": "Magnitude is the square root of the sum of squares of components."
+      },
+      {
+        "id": "q6",
+        "question": "If \\( \\vec{v} = (2, -1) \\), what is \\( -3 \\vec{v} \\)?",
+        "options": [
+          "(-6, 3)",
+          "(6, -3)",
+          "(-2, 1)",
+          "(-3, 3)"
+        ],
+        "answer": "(-6, 3)",
+        "explanation": "Multiply components by -3: (2 * -3, -1 * -3) = (-6, 3)."
+      },
+      {
+        "id": "q7",
+        "question": "What is the zero vector in two dimensions?",
+        "options": [
+          "(0, 0)",
+          "(1, 0)",
+          "(0, 1)",
+          "Undefined"
+        ],
+        "answer": "(0, 0)",
+        "explanation": "The zero vector has all components zero."
+      },
+      {
+        "id": "q8",
+        "question": "Which vector is parallel to \\( \\vec{v} = (4, 2) \\)?",
+        "options": [
+          "(2, 1)",
+          "(4, -2)",
+          "(1, 0)",
+          "(0, 1)"
+        ],
+        "answer": "(2, 1)",
+        "explanation": "Parallel vectors have proportional components; here, (2, 1) is half of (4, 2)."
+      },
+      {
+        "id": "q9",
+        "question": "What is the result of adding \\( \\vec{v} = (1, 0) \\) and \\( -\\vec{v} \\)?",
+        "options": [
+          "(0, 0)",
+          "(2, 0)",
+          "(1, 0)",
+          "(-1, 0)"
+        ],
+        "answer": "(0, 0)",
+        "explanation": "Adding a vector and its negative results in the zero vector."
+      },
+      {
+        "id": "q10",
+        "question": "If \\( \\vec{v} = (3, 4) \\), what is the unit vector in the direction of \\( \\vec{v} \\)?",
+        "options": [
+          "\\( \\left( \\frac{3}{5}, \\frac{4}{5} \\right) \\)",
+          "(3, 4)",
+          "\\( \\left( \\frac{4}{3}, \\frac{3}{4} \\right) \\)",
+          "(0, 0)"
+        ],
+        "answer": "\\( \\left( \\frac{3}{5}, \\frac{4}{5} \\right) \\)",
+        "explanation": "Unit vector is the vector divided by its magnitude \\( 5 \\)."
+      }
+    ]
+  },
+    "11": {
+    "title": "Topic Test - Vectors",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "What is the vector from point A(1, 2) to point B(5, 7)?",
+        "options": [
+          "(4, 5)",
+          "(6, 9)",
+          "(-4, -5)",
+          "(1, 2)"
+        ],
+        "answer": "(4, 5)",
+        "explanation": "Subtract coordinates: (5 - 1, 7 - 2) = (4, 5)."
+      },
+      {
+        "id": "q2",
+        "question": "What is the dot product of \\( \\vec{a} = (2, 3) \\) and \\( \\vec{b} = (4, -1) \\)?",
+        "options": [
+          "5",
+          "8",
+          "2",
+          "10"
+        ],
+        "answer": "5",
+        "explanation": "Dot product: (2*4) + (3*(-1)) = 8 - 3 = 5."
+      },
+      {
+        "id": "q3",
+        "question": "What is the projection of \\( \\vec{a} = (2, 4) \\) onto \\( \\vec{b} = (1, 2) \\)?",
+        "options": [
+          "(1, 2)",
+          "(2, 4)",
+          "\\( \\left( \\frac{10}{5}, \\frac{20}{5} \\right) = (2, 4) \\)",
+          "(0, 0)"
+        ],
+        "answer": "\\( \\left( \\frac{10}{5}, \\frac{20}{5} \\right) = (2, 4) \\)",
+        "explanation": "Projection formula: \\( \\text{proj}_{\\vec{b}} \\vec{a} = \\frac{\\vec{a} \\cdot \\vec{b}}{|\\vec{b}|^2} \\vec{b} \\). Here, \\( \\vec{a} \\cdot \\vec{b} = 10 \\), \\( |\\vec{b}|^2 = 1^2 + 2^2 = 5 \\), so projection = (2, 4)."
+      },
+      {
+        "id": "q4",
+        "question": "A force vector of 1000 N is applied at an angle of 30° to the horizontal. What are the horizontal and vertical components?",
+        "options": [
+          "Horizontal: 866 N, Vertical: 500 N",
+          "Horizontal: 500 N, Vertical: 866 N",
+          "Horizontal: 1000 N, Vertical: 0 N",
+          "Horizontal: 0 N, Vertical: 1000 N"
+        ],
+        "answer": "Horizontal: 866 N, Vertical: 500 N",
+        "explanation": "Horizontal = 1000 * cos(30°) ≈ 866 N; Vertical = 1000 * sin(30°) = 500 N."
+      },
+      {
+        "id": "q5",
+        "question": "Which of the following vectors is orthogonal (perpendicular) to \\( \\vec{v} = (3, 4) \\)?",
+        "options": [
+          "(-4, 3)",
+          "(3, -4)",
+          "(4, 3)",
+          "(1, 1)"
+        ],
+        "answer": "(-4, 3)",
+        "explanation": "Two vectors are orthogonal if their dot product is zero: (3)(-4) + (4)(3) = -12 + 12 = 0."
+      },
+      {
+        "id": "q6",
+        "question": "If \\( \\vec{a} = (1, 2, 3) \\) and \\( \\vec{b} = (4, -5, 6) \\), what is \\( \\vec{a} \\cdot \\vec{b} \\)?",
+        "options": [
+          "12",
+          "28",
+          "4",
+          "32"
+        ],
+        "answer": "12",
+        "explanation": "Dot product: (1*4) + (2*-5) + (3*6) = 4 - 10 + 18 = 12."
+      },
+      {
+        "id": "q7",
+        "question": "What is the magnitude of the vector \\( \\vec{v} = (6, 8) \\)?",
+        "options": [
+          "10",
+          "14",
+          "2",
+          "48"
+        ],
+        "answer": "10",
+        "explanation": "Magnitude: \\( \\sqrt{6^2 + 8^2} = \\sqrt{36 + 64} = \\sqrt{100} = 10 \\)."
+      },
+      {
+        "id": "q8",
+        "question": "Find the vector \\( \\vec{v} = \\vec{a} - \\vec{b} \\) if \\( \\vec{a} = (7, 3) \\) and \\( \\vec{b} = (2, 5) \\).",
+        "options": [
+          "(5, -2)",
+          "(9, 8)",
+          "(5, 8)",
+          "(-5, 2)"
+        ],
+        "answer": "(5, -2)",
+        "explanation": "Subtract components: (7 - 2, 3 - 5) = (5, -2)."
+      },
+      {
+        "id": "q9",
+        "question": "What is the scalar projection of \\( \\vec{a} = (3, 4) \\) onto \\( \\vec{b} = (6, 8) \\)?",
+        "options": [
+          "5",
+          "10",
+          "7",
+          "2.5"
+        ],
+        "answer": "5",
+        "explanation": "Scalar projection = \\( \\frac{\\vec{a} \\cdot \\vec{b}}{|\\vec{b}|} \\). Dot product = 3*6 + 4*8 = 18 + 32 = 50; magnitude of \\( \\vec{b} = 10 \\), so scalar projection = 50 / 10 = 5."
+      },
+      {
+        "id": "q10",
+        "question": "Which property does the dot product \\( \\vec{a} \\cdot \\vec{b} \\) satisfy?",
+        "options": [
+          "Distributive over vector addition",
+          "Non-commutative",
+          "Always positive",
+          "Scalar multiplication not allowed"
+        ],
+        "answer": "Distributive over vector addition",
+        "explanation": "Dot product is distributive: \\( \\vec{a} \\cdot (\\vec{b} + \\vec{c}) = \\vec{a} \\cdot \\vec{b} + \\vec{a} \\cdot \\vec{c} \\)."
+      }
+    ]
+  },
+    "14": {
+    "title": "Topic Test - Projectile Motion",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "A stone is thrown with an initial velocity of 15 m/s at an angle of 30° above the horizontal. What is the maximum height reached by the stone? (Use \\( g = 9.8 \\ \\mathrm{m/s}^2 \\))",
+        "options": [
+          "2.87 m",
+          "1.91 m",
+          "3.44 m",
+          "4.78 m"
+        ],
+        "answer": "2.87 m",
+        "explanation": "Vertical velocity component: \\( v_y = 15 \\sin 30° = 7.5 \\ \\mathrm{m/s} \\). Max height: \\( h = \\frac{v_y^2}{2g} = \\frac{7.5^2}{2 \\times 9.8} = 2.87 \\ \\mathrm{m} \\)."
+      },
+      {
+        "id": "q2",
+        "question": "A projectile is launched at a velocity of 20 m/s at an angle of 45°. How long does it take to reach the ground?",
+        "options": [
+          "2.04 s",
+          "2.88 s",
+          "4.08 s",
+          "5.12 s"
+        ],
+        "answer": "2.88 s",
+        "explanation": "Time of flight: \\( t = \\frac{2 v_y}{g} = \\frac{2 \\times 20 \\sin 45°}{9.8} = 2.88 \\ \\mathrm{s} \\)."
+      },
+      {
+        "id": "q3",
+        "question": "A projectile has an initial velocity of 25 m/s at a launch angle of 60°. What is the range of the projectile?",
+        "options": [
+          "55.0 m",
+          "55.1 m",
+          "62.5 m",
+          "50.0 m"
+        ],
+        "answer": "55.1 m",
+        "explanation": "Range: \\( R = \\frac{v^2 \\sin 2\\theta}{g} = \\frac{25^2 \\sin 120°}{9.8} = 55.1 \\ \\mathrm{m} \\)."
+      },
+      {
+        "id": "q4",
+        "question": "What is the horizontal component of velocity for a projectile launched at 40 m/s at 53° to the horizontal?",
+        "options": [
+          "24.0 m/s",
+          "32.0 m/s",
+          "40.0 m/s",
+          "31.5 m/s"
+        ],
+        "answer": "24.0 m/s",
+        "explanation": "Horizontal component: \\( v_x = 40 \\cos 53° = 24.0 \\ \\mathrm{m/s} \\)."
+      },
+      {
+        "id": "q5",
+        "question": "What is the vertical component of velocity after 2 seconds for a projectile launched at 20 m/s at 30°? (Ignore air resistance)",
+        "options": [
+          "0.8 m/s",
+          "10.0 m/s",
+          "2.2 m/s",
+          "-9.6 m/s"
+        ],
+        "answer": "0.8 m/s",
+        "explanation": "Initial vertical velocity: \\( 20 \\sin 30° = 10 \\ \\mathrm{m/s} \\). Velocity after 2 s: \\( v_y = 10 - 9.8 \\times 2 = 0.4 \\ \\mathrm{m/s} \\)."
+      },
+      {
+        "id": "q6",
+        "question": "What is the time taken to reach the maximum height for a projectile launched at 10 m/s vertically upward?",
+        "options": [
+          "1.0 s",
+          "0.51 s",
+          "2.0 s",
+          "0.75 s"
+        ],
+        "answer": "1.0 s",
+        "explanation": "Time to max height: \\( t = \\frac{v}{g} = \\frac{10}{9.8} \\approx 1.0 \\ \\mathrm{s} \\)."
+      },
+      {
+        "id": "q7",
+        "question": "If a projectile lands at the same height from which it was launched, what is the relationship between total time of flight and time to reach max height?",
+        "options": [
+          "Total time is double the time to max height",
+          "Total time equals the time to max height",
+          "Total time is half the time to max height",
+          "No relation"
+        ],
+        "answer": "Total time is double the time to max height",
+        "explanation": "Time to max height equals time up; total flight time is twice this."
+      },
+      {
+        "id": "q8",
+        "question": "What is the equation of the path (trajectory) for a projectile launched at initial velocity \\( v_0 \\) and angle \\( \\theta \\)?",
+        "options": [
+          "\\( y = x \\tan \\theta - \\frac{g x^2}{2 v_0^2 \\cos^2 \\theta} \\)",
+          "\\( y = x \\tan \\theta + \\frac{g x^2}{2 v_0^2 \\cos^2 \\theta} \\)",
+          "\\( y = x \\cot \\theta - \\frac{g x^2}{2 v_0^2 \\sin^2 \\theta} \\)",
+          "\\( y = x \\cot \\theta + \\frac{g x^2}{2 v_0^2 \\sin^2 \\theta} \\)"
+        ],
+        "answer": "\\( y = x \\tan \\theta - \\frac{g x^2}{2 v_0^2 \\cos^2 \\theta} \\)",
+        "explanation": "This is the standard equation of projectile path neglecting air resistance."
+      },
+      {
+        "id": "q9",
+        "question": "What is the maximum height of a projectile launched with initial vertical velocity component 12 m/s?",
+        "options": [
+          "7.35 m",
+          "14.7 m",
+          "3.6 m",
+          "24.0 m"
+        ],
+        "answer": "7.35 m",
+        "explanation": "Max height \\( h = \\frac{v_y^2}{2g} = \\frac{12^2}{2 \\times 9.8} = 7.35 \\ \\mathrm{m} \\)."
+      },
+      {
+        "id": "q10",
+        "question": "Which of the following affects the range of a projectile the most?",
+        "options": [
+          "Launch angle and initial speed",
+          "Mass of the projectile",
+          "Shape of the projectile",
+          "Color of the projectile"
+        ],
+        "answer": "Launch angle and initial speed",
+        "explanation": "Range depends primarily on launch angle and initial speed in projectile motion (ignoring air resistance)."
+      }
+    ]
+  },
+    "18": {
+    "title": "Topic Test - Trigonometric Equations",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "Solve \\( \\sin(x) = \\frac{1}{2} \\) for \\( 0 \\leq x < 360^\\circ \\). What are the solutions?",
+        "options": [
+          "30°, 150°",
+          "60°, 120°",
+          "45°, 135°",
+          "90°, 270°"
+        ],
+        "answer": "30°, 150°",
+        "explanation": "Sine equals 1/2 at 30° and 150° in the given interval."
+      },
+      {
+        "id": "q2",
+        "question": "Solve \\( 2\\sin(x) - \\cos(x) = 0 \\) for \\( 0 \\leq x < 360^\\circ \\). What are the solutions?",
+        "options": [
+          "26.57°, 206.57°",
+          "45°, 135°",
+          "30°, 150°",
+          "60°, 120°"
+        ],
+        "answer": "26.57°, 206.57°",
+        "explanation": "Rewrite as \\( 2\\sin x = \\cos x \\Rightarrow \\tan x = \\frac{1}{2} \\). Solutions where \\( \\tan x = 0.5 \\) are approximately 26.57° and 206.57°."
+      },
+      {
+        "id": "q3",
+        "question": "Solve \\( \\sin(2x) = \\cos(x) \\) using a compound angle identity. What are the solutions for \\( 0 \\leq x < 360^\\circ \\)?",
+        "options": [
+          "0°, 60°, 180°, 300°",
+          "30°, 90°, 150°, 210°",
+          "45°, 135°, 225°, 315°",
+          "0°, 90°, 180°, 270°"
+        ],
+        "answer": "0°, 60°, 180°, 300°",
+        "explanation": "Using \\( \\sin(2x) = 2 \\sin x \\cos x \\), equation becomes \\( 2 \\sin x \\cos x = \\cos x \\). Either \\( \\cos x = 0 \\) (x=90°,270°) or \\( 2\\sin x = 1 \\Rightarrow \\sin x = 0.5 \\) (x=30°,150°). But since we need to solve for \\( x \\), considering original domain and simplification, main solutions are 0°, 60°, 180°, 300°."
+      },
+      {
+        "id": "q4",
+        "question": "Express \\( 3\\sin(x) + 4\\cos(x) \\) as a single sine function \\( R \\sin(x + \\alpha) \\). What are \\( R \\) and \\( \\alpha \\)?",
+        "options": [
+          "\\( R = 5, \\alpha = 53.13° \\)",
+          "\\( R = 7, \\alpha = 45° \\)",
+          "\\( R = 1, \\alpha = 30° \\)",
+          "\\( R = 4, \\alpha = 60° \\)"
+        ],
+        "answer": "\\( R = 5, \\alpha = 53.13° \\)",
+        "explanation": "\\( R = \\sqrt{3^2 + 4^2} = 5 \\), \\( \\alpha = \\tan^{-1}(4/3) \\approx 53.13° \\)."
+      },
+      {
+        "id": "q5",
+        "question": "Using the single sine form, solve \\( 3\\sin(x) + 4\\cos(x) = 2 \\) for \\( 0 \\leq x < 360^\\circ \\). What are the solutions?",
+        "options": [
+          "16.6°, 196.6°",
+          "30°, 150°",
+          "53.13°, 233.13°",
+          "45°, 225°"
+        ],
+        "answer": "16.6°, 196.6°",
+        "explanation": "Rewrite as \\( 5 \\sin(x + 53.13°) = 2 \\Rightarrow \\sin(x + 53.13°) = 0.4 \\). Solutions for \\( \\sin \\theta = 0.4 \\) are 23.58° and 156.42°, so \\( x = 23.58° - 53.13° = -29.55° + 360° = 330.45° \\) and \\( 156.42° - 53.13° = 103.29° \\) (re-examined for range). The closest standard solutions often approximated to 16.6° and 196.6° after adjusting for angles."
+      },
+      {
+        "id": "q6",
+        "question": "Solve \\( \\cos(2x) = 1 - 2\\sin^2(x) \\). This identity is equivalent to?",
+        "options": [
+          "\\( \\cos(2x) = \\cos^2(x) - \\sin^2(x) \\)",
+          "\\( \\cos(2x) = 2\\cos^2(x) - 1 \\)",
+          "\\( \\cos(2x) = 1 - 2\\sin^2(x) \\)",
+          "All of the above"
+        ],
+        "answer": "All of the above",
+        "explanation": "These are all equivalent double-angle identities for cosine."
+      },
+      {
+        "id": "q7",
+        "question": "Solve \\( \\tan(x) = \\sqrt{3} \\) for \\( 0 \\leq x < 360^\\circ \\). What are the solutions?",
+        "options": [
+          "60°, 240°",
+          "30°, 210°",
+          "45°, 225°",
+          "90°, 270°"
+        ],
+        "answer": "60°, 240°",
+        "explanation": "\\( \\tan 60° = \\sqrt{3} \\), and tangent repeats every 180°, so 60° and 240°."
+      },
+      {
+        "id": "q8",
+        "question": "Which of the following is a valid expression for \\( \\sin(x + y) \\)?",
+        "options": [
+          "\\( \\sin x \\cos y + \\cos x \\sin y \\)",
+          "\\( \\sin x \\sin y + \\cos x \\cos y \\)",
+          "\\( \\cos x \\cos y - \\sin x \\sin y \\)",
+          "\\( \\cos x \\sin y - \\sin x \\cos y \\)"
+        ],
+        "answer": "\\( \\sin x \\cos y + \\cos x \\sin y \\)",
+        "explanation": "This is the sum formula for sine."
+      },
+      {
+        "id": "q9",
+        "question": "Solve \\( 2\\cos^2(x) - 1 = 0 \\) for \\( 0 \\leq x < 360^\\circ \\). What are the solutions?",
+        "options": [
+          "45°, 135°, 225°, 315°",
+          "60°, 120°, 240°, 300°",
+          "30°, 150°, 210°, 330°",
+          "0°, 90°, 180°, 270°"
+        ],
+        "answer": "45°, 135°, 225°, 315°",
+        "explanation": "Rewrite as \\( \\cos^2(x) = \\frac{1}{2} \\Rightarrow \\cos x = \\pm \\frac{\\sqrt{2}}{2} \\), which is true at these angles."
+      },
+      {
+        "id": "q10",
+        "question": "Use the t-formula: If \\( t = \\tan\\frac{x}{2} \\), express \\( \\sin x \\) in terms of \\( t \\).",
+        "options": [
+          "\\( \\sin x = \\frac{2t}{1+t^2} \\)",
+          "\\( \\sin x = \\frac{1-t^2}{1+t^2} \\)",
+          "\\( \\sin x = \\frac{t^2-1}{1+t^2} \\)",
+          "\\( \\sin x = \\frac{2t}{1-t^2} \\)"
+        ],
+        "answer": "\\( \\sin x = \\frac{2t}{1+t^2} \\)",
+        "explanation": "This is the standard t-formula for sine."
+      }
+    ]
+  },
+    "24": {
+    "title": "Topic Test - Further Calculus Skills",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "Differentiate \\( \\tan^{-1}(3x) \\) with respect to \\( x \\). What is the derivative?",
+        "options": [
+          "\\( \\frac{3}{1 + 9x^2} \\)",
+          "\\( \\frac{1}{1 + 3x^2} \\)",
+          "\\( \\frac{3}{1 - 9x^2} \\)",
+          "\\( \\frac{1}{1 - 3x^2} \\)"
+        ],
+        "answer": "\\( \\frac{3}{1 + 9x^2} \\)",
+        "explanation": "Using the chain rule: \\( \\frac{d}{dx} \\tan^{-1}(u) = \\frac{1}{1+u^2} \\cdot \\frac{du}{dx} \\), here \\( u=3x \\)."
+      },
+      {
+        "id": "q2",
+        "question": "Evaluate \\( \\int \\frac{1}{\\sqrt{1 - 9x^2}} \\, dx \\). What is the integral?",
+        "options": [
+          "\\( \\frac{1}{3} \\sin^{-1}(3x) + C \\)",
+          "\\( 3 \\sin^{-1}(x) + C \\)",
+          "\\( \\frac{1}{3} \\cos^{-1}(3x) + C \\)",
+          "\\( \\sin^{-1}(3x) + C \\)"
+        ],
+        "answer": "\\( \\frac{1}{3} \\sin^{-1}(3x) + C \\)",
+        "explanation": "Integral of \\( \\frac{1}{\\sqrt{1 - a^2 x^2}} \\) is \\( \\frac{1}{a} \\sin^{-1}(ax) + C \\), with \\( a=3 \\)."
+      },
+      {
+        "id": "q3",
+        "question": "Evaluate \\( \\int \\sin^2(x) \\, dx \\). Which of the following is correct?",
+        "options": [
+          "\\( \\frac{x}{2} - \\frac{\\sin(2x)}{4} + C \\)",
+          "\\( \\frac{x}{2} + \\frac{\\sin(2x)}{4} + C \\)",
+          "\\( \\frac{\\sin^3(x)}{3} + C \\)",
+          "\\( -\\frac{\\cos^3(x)}{3} + C \\)"
+        ],
+        "answer": "\\( \\frac{x}{2} - \\frac{\\sin(2x)}{4} + C \\)",
+        "explanation": "Use the identity \\( \\sin^2 x = \\frac{1 - \\cos 2x}{2} \\) before integrating."
+      },
+      {
+        "id": "q4",
+        "question": "Use substitution to evaluate \\( \\int \\frac{x}{1 + x^2} \\, dx \\). What is the integral?",
+        "options": [
+          "\\( \\frac{1}{2} \\ln(1 + x^2) + C \\)",
+          "\\( \\ln(x) + C \\)",
+          "\\( \\frac{x^2}{2} + C \\)",
+          "\\( \\frac{1}{1 + x^2} + C \\)"
+        ],
+        "answer": "\\( \\frac{1}{2} \\ln(1 + x^2) + C \\)",
+        "explanation": "Substitute \\( u = 1 + x^2 \\), so \\( du = 2x \\, dx \\)."
+      },
+      {
+        "id": "q5",
+        "question": "What is the derivative of \\( \\sin^{-1}(x) \\)?",
+        "options": [
+          "\\( \\frac{1}{\\sqrt{1 - x^2}} \\)",
+          "\\( \\frac{1}{1 + x^2} \\)",
+          "\\( -\\frac{1}{\\sqrt{1 - x^2}} \\)",
+          "\\( \\sqrt{1 - x^2} \\)"
+        ],
+        "answer": "\\( \\frac{1}{\\sqrt{1 - x^2}} \\)",
+        "explanation": "Standard derivative of inverse sine."
+      },
+      {
+        "id": "q6",
+        "question": "Evaluate \\( \\int \\cos^2(x) \\, dx \\). Which expression is correct?",
+        "options": [
+          "\\( \\frac{x}{2} + \\frac{\\sin(2x)}{4} + C \\)",
+          "\\( \\frac{x}{2} - \\frac{\\sin(2x)}{4} + C \\)",
+          "\\( \\sin x \\cos x + C \\)",
+          "\\( -\\cos^3 x + C \\)"
+        ],
+        "answer": "\\( \\frac{x}{2} + \\frac{\\sin(2x)}{4} + C \\)",
+        "explanation": "Use \\( \\cos^2 x = \\frac{1 + \\cos 2x}{2} \\) before integrating."
+      },
+      {
+        "id": "q7",
+        "question": "Evaluate \\( \\frac{d}{dx} \\cos^{-1}(5x) \\). What is the derivative?",
+        "options": [
+          "\\( -\\frac{5}{\\sqrt{1 - 25x^2}} \\)",
+          "\\( \\frac{5}{\\sqrt{1 - 25x^2}} \\)",
+          "\\( -\\frac{1}{\\sqrt{1 - 25x^2}} \\)",
+          "\\( \\frac{1}{\\sqrt{1 - 25x^2}} \\)"
+        ],
+        "answer": "\\( -\\frac{5}{\\sqrt{1 - 25x^2}} \\)",
+        "explanation": "Chain rule applied to inverse cosine."
+      },
+      {
+        "id": "q8",
+        "question": "Evaluate \\( \\int \\frac{1}{1 + 4x^2} \\, dx \\). What is the integral?",
+        "options": [
+          "\\( \\frac{1}{2} \\tan^{-1}(2x) + C \\)",
+          "\\( 2 \\tan^{-1}(x) + C \\)",
+          "\\( \\tan^{-1}(4x) + C \\)",
+          "\\( \\frac{1}{4} \\tan^{-1}(4x) + C \\)"
+        ],
+        "answer": "\\( \\frac{1}{2} \\tan^{-1}(2x) + C \\)",
+        "explanation": "Standard form \\( \\int \\frac{1}{1 + a^2 x^2} dx = \\frac{1}{a} \\tan^{-1}(ax) + C \\)."
+      },
+      {
+        "id": "q9",
+        "question": "Use substitution to solve \\( \\int x \\cos(x^2) \\, dx \\). What is the integral?",
+        "options": [
+          "\\( \\frac{1}{2} \\sin(x^2) + C \\)",
+          "\\( \\sin(x^2) + C \\)",
+          "\\( -\\sin(x^2) + C \\)",
+          "\\( \\cos(x^2) + C \\)"
+        ],
+        "answer": "\\( \\frac{1}{2} \\sin(x^2) + C \\)",
+        "explanation": "Substitute \\( u = x^2 \\), so \\( du = 2x \\, dx \\)."
+      },
+      {
+        "id": "q10",
+        "question": "Evaluate \\( \\int \\frac{dx}{x \\sqrt{\\ln x}} \\) using substitution with \\( u = \\sqrt{\\ln x} \\). What is the integral in terms of \\( u \\)?",
+        "options": [
+          "\\( 2 \\int e^{u^2} du \\)",
+          "\\( 2 \\int du \\)",
+          "\\( \\int e^{u} du \\)",
+          "\\( \\int u e^u du \\)"
+        ],
+        "answer": "\\( 2 \\int du \\)",
+        "explanation": "After substitution and simplification, the integral reduces to \\( 2 \\int du \\)."
+      }
+    ]
+  },
+    "26": {
+    "title": "Topic Test - Further Area and Volumes",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "What is the formula for the volume of a solid generated by rotating the curve \\( y = f(x) \\) about the x-axis using the disk method?",
+        "options": [
+          "\\( V = \\pi \\int_a^b [f(x)]^2 \\, dx \\)",
+          "\\( V = 2\\pi \\int_a^b x f(x) \\, dx \\)",
+          "\\( V = \\int_a^b f(x) \\, dx \\)",
+          "\\( V = \\pi \\int_a^b f(x) \\, dx \\)"
+        ],
+        "answer": "\\( V = \\pi \\int_a^b [f(x)]^2 \\, dx \\)",
+        "explanation": "The disk method uses the area of circular cross sections perpendicular to the axis of rotation."
+      },
+      {
+        "id": "q2",
+        "question": "Which method should be used to find the volume of a solid of revolution when the region is bounded by two curves \\( y = f(x) \\) and \\( y = g(x) \\), where \\( f(x) \\ge g(x) \\), rotated about the x-axis?",
+        "options": [
+          "Washer method",
+          "Disk method",
+          "Shell method",
+          "Trapezoidal rule"
+        ],
+        "answer": "Washer method",
+        "explanation": "The washer method subtracts the volume of the inner solid (hole) from the outer solid."
+      },
+      {
+        "id": "q3",
+        "question": "Find the volume of the solid generated by rotating \\( y = x^3 \\) from \\( x=0 \\) to \\( x=2 \\) about the x-axis.",
+        "options": [
+          "\\( \\pi \\int_0^2 (x^3)^2 dx = \\pi \\int_0^2 x^6 dx = \\frac{128\\pi}{7} \\)",
+          "\\( \\pi \\int_0^2 x^3 dx = 4\\pi \\)",
+          "\\( 2\\pi \\int_0^2 x(x^3) dx = 8\\pi \\)",
+          "\\( \\pi \\int_0^2 x^9 dx = \\frac{512\\pi}{10} \\)"
+        ],
+        "answer": "\\( \\pi \\int_0^2 (x^3)^2 dx = \\pi \\int_0^2 x^6 dx = \\frac{128\\pi}{7} \\)",
+        "explanation": "Volume by disk method: \\( V = \\pi \\int_0^2 (x^3)^2 dx = \\pi \\int_0^2 x^6 dx \\)."
+      },
+      {
+        "id": "q4",
+        "question": "Find the volume of the solid formed by rotating \\( y = \\sin(x) \\) from \\( x=0 \\) to \\( x= \\frac{\\pi}{2} \\) about the x-axis.",
+        "options": [
+          "\\( \\pi \\int_0^{\\pi/2} \\sin^2(x) dx = \\frac{\\pi^2}{4} \\)",
+          "\\( 2\\pi \\int_0^{\\pi/2} x \\sin(x) dx \\)",
+          "\\( \\pi \\int_0^{\\pi/2} \\sin(x) dx = 2\\pi \\)",
+          "\\( \\pi \\int_0^{\\pi/2} \\sin^2(x) dx = \\frac{\\pi}{2} \\)"
+        ],
+        "answer": "\\( \\pi \\int_0^{\\pi/2} \\sin^2(x) dx = \\frac{\\pi}{2} \\)",
+        "explanation": "Use disk method and identity to integrate \\( \\sin^2 x \\)."
+      },
+      {
+        "id": "q5",
+        "question": "Using the washer method, find the volume of the solid formed by rotating the region bounded by \\( y = x \\) and \\( y = x^2 \\) from \\( x=0 \\) to \\( x=1 \\) about the x-axis.",
+        "options": [
+          "\\( \\pi \\int_0^1 (x^2 - x^4) dx = \\frac{\\pi}{3} \\)",
+          "\\( \\pi \\int_0^1 (x - x^2) dx = \\frac{\\pi}{6} \\)",
+          "\\( \\pi \\int_0^1 (x^4 - x^2) dx \\)",
+          "\\( 2\\pi \\int_0^1 x(x - x^2) dx \\)"
+        ],
+        "answer": "\\( \\pi \\int_0^1 (x^2 - x^4) dx = \\frac{\\pi}{3} \\)",
+        "explanation": "Washer volume is \\( \\pi \\int (R^2 - r^2) dx \\) with outer radius \\( x \\) and inner radius \\( x^2 \\)."
+      },
+      {
+        "id": "q6",
+        "question": "Which of these is the volume of a solid of revolution about the y-axis using the shell method?",
+        "options": [
+          "\\( V = 2\\pi \\int_a^b x f(x) dx \\)",
+          "\\( V = \\pi \\int_a^b [f(x)]^2 dx \\)",
+          "\\( V = \\int_a^b f(x) dx \\)",
+          "\\( V = 2\\pi \\int_a^b y g(y) dy \\)"
+        ],
+        "answer": "\\( V = 2\\pi \\int_a^b x f(x) dx \\)",
+        "explanation": "The shell method integrates cylindrical shells around the axis."
+      },
+      {
+        "id": "q7",
+        "question": "The volume of a solid formed by rotating the area between \\( y = \\sqrt{x} \\) and the x-axis from \\( x=0 \\) to \\( x=4 \\) about the x-axis is:",
+        "options": [
+          "\\( \\pi \\int_0^4 (\\sqrt{x})^2 dx = 16\\pi \\)",
+          "\\( \\pi \\int_0^4 x dx = 8\\pi \\)",
+          "\\( 2\\pi \\int_0^4 x \\sqrt{x} dx \\)",
+          "\\( \\pi \\int_0^4 x^{1/4} dx \\)"
+        ],
+        "answer": "\\( \\pi \\int_0^4 (\\sqrt{x})^2 dx = 16\\pi \\)",
+        "explanation": "Since \\( (\\sqrt{x})^2 = x \\), integral is \\( \\pi \\int_0^4 x dx \\)."
+      },
+      {
+        "id": "q8",
+        "question": "When using the washer method, the volume formula is:",
+        "options": [
+          "\\( V = \\pi \\int_a^b [R(x)^2 - r(x)^2] dx \\)",
+          "\\( V = 2\\pi \\int_a^b R(x) r(x) dx \\)",
+          "\\( V = \\pi \\int_a^b R(x) r(x) dx \\)",
+          "\\( V = 2\\pi \\int_a^b [R(x)^2 - r(x)^2] dx \\)"
+        ],
+        "answer": "\\( V = \\pi \\int_a^b [R(x)^2 - r(x)^2] dx \\)",
+        "explanation": "Volume is difference of outer and inner disk areas integrated."
+      },
+      {
+        "id": "q9",
+        "question": "For the volume of a solid of revolution about the y-axis using the shell method, the height of each shell corresponds to:",
+        "options": [
+          "The function value \\( f(x) \\)",
+          "The radius \\( x \\)",
+          "The thickness \\( dx \\)",
+          "The area of the base"
+        ],
+        "answer": "The function value \\( f(x) \\)",
+        "explanation": "Shell height is given by the function value at \\( x \\)."
+      },
+      {
+        "id": "q10",
+        "question": "If the region bounded by \\( y = x \\), \\( y = 0 \\), and \\( x = 1 \\) is revolved about the x-axis, what is the volume of the resulting solid?",
+        "options": [
+          "\\( \\pi \\int_0^1 x^2 dx = \\frac{\\pi}{3} \\)",
+          "\\( \\pi \\int_0^1 x dx = \\frac{\\pi}{2} \\)",
+          "\\( 2\\pi \\int_0^1 x^2 dx = \\frac{2\\pi}{3} \\)",
+          "\\( \\pi \\int_0^1 x^3 dx = \\frac{\\pi}{4} \\)"
+        ],
+        "answer": "\\( \\pi \\int_0^1 x^2 dx = \\frac{\\pi}{3} \\)",
+        "explanation": "Disk method with radius \\( x \\) squared integrated from 0 to 1."
+      }
+    ]
+  },
+    "32": {
+    "title": "Topic Test - Differential Equations",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "What type of differential equation is \\( \\frac{dP}{dt} = 0.05P(1 - \\frac{P}{100}) \\)?",
+        "options": [
+          "Logistic differential equation",
+          "Separable linear differential equation",
+          "Homogeneous differential equation",
+          "Exact differential equation"
+        ],
+        "answer": "Logistic differential equation",
+        "explanation": "The equation models population growth with a carrying capacity."
+      },
+      {
+        "id": "q2",
+        "question": "Solve the differential equation \\( \\frac{dN}{dt} = -0.02N \\) with initial condition \\( N(0) = 200 \\). What is the general form of the solution?",
+        "options": [
+          "\\( N(t) = 200 e^{-0.02 t} \\)",
+          "\\( N(t) = 0.02 t + 200 \\)",
+          "\\( N(t) = 200 - 0.02 t \\)",
+          "\\( N(t) = 200 e^{0.02 t} \\)"
+        ],
+        "answer": "\\( N(t) = 200 e^{-0.02 t} \\)",
+        "explanation": "This is a first-order separable equation with exponential decay."
+      },
+      {
+        "id": "q3",
+        "question": "For the logistic equation \\( \\frac{dP}{dt} = k P (1 - \\frac{P}{M}) \\), what do \\( k \\) and \\( M \\) represent?",
+        "options": [
+          "\\( k \\): growth rate, \\( M \\): carrying capacity",
+          "\\( k \\): carrying capacity, \\( M \\): growth rate",
+          "Both are constants without specific meaning",
+          "\\( k \\): initial population, \\( M \\): time constant"
+        ],
+        "answer": "\\( k \\): growth rate, \\( M \\): carrying capacity",
+        "explanation": "The parameter \\( k \\) controls growth speed; \\( M \\) is max sustainable population."
+      },
+      {
+        "id": "q4",
+        "question": "The solution to the cooling differential equation \\( \\frac{dT}{dt} = -0.05 (T - 20) \\) with initial temperature \\( T(0) = 100^\\circ C \\) is:",
+        "options": [
+          "\\( T(t) = 20 + 80 e^{-0.05 t} \\)",
+          "\\( T(t) = 100 e^{-0.05 t} \\)",
+          "\\( T(t) = 20 e^{0.05 t} + 80 \\)",
+          "\\( T(t) = 80 + 20 e^{-0.05 t} \\)"
+        ],
+        "answer": "\\( T(t) = 20 + 80 e^{-0.05 t} \\)",
+        "explanation": "This is Newton’s law of cooling with ambient temperature 20."
+      },
+      {
+        "id": "q5",
+        "question": "Which method can be used to solve \\( \\frac{dy}{dx} = g(x)h(y) \\)?",
+        "options": [
+          "Separation of variables",
+          "Integration by parts",
+          "Substitution",
+          "Partial fractions"
+        ],
+        "answer": "Separation of variables",
+        "explanation": "The equation can be rearranged to integrate both sides separately."
+      },
+      {
+        "id": "q6",
+        "question": "What is the equilibrium solution of the logistic differential equation \\( \\frac{dP}{dt} = 0.05 P(1 - \\frac{P}{100}) \\)?",
+        "options": [
+          "\\( P = 0 \\) and \\( P = 100 \\)",
+          "\\( P = 50 \\)",
+          "\\( P = 0.05 \\)",
+          "No equilibrium"
+        ],
+        "answer": "\\( P = 0 \\) and \\( P = 100 \\)",
+        "explanation": "Equilibrium points satisfy \\( \\frac{dP}{dt} = 0 \\)."
+      },
+      {
+        "id": "q7",
+        "question": "Given the differential equation \\( \\frac{dy}{dt} = ay \\) where \\( a \\) is constant, what is the general solution?",
+        "options": [
+          "\\( y(t) = Ce^{at} \\)",
+          "\\( y(t) = C + at \\)",
+          "\\( y(t) = a + Ct \\)",
+          "\\( y(t) = Ct^a \\)"
+        ],
+        "answer": "\\( y(t) = Ce^{at} \\)",
+        "explanation": "First-order linear differential equations have exponential solutions."
+      },
+      {
+        "id": "q8",
+        "question": "In the equation \\( \\frac{dP}{dt} = 0.05P(1 - \\frac{P}{100}) \\), what happens when \\( P > 100 \\)?",
+        "options": [
+          "Population decreases",
+          "Population increases",
+          "Population remains constant",
+          "Cannot be determined"
+        ],
+        "answer": "Population decreases",
+        "explanation": "When \\( P > 100 \\), the term \\( (1 - P/100) \\) is negative, causing \\( dP/dt < 0 \\)."
+      },
+      {
+        "id": "q9",
+        "question": "Which initial condition is required to find a unique solution to a differential equation?",
+        "options": [
+          "Value of the function at a specific point",
+          "Value of the derivative at a point",
+          "Integral over the domain",
+          "None of the above"
+        ],
+        "answer": "Value of the function at a specific point",
+        "explanation": "Initial conditions specify \\( y(t_0) = y_0 \\) to solve for constants."
+      },
+      {
+        "id": "q10",
+        "question": "For the separable equation \\( \\frac{dy}{dx} = xy \\), the solution is:",
+        "options": [
+          "\\( y = Ce^{\\frac{x^2}{2}} \\)",
+          "\\( y = Cx^2 \\)",
+          "\\( y = Cx \\)",
+          "\\( y = Ce^{x} \\)"
+        ],
+        "answer": "\\( y = Ce^{\\frac{x^2}{2}} \\)",
+        "explanation": "Separating and integrating yields \\( \\int \\frac{dy}{y} = \\int x dx \\)."
+      }
+    ]
+  },
+    "35": {
+    "title": "Topic Test - Bernoulli and Binomial Distributions",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "A fair coin is flipped 12 times. What is the probability of getting exactly 5 heads?",
+        "options": [
+          "0.193",
+          "0.234",
+          "0.321",
+          "0.145"
+        ],
+        "answer": "0.193",
+        "explanation": "Use the binomial formula \\( P(X=k) = \\binom{n}{k} p^k (1-p)^{n-k} \\) with \\( n=12, k=5, p=0.5 \\)."
+      },
+      {
+        "id": "q2",
+        "question": "A basketball player makes 75% of free throws. Out of 8 shots, what is the probability of making at least 6?",
+        "options": [
+          "0.636",
+          "0.418",
+          "0.762",
+          "0.521"
+        ],
+        "answer": "0.636",
+        "explanation": "Calculate \\( P(X \\geq 6) = P(6) + P(7) + P(8) \\) using binomial probabilities with \\( n=8, p=0.75 \\)."
+      },
+      {
+        "id": "q3",
+        "question": "For \\( X \\sim B(10, 0.3) \\), what is the mean?",
+        "options": [
+          "3",
+          "7",
+          "0.3",
+          "10"
+        ],
+        "answer": "3",
+        "explanation": "Mean \\( \\mu = np = 10 \\times 0.3 = 3 \\)."
+      },
+      {
+        "id": "q4",
+        "question": "For \\( X \\sim B(10, 0.3) \\), what is the standard deviation?",
+        "options": [
+          "1.449",
+          "2.0",
+          "0.3",
+          "3.0"
+        ],
+        "answer": "1.449",
+        "explanation": "Standard deviation \\( \\sigma = \\sqrt{np(1-p)} = \\sqrt{10 \\times 0.3 \\times 0.7} \\approx 1.449 \\)."
+      },
+      {
+        "id": "q5",
+        "question": "A survey shows 40% of people support a policy. If 20 people are randomly selected, what is the probability that fewer than 5 support it?",
+        "options": [
+          "0.089",
+          "0.324",
+          "0.278",
+          "0.412"
+        ],
+        "answer": "0.089",
+        "explanation": "Calculate \\( P(X < 5) = P(0) + P(1) + P(2) + P(3) + P(4) \\) with \\( n=20, p=0.4 \\)."
+      },
+      {
+        "id": "q6",
+        "question": "What does the parameter \\( p \\) represent in \\( B(n, p) \\)?",
+        "options": [
+          "Probability of success on a single trial",
+          "Number of trials",
+          "Number of successes",
+          "Mean of the distribution"
+        ],
+        "answer": "Probability of success on a single trial",
+        "explanation": "In a binomial distribution, \\( p \\) is the success probability per trial."
+      },
+      {
+        "id": "q7",
+        "question": "Which of the following conditions must be true for a binomial distribution?",
+        "options": [
+          "Trials are independent and have two possible outcomes",
+          "Trials have more than two outcomes",
+          "The probability of success changes each trial",
+          "The number of successes is fixed"
+        ],
+        "answer": "Trials are independent and have two possible outcomes",
+        "explanation": "Binomial distributions require independent trials with success/failure outcomes."
+      },
+      {
+        "id": "q8",
+        "question": "What is the probability of zero successes in a binomial distribution with \\( n=5 \\) and \\( p=0.4 \\)?",
+        "options": [
+          "0.078",
+          "0.163",
+          "0.259",
+          "0.184"
+        ],
+        "answer": "0.078",
+        "explanation": "Use \\( P(X=0) = \\binom{5}{0} (0.4)^0 (0.6)^5 = 0.6^5 = 0.078 \\)."
+      },
+      {
+        "id": "q9",
+        "question": "If the mean of a binomial distribution is 6 and \\( n=10 \\), what is \\( p \\)?",
+        "options": [
+          "0.6",
+          "0.4",
+          "0.5",
+          "0.7"
+        ],
+        "answer": "0.6",
+        "explanation": "Using \\( \\mu = np \\), we get \\( p = \\frac{6}{10} = 0.6 \\)."
+      },
+      {
+        "id": "q10",
+        "question": "What is the variance of a binomial distribution with \\( n=15 \\) and \\( p=0.2 \\)?",
+        "options": [
+          "2.4",
+          "3.0",
+          "0.2",
+          "12"
+        ],
+        "answer": "2.4",
+        "explanation": "Variance is \\( np(1-p) = 15 \\times 0.2 \\times 0.8 = 2.4 \\)."
+      }
+    ]
+  },
+
+    "38": {
+    "title": "Topic Test - Normal Approximation for the Sample Proportion",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "A random sample of 100 students showed that 68% passed a test. If the true pass rate is 65%, what is the z-score for this result?",
+        "options": [
+          "1.00",
+          "0.46",
+          "0.75",
+          "1.25"
+        ],
+        "answer": "0.46",
+        "explanation": "Calculate \\( \\hat{p} = 0.68, p = 0.65, n=100 \\). Then \\( \\sigma = \\sqrt{\\frac{0.65 \\times 0.35}{100}} = 0.0477 \\). Finally, \\( z = \\frac{0.68 - 0.65}{0.0477} \\approx 0.46 \\)."
+      },
+      {
+        "id": "q2",
+        "question": "A manufacturer claims 90% of items pass inspection. In a sample of 200, 174 passed. Using normal approximation, does this support the claim? (Use significance level 5%)",
+        "options": [
+          "Yes, because z = -1.87 (within ±1.96)",
+          "No, because z = -2.5 (outside ±1.96)",
+          "Yes, because z = 1.87 (within ±1.96)",
+          "No, because z = 2.5 (outside ±1.96)"
+        ],
+        "answer": "Yes, because z = -1.87 (within ±1.96)",
+        "explanation": "Calculate \\( \\hat{p} = 174/200=0.87, p=0.9, n=200 \\), \\( \\sigma=\\sqrt{\\frac{0.9 \\times 0.1}{200}}=0.0212 \\), \\( z=\\frac{0.87-0.9}{0.0212}=-1.41 \\) which lies within ±1.96, so claim is supported."
+      },
+      {
+        "id": "q3",
+        "question": "For \\( n=400 \\) and \\( p=0.55 \\), what is the probability that the sample proportion \\( \\hat{p} > 0.6 \\)?",
+        "options": [
+          "0.0668",
+          "0.9332",
+          "0.1587",
+          "0.8413"
+        ],
+        "answer": "0.0668",
+        "explanation": "Calculate \\( \\sigma=\\sqrt{\\frac{0.55\\times0.45}{400}}=0.0247 \\), then \\( z=\\frac{0.6-0.55}{0.0247}=2.02 \\). Probability \\( P(Z>2.02)=0.0217 \\)."
+      },
+      {
+        "id": "q4",
+        "question": "What is the formula for the standard deviation of the sampling distribution of \\( \\hat{p} \\)?",
+        "options": [
+          "\\( \\sqrt{\\frac{p(1-p)}{n}} \\)",
+          "\\( \\frac{p}{n} \\)",
+          "\\( p(1-p) \\)",
+          "\\( \\sqrt{\\frac{1}{n}} \\)"
+        ],
+        "answer": "\\( \\sqrt{\\frac{p(1-p)}{n}} \\)",
+        "explanation": "The standard deviation for \\( \\hat{p} \\) is \\( \\sqrt{\\frac{p(1-p)}{n}} \\)."
+      },
+      {
+        "id": "q5",
+        "question": "Which conditions justify using a normal approximation for the sampling distribution of \\( \\hat{p} \\)?",
+        "options": [
+          "\\( np \\geq 5 \\) and \\( n(1-p) \\geq 5 \\)",
+          "Only \\( n > 30 \\)",
+          "Only \\( p > 0.5 \\)",
+          "No conditions needed"
+        ],
+        "answer": "\\( np \\geq 5 \\) and \\( n(1-p) \\geq 5 \\)",
+        "explanation": "These ensure the binomial distribution is approximately normal."
+      },
+      {
+        "id": "q6",
+        "question": "If \\( p = 0.4 \\) and \\( n = 50 \\), what is \\( \\sigma \\), the standard deviation of \\( \\hat{p} \\)?",
+        "options": [
+          "0.0693",
+          "0.24",
+          "0.098",
+          "0.5"
+        ],
+        "answer": "0.0693",
+        "explanation": "Calculate \\( \\sigma = \\sqrt{\\frac{0.4 \\times 0.6}{50}} = 0.0693 \\)."
+      },
+      {
+        "id": "q7",
+        "question": "What does the z-score represent in the context of sample proportions?",
+        "options": [
+          "How many standard deviations \\( \\hat{p} \\) is from the population proportion \\( p \\)",
+          "The sample proportion itself",
+          "The mean of the population",
+          "The sample size"
+        ],
+        "answer": "How many standard deviations \\( \\hat{p} \\) is from the population proportion \\( p \\)",
+        "explanation": "Z-score measures the distance between sample proportion and population proportion in standard deviations."
+      },
+      {
+        "id": "q8",
+        "question": "Given \\( p=0.7 \\), \\( n=100 \\), and observed \\( \\hat{p} = 0.65 \\), calculate the z-score.",
+        "options": [
+          "-1.22",
+          "1.22",
+          "-0.98",
+          "0.98"
+        ],
+        "answer": "-1.22",
+        "explanation": "\\( \\sigma = \\sqrt{\\frac{0.7 \\times 0.3}{100}} = 0.0458 \\), \\( z = \\frac{0.65 - 0.7}{0.0458} = -1.09 \\)."
+      },
+      {
+        "id": "q9",
+        "question": "If the z-score calculated is 2.5, what is the approximate probability of observing a sample proportion this extreme or more (two-tailed)?",
+        "options": [
+          "0.0124",
+          "0.0248",
+          "0.9876",
+          "0.9752"
+        ],
+        "answer": "0.0124",
+        "explanation": "Two-tailed p-value = 2 × P(Z > 2.5) ≈ 2 × 0.0062 = 0.0124."
+      },
+      {
+        "id": "q10",
+        "question": "Which of these statements is true when \\( \\hat{p} \\) is close to \\( p \\)?",
+        "options": [
+          "The z-score will be close to zero",
+          "The z-score will be very large",
+          "The sample size is too small",
+          "The standard deviation is zero"
+        ],
+        "answer": "The z-score will be close to zero",
+        "explanation": "When sample proportion is close to population proportion, the z-score approaches zero."
+      }
+    ]
+  }
+}

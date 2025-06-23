@@ -1,0 +1,154 @@
+{
+  "adv": [
+    {
+      "topic": "Functions",
+      "subtopics": [
+        {
+          "subtopic": "Transformations of Functions",
+          "lessons": [
+            { "title": "Vertical translations of functions", "lessonID": "1" },
+            { "title": "Horizontal translations of functions", "lessonID": "2" },
+            { "title": "Vertical dilations of functions", "lessonID": "3" },
+            { "title": "Horizontal dilations of functions", "lessonID": "4" },
+            { "title": "Combinations of transformations", "lessonID": "5" },
+            { "title": "Graphs of functions with combined transformations", "lessonID": "6" },
+            { "title": "Equations and inequalities", "lessonID": "7" },
+            { "title": "Topic Test", "lessonID": "8" }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Trigonometry",
+      "subtopics": [
+        {
+          "subtopic": "Trigonometric Functions",
+          "lessons": [
+            { "title": "Transformations of trigonometric functions", "lessonID": "9" },
+            { "title": "Combined transformations of trigonometric functions", "lessonID": "10" },
+            { "title": "Trigonometric equations", "lessonID": "11" },
+            { "title": "Topic Test", "lessonID": "12" }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Calculus",
+      "subtopics": [
+        {
+          "subtopic": "Differentiation",
+          "lessons": [
+            { "title": "Differentiation review", "lessonID": "13" },
+            { "title": "Derivative of exponential functions", "lessonID": "14" },
+            { "title": "Derivative of logarithmic functions", "lessonID": "15" },
+            { "title": "Derivative of trigonometric functions", "lessonID": "16" },
+            { "title": "Second derivatives", "lessonID": "17" },
+            { "title": "Anti-derivative graphs", "lessonID": "18" },
+            { "title": "Anti-derivatives", "lessonID": "19" },
+            { "title": "Further anti-derivatives", "lessonID": "20" },
+            { "title": "Topic Test", "lessonID": "21" }
+          ]
+        },
+        {
+          "subtopic": "Applications of Differentiation",
+          "lessons": [
+            { "title": "Increasing and decreasing curves", "lessonID": "22" },
+            { "title": "Stationary points", "lessonID": "23" },
+            { "title": "Concavity and points of inflection", "lessonID": "24" },
+            { "title": "Interpreting rates of change graphically", "lessonID": "25" },
+            { "title": "Stationary points and the second derivative", "lessonID": "26" },
+            { "title": "Curve sketching", "lessonID": "27" },
+            { "title": "Global maxima and minima", "lessonID": "28" },
+            { "title": "Finding formulas for optimisation problems", "lessonID": "29" },
+            { "title": "Optimisation problems", "lessonID": "30" },
+            { "title": "Topic Test", "lessonID": "31" }
+          ]
+        },
+        {
+          "subtopic": "Integration",
+          "lessons": [
+            { "title": "Approximating areas under a curve", "lessonID": "32" },
+            { "title": "Trapezoidal rule", "lessonID": "33" },
+            { "title": "Definite integrals", "lessonID": "34" },
+            { "title": "Indefinite integrals", "lessonID": "35" },
+            { "title": "Chain rule", "lessonID": "36" },
+            { "title": "Integration involving exponential functions", "lessonID": "37" },
+            { "title": "Integration involving logarithmic functions", "lessonID": "38" },
+            { "title": "Integration involving trigonometric functions", "lessonID": "39" },
+            { "title": "Areas enclosed by the x-axis", "lessonID": "40" },
+            { "title": "Areas enclosed by the y-axis", "lessonID": "41" },
+            { "title": "Sums and differences of areas", "lessonID": "42" },
+            { "title": "Topic Test", "lessonID": "43" }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Financial Modelling",
+      "subtopics": [
+        {
+          "subtopic": "Series and Sequences",
+          "lessons": [
+            { "title": "General sequences and series", "lessonID": "44" },
+            { "title": "Arithmetic sequences", "lessonID": "45" },
+            { "title": "Arithmetic series", "lessonID": "46" },
+            { "title": "Geometric sequences", "lessonID": "47" },
+            { "title": "Geometric series", "lessonID": "48" },
+            { "title": "Limiting sum of an infinite geometric series", "lessonID": "49" },
+            { "title": "Topic Test", "lessonID": "50" }
+          ]
+        },
+        {
+          "subtopic": "Financial Modelling",
+          "lessons": [
+            { "title": "Annuities", "lessonID": "51" },
+            { "title": "Future value of an annuity", "lessonID": "52" },
+            { "title": "Present value of an annuity", "lessonID": "53" },
+            { "title": "Geometric growth and decay", "lessonID": "54" },
+            { "title": "Applications of series", "lessonID": "55" },
+            { "title": "Topic Test", "lessonID": "56" }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Statistical Analysis",
+      "subtopics": [
+        {
+          "subtopic": "Statistics and Data Analysis",
+          "lessons": [
+            { "title": "Types of data", "lessonID": "57" },
+            { "title": "Displaying numerical and categorical data", "lessonID": "58" },
+            { "title": "Measures of central tendency", "lessonID": "59" },
+            { "title": "Quartiles, deciles and percentiles", "lessonID": "60" },
+            { "title": "Range and interquartile range", "lessonID": "61" },
+            { "title": "Variance and standard deviation", "lessonID": "62" },
+            { "title": "Shape and modality of data sets", "lessonID": "63" },
+            { "title": "Analysing data sets", "lessonID": "64" },
+            { "title": "Topic Test", "lessonID": "65" }
+          ]
+        },
+        {
+          "subtopic": "Correlation and Regression",
+          "lessons": [
+            { "title": "Bivariate data", "lessonID": "66" },
+            { "title": "Correlation", "lessonID": "67" },
+            { "title": "Line of best fit", "lessonID": "68" },
+            { "title": "Least-squares regression line", "lessonID": "69" },
+            { "title": "Topic Test", "lessonID": "70" }
+          ]
+        },
+        {
+          "subtopic": "Probability Distributions",
+          "lessons": [
+            { "title": "The normal distribution", "lessonID": "71" },
+            { "title": "Empirical rule", "lessonID": "72" },
+            { "title": "z-scores", "lessonID": "73" },
+            { "title": "Applications of the normal distribution", "lessonID": "74" },
+            { "title": "Topic Test", "lessonID": "75" }
+          ]
+        }
+      ]
+    }
+  ]
+}
